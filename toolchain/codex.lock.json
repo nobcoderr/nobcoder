@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "identity": "CODEX_RUNTIME_V1_CANDIDATE_0_162_1_LINUX_X86_64_MUSL",
+  "runtime": "codex-cli",
+  "version": "0.162.1",
+  "target": "x86_64-unknown-linux-musl",
+  "installation_method": "standalone",
+  "upstream": {
+    "repository": "https://github.com/openai/codex",
+    "tag": "rust-v0.162.1",
+    "tag_object": "7a078f6bb4ce0dc2a81408b334ce52979d92c603",
+    "commit": "092d3acd6bec3e3a14bdc7e7a2810ab628ab759d",
+    "license": "Apache-2.0",
+    "license_sha256": "d17f227e4df5da1600391338865ce0f3055211760a36688f816941d58232d8dc",
+    "retrieved_date": "2026-10-15"
+  },
+  "binary": {
+    "path": "/home/nobcoder/.codex/packages/standalone/releases/0.162.1-x86_64-unknown-linux-musl/bin/codex",
+    "sha256": "628e35487d888a28f0427fc37501da529dd3d81fcbad7a2c3421c1e8670d92e1"
+  },
+  "package_metadata": {
+    "path": "/home/nobcoder/.codex/packages/standalone/releases/0.162.1-x86_64-unknown-linux-musl/codex-package.json",
+    "sha256": "f05ebff6db98bd613dd5654461985090c6416b41ad67902243d83a53b305ac05"
+  },
+  "bundled_components": {
+    "codex-code-mode-host": "ec71830690a7c0024916ee0c99fbdc635bc6e747ff665ea4f03a8389bbcb6b30",
+    "bwrap": "01fb705f067bd5365b63d8ad2323a61c8d007733ca5e649437e086f3fb9935d8",
+    "rg": "e62198eb19b136b88c330af83647b5a962cb99b6b1f066758568f12de1974849"
+  },
+  "configuration": {
+    "path": "/home/nobcoder/.codex/config.toml",
+    "sha256": "0f87224d0760e0667bd6807fe26b2f79fa5c08555792a060c39eda0ccd34e71a",
+    "required_settings": {
+      "check_for_update_on_startup": false
+    },
+    "observed_required_setting_status": "ABSENT_NOT_COMPLIANT"
+  },
+  "compatibility_state": "CANDIDATE_ONLY_NOT_VALIDATED",
+  "runtime_invocation_authorized": false,
+  "authoritative": false,
+  "blockers": [
+    "compatibility suite has not been executed",
+    "managed update-check setting is not present in the observed config",
+    "runtime promotion governance has not been issued",
+    "campaign and worker execution remain separately unauthorized"
+  ]
+}

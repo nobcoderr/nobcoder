@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/nobcoderr/nobcoder/contracts/runtime/worker-result.schema.json",
+  "title": "WorkerResult",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "request_id",
+    "runtime_id",
+    "status",
+    "exit_code",
+    "stdout_digest",
+    "stderr_digest",
+    "started_at",
+    "completed_at"
+  ],
+  "properties": {
+    "request_id": {"type": "string", "minLength": 1},
+    "runtime_id": {"type": "string", "minLength": 1},
+    "status": {"enum": ["PASS", "FAIL_CLOSED", "BLOCKED", "INCOMPLETE"]},
+    "exit_code": {"type": "integer"},
+    "stdout_digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "stderr_digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "started_at": {"type": "string", "format": "date-time"},
+    "completed_at": {"type": "string", "format": "date-time"},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  }
+}

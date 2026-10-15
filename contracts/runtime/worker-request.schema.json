@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/nobcoderr/nobcoder/contracts/runtime/worker-request.schema.json",
+  "title": "WorkerRequest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "request_id",
+    "runtime_id",
+    "authorization_id",
+    "working_directory",
+    "sandbox",
+    "input_digest",
+    "output_schema_digest",
+    "timeout_seconds"
+  ],
+  "properties": {
+    "request_id": {"type": "string", "minLength": 1},
+    "runtime_id": {"type": "string", "minLength": 1},
+    "authorization_id": {"type": "string", "minLength": 1},
+    "working_directory": {"type": "string", "minLength": 1},
+    "sandbox": {"enum": ["read-only", "workspace-write"]},
+    "input_digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "output_schema_digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "timeout_seconds": {"type": "integer", "minimum": 1},
+    "network_requested": {"type": "boolean", "default": false},
+    "target_operation_requested": {"type": "boolean", "default": false}
+  }
+}

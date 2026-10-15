@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mapper worker output",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["status", "summary", "architecture", "entrypoints", "trust_boundaries", "protected_sinks", "attack_surfaces", "release_reachability", "knowledge_query_terms", "unknowns"],
+  "properties": {
+    "status": {"enum": ["PASS", "BLOCKED", "FAIL"]},
+    "summary": {"type": "string"},
+    "architecture": {"type": "array", "items": {"type": "string"}},
+    "entrypoints": {"type": "array", "items": {"type": "string"}},
+    "trust_boundaries": {"type": "array", "items": {"type": "string"}},
+    "protected_sinks": {"type": "array", "items": {"type": "string"}},
+    "attack_surfaces": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["key", "kind", "name", "location", "trust_boundary", "protected_sink", "evidence"],
+        "properties": {
+          "key": {"type": "string"},
+          "kind": {"type": "string"},
+          "name": {"type": "string"},
+          "location": {"type": "string"},
+          "trust_boundary": {"type": "string"},
+          "protected_sink": {"type": "string"},
+          "evidence": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "release_reachability": {"type": "array", "items": {"type": "string"}},
+    "knowledge_query_terms": {"type": "array", "items": {"type": "string"}},
+    "unknowns": {"type": "array", "items": {"type": "string"}}
+  }
+}

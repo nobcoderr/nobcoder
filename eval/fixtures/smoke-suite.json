@@ -1,0 +1,34 @@
+{
+  "suite": "harness-smoke",
+  "cases": [
+    {
+      "id": "smoke-real-001",
+      "target_path": "fixtures/real-vuln",
+      "expected_class": "REAL_VULN",
+      "expected_candidate_key": "authz-object-scope",
+      "public_metadata": {"language": "python", "lane": "authority"},
+      "ground_truth": {"expected_final": "REPORT_READY"}
+    },
+    {
+      "id": "smoke-patched-001",
+      "target_path": "fixtures/patched",
+      "expected_class": "PATCHED",
+      "public_metadata": {"language": "python", "lane": "authority"},
+      "ground_truth": {"expected_final": "KILLED"}
+    },
+    {
+      "id": "smoke-trap-001",
+      "target_path": "fixtures/equal-authority",
+      "expected_class": "TRAP",
+      "public_metadata": {"language": "python", "lane": "authority"},
+      "ground_truth": {"expected_final": "KILL_EQUAL_AUTHORITY"}
+    },
+    {
+      "id": "smoke-documented-001",
+      "target_path": "fixtures/documented",
+      "expected_class": "DOCUMENTED",
+      "public_metadata": {"language": "python", "lane": "state"},
+      "ground_truth": {"expected_final": "KILL_DOCUMENTED_BEHAVIOR"}
+    }
+  ]
+}

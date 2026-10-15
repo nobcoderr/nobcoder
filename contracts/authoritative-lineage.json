@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "identity": "CODEX_SECURITY_HARNESS_EXTERNAL_AUTHORITATIVE_LINEAGE_INDEX_V1",
+  "index_status": "DIGEST_BOUND_REFERENCE_ONLY",
+  "payloads_copied_into_repository": false,
+  "records": [
+    {
+      "id": "V0_2_FINAL_SCHEMA_EXECUTION_FREEZE_AND_G0",
+      "recorded_project_state": "V0_2_PASS_LOCKED_G0_PASS",
+      "path": "/home/nobcoder/codex-security-harness-eval/governance/v0.2-final-schema-and-execution-contract-freeze-and-g0-decision-governance-v1-20261015",
+      "governance_lock_sha256": "8013f76910483d170f1be555b84fc69aa910d53416ccb3e63464e0af890ba738",
+      "manifest_sha256": "a01e3285ac43531b177e82cedc9bcfac649698676f78baa9b2962ceb117ad6fe"
+    },
+    {
+      "id": "V0_3_A_RESEARCH_CAMPAIGN_CONTRACT_V1",
+      "recorded_project_state": "PASS_LOCKED_GOVERNANCE_CONTRACT_ONLY",
+      "path": "/home/nobcoder/codex-security-harness-eval/governance/v0.3-a-research-campaign-contract-v1-governance-only-20261015",
+      "governance_lock_sha256": "8397fa6715de10975b80d0c9237f40ae472da91f22fc9e631e5d998ce0f8bb2e",
+      "manifest_sha256": "9ca59ce4599f2bde01b45ba80fc8ed341e42a0808fe23cf9cad6c3fbbb4e3beb"
+    },
+    {
+      "id": "V0_3_A_MINIMAL_IMPLEMENTATION_AUTHORIZATION",
+      "recorded_project_state": "PASS_LOCKED_GOVERNANCE_ONLY",
+      "path": "/home/nobcoder/codex-security-harness-eval/governance/v0.3-a-minimal-serial-campaign-implementation-authorization-governance-v1-20261015",
+      "governance_lock_sha256": "07104b062ba13400d5871004c3c1a036bc9252da9901d48d8f010f0cb911bddf",
+      "manifest_sha256": "10f36ea6c9c5e99dd92d906eb43cdac3ddd0411a3248b9cfc4a35861ff0c7b2c"
+    },
+    {
+      "id": "V0_3_A_CONTROL_PLANE_V2_ACCEPTANCE",
+      "recorded_project_state": "CONTROL_PLANE_V2_PASS_LOCKED",
+      "path": "/home/nobcoder/codex-security-harness-eval/governance/v0.3-a-minimal-serial-campaign-control-plane-v2-freeze-acceptance-and-final-pass-locked-decision-governance-v2-20261015",
+      "governance_lock_sha256": "54e61cc5186ee5620a9d5116e4fa2650affef6e7919ca594ecd3921ff9671e2f",
+      "manifest_sha256": "26f4b18b6b6060de1ce20d8c6162e0307ad363f23848e55958cfffeedaae3c9f"
+    },
+    {
+      "id": "V0_3_A_FIXTURE_EXECUTION_AUTHORIZATION",
+      "recorded_project_state": "PASS_LOCKED_GOVERNANCE_ONLY_SINGLE_USE",
+      "path": "/home/nobcoder/codex-security-harness-eval/governance/v0.3-a-fixture-only-serial-campaign-execution-authorization-governance-v1-20261015",
+      "governance_lock_sha256": "f74a118e47cf4d20e6a14a2c495cdd8f3552476e8e1887513b5e3065f7d324c2",
+      "manifest_sha256": "e56a794e78b7b653c02ce4a0288f45a523cb0a7c9908808c89546074bd173d64"
+    },
+    {
+      "id": "V0_3_A_FIXTURE_RUNNER_V1_TERMINAL_EVIDENCE",
+      "recorded_project_state": "FAIL_CLOSED_TERMINAL_CONSUMED_NO_RETRY",
+      "path": "/home/nobcoder/v0.3-a-fixture-only-serial-campaign-execution-v1-20261015/run-v1",
+      "evidence_freeze_lock_sha256": "a8bec88c6c4160a26a4df146ae31c7428f0695ab0d799cf8cae6fe8ec7230f93",
+      "evidence_manifest_sha256": "fcc4f23ff138d69cbfecfd1a54e8a4f1b363b73c05e1c6b16cf0b918e2432aac",
+      "limitation": "Referenced as historical terminal evidence; no acceptance promotion is implied."
+    }
+  ],
+  "rules": [
+    "external immutable bytes remain authoritative",
+    "this index does not replace any governance lock",
+    "digest mismatch is fail-closed",
+    "Git history does not retroactively authorize execution"
+  ]
+}

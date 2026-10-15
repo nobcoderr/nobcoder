@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "identity": "CODEX_RUNTIME_COMPATIBILITY_SUITE_V1",
+  "status": "NOT_EXECUTED",
+  "operation_counters": {
+    "codex_invocations": 0,
+    "campaign_executions": 0,
+    "worker_process_executions": 0,
+    "subagent_executions": 0,
+    "target_operations": 0,
+    "network_target_operations": 0
+  },
+  "cases": [
+    {"id": "C01", "name": "binary_and_version_identity", "status": "NOT_EXECUTED"},
+    {"id": "C02", "name": "config_parse", "status": "NOT_EXECUTED"},
+    {"id": "C03", "name": "agents_instruction_behavior", "status": "NOT_EXECUTED"},
+    {"id": "C04", "name": "working_directory_handling", "status": "NOT_EXECUTED"},
+    {"id": "C05", "name": "environment_normalization", "status": "NOT_EXECUTED"},
+    {"id": "C06", "name": "sandbox_behavior", "status": "NOT_EXECUTED"},
+    {"id": "C07", "name": "approval_policy_behavior", "status": "NOT_EXECUTED"},
+    {"id": "C08", "name": "network_denial", "status": "NOT_EXECUTED"},
+    {"id": "C09", "name": "filesystem_boundary", "status": "NOT_EXECUTED"},
+    {"id": "C10", "name": "exec_behavior", "status": "NOT_EXECUTED"},
+    {"id": "C11", "name": "structured_worker_output", "status": "NOT_EXECUTED"},
+    {"id": "C12", "name": "exit_code_semantics", "status": "NOT_EXECUTED"},
+    {"id": "C13", "name": "timeout_semantics", "status": "NOT_EXECUTED"},
+    {"id": "C14", "name": "interruption_semantics", "status": "NOT_EXECUTED"},
+    {"id": "C15", "name": "mcp_configuration", "status": "NOT_EXECUTED"},
+    {"id": "C16", "name": "subagent_behavior", "status": "NOT_EXECUTED"},
+    {"id": "C17", "name": "evidence_capture", "status": "NOT_EXECUTED"},
+    {"id": "C18", "name": "exact_argv_generation", "status": "NOT_EXECUTED"}
+  ]
+}

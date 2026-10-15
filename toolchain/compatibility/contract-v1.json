@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "identity": "ESTABLISH_CODEX_RUNTIME_COMPATIBILITY_AND_VERSION_PINNING_CONTRACT_V1",
+  "status": "PUBLISHED_CONTRACT_ONLY_NOT_EXECUTED_NOT_PASS_LOCKED",
+  "candidate_lock": "../codex.lock.json",
+  "comparison_policy": {
+    "text_output_must_be_byte_identical": false,
+    "security_invariants_must_be_equivalent": true,
+    "unknown_or_missing_evidence": "FAIL_CLOSED",
+    "new_version_default": "CANDIDATE_ONLY",
+    "automatic_upgrade": false
+  },
+  "required_gates": [
+    "binary_and_version_identity",
+    "config_parse",
+    "agents_instruction_behavior",
+    "working_directory_handling",
+    "environment_normalization",
+    "sandbox_behavior",
+    "approval_policy_behavior",
+    "network_denial",
+    "filesystem_boundary",
+    "exec_behavior",
+    "structured_worker_output",
+    "exit_code_semantics",
+    "timeout_semantics",
+    "interruption_semantics",
+    "mcp_configuration",
+    "subagent_behavior",
+    "evidence_capture",
+    "exact_argv_generation"
+  ],
+  "promotion_requirements": {
+    "all_required_gates_pass": true,
+    "fixture_comparison_pass": true,
+    "independent_validation_pass": true,
+    "runtime_lock_frozen": true,
+    "explicit_governance_decision": true
+  },
+  "prohibitions": [
+    "no_runtime_invocation_from_contract_publication",
+    "no_campaign_or_worker_authorization_by_implication",
+    "no_target_or_network_authorization",
+    "no_parallel_or_subagent_authorization",
+    "no_capability_graph_or_submission_authorization"
+  ]
+}

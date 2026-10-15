@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "identity": "ESTABLISH_CODEX_RUNTIME_COMPATIBILITY_AND_VERSION_PINNING_CONTRACT_V1",
+  "disposition": "CONTRACT_PUBLISHED_CANDIDATE_RUNTIME_NOT_ACCEPTED",
+  "repository": "https://github.com/nobcoderr/nobcoder",
+  "repository_state_at_preflight": "REMOTE_EMPTY",
+  "runtime_candidate": "CODEX_RUNTIME_V1_CANDIDATE_0_162_1_LINUX_X86_64_MUSL",
+  "compatibility_execution_count": 0,
+  "codex_invocation_count": 0,
+  "campaign_execution_count": 0,
+  "worker_process_execution_count": 0,
+  "target_operation_count": 0,
+  "network_target_operation_count": 0,
+  "pass_locked_issued": false,
+  "next_legal_event": "SEPARATE_COMPATIBILITY_EXECUTION_AUTHORIZATION_AND_VALIDATION_GOVERNANCE"
+}

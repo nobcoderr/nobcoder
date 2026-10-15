@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Researcher worker output",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["status", "summary", "lane", "covered_surfaces", "hypotheses", "negative_evidence", "new_knowledge_queries", "stop_reason"],
+  "properties": {
+    "status": {"enum": ["PASS", "BLOCKED", "FAIL"]},
+    "summary": {"type": "string"},
+    "lane": {"type": "string"},
+    "covered_surfaces": {"type": "array", "items": {"type": "string"}},
+    "hypotheses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["local_id", "title", "class", "statement", "falsifier", "research_path", "root_cause_family", "attacker_condition", "server_condition", "protected_boundary", "capability_delta_hypothesis", "evidence", "missing_proof", "priority"],
+        "properties": {
+          "local_id": {"type": "string"},
+          "title": {"type": "string"},
+          "class": {"type": "string"},
+          "statement": {"type": "string"},
+          "falsifier": {"type": "string"},
+          "research_path": {"type": "string"},
+          "root_cause_family": {"type": "string"},
+          "attacker_condition": {"type": "string"},
+          "server_condition": {"type": "string"},
+          "protected_boundary": {"type": "string"},
+          "capability_delta_hypothesis": {"type": "string"},
+          "evidence": {"type": "array", "items": {"type": "string"}},
+          "missing_proof": {"type": "array", "items": {"type": "string"}},
+          "priority": {"type": "integer", "minimum": 0, "maximum": 100}
+        }
+      }
+    },
+    "negative_evidence": {"type": "array", "items": {"type": "string"}},
+    "new_knowledge_queries": {"type": "array", "items": {"type": "string"}},
+    "stop_reason": {"type": "string"}
+  }
+}

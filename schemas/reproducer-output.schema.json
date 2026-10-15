@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reproducer worker output",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["status", "candidate_id", "attacker_control", "reachability", "protected_boundary", "capability_delta", "attempts", "successes", "baseline", "positive", "negative_control", "counterfactual", "authoritative_readback", "evidence", "cleanup", "blockers"],
+  "properties": {
+    "status": {"enum": ["PASS", "BLOCKED", "FAIL"]},
+    "candidate_id": {"type": "string"},
+    "attacker_control": {"enum": ["PROVEN", "UNPROVEN", "FAILED"]},
+    "reachability": {"enum": ["PROVEN", "PARTIAL", "UNPROVEN", "UNREACHABLE"]},
+    "protected_boundary": {"enum": ["PROVEN", "UNPROVEN", "FAILED"]},
+    "capability_delta": {"enum": ["PROVEN", "UNPROVEN", "FAILED"]},
+    "attempts": {"type": "integer", "minimum": 0},
+    "successes": {"type": "integer", "minimum": 0},
+    "baseline": {"type": "string"},
+    "positive": {"type": "string"},
+    "negative_control": {"enum": ["PASS", "FAIL", "BLOCKED", "NOT_RUN"]},
+    "counterfactual": {"enum": ["PASS", "FAIL", "BLOCKED", "NOT_RUN"]},
+    "authoritative_readback": {"type": "string"},
+    "evidence": {"type": "array", "items": {"type": "string"}},
+    "cleanup": {"type": "string"},
+    "blockers": {"type": "array", "items": {"type": "string"}}
+  }
+}

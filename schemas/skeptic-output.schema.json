@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Skeptic worker output",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["status", "candidate_id", "verdict", "strongest_objections", "checks", "kill_code", "kill_reason", "evidence", "unresolved"],
+  "properties": {
+    "status": {"enum": ["PASS", "BLOCKED", "FAIL"]},
+    "candidate_id": {"type": "string"},
+    "verdict": {"enum": ["PASS", "KILL", "BLOCKED"]},
+    "strongest_objections": {"type": "array", "items": {"type": "string"}},
+    "checks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["documented_behavior", "equal_authority", "reachable", "attacker_control", "protected_effect", "threat_model", "scope", "mitigation"],
+      "properties": {
+        "documented_behavior": {"type": "string"},
+        "equal_authority": {"type": "string"},
+        "reachable": {"type": "string"},
+        "attacker_control": {"type": "string"},
+        "protected_effect": {"type": "string"},
+        "threat_model": {"type": "string"},
+        "scope": {"type": "string"},
+        "mitigation": {"type": "string"}
+      }
+    },
+    "kill_code": {"type": "string"},
+    "kill_reason": {"type": "string"},
+    "evidence": {"type": "array", "items": {"type": "string"}},
+    "unresolved": {"type": "array", "items": {"type": "string"}}
+  }
+}

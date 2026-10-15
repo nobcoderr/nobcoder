@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evidence judge worker output",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["status", "candidate_id", "verdict", "evidence_gate", "impact_gate", "manual_status", "severity_status", "severity_locked", "triager_proof", "report_ready", "gates", "blockers", "reasoning"],
+  "properties": {
+    "status": {"enum": ["PASS", "BLOCKED", "FAIL"]},
+    "candidate_id": {"type": "string"},
+    "verdict": {"enum": ["STRONG", "MEDIUM", "WEAK", "KILL", "BLOCKED"]},
+    "evidence_gate": {"enum": ["PASS", "FAIL", "BLOCKED"]},
+    "impact_gate": {"enum": ["PASS", "FAIL", "BLOCKED"]},
+    "manual_status": {"enum": ["NOT_TESTED", "BLOCKED", "MANUALLY_CONFIRMED"]},
+    "severity_status": {"enum": ["PROVISIONAL", "ESCALATION_ACTIVE", "LOCKED"]},
+    "severity_locked": {"type": "boolean"},
+    "triager_proof": {"enum": ["PASS", "FAIL", "BLOCKED", "NOT_RUN"]},
+    "report_ready": {"type": "boolean"},
+    "gates": {"type": "array", "items": {"type": "string"}},
+    "blockers": {"type": "array", "items": {"type": "string"}},
+    "reasoning": {"type": "string"}
+  }
+}

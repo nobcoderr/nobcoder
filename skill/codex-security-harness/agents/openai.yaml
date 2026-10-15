@@ -1,0 +1,6 @@
+interface:
+  display_name: "Codex Security Harness"
+  short_description: "Persistent evidence-gated security research"
+  default_prompt: "Use $codex-security-harness to start or resume a bounded authorized audit in the current repository."
+policy:
+  allow_implicit_invocation: true

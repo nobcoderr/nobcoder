@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Prior-art worker output",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["status", "candidate_id", "decision", "sources", "root_cause_overlap", "searched_terms", "limitations"],
+  "properties": {
+    "status": {"enum": ["PASS", "BLOCKED", "FAIL"]},
+    "candidate_id": {"type": "string"},
+    "decision": {"enum": ["CLEAR", "POSSIBLE_DUPLICATE", "KNOWN", "DUPLICATE", "FIXED", "BLOCKED"]},
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["type", "title", "url", "status", "root_cause_match", "evidence"],
+        "properties": {
+          "type": {"type": "string"},
+          "title": {"type": "string"},
+          "url": {"type": "string"},
+          "status": {"type": "string"},
+          "root_cause_match": {"type": "string"},
+          "evidence": {"type": "string"}
+        }
+      }
+    },
+    "root_cause_overlap": {"type": "string"},
+    "searched_terms": {"type": "array", "items": {"type": "string"}},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  }
+}

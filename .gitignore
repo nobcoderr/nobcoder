@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+build/
+dist/
+
+# Local harness state and potentially sensitive evidence are never committed.
+.bbpresearch/
+.tmp/
+evidence/payloads/
+evidence/local/
+*.sqlite
+*.sqlite3
+*.db
+
+# Local runtime configuration and credentials stay outside the repository.
+.env
+.env.*
+!.env.example
+config.local.*
+auth.json
