@@ -24,3 +24,24 @@ Expected ZIP SHA-256:
 The frozen V35 evidence root is:
 
 `2f27a2c34dc6ae02401deff932053c7a2c144f71bc5545bb13a37bfbbfc57790`
+
+## Complete Roadmap 10 archive
+
+`packages/roadmap-10-complete-v1-v35-20261103.zip` contains the complete
+portable Roadmap 10 history through V35: all V1-V35 worker workspaces, V0.3
+runtime/compatibility milestones, the harness, evaluation/governance history,
+and runtime blueprints.
+
+For safe public distribution, Git internals and credential-bearing `auth.json`
+files are excluded. No source, contract, governance record, fixture, or frozen
+Roadmap 10 evidence is intentionally omitted.
+
+Verify the complete archive from `packages/` with:
+
+```sh
+sha256sum -c roadmap-10-complete-v1-v35-20261103.zip.sha256
+```
+
+Expected complete ZIP SHA-256:
+
+`5e381e5701ee095c1de08d123eb7b22e9ff38c726440c318d9e0ce6aada630ac`
