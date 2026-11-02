@@ -1,0 +1,10 @@
+{
+  "attempt": "0/1",
+  "codex_as_worker_invocation": "0/1",
+  "record_type": "V33_TERMINAL_AND_V34_SUCCESSOR_DECISION",
+  "status": "PASS",
+  "v33_disposition": "TERMINAL_IMMUTABLE_NO_RETRY",
+  "v34_authorized_scope": "FRESH_SUCCESSOR_IMPLEMENTING_TYPED_VALIDATOR_HELPER_RETURN_CONTRACT_AND_CARRYING_FORWARD_UNIMPLICATED_CONTROLS",
+  "v34_disposition": "CONDITIONALLY_AUTHORIZED_NOT_CREATED_NOT_EXECUTED",
+  "worker_invocation": "0/1"
+}

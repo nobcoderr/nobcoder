@@ -1,0 +1,63 @@
+{
+  "classification_inputs": [
+    "PATHNAME_SYSCALL_OPERAND_OR_FD_TARGET",
+    "MOUNT_ID",
+    "FILESYSTEM_TYPE",
+    "BACKING_PROVENANCE",
+    "MOUNT_NAMESPACE",
+    "LIFECYCLE_PHASE",
+    "PRODUCER_LINEAGE"
+  ],
+  "classes": [
+    "AUTHORIZED_HOST_OUTPUT_WRITE",
+    "AUTHORIZED_NAMESPACE_SETUP_WRITE",
+    "EPHEMERAL_SANDBOX_TMPFS_WRITE",
+    "PRIVATE_DEV_OBJECT_WRITE",
+    "HOST_BACKED_FILESYSTEM_WRITE",
+    "UNKNOWN_WRITE_PROVENANCE"
+  ],
+  "authorized_host_output_bind": {
+    "host_source": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v35-20261103/static-run-v35",
+    "sandbox_mount_point": "/run/nobcoder-first-worker-v35/output",
+    "write_authority": "EXACT_DECLARED_OUTPUT_BIND_ONLY"
+  },
+  "binding_generation_identity": "V35_GOVERNANCE_BOUND_MOUNT_OUTPUT_BINDING_GENERATION_0001",
+  "logical_runtime_output_identity": "V35_RUNTIME_OUTPUT_ROOT",
+  "mount_output_binding_source": "contracts/MOUNT_OUTPUT_IDENTITY_BINDING.json",
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "home_prefix_exemption": "PROHIBITED",
+  "mount_snapshot_source": "HOST_CONTROLLER_READ_ONLY_PROC_MOUNTINFO_FOR_PINNED_RUNTIME_LINEAGE",
+  "mount_provenance_gate": {
+    "required_evidence": [
+      "MOUNT_ID",
+      "FILESYSTEM_TYPE",
+      "MOUNT_SOURCE",
+      "BACKING_PROVENANCE",
+      "MOUNT_NAMESPACE",
+      "TOPOLOGY_ROLE"
+    ],
+    "separate_gate": true
+  },
+  "partial_gate_pass_is_not_authorization": true,
+  "path_string_only_inference": "PROHIBITED",
+  "producer_authorization_gate": {
+    "required_evidence": [
+      "HOST_PID",
+      "LOCAL_PID",
+      "NAMESPACE_ID",
+      "PROCESS_CLASS",
+      "LIFECYCLE_PHASE",
+      "EVIDENCE_REFS"
+    ],
+    "separate_gate": true,
+    "unknown_lineage": "FAIL_CLOSED"
+  },
+  "producer_lineage": {
+    "runtime_descendant_resolution": "NEAREST_TYPED_EXEC_ANCESTOR",
+    "unknown_or_broken_ancestry": "FAIL_CLOSED"
+  },
+  "final_write_authorization": "MOUNT_PROVENANCE_GATE_PASS_AND_PRODUCER_AUTHORIZATION_GATE_PASS",
+  "record_type": "FIRST_REAL_SECURITY_WORKER_INVOCATION_MOUNT_PROVENANCE_WRITE_CONTRACT",
+  "schema_version": "1.0",
+  "unknown_mount_or_backing_provenance": "FAIL_CLOSED"
+}

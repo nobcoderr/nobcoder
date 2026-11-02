@@ -1,0 +1,31 @@
+{
+  "attempt_marker_order": "PRECHECK_PASS_REQUIRED_BEFORE_ATTEMPT_MARKER",
+  "canonical_destination_required": true,
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "failure_semantics": {
+    "attempt_count": 0,
+    "codex_as_worker_invocation_count": 0,
+    "status": "STOP_FAIL_CLOSED",
+    "worker_invocation_count": 0
+  },
+  "invariants": [
+    "BIND_SOURCE_EXISTS_IN_HOST_CALLER_NAMESPACE_BEFORE_BWRAP",
+    "BIND_SOURCE_TYPE_MATCHES_DESTINATION_TYPE",
+    "DESTINATION_EXISTS_OR_IS_CREATED_UNDER_PRIOR_WRITABLE_AUTHORIZED_TOPOLOGY",
+    "RUNTIME_DESTINATION_EXPLICITLY_PREPARED_BEFORE_BIND",
+    "OUTPUT_DESTINATION_EXPLICITLY_PREPARED_BEFORE_BIND",
+    "FUTURE_CONSTRUCTED_SANDBOX_PATH_IS_NOT_A_BIND_SOURCE",
+    "ORDERED_SEMANTIC_ARGV_VALIDATION_REQUIRED"
+  ],
+  "record_type": "FIRST_REAL_SECURITY_WORKER_INVOCATION_BIND_DESTINATION_FEASIBILITY_CONTRACT",
+  "regressions": {
+    "v2_absent_destination_under_read_only_root": "MUST_FAIL_BEFORE_ATTEMPT",
+    "v4_run_tmpfs_then_dir_then_bind": "MUST_PASS"
+  },
+  "schema_version": "1.0",
+  "writable_topology": {
+    "base": "/run/nobcoder-first-worker-v35",
+    "constructor": "TMPFS_RUN_THEN_ORDERED_DIR_CREATION",
+    "host_root": "READ_ONLY"
+  }
+}

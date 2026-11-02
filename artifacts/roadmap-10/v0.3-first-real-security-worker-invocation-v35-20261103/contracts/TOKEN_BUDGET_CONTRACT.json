@@ -1,0 +1,28 @@
+{
+  "accounting_source": "CODEX_JSONL_TURN_COMPLETED_USAGE",
+  "baseline_feasibility_precheck": "REQUIRED_BEFORE_ATTEMPT_MARKER",
+  "cache_write_input_policy": "REPORTED_AUXILIARY_FIELD_MUST_EQUAL_ZERO_NOT_ADDED_TO_TOTAL",
+  "cached_input_policy": "REPORTED_SUBSET_OF_INPUT_TOKENS_NOT_ADDED_TO_TOTAL",
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "limits": {
+    "input_token_limit": 32768,
+    "output_token_limit": 2048,
+    "reasoning_output_token_limit": 1024,
+    "total_token_limit": 34816
+  },
+  "measurement_semantics": {
+    "input_tokens": "PROVIDER_REPORTED_INPUT_INCLUSIVE_OF_CACHED_INPUT",
+    "output_tokens": "PROVIDER_REPORTED_OUTPUT_INCLUSIVE_OF_REASONING_OUTPUT",
+    "reasoning_output_tokens": "PROVIDER_REPORTED_SUBSET_OF_OUTPUT_NOT_ADDED_TO_TOTAL",
+    "total_formula": "input_tokens + output_tokens"
+  },
+  "over_budget_action": "FAIL_CLOSED_TERMINAL_NO_RETRY_AND_FREEZE_FAILURE_EVIDENCE",
+  "record_type": "FIRST_REAL_SECURITY_WORKER_INVOCATION_TYPED_TOKEN_BUDGET_CONTRACT",
+  "schema_version": "1.0",
+  "v4_frozen_baseline": {
+    "input_tokens": 14447,
+    "output_tokens": 175,
+    "reasoning_output_tokens": 0,
+    "total_tokens": 14622
+  }
+}

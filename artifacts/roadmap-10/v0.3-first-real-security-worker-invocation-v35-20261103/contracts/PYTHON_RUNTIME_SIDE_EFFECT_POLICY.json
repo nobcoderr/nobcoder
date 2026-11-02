@@ -1,0 +1,20 @@
+{
+  "bytecode_policy": "DETERMINISTIC_SUPPRESSION",
+  "child_environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONHASHSEED": "0"
+  },
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "generation_identity": "V35_CURRENT_GOVERNANCE_BOUND_TYPED_PREFLIGHT_BINDING_GENERATION_0001",
+  "interpreter_argv_requirement": "EXACT_PYTHON_BINARY_FOLLOWED_BY_MINUS_B",
+  "prohibited": [
+    "PYTHONPYCACHEPREFIX",
+    "DELETE_AFTER_WRITE",
+    "IGNORE_PYC",
+    "ARBITRARY_CACHE_ROOT",
+    "PREDECESSOR_CACHE_WRITE"
+  ],
+  "record_type": "V35_PYTHON_RUNTIME_SIDE_EFFECT_POLICY",
+  "status": "PASS_POLICY_FROZEN_BEFORE_VALIDATION",
+  "unaccounted_filesystem_mutations_required": 0
+}

@@ -1,0 +1,5 @@
+{"event":"FIXTURE_STARTED","fixture_class":"nested","host_pid":201142,"monotonic_ns":14596229312515,"parent_host_pid":201140}
+{"count":2,"event":"SPAWN_REQUESTED","fixture_class":"nested","host_pid":201142,"monotonic_ns":14596233367869,"parent_host_pid":201140}
+{"child_host_pid":201143,"event":"SPAWN_SUCCEEDED","fixture_class":"nested","host_pid":201142,"monotonic_ns":14596246576335,"parent_host_pid":201140}
+{"child_host_pid":201144,"event":"SPAWN_SUCCEEDED","fixture_class":"nested-grandchild","host_pid":201142,"monotonic_ns":14596292123921,"parent_host_pid":201140}
+{"event":"FIXTURE_COMPLETED","fixture_class":"nested","host_pid":201142,"monotonic_ns":14596312685466,"parent_host_pid":201140,"status":"PASS"}

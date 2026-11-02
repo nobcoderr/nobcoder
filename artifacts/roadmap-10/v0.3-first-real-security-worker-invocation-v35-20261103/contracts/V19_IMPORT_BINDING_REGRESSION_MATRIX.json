@@ -1,0 +1,14 @@
+{
+  "required_cases": {
+    "attempt_marker_absent_until_dry_walk_complete": "PASS",
+    "dynamic_fallback_or_ambiguity": "FAIL_CLOSED",
+    "exact_locked_binding": "PASS",
+    "locked_dry_entrypoint_executes_precheck": "PASS",
+    "missing_import": "FAIL_CLOSED",
+    "shadowed_symbol": "FAIL_CLOSED",
+    "stale_module_path": "FAIL_CLOSED",
+    "undefined_symbol": "FAIL_CLOSED",
+    "validation_environment_only_import": "FAIL_CLOSED",
+    "wrong_alias": "FAIL_CLOSED"
+  }
+}

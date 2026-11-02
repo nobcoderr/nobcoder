@@ -1,0 +1,42 @@
+{
+  "all_frozen_members_read_only": true,
+  "attempt": "0_OF_1",
+  "canonical_source_root_sha256": "940f5dbbc4992e86d9ab2e586d3e0d03c117949b930c586a3e6f13f1ded911f1",
+  "canonicalization": {
+    "alternate": "REJECTED",
+    "alternate_root": "a5ec0db34da898d64859e0e3535d74929eed4f5b047f67f37d1fe3d90a88ea63",
+    "normative": "PASS",
+    "normative_v16_root": "5c99e1c8c1e5048ee3a9c607e0bceffc273743b91a245bf7a913f832af0636b5"
+  },
+  "codex_as_worker_invocation": "0_OF_1",
+  "disposition": "FAIL_CLOSED_POST_LOCK_PRE_ATTEMPT_TERMINAL_NO_RETRY_REFERENCE_ONLY",
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V18",
+  "failure_evidence": "FROZEN_FAILURE_EVIDENCE",
+  "hashes": {
+    "dependency_closure": "5e6f7cdd89e6c1f3ccf0bb7342927453a503894b7be5c9b0e886554864467661",
+    "evidence_lock": "95d0b237fabf9d94abe6125887e543b9b839aa2b5dec96f453dbeae33056863a",
+    "evidence_manifest": "e85825504ae39bc637de6453b7d0edf1a4f30827a75de29b9f73f31042c91737",
+    "evidence_verification": "c38d064f0702f82b280b56b7401f7f4e4b48dc41dc3442633fe39b6a5a2b5bc1",
+    "fresh_preflight": "175d11567b61f5b4fceee79d54b78d94f06940dccded50d009c1bd49b3b6d6e3",
+    "independent": "0f3e6e8080325405c1478e2d6f6bcd38cc33f7ec27637bbcffe1968b982bc958",
+    "lock_verification": "7bf924d38caf35f3de5ee21ba10a6e5f824c9d28d2d757839c6916e3d4a379a7",
+    "locked_pre_attempt": "4e61b0e81495c60724f4ba952913393c90540d4be27400ac9daca27ffe33534d",
+    "primary": "2bdb0000ee3de3f026d12d5bdb03aecfff002e01b5531426882d248513034aab",
+    "source_manifest": "a2328659c08205f7f2679177ab6b3394d27853ca4453a9028337c8328f6afbbf",
+    "static_lock": "7b59bb4e753c0aef7f05a3fea61484b21bfc8fe30b5b255e47d1ce393d964c12",
+    "terminal": "cbfd5a2d7916b5850992e625f4c869d615c1bd1ae7e2b6f553f2616c151b1b5a",
+    "unit": "92973ed319a479da98764a824740a462cfe767a895e3ad10f2d5dd09e3af5ce6"
+  },
+  "semantic_codex_execve": 0,
+  "static_lock": "ISSUED",
+  "validation": {
+    "fresh_preflight": "91_OF_91_PASS",
+    "independent": "55_OF_55_PASS",
+    "primary": "58_OF_58_PASS",
+    "static_lock_verification": "181_OF_181_PASS",
+    "unit": "164_OF_164_PASS"
+  },
+  "worker_invocation": "0_OF_1",
+  "workspace_member_count": 164,
+  "workspace_tree_root_sha256": "c92f0bd0d7ea111d9bfd6d3d4e612e5b1cd763d70c69f47fef6a2907c0be0f4d"
+}

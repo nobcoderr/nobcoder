@@ -1,0 +1,13 @@
+{
+  "decision": "TERMINALIZE_V18_AND_AUTHORIZE_DISTINCT_V19_CONDITIONALLY",
+  "reason": "V18_STATIC_EXECUTION_IDENTITY_IS_FROZEN; SOURCE_CHANGE_REQUIRED_TO_REPAIR_LOCKED_MODULE_GRAPH",
+  "v18": "FAIL_CLOSED_POST_LOCK_PRE_ATTEMPT_TERMINAL_NO_RETRY_REFERENCE_ONLY",
+  "v18_continuation": "PROHIBITED",
+  "v18_mutation_allowlist": [],
+  "v18_relock": "PROHIBITED",
+  "v18_retry": "PROHIBITED",
+  "v19": "CONDITIONALLY_AUTHORIZED_NOT_CREATED_NOT_EXECUTED",
+  "v19_attempt": "0_OF_1",
+  "v19_codex_as_worker_invocation": "0_OF_1",
+  "v19_worker_invocation": "0_OF_1"
+}

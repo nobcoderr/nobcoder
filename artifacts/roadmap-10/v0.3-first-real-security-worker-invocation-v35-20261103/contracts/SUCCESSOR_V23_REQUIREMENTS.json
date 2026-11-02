@@ -1,0 +1,20 @@
+{
+  "attempt_rule": "ONLY_IF_ALL_PRE_ATTEMPT_GATES_PASS",
+  "complete_chain": [
+    "UNIT",
+    "PRIMARY",
+    "INDEPENDENT",
+    "FRESH_PREFLIGHT",
+    "DEPENDENCY_CLOSURE",
+    "STATIC_LOCK",
+    "LOCK_VERIFICATION",
+    "POST_LOCK_PREFLIGHT",
+    "LOCKED_PRE_ATTEMPT_ENTRYPOINT"
+  ],
+  "fresh_workspace": "REQUIRED",
+  "record_type": "SUCCESSOR_V23_REQUIREMENTS",
+  "retry": "PROHIBITED",
+  "status": "CONDITIONALLY_AUTHORIZED_NOT_CREATED_NOT_EXECUTED",
+  "unified_binding_generation_contract": "NORMATIVE",
+  "v22_reference_only": true
+}

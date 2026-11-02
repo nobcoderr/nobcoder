@@ -1,0 +1,201 @@
+{
+  "authorization": {
+    "governance_lock_path": "/home/nobcoder/codex-security-harness-eval/governance/v0.3-first-real-security-worker-invocation-v34-prelock-results-directory-and-fixture-probe-path-lifecycle-defect-unit-execution-erratum-and-successor-decision-governance-only-v1-20261103/GOVERNANCE_LOCK.json",
+    "governance_lock_sha256": "d2263268f61b9ddde99a0b60f4b43a26df1586e0c577ba2ca98c07b64c21f811",
+    "governance_manifest_sha256": "41e03f31a302c2be001c7a7de6b550c8537a72cce340b8670bd7140af3f263f6",
+    "identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V34_PRELOCK_RESULTS_DIRECTORY_AND_FIXTURE_PROBE_PATH_LIFECYCLE_DEFECT_UNIT_EXECUTION_ERRATUM_AND_SUCCESSOR_DECISION_GOVERNANCE_ONLY"
+  },
+  "campaign_id": "RC-FIRST-WORKER-FIXTURE-V35",
+  "codex_runtime": {
+    "binary_path": "/home/nobcoder/.codex/packages/standalone/releases/0.166.0-x86_64-unknown-linux-musl/bin/codex",
+    "binary_sha256": "b8a11fedf24b2dfb59a70c9e52b030f9a508dcd49cd2dd0d41956f4c785156b8",
+    "compatibility_lock_sha256": "060b39551d4543999e79ccfd5d133d751faefc018fdc8adab718f5b9c7479a5e",
+    "identity": "CODEX_RUNTIME_0_166_0_COMPATIBILITY_PASS_LOCKED",
+    "model": "gpt-6.1-sol",
+    "package_sha256": "ffdfc731eed492fa436a304cff8792ea3a96233a45ec9a561f6f56eaca911446",
+    "version": "0.166.0"
+  },
+  "compatibility_acceptance": {
+    "artifact_identity": "CODEX_RUNTIME_0_166_0_COMPATIBILITY_ACCEPTANCE",
+    "artifact_path": "/home/nobcoder/codex-security-harness-eval/governance/v0.3-runtime-and-model-compatibility-execution-v8-codex-0-166-0-frozen-evidence-acceptance-and-pass-locked-decision-governance-v1-20261102/GOVERNANCE_LOCK.json",
+    "artifact_sha256": "060b39551d4543999e79ccfd5d133d751faefc018fdc8adab718f5b9c7479a5e",
+    "compatibility_state": "COMPATIBILITY_PASS_LOCKED",
+    "governance_identity": "V0_3_RUNTIME_AND_MODEL_COMPATIBILITY_EXECUTION_V8_CODEX_0_166_0_FROZEN_EVIDENCE_ACCEPTANCE_AND_PASS_LOCKED_DECISION_GOVERNANCE_ONLY",
+    "status": "PASS_LOCKED_GOVERNANCE_ONLY"
+  },
+  "control_plane_lock_sha256": "54e61cc5186ee5620a9d5116e4fa2650affef6e7919ca594ecd3921ff9671e2f",
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "fixture_runner_lock_sha256": "14ebdff93e45f275f14b1c6be6594bdbbf7d69921edb56e89329337e16bd2da4",
+  "lane_id": "RL-STRUCTURED-PROPOSAL-FIXTURE-V35",
+  "record_type": "FIRST_REAL_SECURITY_WORKER_INVOCATION_IDENTITY_BINDINGS",
+  "runtime_substrate_lock_sha256": "8383ec457c0838fba668693ae9c837edf1a8c50222c524176dc60b9afda9191e",
+  "schema_version": "1.0",
+  "v1_reference_predecessor": {
+    "canonical_tree_root_sha256": "5604319bd56eb78cb1b4ef7bbeb578d34911b655901415affdd0950729ea0dfa",
+    "disposition": "FAIL_CLOSED_PRELOCK_REFERENCE_ONLY",
+    "evidence_binding_sha256": "322a64916858433c1ebc141660d548c622712d6db3d2fb4c72c6e65df593c82b",
+    "identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V1",
+    "member_count": 29
+  },
+  "v2_reference_predecessor": {
+    "canonical_tree_root_sha256": "f581655b70b77785d8b24c00b33af19ea8f24736f014bfe29ca2b36d4f1783be",
+    "disposition": "FAIL_CLOSED_TERMINAL_NO_RETRY_REFERENCE_ONLY",
+    "evidence_binding_sha256": "94d4320bb083f7b643d99e918dfcaeec152e43a73cb49a2c78b5cd56e5d72609",
+    "identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V2",
+    "member_count": 42
+  },
+  "v3_reference_predecessor": {
+    "canonical_tree_root_sha256": "0af79bcff56147b6978db81ec6f7d951977cc357c9407bc2bee2a1fd71e9150e",
+    "disposition": "FAIL_CLOSED_TERMINAL_NO_RETRY_REFERENCE_ONLY",
+    "evidence_binding_sha256": "4726ddcf3d1ee3d964cdac9291e797f00d9c0e59236fae25ddf307583c92d0a8",
+    "identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V3",
+    "member_count": 100
+  },
+  "v4_reference_predecessor": {
+    "canonical_tree_root_sha256": "e2a319dfc6c31af46b8f0f136eb8ed2045f9c72b07625b0bbd25434e62726cac",
+    "disposition": "FAIL_CLOSED_POST_ATTEMPT_TERMINAL_NO_RETRY_REFERENCE_ONLY",
+    "evidence_binding_sha256": "43748a8a45d210a613461027f01b87742af1b1944bf69e794b7da7b4c102838e",
+    "identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V4",
+    "member_count": 104
+  },
+  "v5_reference_predecessor": {
+    "canonical_tree_root_sha256": "ec95c4806ce0b8bef7690de362bb4a8c25a6b785faf5ae47b23a5fa60abf6927",
+    "disposition": "FAIL_CLOSED_POST_ATTEMPT_TERMINAL_NO_RETRY_REFERENCE_ONLY",
+    "evidence_binding_sha256": "4979f35fe962816715821fdd96722c14bbf03e8f8a865230aa9f5c0064a1c2b0",
+    "identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V5",
+    "member_count": 117
+  },
+  "v6_reference_predecessor": {
+    "canonical_tree_root_sha256": "0a2c0a29535150ce4abac1914752b3ae670655028fd1fecaa317826bed874522",
+    "disposition": "FAIL_CLOSED_POST_ATTEMPT_TERMINAL_NO_RETRY_REFERENCE_ONLY",
+    "evidence_binding_sha256": "3e6b4fd240bbc61e1ff6517208da72cffb63b60eeac557ae89d09cf2879d92e6",
+    "identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V6",
+    "member_count": 115
+  },
+  "v7_reference_predecessor": {
+    "canonical_tree_root_sha256": "770e0cf5baa0935714fac0883a01c702d0d165508a503eb63d137c9c262cc736",
+    "disposition": "FAIL_CLOSED_PRELOCK_REFERENCE_PREDECESSOR",
+    "evidence_binding_sha256": "ce9975e2763c95b95f836f57b09f7e597cfef55c6b74b6d28465fd41db0f9129",
+    "identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V7",
+    "member_count": 39
+  },
+  "v8_reference_predecessor": {
+    "canonical_tree_root_sha256": "249a313cb1dc70c8d4ae0e84b119d83775d0e94eda35e5dfa85d2201cb728272",
+    "disposition": "FAIL_CLOSED_PRELOCK_REFERENCE_PREDECESSOR",
+    "evidence_binding_sha256": "0a6aeff52c3146d82fc18dcc9b40397d4ccdcfadf1a6c5a7315ad2b399449d4b",
+    "identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V8",
+    "member_count": 41
+  },
+  "v9_reference_predecessor": {
+    "canonical_tree_root_sha256": "fda938e26d02db9597cce34b027d8cc81db40db1d91164d0770dc7d41f25ab4e",
+    "disposition": "FAIL_CLOSED_PRELOCK_REFERENCE_PREDECESSOR",
+    "evidence_binding_sha256": "b3b2f509bd0c12d358065a8697943b25906338a81b278f5c3c9a84fc16cdb7a1",
+    "identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V9",
+    "member_count": 50
+  },
+  "v10_reference_predecessor": {
+    "canonical_tree_root_sha256": "0150c34f0f8d6f7adce038714f07ef4b9acb1c76d0f0a1e051b1b30346261e91",
+    "disposition": "FAIL_CLOSED_POST_ATTEMPT_TERMINAL_NO_RETRY_REFERENCE_ONLY",
+    "evidence_binding_sha256": "f77e6bd57f7f6ce8ba437184c7d7e316a5d4f1ee67b4feb39d1084f21d8e7b47",
+    "identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V10",
+    "member_count": 127
+  },
+  "v11_reference_predecessor": {
+    "canonical_tree_root_sha256": "6b41bc493b1876468de57cb82cb3b7de9bf811450f9579ee5e493473d75023ef",
+    "disposition": "FAIL_CLOSED_PRE_ATTEMPT_TERMINAL_NO_RETRY_REFERENCE_ONLY",
+    "identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V11",
+    "member_count": 72,
+    "static_lock_sha256": "3da68aa2f89327b30bbbd35eaa354b3701a5d395c06a5e9dd6bb96a72ec31b96"
+  },
+  "v12_reference_predecessor": {
+    "canonical_tree_root_sha256": "869500949833341b4b2a37ceb520b411ae7312ac28c2c7eab00a4ac42bfb02d0",
+    "disposition": "FAIL_CLOSED_POST_ATTEMPT_TERMINAL_NO_RETRY_FROZEN_FAILURE_EVIDENCE",
+    "identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V12",
+    "member_count": 179,
+    "static_lock_sha256": "ad78706d95aff27db7bffb68f195cd191e4dcd7c7b86f266f0d4738d269c3611"
+  },
+  "v13_reference_predecessor": {
+    "canonical_tree_root_sha256": "9efaac543137663806696dc3e69cf16b262d81f78609a57f2ca495cacd8187fb",
+    "disposition": "FAIL_CLOSED_DURING_UNIT_VALIDATION_PRELOCK_TERMINAL_REFERENCE_PREDECESSOR",
+    "frozen_unit_failure_sha256": "9c10ed8482d4df350ac11d82e0fabe0cc2a83005641007852cb43008068f86b8",
+    "identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V13",
+    "member_count": 58
+  },
+  "v14_reference_predecessor": {
+    "disposition": "FAIL_CLOSED_PRELOCK_TERMINAL_NO_RETRY_REFERENCE_ONLY",
+    "frozen_evidence_binding_sha256": "2f9b4a057de8fe09be811017a800d0dc7529c5339319ec1509d93ee8012dee81",
+    "frozen_snapshot_manifest_sha256": "fef3de2e74c40dff0076e2d7dde91c848cb64eb157cdfe7e60c54419a16dd34e",
+    "frozen_snapshot_tree_root_sha256": "7fa1cadc56eb1186fc4d9efef27f215c9369c6c94b3e09199912563abd8328d4",
+    "identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V14",
+    "member_count": 135,
+    "primary_failure_sha256": "f4cbd3434d34b4c04f1fda19fb96904e4a356c9d59174fb1e7a41d54184b2cc5",
+    "unit_pass_sha256": "3b91f58fc216c396b19988d90323b0f331adab50aa28068c08e9d2b726e82804"
+  },
+  "v15_reference_predecessor": {
+    "disposition": "FAIL_CLOSED_PRELOCK_TERMINAL_NO_RETRY_PREDECESSOR_IMMUTABILITY_VIOLATION",
+    "identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V15",
+    "static_lock": "NOT_ISSUED",
+    "attempt": "0_OF_1",
+    "unit_sha256": "38e3b1c71dee5c0d0c91f4134e439f2f0442626faa23747ac306063b9cdaa6cc",
+    "primary_sha256": "a308968912f1e7722d2bf700c5aaf3256c176b1d4f584a4b269596a0fd8c17c9",
+    "independent_sha256": "69053c72214931839eab7743d90e11147cd03ab46cf6fd09fcda9633720d0381",
+    "terminal_sha256": "ece516b4641d1f1b2506e9025620e595f09dc1782373abcd23cecab177eaf601"
+  },
+  "v16_reference_predecessor": {
+    "disposition": "FAIL_CLOSED_PRELOCK_TERMINAL_NO_RETRY_REFERENCE_ONLY",
+    "failure_manifest_sha256": "b39a41077ea660427d8cf55faab94286b48cfe0adb9e73a9133a814f6e80268c",
+    "identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V16",
+    "implicit_pyc_sha256": "d28afe1bf85796431bdd7e8c7a0d05da01f99b74af217084372befbe178208b0",
+    "member_count": 146,
+    "workspace_tree_root_sha256": "5c99e1c8c1e5048ee3a9c607e0bceffc273743b91a245bf7a913f832af0636b5"
+  },
+  "v17_reference_predecessor": {
+    "disposition": "FAIL_CLOSED_PRELOCK_TERMINAL_NO_RETRY_REFERENCE_ONLY",
+    "identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V17",
+    "independent_failure_sha256": "02e41521f90af9dc1aa55ed26d7769b07b44a6bcdf3b643d7b96b5c662be6e23",
+    "member_count": 150,
+    "terminal_record_sha256": "f86711afddf68b287a5ed9cf5f327ef9de146dd1601d5497a173ba07c65d07b0",
+    "workspace_tree_root_sha256": "576f3773617ad0adab5a3488ad395b20e753f8cb24c6b04ddd97ee8a65498373"
+  },
+  "v18_reference_predecessor": {
+    "canonical_source_root_sha256": "940f5dbbc4992e86d9ab2e586d3e0d03c117949b930c586a3e6f13f1ded911f1",
+    "disposition": "FAIL_CLOSED_POST_LOCK_PRE_ATTEMPT_TERMINAL_NO_RETRY_REFERENCE_ONLY",
+    "identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V18",
+    "member_count": 164,
+    "static_lock_sha256": "7b59bb4e753c0aef7f05a3fea61484b21bfc8fe30b5b255e47d1ce393d964c12",
+    "terminal_sha256": "cbfd5a2d7916b5850992e625f4c869d615c1bd1ae7e2b6f553f2616c151b1b5a",
+    "workspace_tree_root_sha256": "c92f0bd0d7ea111d9bfd6d3d4e612e5b1cd763d70c69f47fef6a2907c0be0f4d",
+    "attempt": "0_OF_1"
+  },
+  "v19_immutable_history": {
+    "disposition": "FAIL_CLOSED_DURING_UNIT_VALIDATION_PRELOCK_TERMINAL_NO_RETRY_FROZEN_FAILURE_EVIDENCE",
+    "identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V19",
+    "member_count": 163,
+    "workspace_tree_root_sha256": "830ca3de6980cb553725fbc97f79ac453a238f511c133c1a0ab5f751690601a5",
+    "artifact_predecessor_for_v22": false,
+    "continuation": "PROHIBITED"
+  },
+  "v20_immutable_history": {
+    "artifact_predecessor_for_v22": false,
+    "continuation": "PROHIBITED",
+    "disposition": "FAIL_CLOSED_DURING_INDEPENDENT_STATIC_VALIDATION_PRELOCK_TERMINAL_NO_RETRY_FROZEN_FAILURE_EVIDENCE",
+    "identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V20",
+    "member_count": 179,
+    "workspace_tree_root_sha256": "6a8c7a4516e81a8890d22948e7bd6f55c429cf9f83682b761b33afb4ff0eb192"
+  },
+  "v35_canonical_artifact_predecessor": {
+    "identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V18",
+    "workspace_tree_root_sha256": "c92f0bd0d7ea111d9bfd6d3d4e612e5b1cd763d70c69f47fef6a2907c0be0f4d",
+    "static_lock_sha256": "7b59bb4e753c0aef7f05a3fea61484b21bfc8fe30b5b255e47d1ce393d964c12",
+    "authority_governance_lock_sha256": "f371001972791a56e4d9b7fa92c7b0870da1b126bb16ee5f7f67b6c7d94c51b0",
+    "resolution": "EXPLICIT_GOVERNANCE_BOUND_NO_FALLBACK"
+  },
+  "security_worker_runtime": {
+    "acceptance_lock_sha256": "cc7928e67b9d5c74f04a750d8faae5bbdf97f2dd7fd4337885ddf10f85d6e8f7",
+    "frozen_source_root_sha256": "974a483222726e40ffa0178b4b05d9e0ba8b361b40d53b74ca1d628cc92bcaf2",
+    "identity": "V0_3_SECURITY_WORKER_RUNTIME_V1",
+    "status": "PASS_LOCKED"
+  },
+  "worker_id": "SW-CODEX-FIRST-WORKER-V35",
+  "workspace_id": "WS-FIRST-WORKER-FIXTURE-V35"
+}

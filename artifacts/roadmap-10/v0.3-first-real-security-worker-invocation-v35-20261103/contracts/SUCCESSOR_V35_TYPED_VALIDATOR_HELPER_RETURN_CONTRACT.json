@@ -1,0 +1,30 @@
+{
+  "authorizing_governance_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V34_PRELOCK_RESULTS_DIRECTORY_AND_FIXTURE_PROBE_PATH_LIFECYCLE_DEFECT_UNIT_EXECUTION_ERRATUM_AND_SUCCESSOR_DECISION_GOVERNANCE_ONLY",
+  "authorizing_governance_lock": "EXACT_SHA256_OF_THIS_PACKAGE_GOVERNANCE_LOCK_JSON",
+  "contract_identity": "V35_TYPED_CRITICAL_VALIDATOR_HELPER_RETURN_CONTRACT_V1",
+  "critical_helper_inventory": "EXPLICIT_COMPLETE_INVENTORY_REQUIRED_BEFORE_UNIT_OR_STATIC_VALIDATION",
+  "failure_policy": "FAIL_CLOSED_BEFORE_STATIC_LOCK_AND_ATTEMPT",
+  "record_type": "SUCCESSOR_V35_TYPED_VALIDATOR_HELPER_RETURN_CONTRACT",
+  "required_return_semantics": {
+    "caller_side_runtime_type_validation_before_field_consumption": true,
+    "explicit_typed_verdict_object": true,
+    "implicit_none": "PROHIBITED",
+    "reachable_terminal_return_for_every_valid_control_flow_outcome": true,
+    "return_after_or_inside_sibling_function_due_to_nesting_or_placement": "PROHIBITED",
+    "unreachable_return": "PROHIBITED"
+  },
+  "required_validation": [
+    "AST_TOP_LEVEL_AND_NESTING_ANALYSIS",
+    "CONTROL_FLOW_REACHABILITY_ANALYSIS",
+    "RETURN_TYPE_SHAPE_VALIDATION",
+    "CALLER_CONSUMPTION_TYPE_GUARD_VALIDATION",
+    "ACTUAL_CANONICAL_HELPER_INVOCATION_IN_AUTHORIZED_VALIDATION_ENVIRONMENT"
+  ],
+  "required_verdict_fields": [
+    "record_type",
+    "status",
+    "checks"
+  ],
+  "status": "NORMATIVE_FOR_CONDITIONALLY_AUTHORIZED_SUCCESSOR_ONLY",
+  "successor_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35"
+}

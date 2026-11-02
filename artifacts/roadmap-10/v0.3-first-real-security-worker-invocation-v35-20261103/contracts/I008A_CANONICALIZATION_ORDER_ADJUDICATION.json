@@ -1,0 +1,17 @@
+{
+  "INDEPENDENT_VALIDATOR_V16_TREE_CANONICALIZATION_ORDER_DEFECT": "YES",
+  "V16_PREDECESSOR_DRIFT": "NO",
+  "core_v17_predecessor_verification": "PASS",
+  "defect_ownership": "V17_INDEPENDENT_VALIDATOR_ORDERING_IMPLEMENTATION",
+  "failed_gate": "I008A_V16_FROZEN",
+  "independent_alternate_tree_root_sha256": "a5ec0db34da898d64859e0e3535d74929eed4f5b047f67f37d1fe3d90a88ea63",
+  "normative_v16_tree_root_sha256": "5c99e1c8c1e5048ee3a9c607e0bceffc273743b91a245bf7a913f832af0636b5",
+  "not_supported": [
+    "V16_WORKSPACE_DRIFT",
+    "CHANGE_EXPECTED_ROOT_TO_ALTERNATE",
+    "CODEX_DEFECT",
+    "WORKER_DEFECT",
+    "RUNTIME_DEFECT"
+  ],
+  "supported_cause": "FLATTENED_RELATIVE_PATH_UTF8_ORDER_USED_INSTEAD_OF_COMPONENTWISE_POSIX_PATH_ORDER"
+}

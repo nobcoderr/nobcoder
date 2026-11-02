@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "authority": {
+      "const": "PROPOSAL_ONLY_NON_AUTHORITATIVE"
+    },
+    "authorization_id": {
+      "const": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V3_STRICT_RESPONSE_SCHEMA_COMPATIBILITY_FD_ANNOTATION_TRACE_GRAMMAR_AND_DIAGNOSTIC_POST_VALIDATION_FAILURE_ERRATUM_AND_SUCCESSOR_DECISION_GOVERNANCE_ONLY"
+    },
+    "campaign_id": {
+      "const": "RC-FIRST-WORKER-FIXTURE-V26"
+    },
+    "lane_id": {
+      "const": "RL-STRUCTURED-PROPOSAL-FIXTURE-V26"
+    },
+    "proposals": {
+      "items": {
+        "additionalProperties": true,
+        "properties": {
+          "authority": {
+            "const": "PROPOSAL_ONLY_NON_AUTHORITATIVE"
+          },
+          "candidate_initial_state": {
+            "const": "HYPOTHESIS_QUARANTINED"
+          }
+        },
+        "required": [
+          "authority",
+          "candidate_initial_state"
+        ],
+        "type": "object"
+      },
+      "maxItems": 1,
+      "minItems": 1,
+      "type": "array"
+    },
+    "runtime_identity": {
+      "const": "CODEX_RUNTIME_0_166_0_COMPATIBILITY_PASS_LOCKED"
+    },
+    "status": {
+      "const": "PROPOSAL_COMPLETE"
+    },
+    "worker_id": {
+      "const": "SW-CODEX-FIRST-WORKER-V26"
+    },
+    "workspace_id": {
+      "const": "WS-FIRST-WORKER-FIXTURE-V26"
+    }
+  },
+  "required": [
+    "status",
+    "campaign_id",
+    "lane_id",
+    "worker_id",
+    "runtime_identity",
+    "authorization_id",
+    "workspace_id",
+    "authority",
+    "proposals"
+  ],
+  "type": "object"
+}

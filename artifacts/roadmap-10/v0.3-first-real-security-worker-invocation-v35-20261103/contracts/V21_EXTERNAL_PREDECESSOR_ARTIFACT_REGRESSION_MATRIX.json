@@ -1,0 +1,15 @@
+{
+  "coverage_rule": "ALL_CASES_MUST_PASS_BEFORE_FRESH_PREFLIGHT",
+  "required_cases": {
+    "ambiguous_matching_artifacts": "FAIL_CLOSED",
+    "correct_artifact_and_canonical_locator": "PASS",
+    "correct_filename_wrong_governance_directory": "FAIL_CLOSED",
+    "exact_governance_bound_resolution": "PASS",
+    "missing_artifact": "FAIL_CLOSED",
+    "path_synthesized_from_invocation_number": "FAIL_CLOSED",
+    "same_filename_another_predecessor": "FAIL_CLOSED",
+    "stale_v17_artifact_as_canonical_predecessor": "FAIL_CLOSED",
+    "wrong_digest": "FAIL_CLOSED",
+    "wrong_owner_identity": "FAIL_CLOSED"
+  }
+}

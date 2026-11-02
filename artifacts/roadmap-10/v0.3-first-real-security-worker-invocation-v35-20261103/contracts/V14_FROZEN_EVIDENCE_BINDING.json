@@ -1,0 +1,37 @@
+{
+  "attempt": "0_OF_1",
+  "codex_as_worker_invocation": "0_OF_1",
+  "independent_validator_sha256": "da6fafe72246968880fdbcbaed1f734f09fffaa202348ef0e80813688c2a4994",
+  "primary": {
+    "counts": {
+      "failed": 1,
+      "passed": 49,
+      "total": 50
+    },
+    "failure_ids": [
+      "S023_LIFECYCLE_SOURCE_ORDER"
+    ],
+    "path": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v14-20261023/results/prelock/primary-static-validation-run-0001.json",
+    "read_only": true,
+    "sha256": "f4cbd3434d34b4c04f1fda19fb96904e4a356c9d59174fb1e7a41d54184b2cc5",
+    "status": "FAIL_CLOSED"
+  },
+  "primary_validator_sha256": "a2c27fe341e60004d18a21879c164fbac012a98869874f6415bb21ae9f7103bd",
+  "record_type": "V14_FROZEN_VALIDATION_EVIDENCE_BINDING",
+  "runner_sha256": "ff5c4e307a94b80e012b5f85f9c7f3d5b8dcc9470925f7573f0964facc4e5350",
+  "static_lock": "NOT_ISSUED",
+  "status": "PASS",
+  "tests_sha256": "4caf5b1cff3b7b4ee86d171fa0a4d2f85591ff0bec74522a12d32b090efb8172",
+  "unit": {
+    "counts": {
+      "failed": 0,
+      "passed": 104,
+      "total": 104
+    },
+    "path": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v14-20261023/results/prelock/unit-fixtures-run-0001.json",
+    "read_only": true,
+    "sha256": "3b91f58fc216c396b19988d90323b0f331adab50aa28068c08e9d2b726e82804",
+    "status": "PASS"
+  },
+  "worker_invocation": "0_OF_1"
+}

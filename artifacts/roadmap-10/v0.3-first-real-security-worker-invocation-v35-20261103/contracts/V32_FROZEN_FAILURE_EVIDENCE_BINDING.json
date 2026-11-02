@@ -1,0 +1,37 @@
+{
+  "canonical_evidence_root_sha256": "6cd2d2f2f3134683d73426fcac0f2e19ec0da670f7621bafe488bfada9a631c5",
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V32",
+  "failure_manifest_sha256": "46e1dd5743aaa4260b6cf0c77c8ab7f24880a8292f25ad9ef60c8b51eb8a24e2",
+  "freeze_verification_sha256": "9996517d88e886284c926fc1f2b8436477737246c7d514f4aafcc4167475898b",
+  "record_type": "V32_FROZEN_FAILURE_EVIDENCE_BINDING",
+  "status": "PASS",
+  "terminal_sha256": "ef3e0b4adfc003fae338e5a5de67144f1cb1cfb0c051b531cc49afb4ebe7322c",
+  "verification": {
+    "canonical_evidence_root_sha256": "6cd2d2f2f3134683d73426fcac0f2e19ec0da670f7621bafe488bfada9a631c5",
+    "checks": {
+      "attempt_absent": true,
+      "binding_exact": true,
+      "closure_exact": true,
+      "counts_zero": true,
+      "failure_set": true,
+      "freeze_digest": true,
+      "later_gates_not_started": true,
+      "manifest_digest": true,
+      "members_exact": true,
+      "no_bytecode": true,
+      "root_exact": true,
+      "runtime_absent": true,
+      "static_lock_absent": true,
+      "symbol_manifest_exact": true,
+      "terminal_digest": true,
+      "terminal_state": true,
+      "unified_exact": true,
+      "unit_counts": true,
+      "unit_digest": true,
+      "workspace_read_only": true
+    },
+    "member_count": 317,
+    "record_type": "V32_FROZEN_FAILURE_EVIDENCE_VERDICT",
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "evidence_limit": "TEMPORARY_SELFTEST_ARTIFACTS_WERE_NOT_PERSISTED_OUTSIDE_EMBEDDED_SUMMARY; NO PER_IDENTITY_CAUSAL_RECONSTRUCTION_IS_ADMISSIBLE",
+  "fixture_design_identity_counts": {
+    "basis": "FROZEN_SOURCE_STRUCTURE_NOT_RUNTIME_COUNT",
+    "designed_descendant_task_identity_count": 50,
+    "designed_trace_identity_count_including_fixture_root": 51,
+    "immediate_exit_children": 12,
+    "nested_child": 1,
+    "nested_thread": 1,
+    "ordinary_threads": 12,
+    "overlapping_children": 12,
+    "rapid_sequential_children": 12
+  },
+  "proven_checks": {
+    "all_identity_records_retained_after_exit": true,
+    "ambiguous_zero": true,
+    "complete_identity_coverage": false,
+    "coverage_complete_exact": false,
+    "missing_zero": false,
+    "multiple_adversarial_trace_identities_present": true,
+    "observer_exit_zero": false,
+    "observer_ready_before_child": true,
+    "root_bound_while_child_identity_available": true,
+    "short_lived_child_exit_zero": true,
+    "stable_identity_uses_start_identity_and_namespace": true
+  },
+  "record_type": "V13_ADVERSARIAL_SELFTEST_FAILURE_DECOMPOSITION",
+  "runtime_observed": {
+    "ambiguous_mapping_count": {"basis": "ambiguous_zero=true", "value": 0},
+    "capture_attempt_count": "NOT_CAPTURED_IN_FROZEN_RUN_0001",
+    "capture_attempt_timestamps": "NOT_CAPTURED_IN_FROZEN_RUN_0001",
+    "correlation_outcome": "INCOMPLETE_AT_LEAST_ONE_TRACE_IDENTITY_UNMAPPED",
+    "expected_fixture_process_or_identity_count": {"qualification": "DESIGN_DERIVED_NOT_RUNTIME_ATTESTED", "value": 51},
+    "first_relevant_trace_timestamp": "NOT_CAPTURED_IN_FROZEN_RUN_0001",
+    "last_relevant_trace_timestamp": "NOT_CAPTURED_IN_FROZEN_RUN_0001",
+    "lineage_relevant_trace_visible_identity_count": "NOT_CAPTURED_IN_FROZEN_RUN_0001",
+    "missing_mapping_count": {"basis": "missing_zero=false and complete_identity_coverage=false", "value": "AT_LEAST_1"},
+    "namespace_identity_availability": "NOT_ENUMERATED_PER_IDENTITY",
+    "observer_exit": {"exit_reason": "NOT_CAPTURED_IN_FROZEN_RUN_0001", "numeric_exit_code": "NOT_CAPTURED_IN_FROZEN_RUN_0001", "status": "NON_ZERO"},
+    "parent_relation_evidence": "NOT_ENUMERATED_PER_IDENTITY",
+    "proc_lookup_results": "NOT_CAPTURED_IN_FROZEN_RUN_0001",
+    "process_start_identity_availability": "NOT_ENUMERATED_PER_IDENTITY",
+    "process_visibility_capture_exit_temporal_relationship": "NOT_RECORDED_PER_IDENTITY",
+    "valid_temporal_mapping_count": "NOT_CAPTURED_IN_FROZEN_RUN_0001"
+  },
+  "status": "EVIDENCE_BOUND_INCOMPLETE_CAUSE_NOT_ESTABLISHED"
+}

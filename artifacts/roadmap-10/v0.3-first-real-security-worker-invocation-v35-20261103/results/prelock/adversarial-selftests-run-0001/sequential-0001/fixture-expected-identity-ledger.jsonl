@@ -1,0 +1,9 @@
+{"event":"FIXTURE_STARTED","fixture_class":"sequential","host_pid":201096,"monotonic_ns":14594981628360,"parent_host_pid":201094}
+{"count":6,"event":"SPAWN_REQUESTED","fixture_class":"sequential","host_pid":201096,"monotonic_ns":14594985763787,"parent_host_pid":201094}
+{"child_host_pid":201105,"event":"SPAWN_SUCCEEDED","fixture_class":"sequential","host_pid":201096,"monotonic_ns":14594991252022,"parent_host_pid":201094}
+{"child_host_pid":201106,"event":"SPAWN_SUCCEEDED","fixture_class":"sequential","host_pid":201096,"monotonic_ns":14595006284913,"parent_host_pid":201094}
+{"child_host_pid":201107,"event":"SPAWN_SUCCEEDED","fixture_class":"sequential","host_pid":201096,"monotonic_ns":14595018771906,"parent_host_pid":201094}
+{"child_host_pid":201108,"event":"SPAWN_SUCCEEDED","fixture_class":"sequential","host_pid":201096,"monotonic_ns":14595032318314,"parent_host_pid":201094}
+{"child_host_pid":201109,"event":"SPAWN_SUCCEEDED","fixture_class":"sequential","host_pid":201096,"monotonic_ns":14595058237822,"parent_host_pid":201094}
+{"child_host_pid":201110,"event":"SPAWN_SUCCEEDED","fixture_class":"sequential","host_pid":201096,"monotonic_ns":14595076543195,"parent_host_pid":201094}
+{"event":"FIXTURE_COMPLETED","fixture_class":"sequential","host_pid":201096,"monotonic_ns":14595080102276,"parent_host_pid":201094,"status":"PASS"}

@@ -1,0 +1,42 @@
+{
+  "actual_failure": "IMPLICIT_NONE_THEN_ATTRIBUTE_ERROR_ON_GET",
+  "checks_assignment_lines": [
+    3053,
+    3064
+  ],
+  "helper": "inspect_runtime_identity",
+  "helper_analysis": {
+    "all_returns_typed_dict_literals": false,
+    "all_valid_paths_return": false,
+    "direct_return_count": 0,
+    "direct_return_lines": [],
+    "explicit_return_present": false,
+    "helper_found": true,
+    "helper_line": 3043,
+    "helper_name": "inspect_runtime_identity",
+    "implicit_none_possible": true,
+    "status": "FAIL_CLOSED"
+  },
+  "helper_end_line": 3064,
+  "helper_line": 3043,
+  "intended_verdict_return_misbound_to_sibling_lines": [
+    3092,
+    3102
+  ],
+  "misbound_return_unreachable_after_unconditional_sibling_return_line": 3087,
+  "next_sibling_function": "runtime_binding_fixture_verdict",
+  "next_sibling_line": 3067,
+  "primary_has_typed_result_guard_before_get": false,
+  "primary_helper_call_line": 110,
+  "primary_source_artifact": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v33-20261103/validators/primary_static_validate.py",
+  "primary_source_sha256": "cf57e0be1468436b84c57ffdf691b480e8d4b78623a6f039b29f682beee5af7e",
+  "primary_unchecked_field_consumption_line": 117,
+  "record_type": "V33_RUNTIME_IDENTITY_HELPER_CONTROL_FLOW_EVIDENCE",
+  "sibling_direct_return_lines": [
+    3087,
+    3092
+  ],
+  "source_artifact": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v33-20261103/src/invocation_v33.py",
+  "source_sha256": "f4dd52cdb1e26e79afd1b2dbf0894bb2f4621e85a57f904b2c1bc081cd800f6f",
+  "status": "PASS"
+}

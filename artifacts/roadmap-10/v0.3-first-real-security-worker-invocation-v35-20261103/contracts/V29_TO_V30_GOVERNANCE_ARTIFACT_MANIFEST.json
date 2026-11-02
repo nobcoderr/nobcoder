@@ -1,0 +1,139 @@
+{
+  "canonical_governance_root_sha256": "70bd704b31643e2736afc951223f11f82787a61a443ec0b5790604afdc339790",
+  "governance_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V29_HOST_OUTPUT_BIND_SOURCE_LIFECYCLE_DEFECT_AND_STALE_CODEX_RUNTIME_ACCEPTANCE_FIELD_BINDING_DEFECT_PRELOCK_ERRATUM_AND_SUCCESSOR_DECISION_GOVERNANCE_ONLY",
+  "member_count": 26,
+  "members": [
+    {
+      "bytes": 401,
+      "path": "CODEX_RUNTIME_ACCEPTANCE_FIELD_BINDING_ADJUDICATION.json",
+      "sha256": "6d091d082343d90e98f7b9f45f0906df4f8353c90ef43d9d72c35aae5abfc8d2"
+    },
+    {
+      "bytes": 539,
+      "path": "GOVERNANCE_CHARTER.json",
+      "sha256": "73ac984a9ad95437a4e4989f6172077416ce7f3c9cfb884d97afe88876006d5f"
+    },
+    {
+      "bytes": 341,
+      "path": "HOST_OUTPUT_BIND_SOURCE_LIFECYCLE_ADJUDICATION.json",
+      "sha256": "901b9344bc6c5a27c96d5ca864a98688872822c2486163b54a765dd2ef130cb3"
+    },
+    {
+      "bytes": 1130,
+      "path": "HOST_OUTPUT_BIND_SOURCE_LIFECYCLE_CONTRACT.json",
+      "sha256": "61a6d2f5859c23c4ed6c9e9f7c2b2837f5198f5888f4b04a3a737d99dff81284"
+    },
+    {
+      "bytes": 1481,
+      "path": "INDEPENDENT_GOVERNANCE_VALIDATION.json",
+      "sha256": "9b7ca871ab547b1041b81a613ef4235341021f5f2b8f6ab501c53f401d9a74a8"
+    },
+    {
+      "bytes": 1527,
+      "path": "NEGATIVE_GOVERNANCE_FIXTURES.json",
+      "sha256": "fbfce673ea46b4d6c6cf6750d3a19f1987cde0c973d815e37894aaf95204ca41"
+    },
+    {
+      "bytes": 191,
+      "path": "NEXT_LEGAL_MILESTONE.json",
+      "sha256": "4f40e7bf4ef746dcde9dad543a1731d3eb4ffe89bc8138b8f53ea0638e3c272a"
+    },
+    {
+      "bytes": 1472,
+      "path": "PRIMARY_GOVERNANCE_VALIDATION.json",
+      "sha256": "1c268612b7e239bea78bc6d44eaaa374475a0cfefa75b9c647f26a49a17a6121"
+    },
+    {
+      "bytes": 637,
+      "path": "READ_ONLY_INTEGRITY_VERIFICATION.json",
+      "sha256": "3e8cc26c89ea92537cfb85eea7761771beb2af50ae67a05255ac1346bb318dd3"
+    },
+    {
+      "bytes": 359,
+      "path": "ROUTING_LEDGER.json",
+      "sha256": "67ffc66838d7a4bb9daa2d5cd8989d1a73f5e7a16bdcfc8ec9ff3c7ba52fc3ff"
+    },
+    {
+      "bytes": 820,
+      "path": "SUCCESSOR_V30_REQUIREMENTS.json",
+      "sha256": "0fda7d6f5ec37e257c14e22d60fa6c7fb1b045aa0fc23fade2b4457389902316"
+    },
+    {
+      "bytes": 1437,
+      "path": "TYPED_CODEX_RUNTIME_ACCEPTANCE_BINDING_CONTRACT.json",
+      "sha256": "cac78ab81a69a23f9181e093a13807b92f7bd94b4e55f13483497b15dcf8f12f"
+    },
+    {
+      "bytes": 640,
+      "path": "V29_FAILURE_AND_V30_REGRESSION_MATRIX.json",
+      "sha256": "48b7e7290440221afaa96cd49570690daa626b6f9c09cf2b999d2d1220a6a47f"
+    },
+    {
+      "bytes": 1591,
+      "path": "V29_FAILURE_FACTS.json",
+      "sha256": "7997bd87f762e90b542394b1b4c74ecc74e0216a3aa02b1c29511eab67253514"
+    },
+    {
+      "bytes": 1413,
+      "path": "V29_FROZEN_FAILURE_EVIDENCE_BINDING.json",
+      "sha256": "359acf64b763e9cdc3cf4c65b6e87ddf86687a3c7a3156d10e720ec82d821e7e"
+    },
+    {
+      "bytes": 295,
+      "path": "V29_IMMUTABILITY_AND_AUTHORITY_CEILING.json",
+      "sha256": "b33781a7747a64caa7b6e8e97d166c6e15c9d6edd7cec96c015d7612c5476bb2"
+    },
+    {
+      "bytes": 3327,
+      "path": "V29_RUNTIME_ACCEPTANCE_CONSUMER_COMPARISON.json",
+      "sha256": "85ad497c6c69ba2175350fc6bf428aaf4ff99fee41f704461b02713d5195cd9d"
+    },
+    {
+      "bytes": 525,
+      "path": "V29_TERMINAL_AND_V30_SUCCESSOR_DECISION.json",
+      "sha256": "730a2660150bb5f264877896145455e9de891612cb21f4d91c62b466aa9613a0"
+    },
+    {
+      "bytes": 9945,
+      "path": "build_governance.py",
+      "sha256": "95bd2a38e44d337afaabff3b5d87b2d46570eddef5a0a04ff61d1e69b5781c7f"
+    },
+    {
+      "bytes": 3393,
+      "path": "freeze_governance.py",
+      "sha256": "59fc08519b7be849642f1e494d404764bf3b038a314d2b217e65fa58657c764a"
+    },
+    {
+      "bytes": 10158,
+      "path": "governance_common.py",
+      "sha256": "b9b1de5138d70b7087261edb4240749cd4ef4e006413459d109dfd1e1adb1023"
+    },
+    {
+      "bytes": 6010,
+      "path": "independent_validate.py",
+      "sha256": "4e236eb596c958b41964b74ce9167ca9969682ad35a536d41686f145d8b03068"
+    },
+    {
+      "bytes": 3329,
+      "path": "negative_fixtures.py",
+      "sha256": "3732fdf7028932352c8d5d2bc4065e7be38bae20851c22ae5c8d96491eb768e2"
+    },
+    {
+      "bytes": 4619,
+      "path": "validate_governance.py",
+      "sha256": "10df554dee824dd10aec650031127fd3fc869157148724fe6f02a9b0cc8c4b98"
+    },
+    {
+      "bytes": 2574,
+      "path": "verify_governance_freeze.py",
+      "sha256": "f4aa46feed0fe08e2a5a25b864a91bf3da720a8675ece90f2889a64db45b33de"
+    },
+    {
+      "bytes": 1499,
+      "path": "verify_read_only_integrity.py",
+      "sha256": "fe393de5eb972fe8adae77aca479b96b6e2891831b727e8c83f4f85b4deaf50b"
+    }
+  ],
+  "record_type": "GOVERNANCE_ARTIFACT_MANIFEST",
+  "status": "PASS"
+}

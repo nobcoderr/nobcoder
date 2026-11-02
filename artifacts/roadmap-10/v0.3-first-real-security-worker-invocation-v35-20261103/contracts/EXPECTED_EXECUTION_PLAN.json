@@ -1,0 +1,55 @@
+{
+  "codex_command": {
+    "approval": "never",
+    "generic_path_resolution": false,
+    "host_skill_discovery": false,
+    "model": "gpt-6.1-sol",
+    "output": "STRUCTURED_JSON_SCHEMA",
+    "plugins": false,
+    "sandbox": "read-only",
+    "web_search": false
+  },
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "pre_attempt_gates": {
+    "authoritative_artifact_digest_identity": "PASS_REQUIRED_FINAL_BYTES_REREAD_REHASH_BEFORE_PREFLIGHT",
+    "authoritative_predecessor_resolution": "PASS_REQUIRED_CANONICAL_IDENTITY_EXACT_DIGEST_PASS_LOCKED_RUNTIME_IDENTITY_REREAD_REHASH",
+    "authority_ceiling": "PASS_REQUIRED",
+    "bind_destination_feasibility": "PASS_REQUIRED",
+    "cross_namespace_process_identity": "PASS_REQUIRED",
+    "temporal_process_identity_observer": "PASS_REQUIRED_OBSERVER_READY_BEFORE_ATTEMPT",
+    "short_lived_process_fixture": "PASS_REQUIRED_AFTER_LOCK_BEFORE_ATTEMPT",
+    "mount_provenance_write_policy": "PASS_REQUIRED",
+    "producer_lineage_authorization": "PASS_REQUIRED_SEPARATE_FROM_MOUNT_PROVENANCE",
+    "prompt_identity_binding": "PASS_REQUIRED_FINAL_PROMPT_FIRST_REREAD_AND_REHASH",
+    "semantic_startup_process_lineage": "PASS_REQUIRED",
+    "static_lock_identity": "PASS_REQUIRED",
+    "strict_schema_compatibility": "PASS_REQUIRED",
+    "typed_fd_annotation_grammar": "PASS_REQUIRED",
+    "typed_token_budget_feasibility": "PASS_REQUIRED",
+    "unknown_fd_annotation": "FAIL_CLOSED"
+  },
+  "filesystem": {
+    "bind_destination_feasibility": "SEMANTIC_ORDERED_PRECHECK_REQUIRED",
+    "context": "READ_ONLY",
+    "fixture": "READ_ONLY",
+    "host_home": "MASKED",
+    "host_root": "READ_ONLY",
+    "runtime_config": "READ_ONLY_DEDICATED",
+    "runtime_output": "ONLY_WRITABLE_HOST_BIND_UNDER_PREPARED_RUN_TMPFS_DESTINATION",
+    "schemas": "READ_ONLY"
+  },
+  "network": {
+    "provider_transport": "PINNED_CODEX_RUNTIME_INTERNAL_ONLY",
+    "target_access": "DENY_ALL",
+    "web_search": "DISABLED",
+    "worker_tool_network": "DENY_ALL"
+  },
+  "record_type": "FIRST_REAL_SECURITY_WORKER_EXPECTED_EXECUTION_PLAN",
+  "schema_version": "1.0",
+  "termination": {
+    "automatic_retry": false,
+    "host_timeout_seconds": 180,
+    "failure_evidence": "FROZEN_FAILURE_EVIDENCE_WITHOUT_PASS_LOCKED",
+    "process_tree_control": "BWRAP_DIE_WITH_PARENT_AND_HOST_TIMEOUT"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "CANONICAL_PREDECESSOR_DEFECT": "NO",
+  "COMPLETE_SYMBOL_GRAPH_CONTENT_DEFECT": "NOT_ESTABLISHED",
+  "COMPLETE_SYMBOL_GRAPH_CONTENT_DEFECT_BASIS": "BOTH_COUNTS_ARE_81_BUT_FROZEN_INDEPENDENT_RESULT_DOES_NOT_PRESERVE_FULL_GRAPH_ROWS; SYMBOL_COUNT_EQUALITY_ALONE_IS_INSUFFICIENT",
+  "INDEPENDENT_VALIDATOR_LOCAL_MODULE_RESOLUTION_ENVIRONMENT_DEFECT": "YES",
+  "TRANSITIVE_EXTERNAL_ARTIFACT_RESOLVER_DEFECT": "NO",
+  "defect_owner": "V21_INDEPENDENT_STATIC_VALIDATOR_LOCAL_MODULE_RESOLUTION_ENVIRONMENT_BINDING",
+  "passing_frozen_facts": {
+    "cache_gate": "PASS",
+    "canonical_predecessor_v18": "PASS",
+    "transitive_v17_artifact": "PASS",
+    "undeclared_python_bytecode": "ABSENT",
+    "v20_history": "BYTE_IDENTICAL"
+  },
+  "runtime_adjudication": {
+    "codex": "NOT_ESTABLISHED",
+    "confinement": "NOT_PROVEN",
+    "process_lineage": "NOT_PROVEN",
+    "producer_authorization": "NOT_PROVEN",
+    "runtime_topology": "NOT_PROVEN",
+    "security_worker": "NOT_ESTABLISHED",
+    "temporal_observer": "NOT_ESTABLISHED"
+  }
+}

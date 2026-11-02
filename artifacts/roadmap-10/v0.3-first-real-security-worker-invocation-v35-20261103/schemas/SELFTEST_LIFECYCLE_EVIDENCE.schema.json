@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "V12 lock-bound self-test lifecycle evidence",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["record_type", "execution_identity", "status", "strategy", "static_execution_lock_sha256", "canonical_source_root_sha256", "runner_sha256", "observer_sha256", "selftest_result_path", "selftest_result_sha256", "attempt_count", "worker_invocation_count", "codex_as_worker_invocation_count"],
+  "properties": {
+    "record_type": {"const": "V26_LOCKED_PRE_ATTEMPT_VALIDATION_RESULT"},
+    "execution_identity": {"const": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V32"},
+    "status": {"const": "PASS"},
+    "strategy": {"const": "CONSUME_LOCK_BOUND_IMMUTABLE_PASS_ARTIFACT"},
+    "static_execution_lock_sha256": {"type": "string", "minLength": 64, "maxLength": 64},
+    "canonical_source_root_sha256": {"type": "string", "minLength": 64, "maxLength": 64},
+    "runner_sha256": {"type": "string", "minLength": 64, "maxLength": 64},
+    "observer_sha256": {"type": "string", "minLength": 64, "maxLength": 64},
+    "selftest_result_path": {"const": "locked-pre-attempt-validation-0001/observer-selftest-result-0001.json"},
+    "selftest_result_sha256": {"type": "string", "minLength": 64, "maxLength": 64},
+    "attempt_count": {"const": 0},
+    "worker_invocation_count": {"const": 0},
+    "codex_as_worker_invocation_count": {"const": 0}
+  }
+}

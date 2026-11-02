@@ -1,0 +1,11 @@
+{
+  "governance_lock_path": "/home/nobcoder/codex-security-harness-eval/governance/v0.3-first-real-security-worker-invocation-v14-primary-validator-lifecycle-source-order-anchor-defect-prelock-erratum-and-continuation-or-successor-decision-governance-v1-20261023/GOVERNANCE_LOCK.json",
+  "governance_lock_sha256": "7d134a0721b2168e5a48a6cfc2c5e7f1fa02a35b96379a16a53cc69695be8b43",
+  "meaning": "HISTORICAL_FROZEN_PRE_INCIDENT_IDENTITY_ONLY",
+  "member_count": 135,
+  "record_type": "V14_EXACT_HISTORICAL_PREINCIDENT_FROZEN_IDENTITY",
+  "snapshot_manifest_path": "/home/nobcoder/codex-security-harness-eval/governance/v0.3-first-real-security-worker-invocation-v14-primary-validator-lifecycle-source-order-anchor-defect-prelock-erratum-and-continuation-or-successor-decision-governance-v1-20261023/V14_FROZEN_EVIDENCE_SNAPSHOT_MANIFEST.json",
+  "snapshot_manifest_sha256": "fef3de2e74c40dff0076e2d7dde91c848cb64eb157cdfe7e60c54419a16dd34e",
+  "status": "PASS",
+  "tree_root_sha256": "7fa1cadc56eb1186fc4d9efef27f215c9369c6c94b3e09199912563abd8328d4"
+}

@@ -1,0 +1,47 @@
+{
+  "attempt_count": 0,
+  "binding_generation_identity": "V35_CURRENT_GOVERNANCE_BOUND_TYPED_PREFLIGHT_BINDING_GENERATION_0001",
+  "canonical_paths": {
+    "fixture_probe_root": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v35-20261103/scratch/prelock-fixtures/run-0001",
+    "prelock_evidence_root": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v35-20261103/results/prelock"
+  },
+  "codex_as_worker_invocation_count": 0,
+  "contract_sha256": "52c5685b6dae30de207dbe0bcf376c4c454242501e60857a4997a7f99edfb0b2",
+  "controller_identity": "V35_PRELOCK_STORAGE_LIFECYCLE_CONTROLLER_V1",
+  "creation_order": [
+    "FRESH_WORKSPACE_IDENTITY_BOUND",
+    "WORKSPACE_BOUNDARY_AND_PREDECESSOR_DENY_ROOTS_VERIFIED",
+    "PRELOCK_EVIDENCE_ROOT_ATOMIC_EXCLUSIVE_PROVISIONING",
+    "FIXTURE_SCRATCH_ROOT_ATOMIC_EXCLUSIVE_PROVISIONING",
+    "PROVISIONING_EVIDENCE_APPEND_ONLY_WRITE",
+    "FIRST_UNIT_OR_VALIDATION_EVIDENCE_WRITER",
+    "UNIT_FIXTURE_EXECUTION"
+  ],
+  "current_workspace_containment": true,
+  "exclusive_creation": true,
+  "gid": 1000,
+  "governance_lock_sha256": "d2263268f61b9ddde99a0b60f4b43a26df1586e0c577ba2ca98c07b64c21f811",
+  "initial_emptiness": {
+    "fixture_probe_root": true,
+    "prelock_evidence_root": true
+  },
+  "modes": {
+    "fixture_probe_root": "0700",
+    "prelock_evidence_root": "0700"
+  },
+  "predecessor_deny_write_roots_count": 37,
+  "predecessor_snapshot_after_digest": "604dcf1b0675392ed8ce724a9de424fd0f7a640c8f9da9e5250fa0c0bebaab3a",
+  "predecessor_snapshot_digest": "604dcf1b0675392ed8ce724a9de424fd0f7a640c8f9da9e5250fa0c0bebaab3a",
+  "preexisting_state_reused": false,
+  "provisioner_identities": [
+    "V35_PRELOCK_EVIDENCE_ROOT_PROVISIONER_V1",
+    "V35_FIXTURE_SCRATCH_ROOT_PROVISIONER_V1"
+  ],
+  "provisioning_evidence_is_first_prelock_writer": true,
+  "real_directories_not_symlinks": true,
+  "record_type": "V35_PRELOCK_STORAGE_LIFECYCLE_PROVISIONING_EVIDENCE",
+  "status": "PASS",
+  "uid": 1000,
+  "worker_invocation_count": 0,
+  "workspace_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35"
+}

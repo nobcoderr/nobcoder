@@ -1,0 +1,50 @@
+{
+  "authorization_id": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V34_PRELOCK_RESULTS_DIRECTORY_AND_FIXTURE_PROBE_PATH_LIFECYCLE_DEFECT_UNIT_EXECUTION_ERRATUM_AND_SUCCESSOR_DECISION_GOVERNANCE_ONLY",
+  "binding_generation_identity": "V35_CURRENT_GOVERNANCE_BOUND_TYPED_PREFLIGHT_BINDING_GENERATION_0001",
+  "budget": {
+    "disk_bytes": 33554432,
+    "input_token_limit": 32768,
+    "memory_bytes": 4294967296,
+    "output_bytes": 4194304,
+    "output_token_limit": 2048,
+    "processes": 64,
+    "reasoning_output_token_limit": 1024,
+    "timeout_seconds": 180,
+    "token_accounting_source": "CODEX_JSONL_TURN_COMPLETED_USAGE",
+    "token_total_formula": "input_tokens + output_tokens",
+    "total_token_limit": 34816
+  },
+  "campaign_id": "RC-FIRST-WORKER-FIXTURE-V35",
+  "compatibility_acceptance": {
+    "artifact_identity": "CODEX_RUNTIME_0_166_0_COMPATIBILITY_ACCEPTANCE",
+    "artifact_sha256": "060b39551d4543999e79ccfd5d133d751faefc018fdc8adab718f5b9c7479a5e",
+    "compatibility_state": "COMPATIBILITY_PASS_LOCKED"
+  },
+  "fixture": {
+    "evidence_id": "FIXTURE-EVIDENCE-0001",
+    "path": "fixture/fixture.json",
+    "sha256": "0da031c1cf7fd916ac8aac23513b2d1962625fbb3aa97d55f1b8f6d56c342225"
+  },
+  "lane_id": "RL-STRUCTURED-PROPOSAL-FIXTURE-V35",
+  "objective": "Produce one falsifiable, non-authoritative hypothesis from an inert local fixture without tools or security claims.",
+  "output_schema": {
+    "path": "schemas/WORKER_MODEL_OUTPUT.schema.json",
+    "sha256": "9b0f911a46c5f2786f64eaabbce84df9776d641452bf486a20e7e41d2a6bd7ce"
+  },
+  "prompt": {
+    "path": "fixture/worker-prompt.txt",
+    "sha256": "e9883b603ef178ffdb990469ea5a58a5e945bbb64ae81e5f8f03f27da3c06ad1"
+  },
+  "record_type": "FIRST_REAL_SECURITY_WORKER_STRUCTURED_REQUEST",
+  "requested_operations": [],
+  "runtime_identity": "CODEX_RUNTIME_0_166_0_COMPATIBILITY_PASS_LOCKED",
+  "schema_version": "1.0",
+  "scope": {
+    "credentials": "DENY_ALL",
+    "fixture_only": true,
+    "network": "DENY_ALL_TO_WORKER_TOOLS_AND_TARGETS",
+    "target": null
+  },
+  "worker_id": "SW-CODEX-FIRST-WORKER-V35",
+  "workspace_id": "WS-FIRST-WORKER-FIXTURE-V35"
+}

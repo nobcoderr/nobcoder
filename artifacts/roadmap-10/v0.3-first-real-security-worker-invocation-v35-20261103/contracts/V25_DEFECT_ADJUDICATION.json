@@ -1,0 +1,32 @@
+{
+  "CORE_PREFLIGHT_CARRIED_FORWARD_COVERAGE_REQUIREMENT_PREDICATE_STALENESS": "YES",
+  "MOUNT_CONTRACT_SUCCESSOR_IDENTITY_PROPAGATION_DEFECT": "YES",
+  "S064_CORE_PREFLIGHT_EXCLUSIVELY_DERIVED_FROM_STALE_MOUNT_BINDING": "NO",
+  "S064_CORE_PREFLIGHT_INDEPENDENT_AGGREGATION_DEFECT": "NO",
+  "S064_CORE_PREFLIGHT_MOUNT_FAILURE_COMPONENT": "DERIVED_FROM_SAME_STALE_MOUNT_BINDING",
+  "STALE_SUCCESSOR_MOUNT_OUTPUT_PATH_BINDING_DEFECT": "YES",
+  "actual_runtime_mount_behavior": "NOT_ESTABLISHED",
+  "codex_runtime": "NOT_ESTABLISHED",
+  "confinement": "NOT_PROVEN",
+  "evidence": {
+    "contract_namespace_output": "/run/nobcoder-first-worker-v23/output",
+    "core_preflight_failure_ids": [
+      "mount_provenance_write_policy_precheck",
+      "v25_complete_temporal_identity_coverage_contract"
+    ],
+    "coverage_predicate_tokens_absent_from_v25_contract": [
+      "CONSUMER_REQUIRES_COMPLETION_PROOF_BEFORE_PARSE",
+      "TRANSACTIONAL_OR_COMMIT_MARKED_SELFTEST_TELEMETRY_PUBLICATION"
+    ],
+    "mount_check_output_bind_exact_destination": false,
+    "runtime_namespace_output": "/run/nobcoder-first-worker-v25/output",
+    "v25_contract_carry_forward_token_present": true
+  },
+  "process_lineage": "NOT_PROVEN",
+  "producer_authorization": "NOT_PROVEN",
+  "record_type": "V25_MOUNT_OUTPUT_BINDING_DEFECT_ADJUDICATION",
+  "security_worker_runtime": "NOT_ESTABLISHED",
+  "temporal_runtime": "NOT_ESTABLISHED",
+  "v25_disposition": "TERMINAL_IMMUTABLE_NO_RETRY_REFERENCE_ONLY",
+  "v26": "CONDITIONALLY_AUTHORIZED_NOT_CREATED_NOT_EXECUTED"
+}

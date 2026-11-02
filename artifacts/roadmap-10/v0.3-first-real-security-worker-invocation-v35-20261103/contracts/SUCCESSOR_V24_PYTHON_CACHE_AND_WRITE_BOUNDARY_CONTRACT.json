@@ -1,0 +1,23 @@
+{
+  "allowed_design": "DETERMINISTIC_SUPPRESSION",
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V24",
+  "generation_identity": "V24_GOVERNANCE_BOUND_BINDING_GENERATION_0001",
+  "governance_authority_sha256": "5c1cadf1d0332ab3b1196946767b1426e0746911863cdffbc6cdac0a124a891c",
+  "interpreter_argv": "EXACT_PYTHON_BINARY_FOLLOWED_BY_MINUS_B",
+  "prohibited": [
+    "PYTHONPYCACHEPREFIX",
+    "DELETE_AFTER_WRITE",
+    "IGNORE_PYC",
+    "ARBITRARY_CACHE_ROOT",
+    "PREDECESSOR_CACHE_WRITE"
+  ],
+  "record_type": "V24_PYTHON_CACHE_AND_WORKSPACE_WRITE_BOUNDARY_CONTRACT",
+  "selection": "EXACT_GOVERNANCE_BOUND_SUCCESSOR_CONTRACT",
+  "selector_authority": "V23_TERMINAL_AND_V24_SUCCESSOR_DECISION",
+  "status": "NORMATIVE_FOR_V24",
+  "subprocess_environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONHASHSEED": "0"
+  },
+  "unaccounted_mutations": 0
+}

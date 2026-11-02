@@ -1,0 +1,19 @@
+{
+  "artifacts": {
+    "CODEX_RUNTIME_0_166_0_COMPATIBILITY_ACCEPTANCE": {
+      "artifact_path": "/home/nobcoder/codex-security-harness-eval/governance/v0.3-runtime-and-model-compatibility-execution-v8-codex-0-166-0-frozen-evidence-acceptance-and-pass-locked-decision-governance-v1-20261102/GOVERNANCE_LOCK.json",
+      "artifact_sha256": "060b39551d4543999e79ccfd5d133d751faefc018fdc8adab718f5b9c7479a5e",
+      "compatibility_state": "COMPATIBILITY_PASS_LOCKED",
+      "governance_identity": "V0_3_RUNTIME_AND_MODEL_COMPATIBILITY_EXECUTION_V8_CODEX_0_166_0_FROZEN_EVIDENCE_ACCEPTANCE_AND_PASS_LOCKED_DECISION_GOVERNANCE_ONLY",
+      "manifest_path": "/home/nobcoder/codex-security-harness-eval/governance/v0.3-runtime-and-model-compatibility-execution-v8-codex-0-166-0-frozen-evidence-acceptance-and-pass-locked-decision-governance-v1-20261102/GOVERNANCE_ARTIFACT_MANIFEST.json",
+      "manifest_sha256": "c32c1c786e4372103ed392f25aef029c777a8afe2ef9afe2dd738b2f640d6b86",
+      "required_status": "PASS_LOCKED_GOVERNANCE_ONLY",
+      "runtime_identity": "CODEX_RUNTIME_0_166_0_COMPATIBILITY_PASS_LOCKED"
+    }
+  },
+  "canonical_identity": "CODEX_RUNTIME_0_166_0_COMPATIBILITY_ACCEPTANCE",
+  "fallback_resolution": "PROHIBITED",
+  "path_derivation_from_execution_number": "PROHIBITED",
+  "record_type": "AUTHORITATIVE_PREDECESSOR_REGISTRY",
+  "schema_version": "1.0"
+}

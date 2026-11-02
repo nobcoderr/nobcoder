@@ -1,0 +1,423 @@
+{
+  "attempt": "0_OF_1",
+  "attempt_marker": "ABSENT",
+  "bound_hashes": {
+    "canonical_predecessor_contract": "71039416265891b802dffdfe2b04ae2a7b2c4604e99fd93148dd1683c3334445",
+    "failure_manifest": "95c89dbf678e2ec96622c1f9ded590fdef570a576e54cee67fd4426ce32b380e",
+    "failure_record": "44383fd44c777a031933829e9d4c25d3a88fcac7053417ad49fe90114a657c35",
+    "freeze_verification": "3ab3115b8c933806b04a480054c3b17757f7d2d88a990727c003f043f1fc0ab9",
+    "independent_validator": "505c72034063d6380f5befe2bf030ec86dcaf2ce1642e53dfb1845b2db1f4959",
+    "primary": "6e121dc8dc5c4c2eee89f321a236854d25192da7674c397b1fc6842eb11409bf",
+    "terminal": "67d52f4970ee06e8799a5c9d2cfb11e24337ff8eebfa3adb44a4de952531adb0",
+    "unit": "6ed00d3bacc473e04b494a877f72c4332355c15520800cf5ab99992d3616557c"
+  },
+  "codex_as_worker_invocation": "0_OF_1",
+  "disposition": "FAIL_CLOSED_DURING_INDEPENDENT_STATIC_VALIDATION_PRELOCK_TERMINAL_NO_RETRY_FROZEN_FAILURE_EVIDENCE",
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V20",
+  "failure_manifest_declared_member_count": 78,
+  "failure_manifest_declared_root_sha256": "c172eccb0e43bd0fe15bdc110835fff6017e885ecfc927f9a4c807401aaf82fc",
+  "manifest_members": [
+    {
+      "bytes": 1705,
+      "path": "PRELOCK_TERMINAL_ENGINEERING_RESULT.json",
+      "sha256": "67d52f4970ee06e8799a5c9d2cfb11e24337ff8eebfa3adb44a4de952531adb0"
+    },
+    {
+      "bytes": 10989,
+      "path": "adversarial-selftests-run-0001/immediate-0001-result.json",
+      "sha256": "7efa2b8a3adaaff090c3489921905cd90bf05204c0c1e2aaa96d7dcf56687bf9"
+    },
+    {
+      "bytes": 1233,
+      "path": "adversarial-selftests-run-0001/immediate-0001/events.jsonl",
+      "sha256": "88ce275dc769d10db7b9ad7c7d8083dda053c04a47b44df005a882c4856dfa58"
+    },
+    {
+      "bytes": 2032,
+      "path": "adversarial-selftests-run-0001/immediate-0001/fixture-expected-identity-ledger.jsonl",
+      "sha256": "2416eb78006f4e61be6f0d0c87b6e8abe0d087b2282ed6b09a1bc5c6432dbea3"
+    },
+    {
+      "bytes": 0,
+      "path": "adversarial-selftests-run-0001/immediate-0001/observer-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 659,
+      "path": "adversarial-selftests-run-0001/immediate-0001/ready.json",
+      "sha256": "27696ea8b5e7977555ccbcab4abee40b2e20e428884c896bf1840377b6357d38"
+    },
+    {
+      "bytes": 369,
+      "path": "adversarial-selftests-run-0001/immediate-0001/root-bound.json",
+      "sha256": "a114106c1c4f9f9c954dc51ea9e24ca970155848a6433850cc915c3e48cb2042"
+    },
+    {
+      "bytes": 145,
+      "path": "adversarial-selftests-run-0001/immediate-0001/root.json",
+      "sha256": "6e192db3d3be6a5339e7a386b4f662696bafb1f7a2550657d1e71017b363e528"
+    },
+    {
+      "bytes": 43331,
+      "path": "adversarial-selftests-run-0001/immediate-0001/snapshot.json",
+      "sha256": "a9e654c9ff1379ec5bc044e524c0d6ee50cd53d7a7bbc329198df0bd25892e96"
+    },
+    {
+      "bytes": 54,
+      "path": "adversarial-selftests-run-0001/immediate-0001/stop.json",
+      "sha256": "f6f05a76b7cd9b244b6ab0a0e3dd2fd46e9d5773911b8d03fa9098fa47ee6503"
+    },
+    {
+      "bytes": 572118,
+      "path": "adversarial-selftests-run-0001/immediate-0001/traces/trace.22125",
+      "sha256": "1032caa0aa7779f598ead37087d33bf39659a4ca53e59f467427eb664b467d76"
+    },
+    {
+      "bytes": 1048,
+      "path": "adversarial-selftests-run-0001/immediate-0001/traces/trace.22126",
+      "sha256": "240a0a5dbf9c0db7c8047ccb8726fd97da190d8c629c1e942bdc210b0588f8ad"
+    },
+    {
+      "bytes": 1048,
+      "path": "adversarial-selftests-run-0001/immediate-0001/traces/trace.22127",
+      "sha256": "09d5498791fd428fb49d74a8a9390c1ec4ab071576acfb49cafc590bfdd0f42a"
+    },
+    {
+      "bytes": 1048,
+      "path": "adversarial-selftests-run-0001/immediate-0001/traces/trace.22128",
+      "sha256": "7432a2243f058f83dd39e6ec1bfa65394a64cf713863eaf895149a291503cb35"
+    },
+    {
+      "bytes": 1048,
+      "path": "adversarial-selftests-run-0001/immediate-0001/traces/trace.22129",
+      "sha256": "e5335909254b8196f22effc8262823beee66db4b1ffc374844270ce443d44231"
+    },
+    {
+      "bytes": 1048,
+      "path": "adversarial-selftests-run-0001/immediate-0001/traces/trace.22130",
+      "sha256": "662641a9ac02267118fac916f8bffc49184137a950519b56499994e70679c0c6"
+    },
+    {
+      "bytes": 1048,
+      "path": "adversarial-selftests-run-0001/immediate-0001/traces/trace.22131",
+      "sha256": "143fc61131d76d87d6a4ccfceee411fc0cc5a91ed0f847e5248c29dcd58723a7"
+    },
+    {
+      "bytes": 8426,
+      "path": "adversarial-selftests-run-0001/long-lived-0001-result.json",
+      "sha256": "33d044373469a34af29a37778e576f5b54bb797f2dc5e0ccf222702d1c638068"
+    },
+    {
+      "bytes": 1233,
+      "path": "adversarial-selftests-run-0001/long-lived-0001/events.jsonl",
+      "sha256": "13e3c1c63173d2cda910b7e18a48b2eb554298f30bc36138b127a1e016ed701b"
+    },
+    {
+      "bytes": 1009,
+      "path": "adversarial-selftests-run-0001/long-lived-0001/fixture-expected-identity-ledger.jsonl",
+      "sha256": "18d7ee11695603cf077acd1e51a2f8c090dd8529261304496e669e10384587f0"
+    },
+    {
+      "bytes": 0,
+      "path": "adversarial-selftests-run-0001/long-lived-0001/observer-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 659,
+      "path": "adversarial-selftests-run-0001/long-lived-0001/ready.json",
+      "sha256": "5ce0157dbb9259a3e8a60140e5aa06ef9526c2efd6d6757162d0c289fe9b6170"
+    },
+    {
+      "bytes": 369,
+      "path": "adversarial-selftests-run-0001/long-lived-0001/root-bound.json",
+      "sha256": "f445c3d86ba8988591c3257d412c403f2c4792ce1cc24a601a1ce105564770f2"
+    },
+    {
+      "bytes": 145,
+      "path": "adversarial-selftests-run-0001/long-lived-0001/root.json",
+      "sha256": "d527e8c11b8c3b87aa7840d2eebfa5e12fda56c5270b2c7234c2d4efa90a1d76"
+    },
+    {
+      "bytes": 27060,
+      "path": "adversarial-selftests-run-0001/long-lived-0001/snapshot.json",
+      "sha256": "3c4ccb04141ddc874e3ea1fa0ea5eccbde6e76206ef6012cb7b12bf24e9223eb"
+    },
+    {
+      "bytes": 54,
+      "path": "adversarial-selftests-run-0001/long-lived-0001/stop.json",
+      "sha256": "f6f05a76b7cd9b244b6ab0a0e3dd2fd46e9d5773911b8d03fa9098fa47ee6503"
+    },
+    {
+      "bytes": 566631,
+      "path": "adversarial-selftests-run-0001/long-lived-0001/traces/trace.22079",
+      "sha256": "49fb97cd6cec3d1769966f7fd9a842c7ebe932652a1ff68a9df646679bb3bc42"
+    },
+    {
+      "bytes": 8524,
+      "path": "adversarial-selftests-run-0001/long-lived-0001/traces/trace.22082",
+      "sha256": "ebe8796b07befcdbce17dfe1d42f2c9195dbfebbd84f039ba62f89dd9c7795b8"
+    },
+    {
+      "bytes": 8524,
+      "path": "adversarial-selftests-run-0001/long-lived-0001/traces/trace.22083",
+      "sha256": "ebe8796b07befcdbce17dfe1d42f2c9195dbfebbd84f039ba62f89dd9c7795b8"
+    },
+    {
+      "bytes": 8524,
+      "path": "adversarial-selftests-run-0001/long-lived-0001/traces/trace.22084",
+      "sha256": "ebe8796b07befcdbce17dfe1d42f2c9195dbfebbd84f039ba62f89dd9c7795b8"
+    },
+    {
+      "bytes": 8524,
+      "path": "adversarial-selftests-run-0001/long-lived-0001/traces/trace.22085",
+      "sha256": "ebe8796b07befcdbce17dfe1d42f2c9195dbfebbd84f039ba62f89dd9c7795b8"
+    },
+    {
+      "bytes": 5858,
+      "path": "adversarial-selftests-run-0001/nested-0001-result.json",
+      "sha256": "4b01c8782c5f69aae0127dd29470cf346bf6588aef152e6602bbf91c2109a504"
+    },
+    {
+      "bytes": 1233,
+      "path": "adversarial-selftests-run-0001/nested-0001/events.jsonl",
+      "sha256": "ccb5cdfcce67c7802c9a1f57567b7157f1cdd0cb455d09c55fdd6e49c1fb465e"
+    },
+    {
+      "bytes": 700,
+      "path": "adversarial-selftests-run-0001/nested-0001/fixture-expected-identity-ledger.jsonl",
+      "sha256": "485e4aa89d31315f676dc2784a64b7190eedc17ecd7ff0f7d70f6db4f566c3d7"
+    },
+    {
+      "bytes": 0,
+      "path": "adversarial-selftests-run-0001/nested-0001/observer-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 659,
+      "path": "adversarial-selftests-run-0001/nested-0001/ready.json",
+      "sha256": "5870191f83887f466cc6d0946cb173593984e203588c8b5a850d39b3015be627"
+    },
+    {
+      "bytes": 369,
+      "path": "adversarial-selftests-run-0001/nested-0001/root-bound.json",
+      "sha256": "8b9652355ef0fa19d467137bd34a7e4ee475b14e387bb153c44fd72071c52e90"
+    },
+    {
+      "bytes": 145,
+      "path": "adversarial-selftests-run-0001/nested-0001/root.json",
+      "sha256": "a368781f645559acb135bdc402f20b907047c31a3aa7795285912487febc69fd"
+    },
+    {
+      "bytes": 22020,
+      "path": "adversarial-selftests-run-0001/nested-0001/snapshot.json",
+      "sha256": "1991baf9f6317a020abeb742630ccf844add9ae0dd503e93b27eedfa31cd1800"
+    },
+    {
+      "bytes": 54,
+      "path": "adversarial-selftests-run-0001/nested-0001/stop.json",
+      "sha256": "f6f05a76b7cd9b244b6ab0a0e3dd2fd46e9d5773911b8d03fa9098fa47ee6503"
+    },
+    {
+      "bytes": 563582,
+      "path": "adversarial-selftests-run-0001/nested-0001/traces/trace.22136",
+      "sha256": "d6338fcbde17c8e0ad2dd33fc97d3a3745059bd9eec59a4bef5267f4e1bf8831"
+    },
+    {
+      "bytes": 232200,
+      "path": "adversarial-selftests-run-0001/nested-0001/traces/trace.22137",
+      "sha256": "537323f526afba04c4e9257adb58a638d2774b640060857154045aa955176a1d"
+    },
+    {
+      "bytes": 2388,
+      "path": "adversarial-selftests-run-0001/nested-0001/traces/trace.22138",
+      "sha256": "79a8327112a4b1be0bc599002fd973a5d209e8917005fbba4f39a73119fa9400"
+    },
+    {
+      "bytes": 10991,
+      "path": "adversarial-selftests-run-0001/overlapping-0001-result.json",
+      "sha256": "18c1dfb0fbb7266c4e7a84e49511c6b3365336915bbd0bca9489ac8a855b72d2"
+    },
+    {
+      "bytes": 1233,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/events.jsonl",
+      "sha256": "78ce1dff71fd7bedd8186feb44b2bbd1365428fcf8229f336603c3786696d51b"
+    },
+    {
+      "bytes": 1318,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/fixture-expected-identity-ledger.jsonl",
+      "sha256": "49938676a7af8b59d818eb609a3253cd8120b603b03bc332b13d25dfb39affe4"
+    },
+    {
+      "bytes": 0,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/observer-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 659,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/ready.json",
+      "sha256": "70ec5ce34c7e909871b7d2e92714c1c06a7ed306fdb421cacebe8d968387e431"
+    },
+    {
+      "bytes": 369,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/root-bound.json",
+      "sha256": "98883ca71652e51e156c1d8d84157e5633b0d5906b3934f206be22534b332a17"
+    },
+    {
+      "bytes": 145,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/root.json",
+      "sha256": "bf3f3efb645ecaeebf72a184601b347e56b237e1ce86a85936ae338a97cb5f19"
+    },
+    {
+      "bytes": 37580,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/snapshot.json",
+      "sha256": "4915f013519f17aa52c82946437963d1e4b1a7d4920e96b929d73b250386130c"
+    },
+    {
+      "bytes": 54,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/stop.json",
+      "sha256": "f6f05a76b7cd9b244b6ab0a0e3dd2fd46e9d5773911b8d03fa9098fa47ee6503"
+    },
+    {
+      "bytes": 569515,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/traces/trace.22107",
+      "sha256": "ecb6f8757232e0ca1dec9d49592fd70ee670dc24e1d445da404132a0e8cebeca"
+    },
+    {
+      "bytes": 8524,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/traces/trace.22108",
+      "sha256": "cdab1c38d101e66502b5ffdb143854cb0acbb25f03a98433799ad66976cd9237"
+    },
+    {
+      "bytes": 8524,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/traces/trace.22109",
+      "sha256": "cdab1c38d101e66502b5ffdb143854cb0acbb25f03a98433799ad66976cd9237"
+    },
+    {
+      "bytes": 8524,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/traces/trace.22110",
+      "sha256": "cdab1c38d101e66502b5ffdb143854cb0acbb25f03a98433799ad66976cd9237"
+    },
+    {
+      "bytes": 8524,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/traces/trace.22111",
+      "sha256": "cdab1c38d101e66502b5ffdb143854cb0acbb25f03a98433799ad66976cd9237"
+    },
+    {
+      "bytes": 8524,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/traces/trace.22112",
+      "sha256": "cdab1c38d101e66502b5ffdb143854cb0acbb25f03a98433799ad66976cd9237"
+    },
+    {
+      "bytes": 8524,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/traces/trace.22113",
+      "sha256": "cdab1c38d101e66502b5ffdb143854cb0acbb25f03a98433799ad66976cd9237"
+    },
+    {
+      "bytes": 10990,
+      "path": "adversarial-selftests-run-0001/sequential-0001-result.json",
+      "sha256": "557a22df234f133f4385778cc4847a12dcfa39deb50b730b4622a24475e481d9"
+    },
+    {
+      "bytes": 1233,
+      "path": "adversarial-selftests-run-0001/sequential-0001/events.jsonl",
+      "sha256": "e04b44af3c53f58311bdf83ab9f5fd839b4ffc9429756664fdc9c2e81abb00f6"
+    },
+    {
+      "bytes": 1309,
+      "path": "adversarial-selftests-run-0001/sequential-0001/fixture-expected-identity-ledger.jsonl",
+      "sha256": "d7d2dfecf7ca0e11915509909255cf1cd4bf9a63354bf10c5dcc22b70f831449"
+    },
+    {
+      "bytes": 0,
+      "path": "adversarial-selftests-run-0001/sequential-0001/observer-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 659,
+      "path": "adversarial-selftests-run-0001/sequential-0001/ready.json",
+      "sha256": "bff392916e8efda3418009e7885a2fbe34160f731f0e4b07369bfb21a73cfde6"
+    },
+    {
+      "bytes": 369,
+      "path": "adversarial-selftests-run-0001/sequential-0001/root-bound.json",
+      "sha256": "f7e773da806d274fcec24817d7d2b768acf45ea1f68643264fc3fa9e728cb17b"
+    },
+    {
+      "bytes": 145,
+      "path": "adversarial-selftests-run-0001/sequential-0001/root.json",
+      "sha256": "df59cedf7a73dea1d9f415022fae6b04ba0740b05c7e40fa8d61e585c18d1f53"
+    },
+    {
+      "bytes": 40837,
+      "path": "adversarial-selftests-run-0001/sequential-0001/snapshot.json",
+      "sha256": "8694d4cdb180eb8fc6f791daeaea4f93c26dad94a0b0707894c02fef16a35dce"
+    },
+    {
+      "bytes": 54,
+      "path": "adversarial-selftests-run-0001/sequential-0001/stop.json",
+      "sha256": "f6f05a76b7cd9b244b6ab0a0e3dd2fd46e9d5773911b8d03fa9098fa47ee6503"
+    },
+    {
+      "bytes": 569278,
+      "path": "adversarial-selftests-run-0001/sequential-0001/traces/trace.22097",
+      "sha256": "1a99efbc9dbbc6f22f580a0d8a52b1cfc6e81aa790ac602291f9607e75d12bac"
+    },
+    {
+      "bytes": 2388,
+      "path": "adversarial-selftests-run-0001/sequential-0001/traces/trace.22098",
+      "sha256": "77ac17aa136b64782eaf5002cf510707ff8951bbe8f2515b45379e495dc5c33b"
+    },
+    {
+      "bytes": 2388,
+      "path": "adversarial-selftests-run-0001/sequential-0001/traces/trace.22099",
+      "sha256": "77ac17aa136b64782eaf5002cf510707ff8951bbe8f2515b45379e495dc5c33b"
+    },
+    {
+      "bytes": 2388,
+      "path": "adversarial-selftests-run-0001/sequential-0001/traces/trace.22100",
+      "sha256": "77ac17aa136b64782eaf5002cf510707ff8951bbe8f2515b45379e495dc5c33b"
+    },
+    {
+      "bytes": 2388,
+      "path": "adversarial-selftests-run-0001/sequential-0001/traces/trace.22101",
+      "sha256": "77ac17aa136b64782eaf5002cf510707ff8951bbe8f2515b45379e495dc5c33b"
+    },
+    {
+      "bytes": 2388,
+      "path": "adversarial-selftests-run-0001/sequential-0001/traces/trace.22102",
+      "sha256": "77ac17aa136b64782eaf5002cf510707ff8951bbe8f2515b45379e495dc5c33b"
+    },
+    {
+      "bytes": 2388,
+      "path": "adversarial-selftests-run-0001/sequential-0001/traces/trace.22103",
+      "sha256": "77ac17aa136b64782eaf5002cf510707ff8951bbe8f2515b45379e495dc5c33b"
+    },
+    {
+      "bytes": 1724,
+      "path": "independent-static-validation-execution-failure-run-0001.json",
+      "sha256": "44383fd44c777a031933829e9d4c25d3a88fcac7053417ad49fe90114a657c35"
+    },
+    {
+      "bytes": 115855,
+      "path": "primary-static-validation-run-0001.json",
+      "sha256": "6e121dc8dc5c4c2eee89f321a236854d25192da7674c397b1fc6842eb11409bf"
+    },
+    {
+      "bytes": 148215,
+      "path": "unit-fixtures-run-0001.json",
+      "sha256": "6ed00d3bacc473e04b494a877f72c4332355c15520800cf5ab99992d3616557c"
+    }
+  ],
+  "prelock_member_count_including_manifest_and_freeze_verification": 80,
+  "prelock_tree_sha256": "da12a9ebc711de7c6a3eb61d8295f2772b89ef4b7ba02a063dcf09f5157d3242",
+  "runtime_evidence": "ABSENT",
+  "static_lock": "NOT_ISSUED",
+  "validation": {
+    "independent": "FAIL_CLOSED_EXECUTION_ERROR",
+    "primary": "66_OF_66_PASS",
+    "unit": "203_OF_203_PASS"
+  },
+  "worker_invocation": "0_OF_1",
+  "workspace_member_count": 179,
+  "workspace_tree_sha256": "6a8c7a4516e81a8890d22948e7bd6f55c429cf9f83682b761b33afb4ff0eb192"
+}

@@ -1,0 +1,30 @@
+{
+  "contract_identity": "V35_TYPED_CANONICAL_MODULE_IDENTITY_CONTRACT_V1",
+  "count_only_equivalence": "PROHIBITED",
+  "per_symbol_equivalence": "EXACT_ROW_IDENTITY_REQUIRED",
+  "record_type": "TYPED_CANONICAL_STANDARD_LIBRARY_MODULE_IDENTITY_CONTRACT",
+  "required_module_classes": [
+    "LOCAL_SOURCE_MODULE",
+    "PURE_PYTHON_STDLIB",
+    "BUILTIN_MODULE",
+    "FROZEN_MODULE",
+    "EXTENSION_MODULE"
+  ],
+  "required_module_fields": [
+    "logical_module_identity",
+    "module_category",
+    "expected_import_name",
+    "expected_module_origin",
+    "expected_loader_identity",
+    "runtime_identity"
+  ],
+  "shadow_resolution": "FAIL_CLOSED",
+  "source_digest_rule": {
+    "BUILTIN_MODULE": "NO_NORMAL_SOURCE_ARTIFACT;BIND_EXACT_RUNTIME_AND_BUILTIN_ORIGIN",
+    "EXTENSION_MODULE": "EXACT_BINARY_DIGEST_REQUIRED",
+    "FROZEN_MODULE": "NO_NORMAL_SOURCE_ARTIFACT;BIND_EXACT_RUNTIME_AND_FROZEN_ORIGIN",
+    "LOCAL_SOURCE_MODULE": "EXACT_SOURCE_DIGEST_REQUIRED",
+    "PURE_PYTHON_STDLIB": "EXACT_SOURCE_DIGEST_REQUIRED"
+  },
+  "wrong_origin_or_loader": "FAIL_CLOSED"
+}

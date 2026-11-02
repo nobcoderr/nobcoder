@@ -1,0 +1,36 @@
+{
+  "canonical_evidence_root_sha256": "74a6dd34f54837072f4512edbdf75e75f481d444c6ce454b5cf58a8254739e81",
+  "failure_manifest_sha256": "29362bbceb9d4ea369711c4c691944c0bd055b3458ed0c43d426e4a73fa3be53",
+  "freeze_verification_sha256": "51f6f74dfcdcd43f6b115d624a16052583caba40677221532814548c3a2812dd",
+  "record_type": "V29_FROZEN_FAILURE_EVIDENCE_BINDING",
+  "status": "PASS",
+  "terminal_sha256": "c40e3eb76f98a71a9b781eb486d548d18221b20efb4732a3226ee4eb09379c6b",
+  "v29_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V29",
+  "verification": {
+    "canonical_evidence_root_sha256": "74a6dd34f54837072f4512edbdf75e75f481d444c6ce454b5cf58a8254739e81",
+    "checks": {
+      "attempt_marker_absent": true,
+      "counts_zero": true,
+      "evidence_root": true,
+      "failed_gates": true,
+      "freeze_digest": true,
+      "independent_not_started": true,
+      "manifest_digest": true,
+      "member_count": true,
+      "members_read_only_exact": true,
+      "no_bytecode": true,
+      "preflight_not_started": true,
+      "prelock_results_read_only": true,
+      "primary_not_started": true,
+      "runtime_evidence_absent": true,
+      "static_lock_not_issued": true,
+      "terminal_digest": true,
+      "terminal_state": true,
+      "unit_counts": true,
+      "unit_digest": true
+    },
+    "member_count": 101,
+    "record_type": "V29_FROZEN_FAILURE_EVIDENCE_VERDICT",
+    "status": "PASS"
+  }
+}

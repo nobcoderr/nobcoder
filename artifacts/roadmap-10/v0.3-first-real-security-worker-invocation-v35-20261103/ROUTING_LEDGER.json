@@ -1,0 +1,44 @@
+{
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "record_type": "FIRST_REAL_SECURITY_WORKER_INVOCATION_ROUTING_LEDGER",
+  "schema_version": "1.0",
+  "routes": [
+    {
+      "module": "mandatory-auto-router",
+      "reason": "mandatory entrypoint for an authorized security-harness execution",
+      "state": "ACTIVE"
+    },
+    {
+      "module": "authorized-security-autopilot",
+      "reason": "enforces the exact local-fixture authorization and fail-closed evidence gates",
+      "state": "ACTIVE"
+    },
+    {
+      "module": "agentic-security-research-harness",
+      "reason": "no campaign research or finding triage occurs in this local harness engineering milestone",
+      "state": "NOT_APPLICABLE"
+    },
+    {
+      "module": "external-ai-security-tool-governor",
+      "reason": "no external security platform, broker, scanner, or evidence egress is authorized",
+      "state": "NOT_APPLICABLE"
+    },
+    {
+      "module": "codex-security-harness",
+      "reason": "the operation is the first bounded Codex SecurityWorker invocation",
+      "state": "ACTIVE"
+    },
+    {
+      "module": "target-specific vulnerability specialists",
+      "reason": "no target, source audit, vulnerability candidate, or exploit exists in this fixture milestone",
+      "state": "NOT_APPLICABLE"
+    },
+    {
+      "module": "multi-agent and parallel research",
+      "reason": "subagent and parallel execution remain outside the authority ceiling",
+      "state": "DEFERRED"
+    }
+  ],
+  "subagents_used": false,
+  "target_present": false
+}

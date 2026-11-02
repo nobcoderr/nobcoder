@@ -1,0 +1,16 @@
+{
+  "record_type": "V35_TYPED_VALIDATOR_HELPER_RETURN_REGRESSION_MATRIX",
+  "contract_identity": "V35_TYPED_CRITICAL_VALIDATOR_HELPER_RETURN_CONTRACT_V1",
+  "governance_lock_sha256": "d2263268f61b9ddde99a0b60f4b43a26df1586e0c577ba2ca98c07b64c21f811",
+  "case_count": 8,
+  "cases": [
+    {"id": "CHECKS_CONSTRUCTED_RETURN_OMITTED", "expected": "FAIL_CLOSED"},
+    {"id": "IMPLICIT_NONE", "expected": "FAIL_CLOSED"},
+    {"id": "UNREACHABLE_RETURN", "expected": "FAIL_CLOSED"},
+    {"id": "RETURN_AFTER_SIBLING_FUNCTION_DEFINITION", "expected": "FAIL_CLOSED"},
+    {"id": "WRONGLY_NESTED_RETURN", "expected": "FAIL_CLOSED"},
+    {"id": "WRONG_RESULT_TYPE", "expected": "FAIL_CLOSED"},
+    {"id": "CALLER_FIELD_CONSUMPTION_BEFORE_TYPE_GUARD", "expected": "FAIL_CLOSED"},
+    {"id": "EXACT_TYPED_REACHABLE_VERDICT_AND_GUARDED_CALLER", "expected": "PASS"}
+  ]
+}

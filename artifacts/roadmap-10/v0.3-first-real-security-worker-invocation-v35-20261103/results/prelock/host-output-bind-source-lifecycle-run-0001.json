@@ -1,0 +1,18 @@
+{
+  "binding_generation_identity": "V35_CURRENT_GOVERNANCE_BOUND_TYPED_PREFLIGHT_BINDING_GENERATION_0001",
+  "canonical_path": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v35-20261103/static-run-v35",
+  "contract_sha256": "e967cf7ba2470942a2ed01c53fd6004202bf74fe42771f6730142c594d5f447a",
+  "created_before_feasibility_validation": true,
+  "creation_semantics": "ATOMIC_EXCLUSIVE_DIRECTORY_CREATION_NO_EXIST_OK",
+  "creation_stage": "AFTER_WORKSPACE_BOUNDARY_BEFORE_BIND_FEASIBILITY",
+  "creator_component": "V35_HOST_OUTPUT_BIND_SOURCE_PROVISIONER_V1",
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "initial_state": "EMPTY_DIRECTORY",
+  "mode": "0700",
+  "owner_gid": 1000,
+  "owner_uid": 1000,
+  "preexisting_state": false,
+  "record_type": "V35_HOST_OUTPUT_BIND_SOURCE_PROVISIONING_EVIDENCE",
+  "status": "PASS",
+  "workspace_boundary_status": "PASS"
+}

@@ -1,0 +1,15 @@
+{
+  "attempt": "0/1",
+  "attempt_marker": "ABSENT",
+  "codex": "0/1",
+  "failed_gate": "UNIT_HARNESS_NEGATIVE_FIXTURE_PARENT_DIRECTORY_LIFECYCLE",
+  "independent": "NOT_STARTED",
+  "preflight": "NOT_STARTED",
+  "primary": "NOT_STARTED",
+  "record_type": "V34_FAILURE_FACTS",
+  "runtime_evidence": "ABSENT",
+  "static_lock": "NOT_ISSUED",
+  "status": "PASS",
+  "unit": "FAIL_CLOSED_EXECUTION_ERROR",
+  "worker": "0/1"
+}

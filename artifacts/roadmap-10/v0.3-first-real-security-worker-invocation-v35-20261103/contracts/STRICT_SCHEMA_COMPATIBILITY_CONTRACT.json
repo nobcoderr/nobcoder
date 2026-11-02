@@ -1,0 +1,32 @@
+{
+  "attempt_marker_order": "STRICT_SCHEMA_PRECHECK_PASS_REQUIRED_BEFORE_ATTEMPT_MARKER",
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "failure_semantics": {
+    "attempt_count": 0,
+    "codex_as_worker_invocation_count": 0,
+    "status": "STOP_FAIL_CLOSED",
+    "worker_invocation_count": 0
+  },
+  "forbidden_keywords": [
+    "uniqueItems"
+  ],
+  "provider_runtime": "CODEX_0_163_0",
+  "record_type": "FIRST_REAL_SECURITY_WORKER_INVOCATION_STRICT_SCHEMA_COMPATIBILITY_CONTRACT",
+  "schema_version": "1.0",
+  "supported_keywords": [
+    "$schema",
+    "additionalProperties",
+    "const",
+    "description",
+    "items",
+    "maxItems",
+    "minItems",
+    "minLength",
+    "properties",
+    "required",
+    "title",
+    "type"
+  ],
+  "unknown_keyword": "FAIL_CLOSED",
+  "validation": "RECURSIVE_SCHEMA_NODE_ALLOWLIST_PROPERTY_NAMES_ARE_NOT_KEYWORDS"
+}

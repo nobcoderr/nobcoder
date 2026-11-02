@@ -1,0 +1,9 @@
+{
+  "best_effort_acceptance": "PROHIBITED",
+  "mount_provenance_process_lineage_runtime_topology_producer_authorization_and_confinement": "SEPARATE_INDEPENDENT_GATES",
+  "n_minus_one": "FAIL_CLOSED",
+  "pass_rule": "lineage_relevant_trace_identities=N AND valid_temporal_identity_records=N AND missing=0 AND ambiguous=0",
+  "percentage_thresholds": "PROHIBITED",
+  "record_type": "V13_V26_COMPLETE_TEMPORAL_IDENTITY_COVERAGE_INVARIANT",
+  "status": "PASS_LOCKED_NORMATIVE_REQUIREMENT"
+}

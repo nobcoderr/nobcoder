@@ -1,0 +1,48 @@
+{
+  "checks": [
+    {
+      "id": "R001_V34_BYTE_EXACT",
+      "status": "PASS"
+    },
+    {
+      "id": "R002_V33_BYTE_EXACT",
+      "status": "PASS"
+    },
+    {
+      "id": "R003_VALIDATIONS_PASS",
+      "status": "PASS"
+    },
+    {
+      "id": "R004_V34_STATIC_LOCK_ABSENT",
+      "status": "PASS"
+    },
+    {
+      "id": "R005_V34_ATTEMPT_ABSENT",
+      "status": "PASS"
+    },
+    {
+      "id": "R006_V34_RUNTIME_ABSENT",
+      "status": "PASS"
+    },
+    {
+      "id": "R007_V35_ABSENT",
+      "status": "PASS"
+    },
+    {
+      "id": "R008_NO_BYTECODE",
+      "status": "PASS"
+    },
+    {
+      "id": "R009_COUNTERS_ZERO",
+      "status": "PASS"
+    },
+    {
+      "id": "R010_NEGATIVES_MUTATION_FREE",
+      "status": "PASS"
+    }
+  ],
+  "passed": 10,
+  "record_type": "READ_ONLY_INTEGRITY_VERIFICATION",
+  "status": "PASS",
+  "total": 10
+}

@@ -1,0 +1,28 @@
+{
+  "attempt": "0/1",
+  "binding_generation_identity": "V31_CURRENT_GOVERNANCE_BOUND_TYPED_PREFLIGHT_BINDING_GENERATION_0001",
+  "carry_forward": "ALL_APPLICABLE_V1_THROUGH_V30_CONTROLS",
+  "codex_as_worker_invocation": "0/1",
+  "execute_only_if_all_gates_pass": true,
+  "record_type": "SUCCESSOR_V31_REQUIREMENTS",
+  "required_contracts": [
+    "V31_HOST_OUTPUT_BIND_SOURCE_LIFECYCLE_CONTRACT_V1",
+    "V31_TYPED_CODEX_RUNTIME_ACCEPTANCE_BINDING_CONTRACT_V1",
+    "V31_CURRENT_GOVERNANCE_BOUND_TYPED_PREFLIGHT_BINDING_GENERATION_CONTRACT_V1"
+  ],
+  "required_sequence": [
+    "UNIT",
+    "PRIMARY",
+    "INDEPENDENT",
+    "FRESH_PREFLIGHT",
+    "DEPENDENCY_CLOSURE",
+    "STATIC_LOCK",
+    "LOCK_VERIFICATION",
+    "POST_LOCK_READINESS",
+    "LOCKED_PRE_ATTEMPT_WALK"
+  ],
+  "state": "CONDITIONALLY_AUTHORIZED_NOT_CREATED_NOT_EXECUTED",
+  "status": "CONDITIONALLY_AUTHORIZED_NOT_CREATED_NOT_EXECUTED",
+  "successor_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V31",
+  "worker_invocation": "0/1"
+}

@@ -1,0 +1,27 @@
+{
+  "DIRECT_LOGICAL_IDENTITY_PHYSICAL_RECORD_TYPE_EQUALITY_REQUIREMENT": "INCORRECT",
+  "FROZEN_HISTORICAL_DECISION_ARTIFACT_DEFECT": "NO",
+  "HISTORICAL_DECISION_REGISTRY_LOGICAL_IDENTITY_TO_RECORD_TYPE_BINDING_DEFECT": "YES",
+  "V24": "TERMINAL_IMMUTABLE_NO_RETRY",
+  "V25": "CONDITIONALLY_AUTHORIZED_NOT_CREATED_NOT_EXECUTED",
+  "fixture_results_are_not_runtime_success": true,
+  "historical_artifact_count": 5,
+  "physical_record_type_state": "ABSENT_IN_ALL_FIVE_LEGACY_ARTIFACTS",
+  "record_type": "V24_HISTORICAL_DECISION_REGISTRY_DEFECT_ADJUDICATION",
+  "runtime": {
+    "codex": "NOT_ESTABLISHED",
+    "confinement": "NOT_PROVEN",
+    "process_lineage": "NOT_PROVEN",
+    "producer_authorization": "NOT_PROVEN",
+    "security_worker": "NOT_ESTABLISHED",
+    "temporal": "NOT_ESTABLISHED"
+  },
+  "successful_fixture_facts": [
+    "ALL_FIVE_ADVERSARIAL_TEMPORAL_MODES_PASS",
+    "NESTED_ATOMIC_PUBLICATION_PASS",
+    "NESTED_COMPLETION_GATE_PASS",
+    "NESTED_PARSING_PASS",
+    "NESTED_STRICT_N_OF_N_PASS",
+    "NO_UNDECLARED_PYC_OR_PYCACHE"
+  ]
+}

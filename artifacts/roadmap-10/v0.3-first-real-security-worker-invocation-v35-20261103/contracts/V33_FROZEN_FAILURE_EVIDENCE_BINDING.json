@@ -1,0 +1,38 @@
+{
+  "canonical_evidence_root_sha256": "7697ad9d1f20e8e47d6544031c229b9037dec1fd8c7ab7574d1f3091e729227d",
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V33",
+  "failure_manifest_sha256": "67e9a687aae31566859e01d58a1713e91ccb6bb2876154f3dd9032ba4640c01c",
+  "freeze_verification_sha256": "111604877cb22a242b4c8252a7472555dd673f9b1512d34f4cd9c1a84bfb260b",
+  "primary_execution_error_sha256": "0823c88ecaea58c6a1e1fcb9929ef2debf19fb4f9bc8eea2e36e9c36fa73e88f",
+  "record_type": "V33_FROZEN_FAILURE_EVIDENCE_BINDING",
+  "status": "PASS",
+  "terminal_sha256": "6fc29626608e6a286e21b7b442ccc5d3c299513fa378439f23c2898630e7ad62",
+  "unit_sha256": "3f2f8dc40fba2cb3fb981dc482a0021741ea1391c7eb3ad14b05e96f98c87ef9",
+  "verification": {
+    "canonical_evidence_root_sha256": "7697ad9d1f20e8e47d6544031c229b9037dec1fd8c7ab7574d1f3091e729227d",
+    "checks": {
+      "attempt_absent": true,
+      "counts_zero": true,
+      "derived_digest_view_unit_pass": true,
+      "freeze_digest": true,
+      "later_gates_not_started": true,
+      "manifest_digest": true,
+      "members_exact": true,
+      "no_bytecode": true,
+      "primary_error_digest": true,
+      "primary_failure": true,
+      "root_exact": true,
+      "runtime_absent": true,
+      "runtime_authority_static_pass": true,
+      "static_lock_absent": true,
+      "terminal_digest": true,
+      "terminal_state": true,
+      "unit_counts": true,
+      "unit_digest": true,
+      "workspace_read_only": true
+    },
+    "member_count": 339,
+    "record_type": "V33_FROZEN_FAILURE_EVIDENCE_VERDICT",
+    "status": "PASS"
+  }
+}

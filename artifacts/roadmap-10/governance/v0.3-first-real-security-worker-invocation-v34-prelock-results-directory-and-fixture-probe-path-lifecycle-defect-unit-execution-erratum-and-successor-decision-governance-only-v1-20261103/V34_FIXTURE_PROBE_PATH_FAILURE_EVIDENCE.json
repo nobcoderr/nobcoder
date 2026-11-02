@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "exception_errno": true,
+    "exception_line": true,
+    "exception_type": true,
+    "guard_authorization_only": true,
+    "no_preceding_parent_provisioning": true,
+    "probe_assignment": true,
+    "source_contains_failure_operation": true,
+    "symlink_creation": true,
+    "unit_result_identifies_parent_absence": true,
+    "unit_validation_incomplete": true
+  },
+  "failure_stage": "BEFORE_UNIT_VALIDATION_COMPLETION_AND_BEFORE_FIRST_UNIT_RESULT_WRITE",
+  "probe_path": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v34-20261103/results/prelock/.v34-predecessor-symlink-probe",
+  "record_type": "V34_FIXTURE_PROBE_PARENT_LIFECYCLE_EVIDENCE",
+  "source": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v34-20261103/tests/run_unit_fixtures.py",
+  "source_sha256": "8517723e81e52dabf9bbba133d588c439121105e3dc584718ae30151a5884a23",
+  "status": "PASS",
+  "unit_result_sha256": "933ad055156fdae69331b28d7c239e5f2b2e385411abcede65155dacd04bc981"
+}

@@ -1,0 +1,31 @@
+{
+  "consumer_rule": "FINAL_PATH_EXISTENCE_ALONE_NEVER_MEANS_COMPLETE",
+  "failure_envelope_fields": [
+    "fixture_identity",
+    "observer_exit_code",
+    "failure_stage",
+    "failure_reason",
+    "classification",
+    "telemetry_complete",
+    "raw_output_sha256",
+    "raw_output_bytes",
+    "available_counters"
+  ],
+  "failure_envelope_required": true,
+  "malformed_or_truncated_telemetry": "FAIL_CLOSED_WITHOUT_RECLASSIFYING_OBSERVER_CAPTURE_LOGIC",
+  "publication": "ATOMIC_RENAME_AFTER_FSYNC_OR_EXACT_WRITE_ONCE_COMMIT_MARKER",
+  "record_type": "V24_ADVERSARIAL_SELFTEST_TRANSACTIONAL_TELEMETRY_CONTRACT",
+  "strict_coverage": {
+    "ambiguous": 0,
+    "missing": 0,
+    "percentage_thresholds": "PROHIBITED",
+    "trace_visible": "N",
+    "valid": "N"
+  },
+  "typed_classifications": [
+    "OBSERVER_EXECUTION_FAILURE",
+    "TELEMETRY_PUBLICATION_FAILURE",
+    "TELEMETRY_SERIALIZATION_FAILURE",
+    "TELEMETRY_PARSER_FAILURE"
+  ]
+}

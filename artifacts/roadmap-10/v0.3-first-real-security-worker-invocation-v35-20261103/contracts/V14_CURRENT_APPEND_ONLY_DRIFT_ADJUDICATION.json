@@ -1,0 +1,27 @@
+{
+  "current_member_count": 137,
+  "current_tree_root_sha256": "3660b20463a2f83dec08c04ac0ff74d553263a7e1c82ddf725b8cdffa460af68",
+  "identity_distinction": {
+    "current_v14_with_preserved_additions": "3660b20463a2f83dec08c04ac0ff74d553263a7e1c82ddf725b8cdffa460af68",
+    "historical_preincident_v14": "7fa1cadc56eb1186fc4d9efef27f215c9369c6c94b3e09199912563abd8328d4",
+    "identities_are_distinct": true
+  },
+  "modified_historical_members": [],
+  "omitted_historical_members": [],
+  "preserved_unauthorized_append_only_additions": [
+    {
+      "disposition": "IMMUTABLE_INCIDENT_EVIDENCE_NOT_CURRENT_READINESS",
+      "path": "results/prelock/dependency-closure-run-0001.json",
+      "sha256": "a437d4f2a8a8032ebdda5f6a6f3c83bc7a3e4f89494dc7cf1bf706ac852a972b"
+    },
+    {
+      "disposition": "IMMUTABLE_INCIDENT_EVIDENCE_NOT_CURRENT_READINESS",
+      "path": "results/prelock/fresh-preflight-run-0001.json",
+      "sha256": "b75552ef68c5d5de2238ea5787b3ee7e04ae2fc098fc9c8b7666141ed3597562"
+    }
+  ],
+  "record_type": "V14_CURRENT_WORKSPACE_APPEND_ONLY_DRIFT_ADJUDICATION",
+  "restoration_by_deletion_rename_overwrite_move_or_reclassification": "PROHIBITED",
+  "status": "PASS",
+  "unchanged_historical_member_count": 135
+}

@@ -1,0 +1,9 @@
+{"event":"FIXTURE_STARTED","fixture_class":"overlapping","host_pid":201114,"monotonic_ns":14595360026370,"parent_host_pid":201112}
+{"count":6,"event":"SPAWN_REQUESTED","fixture_class":"overlapping","host_pid":201114,"monotonic_ns":14595363860172,"parent_host_pid":201112}
+{"child_host_pid":201115,"event":"SPAWN_SUCCEEDED","fixture_class":"overlapping","host_pid":201114,"monotonic_ns":14595385900289,"parent_host_pid":201112}
+{"child_host_pid":201116,"event":"SPAWN_SUCCEEDED","fixture_class":"overlapping","host_pid":201114,"monotonic_ns":14595388561171,"parent_host_pid":201112}
+{"child_host_pid":201117,"event":"SPAWN_SUCCEEDED","fixture_class":"overlapping","host_pid":201114,"monotonic_ns":14595391300693,"parent_host_pid":201112}
+{"child_host_pid":201118,"event":"SPAWN_SUCCEEDED","fixture_class":"overlapping","host_pid":201114,"monotonic_ns":14595394015731,"parent_host_pid":201112}
+{"child_host_pid":201119,"event":"SPAWN_SUCCEEDED","fixture_class":"overlapping","host_pid":201114,"monotonic_ns":14595396548075,"parent_host_pid":201112}
+{"child_host_pid":201120,"event":"SPAWN_SUCCEEDED","fixture_class":"overlapping","host_pid":201114,"monotonic_ns":14595399332775,"parent_host_pid":201112}
+{"event":"FIXTURE_COMPLETED","fixture_class":"overlapping","host_pid":201114,"monotonic_ns":14595459401121,"parent_host_pid":201112,"status":"PASS"}

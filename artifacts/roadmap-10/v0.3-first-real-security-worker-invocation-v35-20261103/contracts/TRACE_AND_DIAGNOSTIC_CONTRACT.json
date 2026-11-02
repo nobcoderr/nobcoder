@@ -1,0 +1,61 @@
+{
+  "diagnostic_complete_post_validation": true,
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "fd_annotation_grammar": {
+    "class_dispatch_before_class_grammar": true,
+    "contract_path": "contracts/TYPED_FD_ANNOTATION_CONTRACT.json",
+    "known_types": [
+      "FILESYSTEM_PATH",
+      "PIPE",
+      "UNIX_STREAM",
+      "SOCKET",
+      "TCP",
+      "TCPV6",
+      "UDP",
+      "UDPV6",
+      "ANON_INODE",
+      "EVENTFD"
+    ],
+    "network_annotation_alone_is_network_verdict": false,
+    "not_mount_identity": true,
+    "not_pathname": true,
+    "not_process_identity": true,
+    "not_producer_identity": true,
+    "prohibited_inference": "FREE_TEXT_OR_PERMISSIVE_CATCH_ALL",
+    "required_regressions": [
+      "523996->523997",
+      "TCPv6:[1120305]"
+    ],
+    "unknown_annotation": "FAIL_CLOSED"
+  },
+  "missing_worker_result": "TYPED_STATE_NOT_VALIDATOR_ABORT",
+  "mount_provenance_capture": "HOST_CONTROLLER_READ_ONLY_PROC_MOUNTINFO",
+  "pid_namespace_decode": "STRACE_DECODE_PIDS_PIDNS_REQUIRED",
+  "cross_namespace_process_identity": "EVIDENCE_BOUND_HOST_AND_LOCAL_PID_MAPPING",
+  "proc_task_topology_capture": "LIVE_TEMPORALLY_BOUND_REQUIRED_FOR_EVERY_TRACE_FILE_TASK_ID",
+  "temporal_process_identity_observer": {
+    "contract_path": "contracts/TEMPORAL_PROCESS_IDENTITY_OBSERVER_CONTRACT.json",
+    "starts_before_attempt": true,
+    "readiness_attested_before_attempt": true,
+    "post_run_snapshot_only": "INSUFFICIENT",
+    "pid_reuse_identity": ["host_pid", "proc_starttime", "pid_namespace_identity"]
+  },
+  "record_type": "FIRST_REAL_SECURITY_WORKER_INVOCATION_TRACE_AND_DIAGNOSTIC_CONTRACT",
+  "schema_version": "1.0",
+  "typed_worker_result_states": [
+    "EMITTED_AND_CONTROLLER_WRAPPED",
+    "NOT_EMITTED_DUE_TO_RUNTIME_FAILURE",
+    "NOT_EMITTED_DUE_TO_LAUNCH_OR_TIMEOUT_FAILURE",
+    "INCONSISTENT_OUTPUT_ARTIFACT_STATE_FAIL_CLOSED"
+  ],
+  "typed_trace_requirements": [
+    "SEMANTIC_EXECVE_LINEAGE",
+    "EXACT_NAMESPACE_SETUP_WRITES",
+    "SYSCALL_PATH_OPERANDS_ONLY",
+    "PIPE_AND_STDERR_PAYLOAD_NEVER_INFERRED_AS_PATH",
+    "SYSCALL_FAMILY_DISPATCH_BEFORE_RETURN_PARSE",
+    "TYPED_EXIT_AND_EXIT_GROUP_EVENTS",
+    "TYPED_FD_ANNOTATION_GRAMMAR"
+    ,"TYPED_PID_RESULT_ANNOTATION_GRAMMAR"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "all_gates_must_independently_pass": true,
+  "cross_gate_substitution": "PROHIBITED",
+  "gates": [
+    "TEMPORAL_IDENTITY_COVERAGE",
+    "PROCESS_LINEAGE",
+    "RUNTIME_TOPOLOGY",
+    "MOUNT_PROVENANCE",
+    "PRODUCER_AUTHORIZATION",
+    "CONFINEMENT"
+  ],
+  "governance_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V24_HISTORICAL_DECISION_REGISTRY_LOGICAL_IDENTITY_TO_RECORD_TYPE_BINDING_DEFECT_PRELOCK_ERRATUM_AND_SUCCESSOR_DECISION_GOVERNANCE_ONLY",
+  "mount_provenance_does_not_imply": [
+    "PRODUCER_AUTHORIZATION",
+    "CONFINEMENT"
+  ],
+  "record_type": "V35_REQUIRED_INDEPENDENT_GATE_SEPARATION_CONTRACT",
+  "worker_result_success_does_not_imply": [
+    "PROCESS_LINEAGE",
+    "RUNTIME_TOPOLOGY",
+    "CONFINEMENT"
+  ]
+}

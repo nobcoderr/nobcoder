@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "V26 Fresh Validation Evidence Provenance",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["execution_identity", "family", "generation", "governance_lock_sha256", "record_type", "status"],
+  "properties": {
+    "record_type": {"const": "V26_FRESH_VALIDATION_EVIDENCE_PROVENANCE"},
+    "execution_identity": {"const": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V32"},
+    "generation": {"const": "run-0001"},
+    "family": {"enum": ["unit", "primary", "independent", "preflight", "closure"]},
+    "governance_lock_sha256": {"const": "3e841cf6ae437db8922a15c7939ecb7cb56e933a8db7eb1a3751b4cbb9a68b30"},
+    "status": {"enum": ["PASS", "READY_FOR_FINAL_CLOSURE_CHECK"]}
+  }
+}

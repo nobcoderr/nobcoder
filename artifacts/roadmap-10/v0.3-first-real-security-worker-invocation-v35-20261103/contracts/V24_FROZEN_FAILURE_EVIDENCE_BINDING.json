@@ -1,0 +1,28 @@
+{
+  "attempt": "0_OF_1",
+  "canonical_evidence_root_sha256": "4bfd0ed047bb1cb68ce94f65f2875c3937d8bd3cd6e3b8aa82a35000a3057b0f",
+  "codex": "0_OF_1",
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V24",
+  "hashes": {
+    "freeze": "7710b5298a3a01f042bb4642fd0270eaf8f09748ae638acf31a332be2a84d25c",
+    "manifest": "a23ca76ba8d9e9ff2fd1ecd69e10301a9ff2153a49c32579a8e4806ee92f6cd9",
+    "registry": "8c6f139e3fc6d61977744b6289d2bd10cc439cccf286f24d2cfe559bc566cf70",
+    "terminal": "d918fc6c483dcbb221e22832d60cdc6c4db10ef82d14091cb31cb90c2efe19cd",
+    "unit": "56ee7e80f05311514e6eae602157a52619484b82607cf0a05628eb15222a2f66"
+  },
+  "independent": "NOT_STARTED",
+  "primary": "NOT_STARTED",
+  "record_type": "V24_FROZEN_FAILURE_EVIDENCE_BINDING",
+  "state": "FAIL_CLOSED_DURING_UNIT_VALIDATION_PRELOCK_TERMINAL_NO_RETRY_FROZEN_FAILURE_EVIDENCE",
+  "static_lock": "NOT_ISSUED",
+  "unit": {
+    "failed": 2,
+    "failure_ids": [
+      "U049_PREDECESSOR",
+      "U_V24_HISTORICAL_RELATION_REGISTRY_PASS"
+    ],
+    "passed": 278,
+    "total": 280
+  },
+  "worker": "0_OF_1"
+}

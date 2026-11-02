@@ -1,0 +1,22 @@
+{
+  "active": [
+    "mandatory-auto-router",
+    "authorized-security-autopilot",
+    "codex-security-harness"
+  ],
+  "deferred": [],
+  "not_applicable": [
+    "live-target",
+    "recon",
+    "exploit-execution",
+    "external-tools",
+    "paid-tools",
+    "subagents",
+    "parallelism",
+    "worker-runtime",
+    "codex-invocation"
+  ],
+  "reason": "LOCAL_GOVERNANCE_ONLY_FILESYSTEM_LIFECYCLE_ADJUDICATION",
+  "record_type": "ROUTING_LEDGER",
+  "status": "PASS"
+}

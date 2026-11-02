@@ -1,0 +1,47 @@
+{
+  "cases": [
+    {
+      "case": "V22 invocation targets V14 output root",
+      "expected": "FAIL_CLOSED_ZERO_MUTATION",
+      "id": "R01"
+    },
+    {
+      "case": "relative traversal resolves into predecessor",
+      "expected": "FAIL_CLOSED_ZERO_MUTATION",
+      "id": "R02"
+    },
+    {
+      "case": "symlink destination resolves into predecessor",
+      "expected": "FAIL_CLOSED_ZERO_MUTATION",
+      "id": "R03"
+    },
+    {
+      "case": "ambiguous or unresolved invocation/workspace identity",
+      "expected": "FAIL_CLOSED_ZERO_MUTATION",
+      "id": "R04"
+    },
+    {
+      "case": "attempt to append predecessor evidence",
+      "expected": "FAIL_CLOSED_ZERO_MUTATION",
+      "id": "R05"
+    },
+    {
+      "case": "predecessor artifact read",
+      "expected": "PASS_READ_ONLY",
+      "id": "R06"
+    },
+    {
+      "case": "same predecessor artifact write",
+      "expected": "FAIL_CLOSED_ZERO_MUTATION",
+      "id": "R07"
+    },
+    {
+      "case": "exact V22 identity/root/output",
+      "expected": "PASS_GUARD",
+      "id": "R08"
+    }
+  ],
+  "negative_fixture_invariant": "REJECTED_OPERATION_MUST_LEAVE_BYTE_LEVEL_FILESYSTEM_SNAPSHOT_UNCHANGED",
+  "record_type": "V14_V15_FAILURE_AND_V22_WORKSPACE_BOUNDARY_REGRESSION_MATRIX",
+  "status": "PASS"
+}

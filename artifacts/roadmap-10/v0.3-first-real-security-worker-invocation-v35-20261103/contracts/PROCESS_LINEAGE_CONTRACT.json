@@ -1,0 +1,47 @@
+{
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "flat_executable_allowlist": "PROHIBITED",
+  "process_classes": [
+    "LAUNCHER",
+    "CONTROLLED_LAUNCH_GATE",
+    "PINNED_RUNTIME",
+    "EXPECTED_RUNTIME_STARTUP_CHILD",
+    "FIXTURE_CHILD",
+    "UNEXPECTED_EXECUTABLE"
+  ],
+  "record_type": "FIRST_REAL_SECURITY_WORKER_INVOCATION_PROCESS_LINEAGE_CONTRACT",
+  "required_evidence": [
+    "LOCAL_PID",
+    "HOST_PID",
+    "PARENT_LOCAL_PID",
+    "PARENT_HOST_PID",
+    "TRACE_FILE_PID",
+    "NAMESPACE_ID",
+    "PROC_TOPOLOGY_IDENTITY",
+    "ANCESTOR_RUNTIME_PID",
+    "EXECUTABLE_IDENTITY",
+    "ARGV_ROLE",
+    "LIFECYCLE_PHASE"
+    ,"PROC_STARTTIME"
+    ,"TEMPORAL_OBSERVATION"
+    ,"IMMUTABLE_RECORD_DIGEST"
+  ],
+  "host_pid_local_pid_mapping": "EVIDENCE_BOUND",
+  "local_pid_equals_host_pid_assumption": "PROHIBITED",
+  "schema_version": "1.0",
+  "startup_roles": [
+    "V35_TRACED_LAUNCH_GATE",
+    "CODEX_SHELL_SNAPSHOT_GENERATOR",
+    "PROFILE_SCRIPT_ENUMERATOR",
+    "PROFILE_PATH_NORMALIZER",
+    "PROFILE_PATH_MEMBERSHIP_CHECK",
+    "PROFILE_MOTD_HELPER",
+    "SHELL_SNAPSHOT_COUNT_HELPER",
+    "SHELL_SNAPSHOT_SPACE_TRIM_HELPER",
+    "SHELL_SNAPSHOT_RENDER_HELPER",
+    "CODEX_SHELL_SNAPSHOT_CONSUMER"
+  ],
+  "observer_readiness_required_before_attempt": true,
+  "every_trace_pid_requires_temporally_bound_observation": true,
+  "unknown_or_broken_lineage": "FAIL_CLOSED"
+}

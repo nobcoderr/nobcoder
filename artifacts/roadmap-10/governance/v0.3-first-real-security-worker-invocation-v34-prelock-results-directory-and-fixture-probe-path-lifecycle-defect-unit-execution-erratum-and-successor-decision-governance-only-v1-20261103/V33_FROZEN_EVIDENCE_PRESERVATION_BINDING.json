@@ -1,0 +1,24 @@
+{
+  "canonical_evidence_root_sha256": "7697ad9d1f20e8e47d6544031c229b9037dec1fd8c7ab7574d1f3091e729227d",
+  "failure_manifest_sha256": "67e9a687aae31566859e01d58a1713e91ccb6bb2876154f3dd9032ba4640c01c",
+  "freeze_verification_sha256": "111604877cb22a242b4c8252a7472555dd673f9b1512d34f4cd9c1a84bfb260b",
+  "record_type": "V33_FROZEN_EVIDENCE_PRESERVATION_BINDING",
+  "status": "PASS",
+  "terminal_sha256": "6fc29626608e6a286e21b7b442ccc5d3c299513fa378439f23c2898630e7ad62",
+  "verification": {
+    "canonical_evidence_root_sha256": "7697ad9d1f20e8e47d6544031c229b9037dec1fd8c7ab7574d1f3091e729227d",
+    "checks": {
+      "freeze_digest": true,
+      "manifest_digest": true,
+      "manifest_members_and_root": true,
+      "no_attempt": true,
+      "no_runtime": true,
+      "terminal_digest": true,
+      "terminal_immutable": true,
+      "workspace_read_only": true
+    },
+    "member_count": 339,
+    "record_type": "V33_FROZEN_EVIDENCE_VERDICT",
+    "status": "PASS"
+  }
+}

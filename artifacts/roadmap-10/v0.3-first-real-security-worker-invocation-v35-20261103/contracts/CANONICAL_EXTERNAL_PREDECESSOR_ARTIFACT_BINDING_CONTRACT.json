@@ -1,0 +1,60 @@
+{
+  "canonical_binding_for_known_artifact": {
+    "artifact_role": "TRANSITIVE_FROZEN_PREDECESSOR_EVIDENCE_BINDING",
+    "authorizing_governance_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V17_INDEPENDENT_VALIDATOR_V16_TREE_CANONICALIZATION_ORDER_MISMATCH_PRELOCK_ERRATUM_AND_CONTINUATION_OR_SUCCESSOR_DECISION_GOVERNANCE_ONLY",
+    "authorizing_governance_lock_sha256": "053abd247ab8b80624abe58346707deeb2cda5b9848ee245d9dc146c02624080",
+    "authorizing_successor_decision_sha256": "8e0d1d19e6f443e8d2985bb884d437877bacd94da61541731af5d5046f75235f",
+    "canonical_locator": "/home/nobcoder/codex-security-harness-eval/governance/v0.3-first-real-security-worker-invocation-v17-independent-validator-v16-tree-canonicalization-order-mismatch-prelock-erratum-and-continuation-or-successor-decision-governance-v1-20261023/V17_PRELOCK_FROZEN_EVIDENCE_BINDING.json",
+    "expected_sha256": "7b112d3a2f0e69e754d23051608a0cb8fb20edc375a9d42c0c8898dd0020f360",
+    "expected_size": 1115,
+    "logical_artifact_identity": "V17_PRELOCK_FROZEN_EVIDENCE_BINDING",
+    "owning_predecessor_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V17",
+    "relationship_to_canonical_predecessor": "V17_FROZEN_HISTORY_REQUIRED_TO_VERIFY_CANONICAL_PREDECESSOR_V18"
+  },
+  "canonical_predecessor_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V18",
+  "contract_identity": "V35_CANONICAL_EXTERNAL_PREDECESSOR_ARTIFACT_BINDING_V1",
+  "generation_identity": "V35_CURRENT_GOVERNANCE_BOUND_TYPED_PREFLIGHT_BINDING_GENERATION_0001",
+  "immediate_terminal_history_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V20",
+  "mismatch_action": "FAIL_CLOSED_BEFORE_STATIC_LOCK_OR_ATTEMPT_AND_BEFORE_UNAUTHORIZED_READINESS_EVIDENCE",
+  "prohibited_resolution": [
+    "VERSION_NUMBER_ARITHMETIC",
+    "GUESSED_GOVERNANCE_DIRECTORY",
+    "FILENAME_SEARCH",
+    "FALLBACK_DIRECTORY_SCAN",
+    "MANUAL_COPY",
+    "SYMLINK_COMPATIBILITY_ARTIFACT",
+    "HISTORICAL_ARTIFACT_RECONSTRUCTION"
+  ],
+  "required_binding_fields": [
+    "logical_artifact_identity",
+    "owning_predecessor_identity",
+    "artifact_role",
+    "canonical_locator",
+    "expected_sha256",
+    "expected_size",
+    "authorizing_governance_identity",
+    "authorizing_governance_lock_sha256",
+    "authorizing_successor_decision_sha256",
+    "relationship_to_canonical_predecessor"
+  ],
+  "required_consumers": [
+    "BUILDER",
+    "PRIMARY_VALIDATOR",
+    "INDEPENDENT_VALIDATOR",
+    "FRESH_PREFLIGHT",
+    "DEPENDENCY_CLOSURE",
+    "STATIC_LOCK_PREPARATION",
+    "STATIC_LOCK_VERIFICATION"
+  ],
+  "resolution_sequence": [
+    "READ_EXACT_GOVERNANCE_BOUND_LOGICAL_ARTIFACT_BINDING",
+    "VERIFY_AUTHORIZING_GOVERNANCE_IDENTITY_AND_DIGEST",
+    "RESOLVE_ONLY_EXACT_CANONICAL_LOCATOR",
+    "REQUIRE_REGULAR_NON_SYMLINK_ARTIFACT",
+    "VERIFY_EXACT_EXISTENCE_SIZE_AND_SHA256",
+    "PARSE_AND_VERIFY_OWNER_IDENTITY_AND_ARTIFACT_ROLE",
+    "VERIFY_RELATIONSHIP_TO_CANONICAL_PREDECESSOR",
+    "REREAD_BYTES_AND_REHASH",
+    "EMIT_COMPONENT_SPECIFIC_ATTESTATION"
+  ]
+}

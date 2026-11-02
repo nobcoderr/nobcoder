@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "commands_requested": {
+      "maxItems": 0,
+      "type": "array"
+    },
+    "files_changed": {
+      "maxItems": 0,
+      "type": "array"
+    },
+    "proposals": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "candidate_id": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "claimed_capability": {
+            "additionalProperties": false,
+            "properties": {
+              "description": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "status": {
+                "const": "UNPROVEN"
+              }
+            },
+            "required": [
+              "status",
+              "description"
+            ],
+            "type": "object"
+          },
+          "claimed_impact": {
+            "additionalProperties": false,
+            "properties": {
+              "description": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "status": {
+                "const": "NONE_PROVEN"
+              }
+            },
+            "required": [
+              "status",
+              "description"
+            ],
+            "type": "object"
+          },
+          "evidence_refs": {
+            "items": {
+              "const": "FIXTURE-EVIDENCE-0001"
+            },
+            "maxItems": 1,
+            "minItems": 1,
+            "type": "array"
+          },
+          "falsifier": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "hypothesis": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "candidate_id",
+          "hypothesis",
+          "falsifier",
+          "claimed_capability",
+          "claimed_impact",
+          "evidence_refs"
+        ],
+        "type": "object"
+      },
+      "maxItems": 1,
+      "minItems": 1,
+      "type": "array"
+    },
+    "requested_operations": {
+      "maxItems": 0,
+      "type": "array"
+    },
+    "status": {
+      "const": "PROPOSAL_COMPLETE"
+    },
+    "summary": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "unresolved_questions": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "status",
+    "summary",
+    "proposals",
+    "requested_operations",
+    "commands_requested",
+    "files_changed",
+    "unresolved_questions"
+  ],
+  "title": "FirstRealSecurityWorkerFixtureOutput",
+  "type": "object"
+}

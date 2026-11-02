@@ -1,0 +1,61 @@
+{
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "host_pid_local_pid_mapping": "EVIDENCE_BOUND",
+  "identity_fields": [
+    "local_pid",
+    "host_pid",
+    "parent_local_pid",
+    "parent_host_pid",
+    "trace_file_pid",
+    "namespace_id",
+    "proc_topology_identity",
+    "proc_starttime",
+    "pid_namespace_identity",
+    "executable_identity",
+    "observation_source",
+    "trace_event_timestamp_or_bounded_interval",
+    "immutable_record_digest",
+    "temporal_binding_status"
+  ],
+  "local_pid_equals_host_pid_assumption": "PROHIBITED",
+  "mapping_evidence_classes": [
+    "TRACE_FILE_IDENTITY",
+    "TYPED_CLONE_OR_FORK_EVENT_WITH_SOURCE_NAMESPACE",
+    "PROC_TOPOLOGY_SNAPSHOT_WITH_TIMESTAMP_AND_NAMESPACE",
+    "EXPLICIT_NAMESPACE_MEMBERSHIP",
+    "LAUNCHER_CHILD_HANDSHAKE_OR_EQUIVALENT_IDENTITY_RECORD"
+  ],
+  "rules": {
+    "ambiguous_or_reused_identity": "FAIL_CLOSED",
+    "clone_return_value_as_host_pid_without_namespace_proof": "PROHIBITED",
+    "local_pid_equals_host_pid_without_evidence": "PROHIBITED",
+    "mapping_requires_evidence_refs": true,
+    "mapping_requires_namespace_ids": true,
+    "mapping_requires_temporally_bound_proc_topology": true,
+    "mapping_requires_stable_identity_tuple": true,
+    "mapping_requires_immutable_record_digest": true,
+    "post_run_proc_snapshot_only": "INSUFFICIENT",
+    "pid_reuse_requires_distinct_identity": true,
+    "single_pid_field_canonical_across_namespaces": "PROHIBITED",
+    "trace_file_pid_as_namespace_local_pid_without_evidence": "PROHIBITED",
+    "unknown_lineage": "FAIL_CLOSED"
+  },
+  "capture_evidence": [
+    "TEMPORALLY_BOUND_PROC_TASK_STATUS",
+    "PID_NAMESPACE_IDENTITY",
+    "TRACE_FILE_IDENTITY",
+    "PROC_TOPOLOGY_IDENTITY"
+    ,"PROC_STARTTIME"
+    ,"TEMPORAL_TRACE_OVERLAP"
+    ,"IMMUTABLE_OBSERVATION_DIGEST"
+  ],
+  "record_type": "FIRST_REAL_SECURITY_WORKER_CROSS_NAMESPACE_PROCESS_IDENTITY_CONTRACT",
+  "schema_version": "1.0",
+  "semantic_acceptance": {
+    "ambiguous_mapping": "FAIL_CLOSED",
+    "missing_mapping": "FAIL_CLOSED",
+    "parent_relations": "SEPARATE_HOST_AND_NAMESPACE_LOCAL_IDENTITIES",
+    "trace_file_pid": "OBSERVER_VISIBLE_TASK_ID_REQUIRING_PROC_EVIDENCE"
+  },
+  "unknown_lineage": "FAIL_CLOSED"
+}

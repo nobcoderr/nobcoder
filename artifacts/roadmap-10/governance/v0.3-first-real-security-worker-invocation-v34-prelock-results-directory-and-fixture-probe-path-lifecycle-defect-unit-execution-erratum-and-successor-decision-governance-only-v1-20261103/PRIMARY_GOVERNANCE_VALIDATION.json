@@ -1,0 +1,92 @@
+{
+  "checks": [
+    {
+      "id": "G001_V34_FROZEN",
+      "status": "PASS"
+    },
+    {
+      "id": "G002_V33_FROZEN",
+      "status": "PASS"
+    },
+    {
+      "id": "G003_FAILURE_RECONSTRUCTED",
+      "status": "PASS"
+    },
+    {
+      "id": "G004_PRELOCK_DEFECT_YES",
+      "status": "PASS"
+    },
+    {
+      "id": "G005_PROBE_PRECONDITION_DEFECT_YES",
+      "status": "PASS"
+    },
+    {
+      "id": "G006_NO_AD_HOC_WORKAROUND",
+      "status": "PASS"
+    },
+    {
+      "id": "G007_RESPONSIBLE_CONTROLLER",
+      "status": "PASS"
+    },
+    {
+      "id": "G008_PRELOCK_BEFORE_WRITER",
+      "status": "PASS"
+    },
+    {
+      "id": "G009_PRELOCK_EXACT_MODE",
+      "status": "PASS"
+    },
+    {
+      "id": "G010_SCRATCH_SEPARATE",
+      "status": "PASS"
+    },
+    {
+      "id": "G011_EXCLUSIVE_NO_REUSE",
+      "status": "PASS"
+    },
+    {
+      "id": "G012_BOUNDARY",
+      "status": "PASS"
+    },
+    {
+      "id": "G013_PREDECESSOR_DENY_WRITE",
+      "status": "PASS"
+    },
+    {
+      "id": "G014_TYPED_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "id": "G015_REGRESSIONS",
+      "status": "PASS"
+    },
+    {
+      "id": "G016_PRESERVED_NOT_PROMOTED",
+      "status": "PASS"
+    },
+    {
+      "id": "G017_RUNTIME_NOT_ESTABLISHED",
+      "status": "PASS"
+    },
+    {
+      "id": "G018_PROOF_GATES_NOT_PROVEN",
+      "status": "PASS"
+    },
+    {
+      "id": "G019_V34_TERMINAL",
+      "status": "PASS"
+    },
+    {
+      "id": "G020_V35_CONDITIONAL",
+      "status": "PASS"
+    },
+    {
+      "id": "G021_V35_ABSENT",
+      "status": "PASS"
+    }
+  ],
+  "passed": 21,
+  "record_type": "PRIMARY_GOVERNANCE_VALIDATION",
+  "status": "PASS",
+  "total": 21
+}

@@ -1,0 +1,508 @@
+{
+  "attempt": "0_OF_1",
+  "attempt_marker": "ABSENT",
+  "bound_hashes": {
+    "freeze": "33d8ccd90d375553b36742f67d240bd3694531607bc2b578cf6a69240fa11ce4",
+    "independent": "ddf73a2aaa43212d00ad79532d0c131632ad467a03e6efc5f7330bde95169b27",
+    "independent_validator": "c196a5c55bc684fe077251825935279669c4d70756ca42edd244a3f89a456bd2",
+    "invocation": "9f881076fc28ae881af1116a01f8c63a45963365f46dc0e0abc7c96b4780c0d7",
+    "manifest": "272e182981142b6f49e6356ecdbf5cb548ef9b0d7cb0b7b920b8041b26057826",
+    "primary": "d25bd6811528c6da5b9bf79cca1b2ed2f94b74e280454beb94baca13961dde5e",
+    "primary_validator": "6aafc716776f97e2fa017de369d716525c6422702eb8b8ad7c70c14f41ba93a2",
+    "runner": "ca0b63a498ebba435ecd2ee8d4d29f24a66e5c90637fb0ce0aed1a646118d192",
+    "symbol_builder": "3b3c5c95351e3a925dd77f5e53e6ccdbceafd8c18eecd57216b3c97d44d16a6b",
+    "symbol_manifest": "e74fe86edb85d6941aabdd1c6a21760f3cd43304fc99ea502dc566cd984c18b4",
+    "symbol_resolution": "341791ae7d77944725e7d9e5707e9517a6ef5157e1f554047c44a66085ec09ac",
+    "terminal": "de984e20d3cce9c1158ad63a4015d218f122427ef3338df20784f95ae60e34a6",
+    "unit": "f4918dba05041f5aa35f4fd5c1ebd45d60fa752ccfcbe187ae77328ffd210be1",
+    "workspace_boundary": "63bef2fd0d79901083d76541c26d26cf6c5fe463e6bb6945a08a5f5dff7fbe55"
+  },
+  "canonical_failure_evidence_root": "ba82fc352f0ed3b79da592c0b23be284a36d75403fc969db3fd76ad642bc960a",
+  "codex_as_worker_invocation": "0_OF_1",
+  "disposition": "FAIL_CLOSED_DURING_INDEPENDENT_STATIC_VALIDATION_PRELOCK_TERMINAL_NO_RETRY_FROZEN_FAILURE_EVIDENCE",
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V21",
+  "failure_manifest_member_count": 78,
+  "manifest_members": [
+    {
+      "bytes": 899,
+      "path": "PRELOCK_TERMINAL_ENGINEERING_RESULT.json",
+      "required_mode": "0444",
+      "sha256": "de984e20d3cce9c1158ad63a4015d218f122427ef3338df20784f95ae60e34a6"
+    },
+    {
+      "bytes": 1233,
+      "path": "adversarial-selftests-run-0001/immediate-0001/events.jsonl",
+      "required_mode": "0444",
+      "sha256": "c29ea5d17807db6eac3707f1e80001e439df18806afbfcbb80d24df63dc228d3"
+    },
+    {
+      "bytes": 2032,
+      "path": "adversarial-selftests-run-0001/immediate-0001/fixture-expected-identity-ledger.jsonl",
+      "required_mode": "0444",
+      "sha256": "e75298b0187c85acf777956b0c9155961ac8499ce7905d528b427c2ff303d281"
+    },
+    {
+      "bytes": 0,
+      "path": "adversarial-selftests-run-0001/immediate-0001/observer-stderr.txt",
+      "required_mode": "0444",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 659,
+      "path": "adversarial-selftests-run-0001/immediate-0001/ready.json",
+      "required_mode": "0444",
+      "sha256": "0c2c5c962b0a55747701890528d7d2aa94e416d36878e8e473916c4900d547ba"
+    },
+    {
+      "bytes": 369,
+      "path": "adversarial-selftests-run-0001/immediate-0001/root-bound.json",
+      "required_mode": "0444",
+      "sha256": "aed6d386a51438d26c5909abfb0c4bfe95c5ecdf62c2a6cae43ab8273f682917"
+    },
+    {
+      "bytes": 145,
+      "path": "adversarial-selftests-run-0001/immediate-0001/root.json",
+      "required_mode": "0444",
+      "sha256": "2a0a72a29bc4f8f0a0164bc5c68577aabc142249dc4a5a01e4195c117c4e306c"
+    },
+    {
+      "bytes": 38216,
+      "path": "adversarial-selftests-run-0001/immediate-0001/snapshot.json",
+      "required_mode": "0444",
+      "sha256": "a5da229983c3877d9afd10428bb20b2cbb9924ed24a6236ed4ab595c65672c88"
+    },
+    {
+      "bytes": 54,
+      "path": "adversarial-selftests-run-0001/immediate-0001/stop.json",
+      "required_mode": "0444",
+      "sha256": "f6f05a76b7cd9b244b6ab0a0e3dd2fd46e9d5773911b8d03fa9098fa47ee6503"
+    },
+    {
+      "bytes": 572241,
+      "path": "adversarial-selftests-run-0001/immediate-0001/traces/trace.54757",
+      "required_mode": "0444",
+      "sha256": "56adaf5e3a8d5179baed115fa703db4750622eeb8795ddb77278210e568a23c6"
+    },
+    {
+      "bytes": 1048,
+      "path": "adversarial-selftests-run-0001/immediate-0001/traces/trace.54758",
+      "required_mode": "0444",
+      "sha256": "6e0a48a74590503ff526b536fb7f25ee6b293ae7e46d39ff936f30149e30b50d"
+    },
+    {
+      "bytes": 1048,
+      "path": "adversarial-selftests-run-0001/immediate-0001/traces/trace.54759",
+      "required_mode": "0444",
+      "sha256": "15e628bc40033b6b844457f3934beec51c84eb9ac7dc97cd5cc3349c8e3935b7"
+    },
+    {
+      "bytes": 1048,
+      "path": "adversarial-selftests-run-0001/immediate-0001/traces/trace.54760",
+      "required_mode": "0444",
+      "sha256": "d21658d300cf65f989ae26a293f527621eeaffd6337d8ba31a266017a315a96e"
+    },
+    {
+      "bytes": 1048,
+      "path": "adversarial-selftests-run-0001/immediate-0001/traces/trace.54761",
+      "required_mode": "0444",
+      "sha256": "cb53044fb2076c6e86c509353eade08fc924176ea8120c40dae6dedec2af80d7"
+    },
+    {
+      "bytes": 1048,
+      "path": "adversarial-selftests-run-0001/immediate-0001/traces/trace.54762",
+      "required_mode": "0444",
+      "sha256": "6736377340170c362ae3f1e4567377e72f2c09b3b1f509af3e13e209f2b7f74f"
+    },
+    {
+      "bytes": 1048,
+      "path": "adversarial-selftests-run-0001/immediate-0001/traces/trace.54763",
+      "required_mode": "0444",
+      "sha256": "0df4b29a4f6823e6dfa8cdbf02777aa20334103b59aea851b321e26e41af551e"
+    },
+    {
+      "bytes": 10989,
+      "path": "adversarial-selftests-run-0001/immediate-0001-result.json",
+      "required_mode": "0444",
+      "sha256": "aabc11f572c9f3b12e5cde9f51da7434d441ffec355f4932c851e0c4588086d5"
+    },
+    {
+      "bytes": 1233,
+      "path": "adversarial-selftests-run-0001/long-lived-0001/events.jsonl",
+      "required_mode": "0444",
+      "sha256": "250064134594ab7905a3b366bc2a14e9ad6a98b3a188408ed0b32a1e73220922"
+    },
+    {
+      "bytes": 1009,
+      "path": "adversarial-selftests-run-0001/long-lived-0001/fixture-expected-identity-ledger.jsonl",
+      "required_mode": "0444",
+      "sha256": "4ac21025b1ec0fe8f9270c474cf0205b2cf6e3053c8824c774ccb7a63098e857"
+    },
+    {
+      "bytes": 0,
+      "path": "adversarial-selftests-run-0001/long-lived-0001/observer-stderr.txt",
+      "required_mode": "0444",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 659,
+      "path": "adversarial-selftests-run-0001/long-lived-0001/ready.json",
+      "required_mode": "0444",
+      "sha256": "8880b732d6f85c53dc6fa6f5c1e28da1ba93466056e6bd551d8cdef7a9327b04"
+    },
+    {
+      "bytes": 369,
+      "path": "adversarial-selftests-run-0001/long-lived-0001/root-bound.json",
+      "required_mode": "0444",
+      "sha256": "334988f5853e14d30d217a77ca353198736698c576cc476f456e4fe53c935a24"
+    },
+    {
+      "bytes": 145,
+      "path": "adversarial-selftests-run-0001/long-lived-0001/root.json",
+      "required_mode": "0444",
+      "sha256": "9ff7da569a19abebc9be24ee0225ea32bb895b1795796716e21fb2358fedf846"
+    },
+    {
+      "bytes": 29166,
+      "path": "adversarial-selftests-run-0001/long-lived-0001/snapshot.json",
+      "required_mode": "0444",
+      "sha256": "d2ed4fda631a40be9bd6115c64c1e8517a547a8cbb926e501327830f1a4bae39"
+    },
+    {
+      "bytes": 54,
+      "path": "adversarial-selftests-run-0001/long-lived-0001/stop.json",
+      "required_mode": "0444",
+      "sha256": "f6f05a76b7cd9b244b6ab0a0e3dd2fd46e9d5773911b8d03fa9098fa47ee6503"
+    },
+    {
+      "bytes": 566577,
+      "path": "adversarial-selftests-run-0001/long-lived-0001/traces/trace.54721",
+      "required_mode": "0444",
+      "sha256": "e773e506e2b12b9bd199185e8fba582f6626be6b672bcb61de3bbc6ccc58d01e"
+    },
+    {
+      "bytes": 8524,
+      "path": "adversarial-selftests-run-0001/long-lived-0001/traces/trace.54722",
+      "required_mode": "0444",
+      "sha256": "ec6aa4a881561f16371f8780c1c15d45e2654394849d1e80138bc89b48f7ad19"
+    },
+    {
+      "bytes": 8524,
+      "path": "adversarial-selftests-run-0001/long-lived-0001/traces/trace.54723",
+      "required_mode": "0444",
+      "sha256": "ec6aa4a881561f16371f8780c1c15d45e2654394849d1e80138bc89b48f7ad19"
+    },
+    {
+      "bytes": 8524,
+      "path": "adversarial-selftests-run-0001/long-lived-0001/traces/trace.54724",
+      "required_mode": "0444",
+      "sha256": "ec6aa4a881561f16371f8780c1c15d45e2654394849d1e80138bc89b48f7ad19"
+    },
+    {
+      "bytes": 8524,
+      "path": "adversarial-selftests-run-0001/long-lived-0001/traces/trace.54725",
+      "required_mode": "0444",
+      "sha256": "ec6aa4a881561f16371f8780c1c15d45e2654394849d1e80138bc89b48f7ad19"
+    },
+    {
+      "bytes": 8426,
+      "path": "adversarial-selftests-run-0001/long-lived-0001-result.json",
+      "required_mode": "0444",
+      "sha256": "3d6c888a7a12b1dfbd8be8b68fd126917837c323e30b4004a13afb2ab41bdeed"
+    },
+    {
+      "bytes": 1233,
+      "path": "adversarial-selftests-run-0001/nested-0001/events.jsonl",
+      "required_mode": "0444",
+      "sha256": "abceb532e582053d4d0f9fe6ebae3bf9a2bc5259f11c673977e74a43191d4768"
+    },
+    {
+      "bytes": 700,
+      "path": "adversarial-selftests-run-0001/nested-0001/fixture-expected-identity-ledger.jsonl",
+      "required_mode": "0444",
+      "sha256": "8e3e8adb8f07e68695153d1555d6825be5fa6eb163dd075c11ef543b52b190a6"
+    },
+    {
+      "bytes": 0,
+      "path": "adversarial-selftests-run-0001/nested-0001/observer-stderr.txt",
+      "required_mode": "0444",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 659,
+      "path": "adversarial-selftests-run-0001/nested-0001/ready.json",
+      "required_mode": "0444",
+      "sha256": "1f7c41a7402e3f31db4d70cde69b3dc2d6d6d1b1b6618173a1192c32d5991278"
+    },
+    {
+      "bytes": 369,
+      "path": "adversarial-selftests-run-0001/nested-0001/root-bound.json",
+      "required_mode": "0444",
+      "sha256": "c66046c342bbf7fea207e695eebe306e4cfb612d9d60a458991d5d8ba5d86f9b"
+    },
+    {
+      "bytes": 145,
+      "path": "adversarial-selftests-run-0001/nested-0001/root.json",
+      "required_mode": "0444",
+      "sha256": "823ec2326e372d9767ec79a3669c770378f940aa525994aff6fdb41abd05cc6c"
+    },
+    {
+      "bytes": 18767,
+      "path": "adversarial-selftests-run-0001/nested-0001/snapshot.json",
+      "required_mode": "0444",
+      "sha256": "e41c038961f83a2a401c1adad70d29d4cd1735549616947d1c5bb336d0d2d397"
+    },
+    {
+      "bytes": 54,
+      "path": "adversarial-selftests-run-0001/nested-0001/stop.json",
+      "required_mode": "0444",
+      "sha256": "f6f05a76b7cd9b244b6ab0a0e3dd2fd46e9d5773911b8d03fa9098fa47ee6503"
+    },
+    {
+      "bytes": 563573,
+      "path": "adversarial-selftests-run-0001/nested-0001/traces/trace.54767",
+      "required_mode": "0444",
+      "sha256": "a3e1d92357030624b99237a051131ff32f431cf8b573526ed354dc1f640e1176"
+    },
+    {
+      "bytes": 232204,
+      "path": "adversarial-selftests-run-0001/nested-0001/traces/trace.54768",
+      "required_mode": "0444",
+      "sha256": "a023bcd3207c8a1183e91d70a4bea0b505fdb3d85cccb9abfc4dbf9436d0354d"
+    },
+    {
+      "bytes": 2388,
+      "path": "adversarial-selftests-run-0001/nested-0001/traces/trace.54769",
+      "required_mode": "0444",
+      "sha256": "1c1dbd675157b56c0f86a7a7449ade2574eab586d1ec9f8fc4ec740d2e0171be"
+    },
+    {
+      "bytes": 5858,
+      "path": "adversarial-selftests-run-0001/nested-0001-result.json",
+      "required_mode": "0444",
+      "sha256": "11d5e32d7691336991c24eb84cd9fd636b0e2c3df5fb28bfb50a231e8c174432"
+    },
+    {
+      "bytes": 1233,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/events.jsonl",
+      "required_mode": "0444",
+      "sha256": "7c1f1f59bb7513be10be44968f1b470fbd657ef4aa6abd601062252d5b95d772"
+    },
+    {
+      "bytes": 1318,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/fixture-expected-identity-ledger.jsonl",
+      "required_mode": "0444",
+      "sha256": "3a7d4e211feff03f342c3ca2aa7f519e21054e021318e768e6300b386e99e130"
+    },
+    {
+      "bytes": 0,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/observer-stderr.txt",
+      "required_mode": "0444",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 659,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/ready.json",
+      "required_mode": "0444",
+      "sha256": "43500afa6547e073d6b31bc3fa8b5f4acc4356721a90fdde09066914444d8d05"
+    },
+    {
+      "bytes": 369,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/root-bound.json",
+      "required_mode": "0444",
+      "sha256": "205030d521d0d5a22de6c9daad48bcfc7fc5bad5581536469f98316a39735618"
+    },
+    {
+      "bytes": 145,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/root.json",
+      "required_mode": "0444",
+      "sha256": "987a3bd19717f929ef28217c4e5e2e5d19d746f3276a81e321bf8ba3834f15de"
+    },
+    {
+      "bytes": 54338,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/snapshot.json",
+      "required_mode": "0444",
+      "sha256": "d058a2e292ff46c42765ef3be6c116f7f59f00ae4f3c7390099452fce7ce785b"
+    },
+    {
+      "bytes": 54,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/stop.json",
+      "required_mode": "0444",
+      "sha256": "f6f05a76b7cd9b244b6ab0a0e3dd2fd46e9d5773911b8d03fa9098fa47ee6503"
+    },
+    {
+      "bytes": 569614,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/traces/trace.54739",
+      "required_mode": "0444",
+      "sha256": "3efc32a9765df2563d483957a0b75d8dff67d171002ad3c4f9a038dfa07303cb"
+    },
+    {
+      "bytes": 8524,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/traces/trace.54748",
+      "required_mode": "0444",
+      "sha256": "bc62c383e1f8410c08fb1527223822629db7cda285ead16fac1c0124a3932495"
+    },
+    {
+      "bytes": 8524,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/traces/trace.54749",
+      "required_mode": "0444",
+      "sha256": "bc62c383e1f8410c08fb1527223822629db7cda285ead16fac1c0124a3932495"
+    },
+    {
+      "bytes": 8524,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/traces/trace.54750",
+      "required_mode": "0444",
+      "sha256": "bc62c383e1f8410c08fb1527223822629db7cda285ead16fac1c0124a3932495"
+    },
+    {
+      "bytes": 8524,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/traces/trace.54751",
+      "required_mode": "0444",
+      "sha256": "bc62c383e1f8410c08fb1527223822629db7cda285ead16fac1c0124a3932495"
+    },
+    {
+      "bytes": 8524,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/traces/trace.54752",
+      "required_mode": "0444",
+      "sha256": "bc62c383e1f8410c08fb1527223822629db7cda285ead16fac1c0124a3932495"
+    },
+    {
+      "bytes": 8524,
+      "path": "adversarial-selftests-run-0001/overlapping-0001/traces/trace.54753",
+      "required_mode": "0444",
+      "sha256": "bc62c383e1f8410c08fb1527223822629db7cda285ead16fac1c0124a3932495"
+    },
+    {
+      "bytes": 10991,
+      "path": "adversarial-selftests-run-0001/overlapping-0001-result.json",
+      "required_mode": "0444",
+      "sha256": "58f7e5ce07231e9c62283ecf37c181d3c5038e14569f6c2ca43f6bd01d0681be"
+    },
+    {
+      "bytes": 1233,
+      "path": "adversarial-selftests-run-0001/sequential-0001/events.jsonl",
+      "required_mode": "0444",
+      "sha256": "1dbe700b55eb4341f1a5bb183cb73ec8fedceb674c6976fc5068d5774bd97298"
+    },
+    {
+      "bytes": 1309,
+      "path": "adversarial-selftests-run-0001/sequential-0001/fixture-expected-identity-ledger.jsonl",
+      "required_mode": "0444",
+      "sha256": "963c227a350f4c009cc89220e926b9613852eba832d5e81fe401cc213ca3541f"
+    },
+    {
+      "bytes": 0,
+      "path": "adversarial-selftests-run-0001/sequential-0001/observer-stderr.txt",
+      "required_mode": "0444",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 659,
+      "path": "adversarial-selftests-run-0001/sequential-0001/ready.json",
+      "required_mode": "0444",
+      "sha256": "49ea1eb0e893b2f87c0cfdd70494c593aa17bafee38d27eb75c0a1bf59a6e75e"
+    },
+    {
+      "bytes": 369,
+      "path": "adversarial-selftests-run-0001/sequential-0001/root-bound.json",
+      "required_mode": "0444",
+      "sha256": "7b18e64ede34832fa2269137ed725fab2c40f1b44af27da4b1055068cbfa2916"
+    },
+    {
+      "bytes": 145,
+      "path": "adversarial-selftests-run-0001/sequential-0001/root.json",
+      "required_mode": "0444",
+      "sha256": "9398fcbfe81e55d124228d4ed20050554c3aaa0cc16ec148dd85865aec9a4f51"
+    },
+    {
+      "bytes": 36864,
+      "path": "adversarial-selftests-run-0001/sequential-0001/snapshot.json",
+      "required_mode": "0444",
+      "sha256": "154adc82555a91e33a5facf6123bf86fdeabfd56359933454f64b402bfbb04fe"
+    },
+    {
+      "bytes": 54,
+      "path": "adversarial-selftests-run-0001/sequential-0001/stop.json",
+      "required_mode": "0444",
+      "sha256": "f6f05a76b7cd9b244b6ab0a0e3dd2fd46e9d5773911b8d03fa9098fa47ee6503"
+    },
+    {
+      "bytes": 569282,
+      "path": "adversarial-selftests-run-0001/sequential-0001/traces/trace.54729",
+      "required_mode": "0444",
+      "sha256": "1235b5db81e0a22b277145c5aff733a04f36fa590797a7ac12d21ab9114c3ddb"
+    },
+    {
+      "bytes": 2388,
+      "path": "adversarial-selftests-run-0001/sequential-0001/traces/trace.54730",
+      "required_mode": "0444",
+      "sha256": "416017fae839d6260c8344ce27a601aff8db258c1aa4629c7a47794187fc7a4e"
+    },
+    {
+      "bytes": 2388,
+      "path": "adversarial-selftests-run-0001/sequential-0001/traces/trace.54731",
+      "required_mode": "0444",
+      "sha256": "416017fae839d6260c8344ce27a601aff8db258c1aa4629c7a47794187fc7a4e"
+    },
+    {
+      "bytes": 2388,
+      "path": "adversarial-selftests-run-0001/sequential-0001/traces/trace.54732",
+      "required_mode": "0444",
+      "sha256": "416017fae839d6260c8344ce27a601aff8db258c1aa4629c7a47794187fc7a4e"
+    },
+    {
+      "bytes": 2388,
+      "path": "adversarial-selftests-run-0001/sequential-0001/traces/trace.54733",
+      "required_mode": "0444",
+      "sha256": "416017fae839d6260c8344ce27a601aff8db258c1aa4629c7a47794187fc7a4e"
+    },
+    {
+      "bytes": 2388,
+      "path": "adversarial-selftests-run-0001/sequential-0001/traces/trace.54734",
+      "required_mode": "0444",
+      "sha256": "416017fae839d6260c8344ce27a601aff8db258c1aa4629c7a47794187fc7a4e"
+    },
+    {
+      "bytes": 2388,
+      "path": "adversarial-selftests-run-0001/sequential-0001/traces/trace.54735",
+      "required_mode": "0444",
+      "sha256": "416017fae839d6260c8344ce27a601aff8db258c1aa4629c7a47794187fc7a4e"
+    },
+    {
+      "bytes": 11053,
+      "path": "adversarial-selftests-run-0001/sequential-0001-result.json",
+      "required_mode": "0444",
+      "sha256": "3a6a42d652e6688414e9707f467c12d1919b1cd0366499a42a10b1bf74c402f6"
+    },
+    {
+      "bytes": 28431,
+      "path": "independent-static-validation-run-0001.json",
+      "required_mode": "0444",
+      "sha256": "ddf73a2aaa43212d00ad79532d0c131632ad467a03e6efc5f7330bde95169b27"
+    },
+    {
+      "bytes": 119682,
+      "path": "primary-static-validation-run-0001.json",
+      "required_mode": "0444",
+      "sha256": "d25bd6811528c6da5b9bf79cca1b2ed2f94b74e280454beb94baca13961dde5e"
+    },
+    {
+      "bytes": 157658,
+      "path": "unit-fixtures-run-0001.json",
+      "required_mode": "0444",
+      "sha256": "f4918dba05041f5aa35f4fd5c1ebd45d60fa752ccfcbe187ae77328ffd210be1"
+    }
+  ],
+  "prelock_member_count": 80,
+  "prelock_tree_sha256": "58a53d6f1c3017ce3b564c3a73d62d06e45da44cfc25ac4c9924d6da1a220dd5",
+  "runtime_evidence": "ABSENT",
+  "static_lock": "NOT_ISSUED",
+  "validation": {
+    "failed_gate": "I020C_COMPLETE_SYMBOL_GRAPH",
+    "independent": "84_OF_85_FAIL_CLOSED",
+    "primary": "70_OF_70_PASS",
+    "unit": "222_OF_222_PASS"
+  },
+  "worker_invocation": "0_OF_1",
+  "workspace_member_count": 188,
+  "workspace_tree_sha256": "4c31ae13f74a84769b83b77e433c9488322e826ba04bef7ed5626e66ff708efe"
+}

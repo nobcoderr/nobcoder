@@ -1,0 +1,14 @@
+{
+  "FIXTURE_PROBE_PARENT_DIRECTORY_PRECONDITION_DEFECT": "YES",
+  "PRELOCK_RESULTS_DIRECTORY_LIFECYCLE_DEFECT": "YES",
+  "ad_hoc_directory_workaround_authorized": false,
+  "record_type": "V34_PRELOCK_RESULTS_AND_FIXTURE_PROBE_LIFECYCLE_ADJUDICATION",
+  "responsibility": {
+    "fixture_itself": "MUST_VERIFY_TYPED_READY_VERDICT_BEFORE_CREATING_PROBE_LEAF",
+    "fixture_probe_root": "FIXTURE_SCRATCH_PROVISIONER_BEFORE_UNIT_FIXTURE_EXECUTION",
+    "prelock_results_root": "PRELOCK_STORAGE_LIFECYCLE_CONTROLLER_BEFORE_FIRST_EVIDENCE_WRITER"
+  },
+  "status": "PASS",
+  "unit_failure_cause": "PROBE_PARENT_ABSENT_WHEN_OS_SYMLINK_ATTEMPTED",
+  "v34_source_patch_authorized": false
+}

@@ -1,0 +1,13 @@
+{
+  "record_type": "FIRST_REAL_SECURITY_WORKER_V35_FRESH_VALIDATION_EVIDENCE_PROVENANCE_CONTRACT",
+  "schema_version": "1.0",
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "history_model": "FRESH_DISTINCT_SUCCESSOR_APPEND_ONLY_EVIDENCE",
+  "current_readiness_generation": "run-0001",
+  "selection_rule": "EXACT_EXPLICIT_COMPLETE_FRESH_GENERATION_ONLY",
+  "required_families": ["unit", "primary", "independent", "preflight", "closure"],
+  "mixed_generation": "FAIL_CLOSED",
+  "overwrite": "PROHIBITED",
+  "predecessor_history": "V19_IMMUTABLE_EXTERNAL_REFERENCE_ONLY_WITH_V18_GOVERNANCE_AUTHORIZED_ARTIFACT_PREDECESSOR",
+  "governance_lock_sha256": "da417f8ae6243edc4a91be0b46fef9e1a81e6282d2c849dd0eb5a74885bff39d"
+}

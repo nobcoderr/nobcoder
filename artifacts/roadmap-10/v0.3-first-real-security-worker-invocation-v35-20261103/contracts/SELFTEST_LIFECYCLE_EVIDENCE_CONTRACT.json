@@ -1,0 +1,30 @@
+{
+  "record_type": "FIRST_REAL_SECURITY_WORKER_V35_SELFTEST_LIFECYCLE_EVIDENCE_CONTRACT",
+  "schema_version": "1.0",
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "governance_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V34_PRELOCK_RESULTS_DIRECTORY_AND_FIXTURE_PROBE_PATH_LIFECYCLE_DEFECT_UNIT_EXECUTION_ERRATUM_AND_SUCCESSOR_DECISION_GOVERNANCE_ONLY",
+  "governance_lock_sha256": "d2263268f61b9ddde99a0b60f4b43a26df1586e0c577ba2ca98c07b64c21f811",
+  "selected_strategy": "CONSUME_LOCK_BOUND_IMMUTABLE_PASS_ARTIFACT",
+  "lifecycle_owner": "LOCKED_PRE_ATTEMPT_ENTRYPOINT_VALIDATION",
+  "producer": {
+    "entrypoint": "src/runner_v35.py --mode validate-pre-attempt",
+    "evidence_identity": "locked-pre-attempt-validation-0001/observer-selftest-result-0001.json",
+    "creation": "APPEND_ONLY_EXACTLY_ONCE_AFTER_STATIC_LOCK",
+    "required_bindings": ["STATIC_EXECUTION_LOCK_SHA256", "CANONICAL_SOURCE_ROOT_SHA256", "RUNNER_SHA256", "OBSERVER_SHA256", "SELFTEST_RESULT_SHA256"]
+  },
+  "consumer": {
+    "entrypoint": "src/runner_v35.py --mode execute",
+    "operation": "READ_ONLY_EXACT_ARTIFACT_CONSUMPTION",
+    "rewrite": "PROHIBITED",
+    "fallback": "PROHIBITED",
+    "missing_or_ambiguous": "FAIL_CLOSED_BEFORE_ATTEMPT"
+  },
+  "post_lock_dry_run": {
+    "required_path": ["selftest_lifecycle_pass", "observer_started", "observer_ready", "tracer_started", "tracer_ready", "stop_immediately_before_attempt_marker"],
+    "attempt_marker": "MUST_REMAIN_ABSENT",
+    "worker_invocation_count": 0,
+    "codex_as_worker_invocation_count": 0
+  },
+  "prohibited_shortcuts": ["DELETE_EXISTING_SELFTEST", "RENAME_EXISTING_SELFTEST", "OVERWRITE_EXISTING_SELFTEST", "exist_ok=True", "WEAKEN_WRITE_ONCE_PROVENANCE", "GENERIC_COLLISION_BYPASS"],
+  "attempt_marker_rule": "ABSENT_UNTIL_SELFTEST_LIFECYCLE_OBSERVER_AND_TRACER_GATES_PASS"
+}

@@ -1,0 +1,17 @@
+{
+  "classification": "FROZEN_ENGINEERING_FACTS_ONLY_NOT_FULL_UNIT_OR_STATIC_VALIDATION_PASS",
+  "facts": {
+    "ast_control_flow_checks_implemented": true,
+    "attempt_marker": "ABSENT",
+    "authoritative_artifact_creation_closure_members": 199,
+    "caller_side_verdict_type_guards_implemented": true,
+    "inspect_runtime_identity_explicit_typed_return_semantics": true,
+    "return_control_flow_regressions": 8,
+    "runtime_evidence": "ABSENT",
+    "symbol_graph_symbols": 97,
+    "typed_validator_helper_return_contract_implemented": true,
+    "undeclared_pyc_or_pycache": 0
+  },
+  "record_type": "V34_PRESERVED_ENGINEERING_FACTS",
+  "status": "PASS"
+}

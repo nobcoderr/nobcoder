@@ -1,0 +1,10 @@
+{
+  "attempt": "0/1",
+  "codex_as_worker_invocation": "0/1",
+  "record_type": "V34_TERMINAL_AND_V35_SUCCESSOR_DECISION",
+  "status": "PASS",
+  "v34_disposition": "TERMINAL_IMMUTABLE_NO_RETRY",
+  "v35_authorized_scope": "FRESH_SUCCESSOR_IMPLEMENTING_EXPLICIT_PRELOCK_EVIDENCE_AND_FIXTURE_SCRATCH_LIFECYCLES_AND_CARRYING_FORWARD_APPLICABLE_CONTROLS",
+  "v35_disposition": "CONDITIONALLY_AUTHORIZED_NOT_CREATED_NOT_EXECUTED",
+  "worker_invocation": "0/1"
+}

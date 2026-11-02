@@ -1,0 +1,10 @@
+{
+  "acceptance_promotion_from_failure_freeze": "PROHIBITED",
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "failure_freeze_state": "FROZEN_FAILURE_EVIDENCE",
+  "failure_freeze_trigger": "ANY_POST_ATTEMPT_TERMINAL_FAILURE_AFTER_DIAGNOSTIC_COMPLETE_POST_VALIDATION",
+  "pass_locked_from_failure_freeze": false,
+  "record_type": "FIRST_REAL_SECURITY_WORKER_INVOCATION_FAILURE_EVIDENCE_FREEZE_CONTRACT",
+  "schema_version": "1.0",
+  "success_freeze_state": "PASS_TECHNICAL_FROZEN_AWAITING_SEPARATE_ACCEPTANCE_ADJUDICATION"
+}

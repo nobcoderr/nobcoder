@@ -1,0 +1,33 @@
+{
+  "allowed": {
+    "codex_as_worker_invocations": 1,
+    "fixture_inputs": 1,
+    "security_worker_invocations": 1
+  },
+  "candidate_initial_state": "HYPOTHESIS_QUARANTINED",
+  "deny_by_default": true,
+  "denied": [
+    "TARGET_ACCESS",
+    "TARGET_NETWORK",
+    "WORKER_TOOL_NETWORK",
+    "CREDENTIAL_INJECTION",
+    "TARGET_CREDENTIAL_USE",
+    "SUBAGENT_INVOCATION",
+    "PARALLELISM",
+    "DAYBREAK_INVOCATION",
+    "EXPLOIT_REPLAY",
+    "CAPABILITY_GRAPH",
+    "CAPABILITY_EDGE_CREATION",
+    "CANDIDATE_PROMOTION",
+    "WORKER_SELF_AUTHORIZATION",
+    "WORKER_SELF_PROMOTION",
+    "SUBMISSION_AUTOMATION",
+    "AUTOMATIC_TARGET_SWITCH",
+    "UNSANDBOXED_FALLBACK"
+  ],
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "output_authority": "PROPOSAL_ONLY_NON_AUTHORITATIVE",
+  "provider_transport": "PINNED_CODEX_RUNTIME_INTERNAL_ONLY_NOT_A_WORKER_TOOL_OR_TARGET_CHANNEL",
+  "record_type": "FIRST_REAL_SECURITY_WORKER_INVOCATION_AUTHORITY_CEILING",
+  "schema_version": "1.0"
+}

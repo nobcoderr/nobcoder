@@ -1,0 +1,75 @@
+{
+  "contract_identity": "V35_CANONICAL_VALIDATION_MODULE_RESOLUTION_CONTRACT_V1",
+  "generation_identity": "V35_CURRENT_GOVERNANCE_BOUND_TYPED_PREFLIGHT_BINDING_GENERATION_0001",
+  "independence": "PRIMARY_AND_INDEPENDENT_IMPLEMENT_SEPARATE_RESOLUTION_CHECKS_AGAINST_THE_SAME_CANONICAL_BINDINGS",
+  "known_v21_module_evidence_only": [
+    {
+      "canonical_source_path": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v21-20261101/src/invocation_v21.py",
+      "expected_import_name": "invocation_v21",
+      "expected_resolution_origin": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v21-20261101/src/invocation_v21.py",
+      "expected_sha256": "9f881076fc28ae881af1116a01f8c63a45963365f46dc0e0abc7c96b4780c0d7",
+      "logical_module_identity": "invocation_v21",
+      "package_root": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v21-20261101/src"
+    },
+    {
+      "canonical_source_path": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v21-20261101/src/workspace_boundary_v21.py",
+      "expected_import_name": "workspace_boundary_v21",
+      "expected_resolution_origin": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v21-20261101/src/workspace_boundary_v21.py",
+      "expected_sha256": "63bef2fd0d79901083d76541c26d26cf6c5fe463e6bb6945a08a5f5dff7fbe55",
+      "logical_module_identity": "workspace_boundary_v21",
+      "package_root": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v21-20261101/src"
+    },
+    {
+      "canonical_source_path": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v21-20261101/src/symbol_resolution_v21.py",
+      "expected_import_name": "symbol_resolution_v21",
+      "expected_resolution_origin": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v21-20261101/src/symbol_resolution_v21.py",
+      "expected_sha256": "341791ae7d77944725e7d9e5707e9517a6ef5157e1f554047c44a66085ec09ac",
+      "logical_module_identity": "symbol_resolution_v21",
+      "package_root": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v21-20261101/src"
+    }
+  ],
+  "mismatch_action": "FAIL_CLOSED_BEFORE_STATIC_LOCK_OR_ATTEMPT",
+  "prohibited": [
+    "AD_HOC_SYS_PATH_INSERTION",
+    "HOST_ENVIRONMENT_DEPENDENT_IMPORT",
+    "ARBITRARY_PYTHONPATH",
+    "MANUAL_COPY",
+    "FILENAME_SEARCH",
+    "FALLBACK_SCAN",
+    "IMPORT_NAME_ONLY_ACCEPTANCE",
+    "SYMBOL_COUNT_ONLY_ACCEPTANCE"
+  ],
+  "required_binding_fields": [
+    "logical_module_identity",
+    "canonical_source_path",
+    "package_root",
+    "expected_import_name",
+    "expected_sha256",
+    "expected_resolution_origin",
+    "authorized_primary_environment",
+    "authorized_independent_environment",
+    "authorized_preflight_environment",
+    "authorized_dependency_closure_environment",
+    "authorized_locked_runtime_environment"
+  ],
+  "required_consumers": [
+    "PRIMARY_VALIDATOR",
+    "INDEPENDENT_VALIDATOR",
+    "FRESH_PREFLIGHT",
+    "DEPENDENCY_CLOSURE",
+    "STATIC_LOCK_PREPARATION",
+    "STATIC_LOCK_VERIFICATION",
+    "LOCKED_RUNTIME"
+  ],
+  "resolution_requirements": [
+    "EXPLICIT_LOGICAL_MODULE_IDENTITY",
+    "EXPLICIT_CANONICAL_PACKAGE_ROOT",
+    "EXACT_IMPORT_NAME",
+    "EXACT_NON_SYMLINK_SOURCE_ORIGIN",
+    "EXACT_SOURCE_SHA256",
+    "ENVIRONMENT_IDENTITY_BOUND_BEFORE_RESOLUTION",
+    "MODULE_SPEC_ORIGIN_EQUALS_CANONICAL_SOURCE",
+    "DEPENDENCY_AND_SYMBOL_MANIFEST_MEMBERSHIP",
+    "STATIC_LOCK_MEMBERSHIP_BEFORE_LOCKED_RUNTIME"
+  ]
+}

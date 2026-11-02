@@ -1,0 +1,25 @@
+{
+  "annotation_is_mount_identity": false,
+  "annotation_is_pathname": false,
+  "annotation_is_process_identity": false,
+  "annotation_is_producer_identity": false,
+  "class_dispatch": "ANNOTATION_CLASS_BEFORE_EXACT_CLASS_GRAMMAR",
+  "classes": {
+    "ANON_INODE": {"forms": ["anon_inode:EXPLICIT_NAME", "anon_inode:[EXPLICIT_NAME]"]},
+    "EVENTFD": {"forms": ["{eventfd-count=DECIMAL_OR_LOWERCASE_HEX,eventfd-id=DECIMAL,eventfd-semaphore=DECIMAL}"]},
+    "FILESYSTEM_PATH": {"forms": ["ABSOLUTE_PATH", "ABSOLUTE_PATH<char DECIMAL:DECIMAL>"]},
+    "PIPE": {"forms": ["pipe:[DECIMAL_ID]"]},
+    "SOCKET": {"forms": ["socket:[DECIMAL_ID]"]},
+    "TCP": {"forms": ["TCP:[DECIMAL_ID]", "TCP:[IPV4:PORT]", "TCP:[IPV4:PORT->IPV4:PORT]"]},
+    "TCPV6": {"forms": ["TCPv6:[DECIMAL_ID]", "TCPv6:[[IPV6]:PORT]", "TCPv6:[[IPV6]:PORT->[IPV6]:PORT]"]},
+    "UDP": {"forms": ["UDP:[DECIMAL_ID]", "UDP:[IPV4:PORT]", "UDP:[IPV4:PORT->IPV4:PORT]"]},
+    "UDPV6": {"forms": ["UDPv6:[DECIMAL_ID]", "UDPv6:[[IPV6]:PORT]", "UDPv6:[[IPV6]:PORT->[IPV6]:PORT]"]},
+    "UNIX_STREAM": {"forms": ["UNIX-STREAM:[DECIMAL_ID]", "UNIX-STREAM:[DECIMAL_ID->DECIMAL_ID]"]}
+  },
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "free_text_or_permissive_catch_all": "PROHIBITED",
+  "network_annotation_alone_is_network_verdict": false,
+  "record_type": "FIRST_REAL_SECURITY_WORKER_INVOCATION_TYPED_FD_ANNOTATION_CONTRACT",
+  "schema_version": "1.0",
+  "unknown_or_malformed_annotation": "FAIL_CLOSED"
+}

@@ -1,0 +1,46 @@
+{
+  "contract_identity": "V32_GOVERNANCE_BOUND_MOUNT_OUTPUT_IDENTITY_CONTRACT_V1",
+  "governance_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V31_AUTHORITATIVE_ARTIFACT_FINALIZATION_ORDER_AND_LATE_SYMBOL_BINDING_MANIFEST_BOUND_MEMBER_SET_INCOMPLETENESS_PRELOCK_ERRATUM_AND_SUCCESSOR_DECISION_GOVERNANCE_ONLY",
+  "invariants": [
+    "HOST_OUTPUT_EQUALS_MOUNT_SOURCE",
+    "NAMESPACE_OUTPUT_EQUALS_MOUNT_DESTINATION",
+    "ALL_CONSUMERS_SAME_EXACT_GENERATION",
+    "ALL_CONSUMERS_VERIFY_IDENTITY_AUTHORITY_AND_DIGEST_INDEPENDENTLY",
+    "NO_STALE_VERSION_SPECIFIC_LITERAL",
+    "FAIL_BEFORE_LOCK_AND_ATTEMPT_ON_MISMATCH"
+  ],
+  "prohibited": [
+    "HARDCODED_STRING_REPLACEMENT_AS_COMPLETE_FIX",
+    "VERSION_NUMBER_ARITHMETIC",
+    "DIRECTORY_NAME_INFERENCE",
+    "LATEST_FILE_SELECTION",
+    "FALLBACK_SEARCH",
+    "MIXED_BINDING_GENERATIONS"
+  ],
+  "record_type": "V32_GOVERNANCE_BOUND_MOUNT_OUTPUT_IDENTITY_CONTRACT",
+  "required_consumers": [
+    "runner",
+    "primary_validator",
+    "independent_validator",
+    "fresh_preflight",
+    "dependency_closure",
+    "static_lock",
+    "runtime_namespace",
+    "post_validator"
+  ],
+  "required_joint_fields": [
+    "execution_identity",
+    "workspace_identity",
+    "logical_runtime_output_identity",
+    "canonical_workspace_root",
+    "host_output_path",
+    "namespace_output_path",
+    "mount_source_path",
+    "mount_destination_path",
+    "mount_mode",
+    "governance_identity",
+    "governance_lock_sha256",
+    "binding_generation_identity"
+  ],
+  "selection_rule": "EXACT_GOVERNANCE_SUCCESSOR_DECISION_NO_VERSION_INFERENCE"
+}

@@ -1,0 +1,25 @@
+{
+  "CONFINEMENT": "NOT_PROVEN",
+  "PROCESS_LINEAGE": "NOT_PROVEN",
+  "PRODUCER_AUTHORIZATION": "NOT_PROVEN",
+  "TEMPORAL_RUNTIME": "NOT_ESTABLISHED",
+  "V33_WORKER_RUNTIME_DEFECT": "NOT_ESTABLISHED",
+  "codex_0_166_0_frozen_static_authority_verification": {
+    "checks": {
+      "binary_digest": true,
+      "compatibility_lock": true,
+      "config_digest": true,
+      "current_authority": true,
+      "no_fallback": true,
+      "package_digest": true,
+      "runtime_identity": true,
+      "version": true
+    },
+    "record_type": "V33_RUNTIME_AUTHORITY_FROZEN_STATIC_VERDICT",
+    "status": "PASS"
+  },
+  "current_worker_runtime_authority": "CODEX_RUNTIME_0_166_0_COMPATIBILITY_PASS_LOCKED",
+  "reason": "V33_NEVER_REACHED_STATIC_LOCK_OR_EXECUTION",
+  "record_type": "V33_RUNTIME_AND_PROOF_GATE_SEPARATION_ADJUDICATION",
+  "status": "PASS"
+}

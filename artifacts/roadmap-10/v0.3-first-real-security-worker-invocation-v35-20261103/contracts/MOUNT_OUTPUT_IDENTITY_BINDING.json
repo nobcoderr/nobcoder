@@ -1,0 +1,27 @@
+{
+  "binding_generation_identity": "V35_GOVERNANCE_BOUND_MOUNT_OUTPUT_BINDING_GENERATION_0001",
+  "canonical_workspace_root": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v35-20261103",
+  "consumers": [
+    "runner",
+    "primary_validator",
+    "independent_validator",
+    "fresh_preflight",
+    "dependency_closure",
+    "static_lock",
+    "runtime_namespace",
+    "post_validator"
+  ],
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "governance_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V34_PRELOCK_RESULTS_DIRECTORY_AND_FIXTURE_PROBE_PATH_LIFECYCLE_DEFECT_UNIT_EXECUTION_ERRATUM_AND_SUCCESSOR_DECISION_GOVERNANCE_ONLY",
+  "governance_lock_sha256": "d2263268f61b9ddde99a0b60f4b43a26df1586e0c577ba2ca98c07b64c21f811",
+  "host_output_path": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v35-20261103/static-run-v35",
+  "logical_runtime_output_identity": "V35_RUNTIME_OUTPUT_ROOT",
+  "mount_destination_path": "/run/nobcoder-first-worker-v35/output",
+  "mount_mode": "READ_WRITE_EXACT_DECLARED_OUTPUT_BIND_ONLY",
+  "mount_source_path": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v35-20261103/static-run-v35",
+  "namespace_output_path": "/run/nobcoder-first-worker-v35/output",
+  "record_type": "V35_GOVERNANCE_BOUND_MOUNT_OUTPUT_IDENTITY_BINDING",
+  "selection_rule": "EXACT_GOVERNANCE_SUCCESSOR_DECISION_NO_VERSION_INFERENCE",
+  "status": "FINALIZED_PRELOCK_BINDING",
+  "workspace_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35_WORKSPACE"
+}

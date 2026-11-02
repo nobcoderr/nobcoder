@@ -1,0 +1,12 @@
+{
+  "accepted_template_locator": "/home/nobcoder/v0.3-runtime-and-model-compatibility-execution-v8-codex-0-166-0-20261102/runtime-config-candidate/config.toml",
+  "expected_bytes": 36,
+  "expected_exact_content": "check_for_update_on_startup = false\n",
+  "expected_immutable_mode": "0444",
+  "expected_sha256": "7ae835188ef2ab3221e15effac45375b2d6112954d022aa7776f802f7b8697c0",
+  "governance_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V30_TYPED_PREFLIGHT_REGISTRY_STALE_ARTIFACT_AND_OWNER_DIGEST_BINDINGS_PRELOCK_ERRATUM_AND_SUCCESSOR_DECISION_GOVERNANCE_ONLY",
+  "logical_config_identity": "V31_DEDICATED_CODEX_0_166_0_CONFIG_IDENTITY",
+  "materialized_here": false,
+  "record_type": "V31_DEDICATED_CODEX_CONFIG_IDENTITY_REQUIREMENT",
+  "successor_materialization": "MUST_BE_CREATED_ONLY_INSIDE_FRESH_V31_WORKSPACE_DURING_SEPARATELY_AUTHORIZED_ENGINEERING"
+}

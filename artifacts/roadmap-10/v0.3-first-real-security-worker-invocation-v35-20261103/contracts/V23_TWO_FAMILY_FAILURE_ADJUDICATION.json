@@ -1,0 +1,44 @@
+{
+  "HISTORICAL_DECISION_RELATION_BINDING_DEFECT": "YES",
+  "NESTED_ADVERSARIAL_TEMPORAL_SELFTEST_EVIDENCE_PIPELINE_FAILURE": "YES",
+  "historical_decision_family": {
+    "canonical_artifact": "/home/nobcoder/codex-security-harness-eval/governance/v0.3-first-real-security-worker-invocation-v20-independent-validator-external-predecessor-artifact-path-binding-defect-prelock-erratum-and-successor-decision-governance-v1-20261101/V20_TERMINAL_AND_V21_SUCCESSOR_DECISION.json",
+    "canonical_logical_identity": "V20_TERMINAL_AND_V21_SUCCESSOR_DECISION",
+    "canonical_relation_semantics": "TERMINALIZE_V20_AUTHORIZE_V21",
+    "canonical_sha256": "8c78c347a293605db31122f42482ce2caca5bb52a5e750be341377087f3aeff3",
+    "canonical_v18_predecessor_defect": "NO",
+    "failed_gate": "U049_PREDECESSOR",
+    "governance_owner": "V20_GOVERNANCE",
+    "transitive_v17_artifact_resolver_defect": "NO",
+    "v23_stale_nonexistent_artifact": "contracts/V20_TERMINAL_AND_V23_SUCCESSOR_DECISION.json",
+    "v23_stale_relation": "TERMINALIZE_V20_AUTHORIZE_V23"
+  },
+  "nested_family": {
+    "cause": "NON_ATOMIC_FINAL_PATH_PUBLICATION_AND_PREMATURE_EXISTENCE_BASED_JSON_CONSUMPTION",
+    "evidence_transport_publication_defect": "YES",
+    "failed_gates": [
+      "U087_V19_ALL_ADVERSARIAL_SELFTESTS_PASS",
+      "U091_V19_SELFTEST_TRACE_DENOMINATOR"
+    ],
+    "incomplete_or_transient_partial_publication": "YES",
+    "json_decode_error_is_not_observer_capture_defect_proof": true,
+    "nested_n_of_n": "NOT_PROVEN",
+    "nested_process_topology_defect": "NOT_ESTABLISHED",
+    "non_nested_adversarial_modes": "PASS_N_OF_N",
+    "observer_capture_implementation_defect": "NOT_ESTABLISHED",
+    "observer_execution_outcome": "FAIL_CLOSED_EXIT_2_OBSERVED",
+    "observer_lifecycle_completion": "NOT_ESTABLISHED",
+    "observer_lifecycle_order_defect": "NO",
+    "parser_consumer_completion_gate_defect": "YES",
+    "telemetry_serialization_content_defect": "NO"
+  },
+  "record_type": "V23_TWO_FAMILY_FAILURE_ADJUDICATION",
+  "runtime_adjudication": {
+    "CONFINEMENT": "NOT_PROVEN",
+    "PROCESS_LINEAGE": "NOT_PROVEN",
+    "PRODUCER_AUTHORIZATION": "NOT_PROVEN",
+    "TEMPORAL_RUNTIME": "NOT_ESTABLISHED",
+    "V23_CODEX_RUNTIME": "NOT_ESTABLISHED",
+    "V23_SECURITY_WORKER_RUNTIME": "NOT_ESTABLISHED"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "record_type": "V34_IMMUTABILITY_AND_AUTHORITY_CEILING",
+  "status": "PASS",
+  "v34_execution_authority": "NONE",
+  "v34_retry_authority": "NONE",
+  "v34_write_authority": "NONE",
+  "v35_creation_authority_during_this_milestone": "NONE",
+  "v35_execution_authority_during_this_milestone": "NONE"
+}

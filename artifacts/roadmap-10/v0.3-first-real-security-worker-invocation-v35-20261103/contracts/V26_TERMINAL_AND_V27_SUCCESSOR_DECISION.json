@@ -1,0 +1,7 @@
+{
+  "V26": "TERMINAL_IMMUTABLE_NO_RETRY",
+  "V26_CONTINUATION": "PROHIBITED",
+  "V27": "CONDITIONALLY_AUTHORIZED_NOT_CREATED_NOT_EXECUTED",
+  "reason": "V26 is already terminal and frozen; correction requires a distinct execution identity.",
+  "record_type": "V26_TERMINAL_AND_V27_SUCCESSOR_DECISION"
+}

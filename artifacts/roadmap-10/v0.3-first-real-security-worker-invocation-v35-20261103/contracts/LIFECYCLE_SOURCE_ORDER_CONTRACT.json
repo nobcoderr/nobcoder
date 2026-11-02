@@ -1,0 +1,31 @@
+{
+  "anchors": {
+    "A": "EXACT_NAME_observer_process_ASSIGNED_DIRECT_subprocess.Popen_CALL",
+    "B": "EXACT_NAME_observer_ready_ASSIGNED_DIRECT_wait_for_json_CALL",
+    "C": "EXACT_NAME_process_ASSIGNED_DIRECT_subprocess.Popen_CALL",
+    "D": "EXACT_NAME_trace_ready_ASSIGNED_DIRECT_any_CALL",
+    "E": "append_only_json_CALL_WITH_EXACT_STATIC_RUN_DIV_ATTEMPT_MARKER_JSON_FIRST_OPERAND"
+  },
+  "authoritative_anchor_cardinality": "EXACTLY_ONE_EACH",
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "forbidden_anchor_sources": [
+    "SUBSTRING_MATCH",
+    "IDENTIFIER_SUFFIX_MATCH",
+    "FIRST_TEXT_OCCURRENCE",
+    "COMMENT",
+    "STRING_LITERAL",
+    "ATTEMPT_MARKER_READ_CHECK_OR_REFERENCE",
+    "OBSERVER_PROCESS_AS_TRACED_PROCESS"
+  ],
+  "order": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "record_type": "V35_SEMANTIC_LIFECYCLE_SOURCE_ORDER_CONTRACT",
+  "status": "NORMATIVE",
+  "unknown_missing_duplicate_or_ambiguous_anchor": "FAIL_CLOSED",
+  "validator_independence": "PRIMARY_AND_INDEPENDENT_RECOMPUTE_FROM_RUNNER_AST"
+}

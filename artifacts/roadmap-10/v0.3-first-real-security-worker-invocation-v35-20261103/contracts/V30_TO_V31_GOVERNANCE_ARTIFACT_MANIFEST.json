@@ -1,0 +1,124 @@
+{
+  "canonical_governance_root_sha256": "b2a940b369bdeaf99f5f1e0bfd30433434506b403e78ed40ce5919e4123359bc",
+  "governance_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V30_TYPED_PREFLIGHT_REGISTRY_STALE_ARTIFACT_AND_OWNER_DIGEST_BINDINGS_PRELOCK_ERRATUM_AND_SUCCESSOR_DECISION_GOVERNANCE_ONLY",
+  "member_count": 23,
+  "members": [
+    {
+      "bytes": 571,
+      "path": "GOVERNANCE_CHARTER.json",
+      "sha256": "5776abdea09945a242a4504b9ec06768ab4bd4309846c2dadb2e2fe94d34bc71"
+    },
+    {
+      "bytes": 1366,
+      "path": "INDEPENDENT_GOVERNANCE_VALIDATION.json",
+      "sha256": "c8fa9850f99bbc47105ccee02b7b551fcc6273e15f0b10020bc5a0fda4da6689"
+    },
+    {
+      "bytes": 1010,
+      "path": "NEGATIVE_GOVERNANCE_FIXTURES.json",
+      "sha256": "0842071d331565b3da64b1f47093ed6a1e16478c8d4edcb446a436cec5bd5281"
+    },
+    {
+      "bytes": 191,
+      "path": "NEXT_LEGAL_MILESTONE.json",
+      "sha256": "7debebd5934fc61aa4a5d67dba831e7642407ee2399ca65d0e572315f2d572c5"
+    },
+    {
+      "bytes": 1441,
+      "path": "PRIMARY_GOVERNANCE_VALIDATION.json",
+      "sha256": "af705a70e6505552259a9a70d513fd26465ac16b3045e9667b4040cb2ad1c2a0"
+    },
+    {
+      "bytes": 697,
+      "path": "READ_ONLY_INTEGRITY_VERIFICATION.json",
+      "sha256": "f1324cce51db46426db1e025a1b48c108a0ac9a455bb79f231f62dc689add483"
+    },
+    {
+      "bytes": 455,
+      "path": "ROUTING_LEDGER.json",
+      "sha256": "c6ef664607f4da154bd60bf4b4cc1abdb9d1f8b2795f8331d9f4d88ea48c461a"
+    },
+    {
+      "bytes": 1559,
+      "path": "SUCCESSOR_V31_TYPED_PREFLIGHT_BINDING_GENERATION_CONTRACT.json",
+      "sha256": "bb1120acf5a5b71854b6f29af9ea5925c0af6af092b014970d6e9127293ca6f3"
+    },
+    {
+      "bytes": 13909,
+      "path": "V30_AFFECTED_BINDING_COMPARISON.json",
+      "sha256": "4fb743590341c45db718a8fe08df2aa2f7bc52fa64dfc2f50ddc5d35526cd740"
+    },
+    {
+      "bytes": 875,
+      "path": "V30_FAILURE_AND_V31_REGRESSION_MATRIX.json",
+      "sha256": "e828b6e846687cb419551e1fec6c8ec35791e1dc87bf9db65acf359501b0cb43"
+    },
+    {
+      "bytes": 889,
+      "path": "V30_FAILURE_FACTS.json",
+      "sha256": "90266e8afc2a8b87c71a36dcdbc5e421dd02b4478edf6b58b08b1689dad2d29a"
+    },
+    {
+      "bytes": 1277,
+      "path": "V30_FROZEN_FAILURE_EVIDENCE_BINDING.json",
+      "sha256": "3a42fbfb271996270735ee11ac0265367f5368935dcad10d54f30df20cf5920f"
+    },
+    {
+      "bytes": 295,
+      "path": "V30_IMMUTABILITY_AND_AUTHORITY_CEILING.json",
+      "sha256": "85f4dfbc98119fec355fed2333c8f6f994ae7c05bc2ce92189f8758424d90dd7"
+    },
+    {
+      "bytes": 568,
+      "path": "V30_TERMINAL_AND_V31_SUCCESSOR_DECISION.json",
+      "sha256": "7ddf9dae155fc744c906e85a530e2ceecd3a39f1598b33e01430a68a4ee84b8a"
+    },
+    {
+      "bytes": 637,
+      "path": "V30_TYPED_PREFLIGHT_BINDING_ADJUDICATION.json",
+      "sha256": "071ad53fb72e02f2d87a374fb3d4b6dea429fa56dd9783d655f17572b342cd3b"
+    },
+    {
+      "bytes": 11104,
+      "path": "build_governance.py",
+      "sha256": "c8ca3dcdf9b0ce4234a6af4ac59abe9f468d9d5b3a937d931b600274781d595b"
+    },
+    {
+      "bytes": 3471,
+      "path": "freeze_governance.py",
+      "sha256": "0c733c14fc5836a0fbe6cfe2375f63dc493f6ea69efaf3b3a3c7ac52fac89991"
+    },
+    {
+      "bytes": 6686,
+      "path": "governance_common.py",
+      "sha256": "e67239f492be3b6c1048318b34c75b851e9dcf4d9fdbd2855e6c79ef9203b815"
+    },
+    {
+      "bytes": 5605,
+      "path": "independent_validate.py",
+      "sha256": "e617abc5b99385748ddb1c8aadd26514c0e9ce86587d01473f0fdbcb28ec5d86"
+    },
+    {
+      "bytes": 2946,
+      "path": "negative_fixtures.py",
+      "sha256": "c4bae3fc676636c7c3c3d2698ee0e837e209dac561351ca5eb96f2f6f327eeb2"
+    },
+    {
+      "bytes": 3057,
+      "path": "validate_governance.py",
+      "sha256": "de04c5641d3c481fdb8f099f784c7123e3789b6af5ac1363ea593272c10b905a"
+    },
+    {
+      "bytes": 2671,
+      "path": "verify_governance_freeze.py",
+      "sha256": "0cdb8fc809ba6eebdfd61caad7aeb8f832011e16efe252fe64dde04355cc2e1f"
+    },
+    {
+      "bytes": 1569,
+      "path": "verify_read_only_integrity.py",
+      "sha256": "5e188d6adfffb1cea8f79e2f026cd6880d02bd3e118ebecc9be9555862543c91"
+    }
+  ],
+  "record_type": "GOVERNANCE_ARTIFACT_MANIFEST",
+  "status": "PASS"
+}

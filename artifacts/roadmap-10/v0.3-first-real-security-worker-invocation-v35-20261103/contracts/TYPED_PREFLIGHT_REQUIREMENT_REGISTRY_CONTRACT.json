@@ -1,0 +1,38 @@
+{
+  "binding_generation_identity": "V35_CURRENT_GOVERNANCE_BOUND_TYPED_PREFLIGHT_BINDING_GENERATION_0001",
+  "contract_identity": "V35_TYPED_PREFLIGHT_REQUIREMENT_REGISTRY_CONTRACT_V1",
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "governance_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V34_PRELOCK_RESULTS_DIRECTORY_AND_FIXTURE_PROBE_PATH_LIFECYCLE_DEFECT_UNIT_EXECUTION_ERRATUM_AND_SUCCESSOR_DECISION_GOVERNANCE_ONLY",
+  "governance_lock_sha256": "d2263268f61b9ddde99a0b60f4b43a26df1586e0c577ba2ca98c07b64c21f811",
+  "logical_to_semantic_rule": "EXPLICIT_GOVERNANCE_BOUND_TYPED_MAPPING_NOT_TEXT_TOKEN_SEARCH",
+  "mismatch_action": "FAIL_CLOSED_BEFORE_STATIC_LOCK_AND_ATTEMPT",
+  "obsolete_token_absence": "NOT_A_FAILURE_WHEN_CURRENT_TYPED_REQUIREMENT_PASSES",
+  "record_type": "V35_TYPED_PREFLIGHT_REQUIREMENT_REGISTRY_CONTRACT",
+  "required_fields": [
+    "logical_requirement_identity",
+    "semantic_predicate_identity",
+    "artifact_identity",
+    "artifact_path",
+    "artifact_owner_identity",
+    "artifact_sha256",
+    "artifact_generation_identity",
+    "owner_governance_digest",
+    "owning_contract_identity",
+    "owning_contract_path",
+    "owning_contract_sha256",
+    "evaluator_identity",
+    "expected_verdict_semantics",
+    "governance_identity",
+    "governance_lock_sha256",
+    "binding_generation_identity"
+  ],
+  "required_logical_requirements": [
+    "FRESH_WORKSPACE_AND_EXECUTION_IDENTITY",
+    "GOVERNANCE_BOUND_MOUNT_OUTPUT_BINDING_GENERATION",
+    "ALL_MOUNT_OUTPUT_CONSUMERS_RESOLVE_EXACT_SAME_BINDING",
+    "INDEPENDENT_SEMANTIC_MOUNT_DESTINATION_GATE",
+    "CORE_PREFLIGHT_PREDICATES_DERIVED_FROM_NORMATIVE_V35_CONTRACT",
+    "ALL_APPLICABLE_V1_TO_V32_CONTROLS"
+  ],
+  "textual_token_search_as_authority": "PROHIBITED"
+}

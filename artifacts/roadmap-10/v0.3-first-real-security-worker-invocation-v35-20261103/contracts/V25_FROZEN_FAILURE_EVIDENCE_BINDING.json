@@ -1,0 +1,32 @@
+{
+  "canonical_evidence_root_sha256": "f47e8cc6f846b6ee819f0852930e8e6d60374cb2bc30aa1710fe27dc907dc2e4",
+  "execution": {
+    "attempt": "0/1",
+    "attempt_marker": "ABSENT",
+    "codex": "0/1",
+    "runtime_evidence": "ABSENT",
+    "static_lock": "NOT_ISSUED",
+    "worker": "0/1"
+  },
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V25",
+  "failed_gates": [
+    "S_MOUNT",
+    "S064_CORE_PREFLIGHT"
+  ],
+  "hashes": {
+    "freeze": "0137331458b2d1b405164bf72b6cce8c1712a2e36844907ad67821d27114160a",
+    "manifest": "aa6616228a54994d45c0474d58a61aac3e86f82ff17c5d825c5c63743161a22e",
+    "primary": "3beb26a2d8fb410e85b140c46c21189fa44439a16c48365a2c8db4b42cf7f188",
+    "terminal": "9b64e8ef00ee52ff5ed9112aaccf058f853b5e06f497bbef2624b4ac7643acee",
+    "unit": "3e6bb32c42b55026d84be1d22117ff41daeb228c7bbd1acd13b02143be72e6fd"
+  },
+  "member_count": 102,
+  "record_type": "V25_FROZEN_FAILURE_EVIDENCE_BINDING",
+  "status": "FAIL_CLOSED_DURING_PRIMARY_STATIC_VALIDATION_PRELOCK_TERMINAL_NO_RETRY_FROZEN_FAILURE_EVIDENCE",
+  "validation": {
+    "fresh_preflight": "NOT_STARTED",
+    "independent": "NOT_STARTED",
+    "primary": "80/82 FAIL_CLOSED",
+    "unit": "292/292 PASS"
+  }
+}

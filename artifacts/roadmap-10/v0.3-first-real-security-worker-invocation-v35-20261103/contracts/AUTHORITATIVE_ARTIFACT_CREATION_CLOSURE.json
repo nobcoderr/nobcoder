@@ -1,0 +1,1675 @@
+{
+  "attempt_count": 0,
+  "closed_member_set_root_sha256": "2edb9e4ea0c441bd9dc7aaf3afdbdceaa5933503174216fb30a98939ac794a9f",
+  "codex_as_worker_invocation_count": 0,
+  "creation_phase_state": "CREATION_PHASE_CLOSED",
+  "derived_non_member_records": [
+    "AUTHORITATIVE_ARTIFACT_CREATION_CLOSURE.json",
+    "AUTHORITATIVE_ARTIFACT_DIGEST_BINDINGS.json",
+    "CURRENT_EXPECTED_DIGEST_VIEW.json",
+    "UNIFIED_AUTHORITATIVE_BINDING_GENERATION.json"
+  ],
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "expected_gid": 1000,
+  "expected_uid": 1000,
+  "generation_identity": "V35_CURRENT_GOVERNANCE_BOUND_TYPED_PREFLIGHT_BINDING_GENERATION_0001",
+  "governance_lock_sha256": "d2263268f61b9ddde99a0b60f4b43a26df1586e0c577ba2ca98c07b64c21f811",
+  "lifecycle": [
+    "ARTIFACTS_MATERIALIZING",
+    "MEMBER_SET_COMPLETE",
+    "CREATION_PHASE_CLOSED",
+    "IMMUTABILITY_APPLIED",
+    "DIGESTS_BOUND",
+    "REREAD_VERIFIED",
+    "READY_FOR_UNIT_VALIDATION"
+  ],
+  "member_count": 205,
+  "members": [
+    {
+      "bytes": 2554,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/ADVERSARIAL_SELFTEST_FAILURE_DECOMPOSITION.json",
+      "sha256": "8dd49f2335600cfd1051e467f73f3e18174b1a5878a1286283fb9af4facc6326",
+      "uid": 1000
+    },
+    {
+      "bytes": 944,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/ADVERSARIAL_SELFTEST_TRANSACTIONAL_TELEMETRY_CONTRACT.json",
+      "sha256": "262ab489a83e466e8aeadcb48f3643337aa6b720bfadef5d3941a363348ffb46",
+      "uid": 1000
+    },
+    {
+      "bytes": 1420,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/ARTIFACT_DIGEST_BINDING_CONTRACT.json",
+      "sha256": "241a63712234354716bdf45f8b4ef282b8683c988dcd4b00c70bf1b0341702ed",
+      "uid": 1000
+    },
+    {
+      "bytes": 1372,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/AUTHORITATIVE_PREDECESSOR_REGISTRY.json",
+      "sha256": "60cd18602eb634347fdddc6a5fd499007990584397033b2ef2a61b3499494e1f",
+      "uid": 1000
+    },
+    {
+      "bytes": 971,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/AUTHORITATIVE_PREDECESSOR_RESOLUTION_CONTRACT.json",
+      "sha256": "394aa0dffc528ee2be45a07cd1903132e6861ceffe538f8c2a033a82ab8ddfa1",
+      "uid": 1000
+    },
+    {
+      "bytes": 1010,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/AUTHORITY_CEILING.json",
+      "sha256": "6442be8517f1309c8ab06ace76128f09be8de36be2a5c52887dd48a897064155",
+      "uid": 1000
+    },
+    {
+      "bytes": 1238,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/BIND_DESTINATION_FEASIBILITY_CONTRACT.json",
+      "sha256": "24ec8171e475fb7173d51c152e1c85a57b8cc7c18c0ed323fe0d8229b865fc5e",
+      "uid": 1000
+    },
+    {
+      "bytes": 2368,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/CANONICAL_EXTERNAL_PREDECESSOR_ARTIFACT_BINDING.json",
+      "sha256": "0697c7d6f4beee625c8798025d014690329d889389ed3551759b02e87ab71f10",
+      "uid": 1000
+    },
+    {
+      "bytes": 3025,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/CANONICAL_EXTERNAL_PREDECESSOR_ARTIFACT_BINDING_CONTRACT.json",
+      "sha256": "8dc2349f6512c0d6e4af1971c3510e0572d71971ac119a1288a55796cfbf3425",
+      "uid": 1000
+    },
+    {
+      "bytes": 44759,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/CANONICAL_MODULE_BINDINGS.json",
+      "sha256": "b7eae98455e5d8d26672a4f010aa37455fe9f5669bc0e247f08cdc1305155637",
+      "uid": 1000
+    },
+    {
+      "bytes": 2471,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/CANONICAL_PREDECESSOR_BINDING.json",
+      "sha256": "2ce3fd07752edeeeb432d786ff4257a36fb8a4f2909afb2c4a20ad8027387c60",
+      "uid": 1000
+    },
+    {
+      "bytes": 1271,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/CANONICAL_PREDECESSOR_BINDING_CONTRACT.json",
+      "sha256": "91c183bde0ab001c77e140897351b6bfd6cd665f2a254ae3a3aed7a7f668b1aa",
+      "uid": 1000
+    },
+    {
+      "bytes": 3454,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/CANONICAL_VALIDATION_MODULE_RESOLUTION_CONTRACT.json",
+      "sha256": "eca414aa0b6ffba739ed1ff200cc7a2aadd274b11bec13bb18445e398ae48d2c",
+      "uid": 1000
+    },
+    {
+      "bytes": 487,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/COMPLETE_COVERAGE_INVARIANT.json",
+      "sha256": "b3f61b5eaec772170e6b48e609b6f187d6166f87878bfc0c3bcb8657ec93f908",
+      "uid": 1000
+    },
+    {
+      "bytes": 747,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/CONTINUATION_VALIDATION_EVIDENCE_PROVENANCE_CONTRACT.json",
+      "sha256": "110457b943368bc882c7964f9cf4a1d39dc5a0e6347ffe008054bd236602b1ce",
+      "uid": 1000
+    },
+    {
+      "bytes": 2249,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/CROSS_NAMESPACE_PROCESS_IDENTITY_CONTRACT.json",
+      "sha256": "a643b19d9fdee4a1e68e6aa7297c9204ba89e59f23d79fa4b0b27c84def71564",
+      "uid": 1000
+    },
+    {
+      "bytes": 1613,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/EVIDENCE_CONTRACT.json",
+      "sha256": "032b8f7d1165c24458ed0c742cbb9080e29f6654bb5d536b6b006a5d49d025fc",
+      "uid": 1000
+    },
+    {
+      "bytes": 2995,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/EXECUTION_CONTRACT.json",
+      "sha256": "328e83ba7412f6f74cb7776e2e5ca67b7c913b0715f012e43384e4bdc8d635b3",
+      "uid": 1000
+    },
+    {
+      "bytes": 2341,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/EXPECTED_EXECUTION_PLAN.json",
+      "sha256": "27bc004e4e972b68d3aeb0868739e96c29baceab02e89b8663c501e3f31e9136",
+      "uid": 1000
+    },
+    {
+      "bytes": 552,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/FAILURE_EVIDENCE_FREEZE_CONTRACT.json",
+      "sha256": "63aa22001cb7827934225725fcebfedf6398841478dc499b9dcf6f098e6042f2",
+      "uid": 1000
+    },
+    {
+      "bytes": 744,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/GATE_SEPARATION_CONTRACT.json",
+      "sha256": "a5d9d1528b0f2b72f14652aee5f12591cdf1b99b6df3c12c223a13d09b19cd4b",
+      "uid": 1000
+    },
+    {
+      "bytes": 8585,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/HISTORICAL_DECISION_ARTIFACT_COMPARISON.json",
+      "sha256": "cc8e7c4f0d330817f67a4205b0248bd5e6adeb0fa3bd2b49b2e24cfea58f0a4f",
+      "uid": 1000
+    },
+    {
+      "bytes": 9439,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/HISTORICAL_DECISION_RELATION_REGISTRY.json",
+      "sha256": "8c6f139e3fc6d61977744b6289d2bd10cc439cccf286f24d2cfe559bc566cf70",
+      "uid": 1000
+    },
+    {
+      "bytes": 615,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/HISTORICAL_DECISION_RELATION_REGISTRY_CONTRACT.json",
+      "sha256": "0947052033cb6a34f9f395273b47fa598b0e06ab812010e52c3b980635bf3843",
+      "uid": 1000
+    },
+    {
+      "bytes": 1154,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/HOST_OUTPUT_BIND_SOURCE_LIFECYCLE_CONTRACT.json",
+      "sha256": "e967cf7ba2470942a2ed01c53fd6004202bf74fe42771f6730142c594d5f447a",
+      "uid": 1000
+    },
+    {
+      "bytes": 746,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/I008A_CANONICALIZATION_ORDER_ADJUDICATION.json",
+      "sha256": "e1fc3f4091cf289fabd534358c4f0b8a9499e76e4d79309242ddb6d56f3d35e9",
+      "uid": 1000
+    },
+    {
+      "bytes": 12436,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/IDENTITY_BINDINGS.json",
+      "sha256": "80891f55f672e8db7595a8ceb72ebe897c8f98d11a58aa3a897c61c3d70bfc6a",
+      "uid": 1000
+    },
+    {
+      "bytes": 1071,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/LIFECYCLE_SOURCE_ORDER_CONTRACT.json",
+      "sha256": "ac5c8916be49a3c3e11c736f2708e84db1158c41cea4d47370c2909f24c4e5c0",
+      "uid": 1000
+    },
+    {
+      "bytes": 115069,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/LOCKED_ENTRYPOINT_SYMBOL_BINDING_MANIFEST.json",
+      "sha256": "302114733343a288d826af143026ce243e1296d8c0475a750949cb094e7e9843",
+      "uid": 1000
+    },
+    {
+      "bytes": 902,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/LOCKED_ENTRYPOINT_SYMBOL_RESOLUTION_CONTRACT.json",
+      "sha256": "6a92a742e069763095ea88148ba1fa4c6bdf963116d57a0e7500f4bdc7901ddb",
+      "uid": 1000
+    },
+    {
+      "bytes": 1540,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/MOUNT_OUTPUT_IDENTITY_BINDING.json",
+      "sha256": "2abb0adc18aa606b8ece48700b456675b06059976c620666a33293bbe4b8dc06",
+      "uid": 1000
+    },
+    {
+      "bytes": 2186,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/MOUNT_PROVENANCE_WRITE_CONTRACT.json",
+      "sha256": "9df91ae91d309d790edb2772a7843e3b9fc300548655031e8ad6a48c2caadfeb",
+      "uid": 1000
+    },
+    {
+      "bytes": 25296,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/NINE_UNRESOLVED_STANDARD_LIBRARY_BINDINGS.json",
+      "sha256": "4e143a3b51e37180a080a50ec4548aa08eaa766ca4d88e3594828e9ac248f56f",
+      "uid": 1000
+    },
+    {
+      "bytes": 1428,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/NORMATIVE_V16_TREE_CANONICALIZATION_CONTRACT.json",
+      "sha256": "53319e1eff0e2c052d84f7471da98a3165aa732261632412029aaceed45644ff",
+      "uid": 1000
+    },
+    {
+      "bytes": 581,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/OPERATION_COUNTERS.json",
+      "sha256": "473299413e39e22dfa323884310f17fe3fd31a9372f93b63604db0a1273c1154",
+      "uid": 1000
+    },
+    {
+      "bytes": 1412,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/PROCESS_LINEAGE_CONTRACT.json",
+      "sha256": "ffaf744804970a5e2e9f5125a028c60db04475486a4ff0f7d07ccc7fca27fa57",
+      "uid": 1000
+    },
+    {
+      "bytes": 1993,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/PROMPT_IDENTITY_BINDING.json",
+      "sha256": "c55c34df3ba441d55738fb9e7ae09465cdceace6ed9f069afcc01131aba17d11",
+      "uid": 1000
+    },
+    {
+      "bytes": 1693,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/PROMPT_IDENTITY_BINDING_CONTRACT.json",
+      "sha256": "3b1ce7bfee541fdb9102e61212d6aaee6efdc0a76c8ac81e923159ac2450acf2",
+      "uid": 1000
+    },
+    {
+      "bytes": 1346,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/PROMPT_POLICY_CONTRACT.json",
+      "sha256": "f1652b164b32e50026f0d3111beb902649e297eb107e8bd465eaafb72a3a88b8",
+      "uid": 1000
+    },
+    {
+      "bytes": 705,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/PYTHON_RUNTIME_SIDE_EFFECT_POLICY.json",
+      "sha256": "97c6a59f24d2063b91cddd85c25208046edf680591de6fb4466b90e3321e970d",
+      "uid": 1000
+    },
+    {
+      "bytes": 1085,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/RUNTIME_FILESYSTEM_MUTATION_ACCOUNTING_CONTRACT.json",
+      "sha256": "f22961cf3338f673010808476d0ab01bcbbbe7ba0c2837fa2cba3c23e6eaba76",
+      "uid": 1000
+    },
+    {
+      "bytes": 1870,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SELFTEST_LIFECYCLE_EVIDENCE_CONTRACT.json",
+      "sha256": "b7ce66ce89977f12a4e0723f66078c26c14c7c4a0c7332f34bd9e1e9ce79004f",
+      "uid": 1000
+    },
+    {
+      "bytes": 884,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/STRICT_SCHEMA_COMPATIBILITY_CONTRACT.json",
+      "sha256": "f1ac5ff8fab12234ffa49d79e06276225341d76bfb8794b0a50c4c63ece56f79",
+      "uid": 1000
+    },
+    {
+      "bytes": 1051,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V19_PYTHON_CACHE_AND_WRITE_BOUNDARY_CONTRACT.json",
+      "sha256": "20e8d36a128e159d7ef909d4f07add5bc5c24aecfd06348d52200fadc3a5bb98",
+      "uid": 1000
+    },
+    {
+      "bytes": 1747,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V19_REQUIREMENTS.json",
+      "sha256": "380d1109d6a8dd7375a4cc30e277eb5c0205f0f2e8691a2c3d366d54e434cef2",
+      "uid": 1000
+    },
+    {
+      "bytes": 1051,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V21_PYTHON_CACHE_AND_WRITE_BOUNDARY_CONTRACT.json",
+      "sha256": "f914e9591e70e9e60eb00b334102199bc22e462555a03ba229616e87e2138c5e",
+      "uid": 1000
+    },
+    {
+      "bytes": 1455,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V21_REQUIREMENTS.json",
+      "sha256": "1100e6cb447a346677a25bd1ea0e63c88f8cf5b511ee2eb80eb1688bf1af243d",
+      "uid": 1000
+    },
+    {
+      "bytes": 1351,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V22_REQUIREMENTS.json",
+      "sha256": "fb4483f6654dd6bb364172fbd8ab2f94b81ce6110ff267d8eae7e9c6f8afbc8a",
+      "uid": 1000
+    },
+    {
+      "bytes": 879,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V23_PYTHON_CACHE_AND_WRITE_BOUNDARY_CONTRACT.json",
+      "sha256": "743e6e814a089535db6e6d4bef1d185b266465c81690b9e8a5580354fb4c8ca0",
+      "uid": 1000
+    },
+    {
+      "bytes": 542,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V23_REQUIREMENTS.json",
+      "sha256": "cf7656e066a292a6f7070256817433a0e4bfb147428d9b5c031777b262885abb",
+      "uid": 1000
+    },
+    {
+      "bytes": 879,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V24_PYTHON_CACHE_AND_WRITE_BOUNDARY_CONTRACT.json",
+      "sha256": "6d6e077c9c65c134f34747cadc73aa9e18d34a90593b2e2a5e768f18056d40f2",
+      "uid": 1000
+    },
+    {
+      "bytes": 837,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V24_REQUIREMENTS.json",
+      "sha256": "da294375f62a6763db4bf38bf805362783623efef899809c88203582b577a3bb",
+      "uid": 1000
+    },
+    {
+      "bytes": 907,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V26_REQUIREMENTS.json",
+      "sha256": "4ce16e231c6fdc48f032ef878c029f1ab1a61a4586f5b4a16566eafc327791ac",
+      "uid": 1000
+    },
+    {
+      "bytes": 995,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V29_REQUIREMENTS.json",
+      "sha256": "f90e2141737e7a7f249bdd861c2716d3c5935b9f602c4626ed1d99bc86efcc46",
+      "uid": 1000
+    },
+    {
+      "bytes": 1557,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V31_GOVERNANCE_BOUND_MOUNT_OUTPUT_IDENTITY_CONTRACT.json",
+      "sha256": "74387874c2945fd7b7101b63580ce4affd230de710f5af9110810294f37e5ac0",
+      "uid": 1000
+    },
+    {
+      "bytes": 903,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V31_PYTHON_CACHE_AND_WRITE_BOUNDARY_CONTRACT.json",
+      "sha256": "166e9942efed3261ab4fad922d59d47d7120132f7cebb39dcf048804a1d7e44d",
+      "uid": 1000
+    },
+    {
+      "bytes": 1008,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V31_REQUIREMENTS.json",
+      "sha256": "8901ca134535551c9417ff2194d05da8be5c155d807bdd09d6daa28a50c7346d",
+      "uid": 1000
+    },
+    {
+      "bytes": 1610,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V31_TYPED_PREFLIGHT_BINDING_GENERATION_CONTRACT.json",
+      "sha256": "b2c5a26076991c3b287e7f5821776f19e82c3570e6ea4b7878803c8ab75ff64d",
+      "uid": 1000
+    },
+    {
+      "bytes": 1718,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V32_AUTHORITATIVE_ARTIFACT_FINALIZATION_LIFECYCLE_CONTRACT.json",
+      "sha256": "62ebb0ff93aae34595715d835a2fcc50bd12c15eed74cb48563c304bcdd1625d",
+      "uid": 1000
+    },
+    {
+      "bytes": 1598,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V32_GOVERNANCE_BOUND_MOUNT_OUTPUT_IDENTITY_CONTRACT.json",
+      "sha256": "112234c41314ffc9de4244048dbe29ba43aebe45cba5054af756469464b6b172",
+      "uid": 1000
+    },
+    {
+      "bytes": 903,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V32_PYTHON_CACHE_AND_WRITE_BOUNDARY_CONTRACT.json",
+      "sha256": "6eb0f87cc0afa20391da901088395ebafaa434a3f7b2c183c3dacd16a2ad198d",
+      "uid": 1000
+    },
+    {
+      "bytes": 1090,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V32_REQUIREMENTS.json",
+      "sha256": "a573ef324a4adfa1a03c3c92acf012eed6585f0ed6a1d3e18eaca5ad47a70268",
+      "uid": 1000
+    },
+    {
+      "bytes": 1651,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V32_TYPED_PREFLIGHT_BINDING_GENERATION_CONTRACT.json",
+      "sha256": "983faf15c68001b5c4f17f54e28e65bb825a5a911f68b744fe9852f3391414b3",
+      "uid": 1000
+    },
+    {
+      "bytes": 1684,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V35_AUTHORITATIVE_ARTIFACT_FINALIZATION_LIFECYCLE_CONTRACT.json",
+      "sha256": "b92ebc21d2c5af87d74ae5259fe8a176b43de502808434d13debd88a00ca1e0d",
+      "uid": 1000
+    },
+    {
+      "bytes": 1500,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V35_DERIVED_CURRENT_EXPECTED_DIGEST_VIEW_CONTRACT.json",
+      "sha256": "ffc38365ffe8944603e18c8d082f6a85d4f04f7bd2138793e0549103cb896b1a",
+      "uid": 1000
+    },
+    {
+      "bytes": 1564,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V35_GOVERNANCE_BOUND_MOUNT_OUTPUT_IDENTITY_CONTRACT.json",
+      "sha256": "cc3e5d5580c44826bfcbf95c359ebfe8a5f520a7110296eb6ddd81730f7f0b8a",
+      "uid": 1000
+    },
+    {
+      "bytes": 3777,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V35_PRELOCK_RESULTS_AND_FIXTURE_PROBE_LIFECYCLE_CONTRACT.json",
+      "sha256": "52c5685b6dae30de207dbe0bcf376c4c454242501e60857a4997a7f99edfb0b2",
+      "uid": 1000
+    },
+    {
+      "bytes": 903,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V35_PYTHON_CACHE_AND_WRITE_BOUNDARY_CONTRACT.json",
+      "sha256": "52d1a4efbe358cb828db8750f7fd3a232f3b590451bd2e6386dfdaf1edbb6948",
+      "uid": 1000
+    },
+    {
+      "bytes": 1227,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V35_REQUIREMENTS.json",
+      "sha256": "0ec2ac7ba702b5d3e49ae581cd78a7bb4c5f4358902bc99fc11bebf6425161c9",
+      "uid": 1000
+    },
+    {
+      "bytes": 1617,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V35_TYPED_PREFLIGHT_BINDING_GENERATION_CONTRACT.json",
+      "sha256": "481dd14e51f1c1a7a2b486680bf6b47daf419f114d831ce729cda5a24b3f7e48",
+      "uid": 1000
+    },
+    {
+      "bytes": 1525,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/SUCCESSOR_V35_TYPED_VALIDATOR_HELPER_RETURN_CONTRACT.json",
+      "sha256": "b42fc2678dd0213b4f0bc638b1a77a2d9079b289e53277d3dec2e374801cefaa",
+      "uid": 1000
+    },
+    {
+      "bytes": 2852,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/TEMPORAL_PROCESS_IDENTITY_OBSERVER_CONTRACT.json",
+      "sha256": "bbf943f52c18897a7e707be4bf8b04de69b9c2df8c02053cf35fb6a494b71422",
+      "uid": 1000
+    },
+    {
+      "bytes": 751,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/TEMPORAL_TRACE_CORRELATION_CONTRACT.json",
+      "sha256": "c9ed6cb1651c292019f7e911b97dceb5fe0d96622ce69e83adffbc140100417e",
+      "uid": 1000
+    },
+    {
+      "bytes": 1201,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/TOKEN_BUDGET_CONTRACT.json",
+      "sha256": "a1454187b32e9840eaac705eb9cc3e8af26e9832a8041d046d12cc5bb6b58464",
+      "uid": 1000
+    },
+    {
+      "bytes": 2263,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/TRACE_AND_DIAGNOSTIC_CONTRACT.json",
+      "sha256": "0ff0d8586922dc18cbd6c9cc288d53a00b87fd5376c8152f5ce80c50f340057a",
+      "uid": 1000
+    },
+    {
+      "bytes": 1073,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/TYPED_CANONICAL_STANDARD_LIBRARY_MODULE_IDENTITY_CONTRACT.json",
+      "sha256": "0fd977436483f2d9341186214811b959f6916454a205a21b3b49bc7e9db7b6ce",
+      "uid": 1000
+    },
+    {
+      "bytes": 1461,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/TYPED_CODEX_RUNTIME_ACCEPTANCE_BINDING_CONTRACT.json",
+      "sha256": "76284c368471717e9e6a1e5478ecc5bd34cc1af1ec7e42e5b73768ebfc4ed186",
+      "uid": 1000
+    },
+    {
+      "bytes": 1495,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/TYPED_FD_ANNOTATION_CONTRACT.json",
+      "sha256": "9b9942fa3ab57a00d3cbe9b17bcf897025158d00f2292dbaaf05313707af24e1",
+      "uid": 1000
+    },
+    {
+      "bytes": 12454,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/TYPED_HISTORICAL_DECISION_REGISTRY.json",
+      "sha256": "5ecd3d05a805d9040057803694735e5a4fbd9c10f26966203c06250f78ba6c2d",
+      "uid": 1000
+    },
+    {
+      "bytes": 863,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/TYPED_HISTORICAL_DECISION_REGISTRY_CONTRACT.json",
+      "sha256": "9382d6036e16a5552f7392683d0948e713dda5acb7e756da3566e82bec71f632",
+      "uid": 1000
+    },
+    {
+      "bytes": 9965,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/TYPED_PREFLIGHT_REQUIREMENT_REGISTRY.json",
+      "sha256": "f6ff8eb84c8c60c4e7ef2dd9b26b1b9a25818f7b47dc85761f252083e842d6e2",
+      "uid": 1000
+    },
+    {
+      "bytes": 1800,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/TYPED_PREFLIGHT_REQUIREMENT_REGISTRY_CONTRACT.json",
+      "sha256": "dafc5d9d97155e85e2f24e2bb2caf5c1af2bfda16d57b3272ac1428dff85836f",
+      "uid": 1000
+    },
+    {
+      "bytes": 1558,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/UNIFIED_GOVERNANCE_BOUND_AUTHORITATIVE_BINDING_GENERATION_CONTRACT.json",
+      "sha256": "dfd38505e594618358b6120df5535b3bd61b9a8ae704297e0d0892b7a287f1aa",
+      "uid": 1000
+    },
+    {
+      "bytes": 1235,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V14_CURRENT_APPEND_ONLY_DRIFT_ADJUDICATION.json",
+      "sha256": "b36113c1ee959cea47e40ac7c2d2c0c6debeb6306a37819e3d310ec57543772d",
+      "uid": 1000
+    },
+    {
+      "bytes": 1378,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V14_FROZEN_EVIDENCE_BINDING.json",
+      "sha256": "2f9b4a057de8fe09be811017a800d0dc7529c5339319ec1509d93ee8012dee81",
+      "uid": 1000
+    },
+    {
+      "bytes": 29450,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V14_FROZEN_EVIDENCE_SNAPSHOT_MANIFEST.json",
+      "sha256": "fef3de2e74c40dff0076e2d7dde91c848cb64eb157cdfe7e60c54419a16dd34e",
+      "uid": 1000
+    },
+    {
+      "bytes": 1052,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V14_PREINCIDENT_FROZEN_IDENTITY.json",
+      "sha256": "f03083f8a5c0d8e1708ef17a14bd842ab4fbd137b485235f478245483ded47a0",
+      "uid": 1000
+    },
+    {
+      "bytes": 1273,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V14_V15_FAILURE_AND_V19_REGRESSION_MATRIX.json",
+      "sha256": "810f064dbbf2bfa4e1e15efa867b17aa1ec6904625638189d9f57129d8e9cdbe",
+      "uid": 1000
+    },
+    {
+      "bytes": 1273,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V14_V15_FAILURE_AND_V21_REGRESSION_MATRIX.json",
+      "sha256": "ea8a80003650427835c7fac5a00440e2b54a7ede988a4d39a537e06fb0aed739",
+      "uid": 1000
+    },
+    {
+      "bytes": 1013,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V15_FROZEN_PRELOCK_EVIDENCE_BINDING.json",
+      "sha256": "df2ade0fe8fc20895f4bc1b788f7f266bbc009f32d910ccf07a8bdaf070478f4",
+      "uid": 1000
+    },
+    {
+      "bytes": 657,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V16_CANONICALIZATION_REGRESSION_MATRIX.json",
+      "sha256": "12172c5826165d5b3d945ee0fce88187ba2117893c82bbedf10aa11eb5fe42a8",
+      "uid": 1000
+    },
+    {
+      "bytes": 1552,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V16_FAILURE_AND_V19_REGRESSION_MATRIX.json",
+      "sha256": "59c97ef88e5a0cbaf1dca95924bfb443b73d46d777e219630cbf555f8c28ae99",
+      "uid": 1000
+    },
+    {
+      "bytes": 1552,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V16_FAILURE_AND_V21_REGRESSION_MATRIX.json",
+      "sha256": "f63eeb314c7c6d571d3edbf9fbaf02fb47ba8e2175d6d153af77a6cf2c97cc32",
+      "uid": 1000
+    },
+    {
+      "bytes": 1525,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V16_FROZEN_PRELOCK_EVIDENCE_BINDING.json",
+      "sha256": "e130964551f3aa665b1e96a605a11c291462d3d38860482440d604b4ff83543a",
+      "uid": 1000
+    },
+    {
+      "bytes": 1115,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V17_PRELOCK_FROZEN_EVIDENCE_BINDING.json",
+      "sha256": "7b112d3a2f0e69e754d23051608a0cb8fb20edc375a9d42c0c8898dd0020f360",
+      "uid": 1000
+    },
+    {
+      "bytes": 528,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V17_TERMINAL_AND_V18_SUCCESSOR_DECISION.json",
+      "sha256": "8e0d1d19e6f443e8d2985bb884d437877bacd94da61541731af5d5046f75235f",
+      "uid": 1000
+    },
+    {
+      "bytes": 2302,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V18_FROZEN_EVIDENCE_BINDING.json",
+      "sha256": "52a5c1cd0a87a5d7d2314db17579fb4acb45cbf52ef2c5476c069f5d3756e7ca",
+      "uid": 1000
+    },
+    {
+      "bytes": 564,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V18_TERMINAL_AND_V19_SUCCESSOR_DECISION.json",
+      "sha256": "96dbee1a08f7f1653000ef2a174b5b5a35f403d05aa3511abd0e4b5448e9779e",
+      "uid": 1000
+    },
+    {
+      "bytes": 18663,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V19_FROZEN_FAILURE_EVIDENCE_BINDING.json",
+      "sha256": "19449baac7e71149dcee7cf55b32d84a4e36a23d7eb009d18f23ffe14064dd01",
+      "uid": 1000
+    },
+    {
+      "bytes": 478,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V19_IMPORT_BINDING_REGRESSION_MATRIX.json",
+      "sha256": "4d983b7e7209e0b684e8959a619ee5501e383a9da3471bad054e6c06744e7242",
+      "uid": 1000
+    },
+    {
+      "bytes": 639,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V19_TERMINAL_AND_V20_SUCCESSOR_DECISION.json",
+      "sha256": "bb59b30c4549d786e9e52872ac828c64fc002d3896abf6e06a564ceafd104e10",
+      "uid": 1000
+    },
+    {
+      "bytes": 3664,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V19_TO_V20_GOVERNANCE_ARTIFACT_MANIFEST.json",
+      "sha256": "da28a76b8a3f3f3f5acb5dc5c5aa2bfb9bc2160f81eb1e0ed71bb698801b6aeb",
+      "uid": 1000
+    },
+    {
+      "bytes": 713,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V19_TO_V20_GOVERNANCE_LOCK.json",
+      "sha256": "3a31a5ac2554ac9723a00fecd7d1bc54e41e79abbffee87c130f58c69a0e4afa",
+      "uid": 1000
+    },
+    {
+      "bytes": 1451,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V19_WORKSPACE_WRITE_BOUNDARY_CONTRACT.json",
+      "sha256": "97dc971ebcbe88f19fb655e864b1d13e11e95224742a3ee710432d5048c1113d",
+      "uid": 1000
+    },
+    {
+      "bytes": 17066,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V20_FROZEN_FAILURE_EVIDENCE_BINDING.json",
+      "sha256": "969ba8ff99c32c1ebff455aff717f4199be53641371c2c8880a7ced99485bfb1",
+      "uid": 1000
+    },
+    {
+      "bytes": 651,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V20_TERMINAL_AND_V21_SUCCESSOR_DECISION.json",
+      "sha256": "0549da46f068df11695d544a8e66dd5fdb32272f5d5176528c419b11e07e8ea5",
+      "uid": 1000
+    },
+    {
+      "bytes": 4171,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V20_TO_V21_GOVERNANCE_ARTIFACT_MANIFEST.json",
+      "sha256": "64111e9a3424b8e7a32684a21632390b626d2bfc160c96f112a81b412d0c4458",
+      "uid": 1000
+    },
+    {
+      "bytes": 825,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V20_TO_V21_GOVERNANCE_LOCK.json",
+      "sha256": "785426181c254c82387f758188e49472d8cf9774fb00214f4668f8cc48d042be",
+      "uid": 1000
+    },
+    {
+      "bytes": 615,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V21_EXTERNAL_PREDECESSOR_ARTIFACT_REGRESSION_MATRIX.json",
+      "sha256": "6facfd3c98611569f2c1ae56137a5bee2b5370f9aff5f6ded964d680abf85f22",
+      "uid": 1000
+    },
+    {
+      "bytes": 19950,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V21_FROZEN_FAILURE_EVIDENCE_BINDING.json",
+      "sha256": "84d15a077e59c36fdd38b96559f4a92a008702e68a47fa1f6bcbdd75baa71de1",
+      "uid": 1000
+    },
+    {
+      "bytes": 478,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V21_IMPORT_BINDING_REGRESSION_MATRIX.json",
+      "sha256": "4d983b7e7209e0b684e8959a619ee5501e383a9da3471bad054e6c06744e7242",
+      "uid": 1000
+    },
+    {
+      "bytes": 1035,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V21_MODULE_RESOLUTION_DEFECT_ADJUDICATION.json",
+      "sha256": "48b1605ae548b4c1537b4ca65b8955560c1b42f3ae0ea9bf4d3a44d810cc07ed",
+      "uid": 1000
+    },
+    {
+      "bytes": 450,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V21_PREDECESSOR_BINDING_REGRESSION_MATRIX.json",
+      "sha256": "3a6e1c49d78ee0b0563a36bb65ce13c133bf2a9ebad899c32a5fc95f6a4d75e8",
+      "uid": 1000
+    },
+    {
+      "bytes": 617,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V21_TERMINAL_AND_V22_SUCCESSOR_DECISION.json",
+      "sha256": "0396f39796ecdd23fa6cf75a6fed947d2cddedffbb857b350c6f7c057b037d30",
+      "uid": 1000
+    },
+    {
+      "bytes": 4325,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V21_TO_V22_GOVERNANCE_ARTIFACT_MANIFEST.json",
+      "sha256": "a4d6cefedbe829d25d4a412fb5f1e3f8c9b6596e12de4348d69910a3211669f7",
+      "uid": 1000
+    },
+    {
+      "bytes": 818,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V21_TO_V22_GOVERNANCE_LOCK.json",
+      "sha256": "6e233867c1a632e633e20c74135f492cc85d4448739fd9d26742e9cb0fd208bb",
+      "uid": 1000
+    },
+    {
+      "bytes": 1451,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V21_WORKSPACE_WRITE_BOUNDARY_CONTRACT.json",
+      "sha256": "84f1391514ea34c2c33678480b4496b2d20cd785ac91951009b37632c7387b38",
+      "uid": 1000
+    },
+    {
+      "bytes": 656,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V22_FAILURE_AND_V23_REGRESSION_MATRIX.json",
+      "sha256": "4bbabdd11ab47f53e497413a0acf5e69887c4796b326b9a4e2469b1d3734bfa7",
+      "uid": 1000
+    },
+    {
+      "bytes": 581,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V22_MODULE_RESOLUTION_REGRESSION_MATRIX.json",
+      "sha256": "985dd4ea9206875e9ef43868d89c8893eb6116fe4b17dee05fa22bcbf5a651c3",
+      "uid": 1000
+    },
+    {
+      "bytes": 442,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V22_TERMINAL_AND_V23_SUCCESSOR_DECISION.json",
+      "sha256": "5ef9c5c5e93bc028117895d2e814448e7163deba043488417059842ec7ed4f74",
+      "uid": 1000
+    },
+    {
+      "bytes": 3793,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V22_TO_V23_GOVERNANCE_ARTIFACT_MANIFEST.json",
+      "sha256": "e09a4a26c32ebba19cf25b0fcc24587aa351d825e3c54d7f0c8707bd50cd1ec2",
+      "uid": 1000
+    },
+    {
+      "bytes": 826,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V22_TO_V23_GOVERNANCE_LOCK.json",
+      "sha256": "746d8ccb1f2c97b86eba8098e96b5497071679f42d12d59ac6707af9e07dbaa8",
+      "uid": 1000
+    },
+    {
+      "bytes": 471,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V23_TERMINAL_AND_V24_SUCCESSOR_DECISION.json",
+      "sha256": "20ea52c254bd899b18792356fa3264022513b64c602aa2761ed13438b89abc9c",
+      "uid": 1000
+    },
+    {
+      "bytes": 4138,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V23_TO_V24_GOVERNANCE_ARTIFACT_MANIFEST.json",
+      "sha256": "7a5710ed9d37621377014f20ccf1b1cbf84794425d3c60eaacbae957e8886482",
+      "uid": 1000
+    },
+    {
+      "bytes": 818,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V23_TO_V24_GOVERNANCE_LOCK.json",
+      "sha256": "5c1cadf1d0332ab3b1196946767b1426e0746911863cdffbc6cdac0a124a891c",
+      "uid": 1000
+    },
+    {
+      "bytes": 2298,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V23_TWO_FAMILY_FAILURE_ADJUDICATION.json",
+      "sha256": "ff55513787088ba539454ddd1a5147662cde87ba2a54b73fd526fabcde981d57",
+      "uid": 1000
+    },
+    {
+      "bytes": 1069,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V23_WORKSPACE_WRITE_BOUNDARY_CONTRACT.json",
+      "sha256": "ac68df2f48bb851c519dfd77cf2f312c80c17d9b28636a2d93b3b3ea7da6a772",
+      "uid": 1000
+    },
+    {
+      "bytes": 1055,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V24_DEFECT_ADJUDICATION.json",
+      "sha256": "9b35d3558bfecde30b265b2c12c17d54fbcf4187fa54a2b287a3380a3163e12c",
+      "uid": 1000
+    },
+    {
+      "bytes": 558,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V24_FAILURE_AND_V25_REGRESSION_MATRIX.json",
+      "sha256": "c1532c0acfd7f1bd19c17c516aafe8015d4740a737d5299065303cd4e2874255",
+      "uid": 1000
+    },
+    {
+      "bytes": 1097,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V24_FROZEN_FAILURE_EVIDENCE_BINDING.json",
+      "sha256": "386487a88f3c4b6b1c5496a3b52b0a31ab6abf4e7d8840fc7f2ef92bde71fb6e",
+      "uid": 1000
+    },
+    {
+      "bytes": 591,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V24_TERMINAL_AND_V25_SUCCESSOR_DECISION.json",
+      "sha256": "6a620e5c6587390745f4a1ced484fef563a6b4611d37720e6471f34fd37bc483",
+      "uid": 1000
+    },
+    {
+      "bytes": 4408,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V24_TO_V25_GOVERNANCE_ARTIFACT_MANIFEST.json",
+      "sha256": "cae650b023f2f05fe73a5487d9662d845a799d4124ed6481e25009af4e0030cf",
+      "uid": 1000
+    },
+    {
+      "bytes": 783,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V24_TO_V25_GOVERNANCE_LOCK.json",
+      "sha256": "43d1b0ab3973b200e04f93fb37d2ce12ad642f42b739c571fb41c83a74c06ee9",
+      "uid": 1000
+    },
+    {
+      "bytes": 1069,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V24_WORKSPACE_WRITE_BOUNDARY_CONTRACT.json",
+      "sha256": "e69b8600ef8e812074dd557b65c16d2374e6311a4b1ef3e17c7b0c89b9ff3b60",
+      "uid": 1000
+    },
+    {
+      "bytes": 1543,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V25_DEFECT_ADJUDICATION.json",
+      "sha256": "b984b96a93b3462732f5e8732828645a4feef1007ac1a1ac51060afefa158b07",
+      "uid": 1000
+    },
+    {
+      "bytes": 873,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V25_FAILURE_AND_V26_REGRESSION_MATRIX.json",
+      "sha256": "3140f268dd7c0effe973fc2eabf36f9aaf2d1f4f30df70cfaa1724552187aac1",
+      "uid": 1000
+    },
+    {
+      "bytes": 1208,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V25_FROZEN_FAILURE_EVIDENCE_BINDING.json",
+      "sha256": "a579511a9c46c837c4b9e88685d5ea9d7061adf6ab9f8cc841700a0d2f4de78c",
+      "uid": 1000
+    },
+    {
+      "bytes": 497,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V25_TERMINAL_AND_V26_SUCCESSOR_DECISION.json",
+      "sha256": "dc69e573295e97e2b1b5f67837c6e1c33ffdd2f955e2f1d6a0ffd5fc910e0d43",
+      "uid": 1000
+    },
+    {
+      "bytes": 4112,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V25_TO_V26_GOVERNANCE_ARTIFACT_MANIFEST.json",
+      "sha256": "db9c6025a1aa13be78d7a182ce8b3f1e8e3db1f238a57b2250a1189a00bb60ea",
+      "uid": 1000
+    },
+    {
+      "bytes": 820,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V25_TO_V26_GOVERNANCE_LOCK.json",
+      "sha256": "fa2a563eff3b4ba836a74fcb3b2f43225d3746d87ba28fb8eec17ed7a64174cb",
+      "uid": 1000
+    },
+    {
+      "bytes": 1334,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V26_DEFECT_ADJUDICATION.json",
+      "sha256": "d036f6eb30acde4e67b48b0dcd41faa7deb5c8c3e1a2b08d081946d9de209b76",
+      "uid": 1000
+    },
+    {
+      "bytes": 1640,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V26_FROZEN_FAILURE_EVIDENCE_BINDING.json",
+      "sha256": "41c792d8ef7f99405aa95b3a82e22e5a11dcc6a335573a2786782d82df54ea66",
+      "uid": 1000
+    },
+    {
+      "bytes": 303,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V26_TERMINAL_AND_V27_SUCCESSOR_DECISION.json",
+      "sha256": "87d9794d616e470c410999d9eeb9c8d654a8813694584a5023072e9a3bcb768b",
+      "uid": 1000
+    },
+    {
+      "bytes": 5100,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V26_TO_V27_GOVERNANCE_ARTIFACT_MANIFEST.json",
+      "sha256": "7461b1aa2c292979bbbbf7883f74c7ef5ceffb4fe39c0b1912d09bc8b4c352aa",
+      "uid": 1000
+    },
+    {
+      "bytes": 1190,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V26_TO_V27_GOVERNANCE_LOCK.json",
+      "sha256": "0ce75af3e74fe9e2971708c12f7d7f451c297b406c660430b2b40dfc05cc3c64",
+      "uid": 1000
+    },
+    {
+      "bytes": 809,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V28_FROZEN_PREDECESSOR_BINDING.json",
+      "sha256": "88439cc18b97aa51b9f6f6d5d550a874a6cc9423b4d83def68bfb0709010cd8c",
+      "uid": 1000
+    },
+    {
+      "bytes": 728,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V28_TERMINAL_AND_V29_SUCCESSOR_DECISION.json",
+      "sha256": "eae0963f8e79afb42000951e6c024b6148ac3236c8c5c7158a767c355f0ec939",
+      "uid": 1000
+    },
+    {
+      "bytes": 3140,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V28_TO_V29_GOVERNANCE_LOCK.json",
+      "sha256": "b1835a4d0ef7f9e3484832e07a4a602f56147261632fb317309f52f38fdec611",
+      "uid": 1000
+    },
+    {
+      "bytes": 1413,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V29_FROZEN_FAILURE_EVIDENCE_BINDING.json",
+      "sha256": "359acf64b763e9cdc3cf4c65b6e87ddf86687a3c7a3156d10e720ec82d821e7e",
+      "uid": 1000
+    },
+    {
+      "bytes": 5117,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V29_SUCCESSOR_GOVERNANCE_ARTIFACT_MANIFEST.json",
+      "sha256": "41092fd5e49b05df4d75f00af4cf00b537c0236b927be0f6c771efae7959a2be",
+      "uid": 1000
+    },
+    {
+      "bytes": 525,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V29_TERMINAL_AND_V30_SUCCESSOR_DECISION.json",
+      "sha256": "730a2660150bb5f264877896145455e9de891612cb21f4d91c62b466aa9613a0",
+      "uid": 1000
+    },
+    {
+      "bytes": 4811,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V29_TO_V30_GOVERNANCE_ARTIFACT_MANIFEST.json",
+      "sha256": "2722f6ce8d6143881b39274c347f9900e9ec2bf11001767696b596ea5725106b",
+      "uid": 1000
+    },
+    {
+      "bytes": 1251,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V29_TO_V30_GOVERNANCE_LOCK.json",
+      "sha256": "cea47655bd322b7cae0eb1e735e143d31ca9b36483d98b794f5faa3f8d66431b",
+      "uid": 1000
+    },
+    {
+      "bytes": 1277,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V30_FROZEN_FAILURE_EVIDENCE_BINDING.json",
+      "sha256": "3a42fbfb271996270735ee11ac0265367f5368935dcad10d54f30df20cf5920f",
+      "uid": 1000
+    },
+    {
+      "bytes": 568,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V30_TERMINAL_AND_V31_SUCCESSOR_DECISION.json",
+      "sha256": "7ddf9dae155fc744c906e85a530e2ceecd3a39f1598b33e01430a68a4ee84b8a",
+      "uid": 1000
+    },
+    {
+      "bytes": 4236,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V30_TO_V31_GOVERNANCE_ARTIFACT_MANIFEST.json",
+      "sha256": "13002929214888e26e5e0ddfd417944bb92f2614b36da9335a25e52f1d8e8ea1",
+      "uid": 1000
+    },
+    {
+      "bytes": 1422,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V30_TO_V31_GOVERNANCE_LOCK.json",
+      "sha256": "064b468f18fccc745529a3887fab27748027c00a95be9edefcc71ef48f2677fb",
+      "uid": 1000
+    },
+    {
+      "bytes": 1381,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V31_CARRIED_FORWARD_CONTROL_REQUIREMENTS.json",
+      "sha256": "e27881d9ef940a31676cdc3bc705b2cce2e4d21e8af919b5542992db3dadb589",
+      "uid": 1000
+    },
+    {
+      "bytes": 2208,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V31_CODEX_0_166_0_RUNTIME_BINDING.json",
+      "sha256": "6af1223e8670b7cc0ad43a3c84bf2c3af0a4a1e85a195098edf4d68ecfd9f932",
+      "uid": 1000
+    },
+    {
+      "bytes": 874,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V31_DEDICATED_CONFIG_IDENTITY_REQUIREMENT.json",
+      "sha256": "86ea5866950a33cca9919b005e8893f8063321603b89b7595f106538e47b4d3d",
+      "uid": 1000
+    },
+    {
+      "bytes": 1449,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V31_FROZEN_FAILURE_EVIDENCE_BINDING.json",
+      "sha256": "b184a790afdb67549ff7b0a870e89bf7e58f42248879c31ddea09d4859d4cbc9",
+      "uid": 1000
+    },
+    {
+      "bytes": 455,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V31_STANDARD_LIBRARY_SYMBOL_RESOLUTION_REGRESSION_MATRIX.json",
+      "sha256": "ca34102507558b894c1d828ad50ed78f7dc27b7c3e4e2625bf5f79ae489db088",
+      "uid": 1000
+    },
+    {
+      "bytes": 613,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V31_TERMINAL_AND_V32_SUCCESSOR_DECISION.json",
+      "sha256": "d2349f2ac8c68ca9cb929f18af9de982f3cf0d30005f27b41c4cd34602d6ef93",
+      "uid": 1000
+    },
+    {
+      "bytes": 4492,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V31_TO_V32_GOVERNANCE_ARTIFACT_MANIFEST.json",
+      "sha256": "f17cbc63cc5f6b348660c4e778cb67d37e7519184a9ef29afbc6b1ee94854bbc",
+      "uid": 1000
+    },
+    {
+      "bytes": 1485,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V31_TO_V32_GOVERNANCE_LOCK.json",
+      "sha256": "ee218c67194213bb8813525339a598cfcab2a88c6136451b46371358f4354ab7",
+      "uid": 1000
+    },
+    {
+      "bytes": 1093,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V31_WORKSPACE_WRITE_BOUNDARY_CONTRACT.json",
+      "sha256": "381da8a9c230fdd8489a22c2efbbd2ba4787de1198728f2423f57a16e0d22873",
+      "uid": 1000
+    },
+    {
+      "bytes": 1506,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V32_CARRIED_FORWARD_CONTROL_REQUIREMENTS.json",
+      "sha256": "743e582e0a343b07a4823c6c572fcf0fdc08e309e84f2cf4d00fedd183c353fe",
+      "uid": 1000
+    },
+    {
+      "bytes": 2249,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V32_CODEX_0_166_0_RUNTIME_BINDING.json",
+      "sha256": "24ee239b15b46fbcb63fcf7e420a971ae1bd944fcf93431df8af7b2f74826580",
+      "uid": 1000
+    },
+    {
+      "bytes": 915,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V32_DEDICATED_CONFIG_IDENTITY_REQUIREMENT.json",
+      "sha256": "57e39199b871255e40e4eaab5b90b6ed1770f2a65ce0132b40c1be59180c3923",
+      "uid": 1000
+    },
+    {
+      "bytes": 9402,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V32_EXPECTED_DIGEST_STALENESS_EVIDENCE_COMPARISON.json",
+      "sha256": "523a78531abf1d7c2dc6ce36472bbd8d8083b25f8b43d6bc3c8b245e6a5768f0",
+      "uid": 1000
+    },
+    {
+      "bytes": 1200,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V32_FAILURE_AND_V33_REGRESSION_MATRIX.json",
+      "sha256": "b40fea850261ce4a5a61646a04a102fa147126a50dda41e49796f042a08e5e01",
+      "uid": 1000
+    },
+    {
+      "bytes": 1403,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V32_FROZEN_FAILURE_EVIDENCE_BINDING.json",
+      "sha256": "7ca0c97393530f1f643dcaa5f74a23920550c4120fe96619e13d9f3d017774a5",
+      "uid": 1000
+    },
+    {
+      "bytes": 455,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V32_STANDARD_LIBRARY_SYMBOL_RESOLUTION_REGRESSION_MATRIX.json",
+      "sha256": "3618deb6a7ada58f6f28f7a0eb35afd9829e17f180dc2eda4172f6ebc45f53be",
+      "uid": 1000
+    },
+    {
+      "bytes": 613,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V32_TERMINAL_AND_V33_SUCCESSOR_DECISION.json",
+      "sha256": "5018b8be9b167d54dc139ed4e4f31e2bc8c068f8be29266830e410f901741066",
+      "uid": 1000
+    },
+    {
+      "bytes": 4460,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V32_TO_V33_GOVERNANCE_ARTIFACT_MANIFEST.json",
+      "sha256": "2d70741289ec7c6caebce2a476b533e35f5eafbb2d42e2d89a6110f4c514d6ea",
+      "uid": 1000
+    },
+    {
+      "bytes": 1344,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V32_TO_V33_GOVERNANCE_LOCK.json",
+      "sha256": "73287dbe50e46910c1ed31951cd983bea46ab31933c90976bbad1b0b3c9a133f",
+      "uid": 1000
+    },
+    {
+      "bytes": 1093,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V32_WORKSPACE_WRITE_BOUNDARY_CONTRACT.json",
+      "sha256": "e383e0232ecc3bbd2fb7e5304be899f3b105ea16bbf612edbd497dc843fc6282",
+      "uid": 1000
+    },
+    {
+      "bytes": 1117,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V33_FAILURE_AND_V34_REGRESSION_MATRIX.json",
+      "sha256": "a68017b8e7589291b8e926d9036751f24a0fbdbbe100be81075df3a03017a1cc",
+      "uid": 1000
+    },
+    {
+      "bytes": 1598,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V33_FROZEN_FAILURE_EVIDENCE_BINDING.json",
+      "sha256": "32ec8dd302116371ec6e826127332cb9195c0031861c1b12b979b5d0a23cc127",
+      "uid": 1000
+    },
+    {
+      "bytes": 849,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V33_RUNTIME_AND_PROOF_GATE_SEPARATION_ADJUDICATION.json",
+      "sha256": "8607f63ed6b11ede4d29aa28a73f24254063997ae5438ada9f3b86eeaafa2cd7",
+      "uid": 1000
+    },
+    {
+      "bytes": 1565,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V33_RUNTIME_IDENTITY_RETURN_CONTROL_FLOW_EVIDENCE.json",
+      "sha256": "8ee72b252fd0455fdb0992bf95031c02dbf17f5126f8324dc6509d4663533562",
+      "uid": 1000
+    },
+    {
+      "bytes": 485,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V33_RUNTIME_IDENTITY_VERDICT_RETURN_ADJUDICATION.json",
+      "sha256": "5f46c663b1b0ffe47aa3fcf792edbb7f6381261853dc17ffcd02c5375ae59641",
+      "uid": 1000
+    },
+    {
+      "bytes": 438,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V33_TERMINAL_AND_V34_SUCCESSOR_DECISION.json",
+      "sha256": "1d5a39f8f7341a851648dea941d4f3cc8083a089dcb99af0cc73adda7fe325d2",
+      "uid": 1000
+    },
+    {
+      "bytes": 4450,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V33_TO_V34_GOVERNANCE_ARTIFACT_MANIFEST.json",
+      "sha256": "41e03f31a302c2be001c7a7de6b550c8537a72cce340b8670bd7140af3f263f6",
+      "uid": 1000
+    },
+    {
+      "bytes": 1365,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V33_TO_V34_GOVERNANCE_LOCK.json",
+      "sha256": "ccc738730f3cd8cfbdb7e97649f29294bc56c223c1cde779efcf73fcbdf679ca",
+      "uid": 1000
+    },
+    {
+      "bytes": 808,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V34_FAILURE_AND_V35_REGRESSION_MATRIX.json",
+      "sha256": "7dca1f8666f00af2c57e3a08c224e8745f709eac80163e3b6e29c94873144b41",
+      "uid": 1000
+    },
+    {
+      "bytes": 1565,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V34_FROZEN_FAILURE_EVIDENCE_BINDING.json",
+      "sha256": "ca904df3e36b592a1245941e7614fb5bda889d50cfa952623f822e65abe85026",
+      "uid": 1000
+    },
+    {
+      "bytes": 454,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V34_TERMINAL_AND_V35_SUCCESSOR_DECISION.json",
+      "sha256": "e9672bcddb685c92f3230531eb4c131f41264f54e2ee4c6afa9f9f633bcb21b6",
+      "uid": 1000
+    },
+    {
+      "bytes": 4817,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V34_TO_V35_GOVERNANCE_ARTIFACT_MANIFEST.json",
+      "sha256": "9e847eb4a8f18484e46c67bf24efeca90369ec4f1c4657c8f7d6cc0af012fb3b",
+      "uid": 1000
+    },
+    {
+      "bytes": 1242,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V34_TO_V35_GOVERNANCE_LOCK.json",
+      "sha256": "d2263268f61b9ddde99a0b60f4b43a26df1586e0c577ba2ca98c07b64c21f811",
+      "uid": 1000
+    },
+    {
+      "bytes": 1472,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V35_CARRIED_FORWARD_CONTROL_REQUIREMENTS.json",
+      "sha256": "16731604d37fa94238adaf01687f5b8791811018cf2e76abbe912027e5eaa96b",
+      "uid": 1000
+    },
+    {
+      "bytes": 2215,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V35_CODEX_0_166_0_RUNTIME_BINDING.json",
+      "sha256": "379b086091ec2ab21b6dd2587bf7971e0a08c64c31f68396ad85d152495b6c34",
+      "uid": 1000
+    },
+    {
+      "bytes": 881,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V35_DEDICATED_CONFIG_IDENTITY_REQUIREMENT.json",
+      "sha256": "14af60bc81dbbc888ba340def803f7f9ccf3200a646e41234ff1085c000d023d",
+      "uid": 1000
+    },
+    {
+      "bytes": 1062,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V35_DERIVED_CURRENT_EXPECTED_DIGEST_REGRESSION_MATRIX.json",
+      "sha256": "652a6478da1ab35e723d5918d908a00fcaca39d9689ff8a5e1a32cf33c23dfdc",
+      "uid": 1000
+    },
+    {
+      "bytes": 455,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V35_STANDARD_LIBRARY_SYMBOL_RESOLUTION_REGRESSION_MATRIX.json",
+      "sha256": "3bda57bdf029d7e324f6b201aa6806ef11655aafe474816337d32aa8cba71847",
+      "uid": 1000
+    },
+    {
+      "bytes": 857,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V35_TYPED_VALIDATOR_HELPER_RETURN_REGRESSION_MATRIX.json",
+      "sha256": "8b1da08ba674480db06c4f3d901a7fe83d7d412a642f9edc21db70fac78313dc",
+      "uid": 1000
+    },
+    {
+      "bytes": 1093,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/V35_WORKSPACE_WRITE_BOUNDARY_CONTRACT.json",
+      "sha256": "5f3097c1c9812dfc0a9b38620f09af659c5847423ae9802363e5175c652dc08e",
+      "uid": 1000
+    },
+    {
+      "bytes": 2141,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "contracts/WORKER_REQUEST.json",
+      "sha256": "2baf9a894f858a24b3d2bb6c128c7f0fe401482fc7c7ae67aca7caee9973e943",
+      "uid": 1000
+    },
+    {
+      "bytes": 489,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "fixture/fixture.json",
+      "sha256": "0da031c1cf7fd916ac8aac23513b2d1962625fbb3aa97d55f1b8f6d56c342225",
+      "uid": 1000
+    },
+    {
+      "bytes": 1495,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "fixture/worker-prompt.txt",
+      "sha256": "e9883b603ef178ffdb990469ea5a58a5e945bbb64ae81e5f8f03f27da3c06ad1",
+      "uid": 1000
+    },
+    {
+      "bytes": 36,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "runtime-config-candidate/config.toml",
+      "sha256": "7ae835188ef2ab3221e15effac45375b2d6112954d022aa7776f802f7b8697c0",
+      "uid": 1000
+    },
+    {
+      "bytes": 769,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "schemas/CONTINUATION_VALIDATION_EVIDENCE_PROVENANCE.schema.json",
+      "sha256": "94058e6b9d031f5729fed7899963856a0035924e71b401feaddcc8eb0acee1a5",
+      "uid": 1000
+    },
+    {
+      "bytes": 1592,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "schemas/CONTROLLER_WORKER_RESULT.schema.json",
+      "sha256": "678d087c887f51afb927f96ff26335e7447f20772fe1c84c41cdb76518efcccb",
+      "uid": 1000
+    },
+    {
+      "bytes": 1431,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "schemas/SELFTEST_LIFECYCLE_EVIDENCE.schema.json",
+      "sha256": "8e9c464427a0ee8406a3ec9b5dc81a78eebd2b2e1b6f0f33141b83b07c9aa6d2",
+      "uid": 1000
+    },
+    {
+      "bytes": 2622,
+      "gid": 1000,
+      "mode": "0444",
+      "path": "schemas/WORKER_MODEL_OUTPUT.schema.json",
+      "sha256": "9b0f911a46c5f2786f64eaabbce84df9776d641452bf486a20e7e41d2a6bd7ce",
+      "uid": 1000
+    }
+  ],
+  "post_closure_member_mutation": "PROHIBITED",
+  "record_type": "V35_AUTHORITATIVE_ARTIFACT_CREATION_CLOSURE",
+  "required_mode": "0444",
+  "status": "PASS_CREATION_PHASE_CLOSED_IMMUTABILITY_APPLIED",
+  "symbol_manifest_present_before_closure": true,
+  "worker_invocation_count": 0
+}

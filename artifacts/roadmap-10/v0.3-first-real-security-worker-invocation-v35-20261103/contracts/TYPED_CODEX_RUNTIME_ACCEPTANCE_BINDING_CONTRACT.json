@@ -1,0 +1,22 @@
+{
+  "binary_sha256": "b8a11fedf24b2dfb59a70c9e52b030f9a508dcd49cd2dd0d41956f4c785156b8",
+  "binding_generation_identity": "V35_CURRENT_GOVERNANCE_BOUND_TYPED_PREFLIGHT_BINDING_GENERATION_0001",
+  "compatibility_governance_identity": "CODEX_0_166_0_FROZEN_COMPATIBILITY_EVIDENCE_ACCEPTANCE_AND_PASS_LOCKED_DECISION_GOVERNANCE_ONLY",
+  "compatibility_governance_lock_sha256": "060b39551d4543999e79ccfd5d133d751faefc018fdc8adab718f5b9c7479a5e",
+  "contract_identity": "V35_TYPED_CODEX_RUNTIME_ACCEPTANCE_BINDING_CONTRACT_V1",
+  "current_authority_field": "codex_runtime_0_166_0",
+  "current_authority_state": "COMPATIBILITY_PASS_LOCKED",
+  "dedicated_config_sha256": "7ae835188ef2ab3221e15effac45375b2d6112954d022aa7776f802f7b8697c0",
+  "fallback_runtime": null,
+  "historical_field": "codex_runtime_0_163_0",
+  "historical_field_role": "HISTORY_ONLY_NOT_CURRENT_WORKER_AUTHORITY",
+  "mixed_current_historical_binding": false,
+  "package_sha256": "ffdfc731eed492fa436a304cff8792ea3a96233a45ec9a561f6f56eaca911446",
+  "record_type": "TYPED_CODEX_RUNTIME_ACCEPTANCE_BINDING_CONTRACT",
+  "runtime_logical_identity": "CODEX_RUNTIME_0_166_0_COMPATIBILITY_PASS_LOCKED",
+  "runtime_version": "0.166.0",
+  "status": "NORMATIVE_FOR_AUTHORIZED_SUCCESSOR_ONLY",
+  "successor_authorization_lock_sha256": "d2263268f61b9ddde99a0b60f4b43a26df1586e0c577ba2ca98c07b64c21f811",
+  "version_string_only": false,
+  "worker_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35"
+}

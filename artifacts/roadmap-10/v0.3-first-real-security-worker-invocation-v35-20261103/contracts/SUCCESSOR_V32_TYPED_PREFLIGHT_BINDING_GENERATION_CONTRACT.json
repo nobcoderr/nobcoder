@@ -1,0 +1,35 @@
+{
+  "applies_to": [
+    "PREFLIGHT",
+    "SYMBOL_RESOLUTION",
+    "MODULE_IDENTITY",
+    "CONTRACT",
+    "EXTERNAL_ARTIFACT"
+  ],
+  "authorizing_governance_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V31_AUTHORITATIVE_ARTIFACT_FINALIZATION_ORDER_AND_LATE_SYMBOL_BINDING_MANIFEST_BOUND_MEMBER_SET_INCOMPLETENESS_PRELOCK_ERRATUM_AND_SUCCESSOR_DECISION_GOVERNANCE_ONLY",
+  "authorizing_governance_lock": "ee218c67194213bb8813525339a598cfcab2a88c6136451b46371358f4354ab7",
+  "binding_generation_identity": "V32_CURRENT_GOVERNANCE_BOUND_TYPED_PREFLIGHT_BINDING_GENERATION_0001",
+  "contract_identity": "V32_CURRENT_GOVERNANCE_BOUND_TYPED_PREFLIGHT_BINDING_GENERATION_CONTRACT_V1",
+  "digest_only_substitution": "PROHIBITED",
+  "joint_required_fields": [
+    "logical_requirement_identity",
+    "semantic_predicate_identity",
+    "artifact_identity",
+    "artifact_owner_identity",
+    "artifact_sha256",
+    "artifact_generation_identity",
+    "owner_governance_digest",
+    "owning_contract_identity",
+    "owning_contract_sha256",
+    "evaluator_identity",
+    "binding_generation_identity"
+  ],
+  "mixed_current_predecessor_generations": "FAIL_CLOSED",
+  "obsolete_text_token_authority": "PROHIBITED",
+  "obsolete_token_absence": "ACCEPTED_ONLY_WHEN_EXACT_CURRENT_TYPED_SEMANTIC_REQUIREMENT_PASSES",
+  "owner_role_authority_generation_proof": "REQUIRED",
+  "record_type": "SUCCESSOR_V32_TYPED_PREFLIGHT_BINDING_GENERATION_CONTRACT",
+  "selection": "ONE_EXPLICIT_FINALIZED_CURRENT_GENERATION_ONLY",
+  "status": "NORMATIVE_FOR_CONDITIONALLY_AUTHORIZED_SUCCESSOR_ONLY",
+  "successor_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V32"
+}

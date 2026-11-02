@@ -1,0 +1,31 @@
+{
+  "historical_artifact_mutation": "PROHIBITED",
+  "logical_to_physical_rule": "EXPLICIT_MAPPING_NOT_STRING_EQUALITY",
+  "mismatch": "FAIL_CLOSED_BEFORE_STATIC_LOCK_AND_ATTEMPT",
+  "physical_record_type": {
+    "absent_value": null,
+    "legacy_absence_requires_exact_digest": true,
+    "presence": [
+      "PRESENT",
+      "ABSENT"
+    ]
+  },
+  "record_type": "V35_TYPED_HISTORICAL_DECISION_REGISTRY_CONTRACT",
+  "required_fields": [
+    "logical_decision_identity",
+    "physical_record_type_presence",
+    "physical_record_type",
+    "artifact_role",
+    "governance_owner",
+    "subject_identity",
+    "object_identity",
+    "relation_semantics",
+    "canonical_locator",
+    "artifact_sha256",
+    "artifact_size",
+    "governance_identity",
+    "governance_lock_sha256",
+    "mapping_authority"
+  ],
+  "selection": "EXACT_GOVERNANCE_BOUND_TYPED_MAPPING"
+}

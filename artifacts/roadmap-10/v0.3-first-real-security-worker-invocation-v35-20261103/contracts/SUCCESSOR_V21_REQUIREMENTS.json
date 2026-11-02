@@ -1,0 +1,45 @@
+{
+  "authority_denied": [
+    "TARGET",
+    "CREDENTIAL",
+    "TARGET_NETWORK",
+    "SUBAGENT",
+    "PARALLELISM",
+    "CAPABILITY_GRAPH",
+    "PROMOTION",
+    "SUBMISSION"
+  ],
+  "canonical_external_predecessor_artifact_binding_contract": "REQUIRED",
+  "canonical_predecessor_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V18",
+  "carry_forward": [
+    "V20_CANONICAL_PREDECESSOR_BINDING_CONTRACT",
+    "NORMATIVE_TREE_CANONICALIZATION",
+    "SYMBOL_IMPORT_DEPENDENCY_CLOSURE",
+    "PYTHON_CACHE_POLICY",
+    "FAIL_BEFORE_WRITE_WORKSPACE_BOUNDARY",
+    "A_LT_B_LT_C_LT_D_LT_E",
+    "STRICT_N_OF_N_TEMPORAL_IDENTITY_COVERAGE",
+    "MOUNT_PROVENANCE_SEPARATE_FROM_PRODUCER_AUTHORIZATION"
+  ],
+  "external_artifact_consumers_independently_verify_binding": true,
+  "maximum_outcome": "PASS_TECHNICAL_FROZEN_AWAITING_SEPARATE_ACCEPTANCE_ADJUDICATION",
+  "one_shot": {
+    "attempt": "0_TO_1_ONLY_IF_ALL_GATES_PASS",
+    "codex": "EXACTLY_ONE",
+    "retry": "PROHIBITED",
+    "worker": "EXACTLY_ONE"
+  },
+  "required_pre_attempt_chain": [
+    "UNIT",
+    "PRIMARY",
+    "INDEPENDENT",
+    "FRESH_PREFLIGHT",
+    "FILE_SYMBOL_PREDECESSOR_AND_EXTERNAL_ARTIFACT_DEPENDENCY_CLOSURE",
+    "STATIC_LOCK",
+    "LOCK_VERIFICATION",
+    "LOCKED_EXTERNAL_ARTIFACT_BINDING_VERIFICATION",
+    "LOCKED_PREATTEMPT_ENTRYPOINT_WALK"
+  ],
+  "successor": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V22",
+  "workspace": "FRESH_IDENTITY; V20_IMMUTABLE_REFERENCE_ONLY"
+}

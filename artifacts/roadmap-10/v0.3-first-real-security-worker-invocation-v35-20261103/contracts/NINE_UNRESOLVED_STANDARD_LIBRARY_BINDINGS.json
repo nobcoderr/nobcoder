@@ -1,0 +1,608 @@
+{
+  "binding_count": 9,
+  "bindings": [
+    {
+      "actual_independent_validator_loader_identity": null,
+      "actual_independent_validator_module_origin": null,
+      "actual_independent_validator_module_spec": null,
+      "authoritative_manifest_row": {
+        "binding_line": 14,
+        "call_or_reference_sites": [
+          123,
+          131,
+          169,
+          197,
+          213,
+          416,
+          724,
+          725
+        ],
+        "callable": null,
+        "defining_module": "typing",
+        "defining_source_artifact": "/usr/lib/python3.14/typing.py",
+        "defining_source_sha256": "f8b25b42a5f33096c7d55ec4d0bb26693393648ebf8937add401934e1983c748",
+        "dependency_closure_membership": "PINNED_PYTHON_RUNTIME_DEPENDENCY",
+        "expected_alias": "Any",
+        "expected_import_or_binding": "FROM_IMPORT",
+        "expected_imported_name": "Any",
+        "locked_runtime_resolution": "NOT_YET_EXECUTED",
+        "static_lock_membership": "PINNED_RUNTIME_IDENTITY",
+        "symbol": "Any"
+      },
+      "exact_resolution_failure": {
+        "module": "typing",
+        "reason": "MODULE_UNRESOLVABLE",
+        "symbol": "Any"
+      },
+      "expected_import_name": "typing",
+      "expected_loader_identity": "_frozen_importlib_external.SourceFileLoader",
+      "expected_module_identity": "typing",
+      "expected_module_origin": "/usr/lib/python3.14/typing.py",
+      "expected_module_spec_semantics": "RESOLVE_IN_PINNED_PYTHON_3_14_RUNTIME_BY_TYPED_MODULE_CLASS",
+      "expected_size": 135870,
+      "expected_source_sha256": "f8b25b42a5f33096c7d55ec4d0bb26693393648ebf8937add401934e1983c748",
+      "failure_mechanism": "STDLIB_MODULE_ABSENT_FROM_LOCAL_MODULE_BINDING_SO_RESOLUTION_NOT_ATTEMPTED",
+      "has_location": true,
+      "independent_graph_row": {
+        "call_or_reference_sites": [
+          123,
+          131,
+          169,
+          197,
+          213,
+          416,
+          724,
+          725
+        ],
+        "defining_module": "typing",
+        "expected_alias": "Any",
+        "expected_import_or_binding": "FROM_IMPORT",
+        "expected_imported_name": "Any",
+        "symbol": "Any"
+      },
+      "logical_module_identity": "PYTHON_3_14_STDLIB::typing",
+      "logical_symbol_identity": "V26_PREATTEMPT_SYMBOL::Any",
+      "module_category": "PURE_PYTHON_STDLIB",
+      "symbol_name": "Any",
+      "validation_environment": {
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONHASHSEED": "0",
+        "PYTHONPATH": "ABSENT",
+        "PYTHONPYCACHEPREFIX": "ABSENT",
+        "cwd": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v26-20261102",
+        "independent_resolution_algorithm": "LOCAL_MODULE_BINDING_GATE_THEN_PATHFINDER_WITH_ONLY_V26_SRC",
+        "python_executable": "/usr/bin/python3.14",
+        "python_version": "3.14.6 (main, Jun 10 2026, 18:54:31) [GCC 15.2.0]"
+      }
+    },
+    {
+      "actual_independent_validator_loader_identity": null,
+      "actual_independent_validator_module_origin": null,
+      "actual_independent_validator_module_spec": null,
+      "authoritative_manifest_row": {
+        "binding_line": 13,
+        "call_or_reference_sites": [
+          123,
+          152,
+          164,
+          197,
+          210
+        ],
+        "callable": null,
+        "defining_module": "pathlib",
+        "defining_source_artifact": "/usr/lib/python3.14/pathlib/__init__.py",
+        "defining_source_sha256": "e82f9063fa8081136d04d27a79ba6fa44085ccb7ac78077e1095afce77f2a071",
+        "dependency_closure_membership": "PINNED_PYTHON_RUNTIME_DEPENDENCY",
+        "expected_alias": "Path",
+        "expected_import_or_binding": "FROM_IMPORT",
+        "expected_imported_name": "Path",
+        "locked_runtime_resolution": "NOT_YET_EXECUTED",
+        "static_lock_membership": "PINNED_RUNTIME_IDENTITY",
+        "symbol": "Path"
+      },
+      "exact_resolution_failure": {
+        "module": "pathlib",
+        "reason": "MODULE_UNRESOLVABLE",
+        "symbol": "Path"
+      },
+      "expected_import_name": "pathlib",
+      "expected_loader_identity": "_frozen_importlib_external.SourceFileLoader",
+      "expected_module_identity": "pathlib",
+      "expected_module_origin": "/usr/lib/python3.14/pathlib/__init__.py",
+      "expected_module_spec_semantics": "RESOLVE_IN_PINNED_PYTHON_3_14_RUNTIME_BY_TYPED_MODULE_CLASS",
+      "expected_size": 46833,
+      "expected_source_sha256": "e82f9063fa8081136d04d27a79ba6fa44085ccb7ac78077e1095afce77f2a071",
+      "failure_mechanism": "STDLIB_MODULE_ABSENT_FROM_LOCAL_MODULE_BINDING_SO_RESOLUTION_NOT_ATTEMPTED",
+      "has_location": true,
+      "independent_graph_row": {
+        "call_or_reference_sites": [
+          123,
+          152,
+          164,
+          197,
+          210
+        ],
+        "defining_module": "pathlib",
+        "expected_alias": "Path",
+        "expected_import_or_binding": "FROM_IMPORT",
+        "expected_imported_name": "Path",
+        "symbol": "Path"
+      },
+      "logical_module_identity": "PYTHON_3_14_STDLIB::pathlib",
+      "logical_symbol_identity": "V26_PREATTEMPT_SYMBOL::Path",
+      "module_category": "PURE_PYTHON_STDLIB",
+      "symbol_name": "Path",
+      "validation_environment": {
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONHASHSEED": "0",
+        "PYTHONPATH": "ABSENT",
+        "PYTHONPYCACHEPREFIX": "ABSENT",
+        "cwd": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v26-20261102",
+        "independent_resolution_algorithm": "LOCAL_MODULE_BINDING_GATE_THEN_PATHFINDER_WITH_ONLY_V26_SRC",
+        "python_executable": "/usr/bin/python3.14",
+        "python_version": "3.14.6 (main, Jun 10 2026, 18:54:31) [GCC 15.2.0]"
+      }
+    },
+    {
+      "actual_independent_validator_loader_identity": null,
+      "actual_independent_validator_module_origin": null,
+      "actual_independent_validator_module_spec": null,
+      "authoritative_manifest_row": {
+        "binding_line": 6,
+        "call_or_reference_sites": [
+          484
+        ],
+        "callable": null,
+        "defining_module": "argparse",
+        "defining_source_artifact": "/usr/lib/python3.14/argparse.py",
+        "defining_source_sha256": "d5397452365179494a331aee7037f9e3b4f4cfb3e00e5d280406ac90d2f8f4c7",
+        "dependency_closure_membership": "PINNED_PYTHON_RUNTIME_DEPENDENCY",
+        "expected_alias": "argparse",
+        "expected_import_or_binding": "IMPORT_MODULE",
+        "expected_imported_name": "argparse",
+        "locked_runtime_resolution": "NOT_YET_EXECUTED",
+        "static_lock_membership": "PINNED_RUNTIME_IDENTITY",
+        "symbol": "argparse"
+      },
+      "exact_resolution_failure": {
+        "module": "argparse",
+        "reason": "MODULE_UNRESOLVABLE",
+        "symbol": "argparse"
+      },
+      "expected_import_name": "argparse",
+      "expected_loader_identity": "_frozen_importlib_external.SourceFileLoader",
+      "expected_module_identity": "argparse",
+      "expected_module_origin": "/usr/lib/python3.14/argparse.py",
+      "expected_module_spec_semantics": "RESOLVE_IN_PINNED_PYTHON_3_14_RUNTIME_BY_TYPED_MODULE_CLASS",
+      "expected_size": 107094,
+      "expected_source_sha256": "d5397452365179494a331aee7037f9e3b4f4cfb3e00e5d280406ac90d2f8f4c7",
+      "failure_mechanism": "STDLIB_MODULE_ABSENT_FROM_LOCAL_MODULE_BINDING_SO_RESOLUTION_NOT_ATTEMPTED",
+      "has_location": true,
+      "independent_graph_row": {
+        "call_or_reference_sites": [
+          484
+        ],
+        "defining_module": "argparse",
+        "expected_alias": "argparse",
+        "expected_import_or_binding": "IMPORT_MODULE",
+        "expected_imported_name": "argparse",
+        "symbol": "argparse"
+      },
+      "logical_module_identity": "PYTHON_3_14_STDLIB::argparse",
+      "logical_symbol_identity": "V26_PREATTEMPT_SYMBOL::argparse",
+      "module_category": "PURE_PYTHON_STDLIB",
+      "symbol_name": "argparse",
+      "validation_environment": {
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONHASHSEED": "0",
+        "PYTHONPATH": "ABSENT",
+        "PYTHONPYCACHEPREFIX": "ABSENT",
+        "cwd": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v26-20261102",
+        "independent_resolution_algorithm": "LOCAL_MODULE_BINDING_GATE_THEN_PATHFINDER_WITH_ONLY_V26_SRC",
+        "python_executable": "/usr/bin/python3.14",
+        "python_version": "3.14.6 (main, Jun 10 2026, 18:54:31) [GCC 15.2.0]"
+      }
+    },
+    {
+      "actual_independent_validator_loader_identity": null,
+      "actual_independent_validator_module_origin": null,
+      "actual_independent_validator_module_spec": null,
+      "authoritative_manifest_row": {
+        "binding_line": 12,
+        "call_or_reference_sites": [
+          113
+        ],
+        "callable": null,
+        "defining_module": "datetime",
+        "defining_source_artifact": "/usr/lib/python3.14/datetime.py",
+        "defining_source_sha256": "742884b0c8e7dc69911858245db4f34d42e8ec0f769d580c570bd56032b0866c",
+        "dependency_closure_membership": "PINNED_PYTHON_RUNTIME_DEPENDENCY",
+        "expected_alias": "datetime",
+        "expected_import_or_binding": "FROM_IMPORT",
+        "expected_imported_name": "datetime",
+        "locked_runtime_resolution": "NOT_YET_EXECUTED",
+        "static_lock_membership": "PINNED_RUNTIME_IDENTITY",
+        "symbol": "datetime"
+      },
+      "exact_resolution_failure": {
+        "module": "datetime",
+        "reason": "MODULE_UNRESOLVABLE",
+        "symbol": "datetime"
+      },
+      "expected_import_name": "datetime",
+      "expected_loader_identity": "_frozen_importlib_external.SourceFileLoader",
+      "expected_module_identity": "datetime",
+      "expected_module_origin": "/usr/lib/python3.14/datetime.py",
+      "expected_module_spec_semantics": "RESOLVE_IN_PINNED_PYTHON_3_14_RUNTIME_BY_TYPED_MODULE_CLASS",
+      "expected_size": 331,
+      "expected_source_sha256": "742884b0c8e7dc69911858245db4f34d42e8ec0f769d580c570bd56032b0866c",
+      "failure_mechanism": "STDLIB_MODULE_ABSENT_FROM_LOCAL_MODULE_BINDING_SO_RESOLUTION_NOT_ATTEMPTED",
+      "has_location": true,
+      "independent_graph_row": {
+        "call_or_reference_sites": [
+          113
+        ],
+        "defining_module": "datetime",
+        "expected_alias": "datetime",
+        "expected_import_or_binding": "FROM_IMPORT",
+        "expected_imported_name": "datetime",
+        "symbol": "datetime"
+      },
+      "logical_module_identity": "PYTHON_3_14_STDLIB::datetime",
+      "logical_symbol_identity": "V26_PREATTEMPT_SYMBOL::datetime",
+      "module_category": "PURE_PYTHON_STDLIB",
+      "symbol_name": "datetime",
+      "validation_environment": {
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONHASHSEED": "0",
+        "PYTHONPATH": "ABSENT",
+        "PYTHONPYCACHEPREFIX": "ABSENT",
+        "cwd": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v26-20261102",
+        "independent_resolution_algorithm": "LOCAL_MODULE_BINDING_GATE_THEN_PATHFINDER_WITH_ONLY_V26_SRC",
+        "python_executable": "/usr/bin/python3.14",
+        "python_version": "3.14.6 (main, Jun 10 2026, 18:54:31) [GCC 15.2.0]"
+      }
+    },
+    {
+      "actual_independent_validator_loader_identity": null,
+      "actual_independent_validator_module_origin": null,
+      "actual_independent_validator_module_spec": null,
+      "authoritative_manifest_row": {
+        "binding_line": 5,
+        "call_or_reference_sites": [
+          175,
+          301
+        ],
+        "callable": null,
+        "defining_module": "json",
+        "defining_source_artifact": "/usr/lib/python3.14/json/__init__.py",
+        "defining_source_sha256": "2dd10f1bf4c9ea5478e589216805e7f279d0e4bce134a19efa297404fb87407d",
+        "dependency_closure_membership": "PINNED_PYTHON_RUNTIME_DEPENDENCY",
+        "expected_alias": "json",
+        "expected_import_or_binding": "IMPORT_MODULE",
+        "expected_imported_name": "json",
+        "locked_runtime_resolution": "NOT_YET_EXECUTED",
+        "static_lock_membership": "PINNED_RUNTIME_IDENTITY",
+        "symbol": "json"
+      },
+      "exact_resolution_failure": {
+        "module": "json",
+        "reason": "MODULE_UNRESOLVABLE",
+        "symbol": "json"
+      },
+      "expected_import_name": "json",
+      "expected_loader_identity": "_frozen_importlib_external.SourceFileLoader",
+      "expected_module_identity": "json",
+      "expected_module_origin": "/usr/lib/python3.14/json/__init__.py",
+      "expected_module_spec_semantics": "RESOLVE_IN_PINNED_PYTHON_3_14_RUNTIME_BY_TYPED_MODULE_CLASS",
+      "expected_size": 14132,
+      "expected_source_sha256": "2dd10f1bf4c9ea5478e589216805e7f279d0e4bce134a19efa297404fb87407d",
+      "failure_mechanism": "STDLIB_MODULE_ABSENT_FROM_LOCAL_MODULE_BINDING_SO_RESOLUTION_NOT_ATTEMPTED",
+      "has_location": true,
+      "independent_graph_row": {
+        "call_or_reference_sites": [
+          175,
+          301
+        ],
+        "defining_module": "json",
+        "expected_alias": "json",
+        "expected_import_or_binding": "IMPORT_MODULE",
+        "expected_imported_name": "json",
+        "symbol": "json"
+      },
+      "logical_module_identity": "PYTHON_3_14_STDLIB::json",
+      "logical_symbol_identity": "V26_PREATTEMPT_SYMBOL::json",
+      "module_category": "PURE_PYTHON_STDLIB",
+      "symbol_name": "json",
+      "validation_environment": {
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONHASHSEED": "0",
+        "PYTHONPATH": "ABSENT",
+        "PYTHONPYCACHEPREFIX": "ABSENT",
+        "cwd": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v26-20261102",
+        "independent_resolution_algorithm": "LOCAL_MODULE_BINDING_GATE_THEN_PATHFINDER_WITH_ONLY_V26_SRC",
+        "python_executable": "/usr/bin/python3.14",
+        "python_version": "3.14.6 (main, Jun 10 2026, 18:54:31) [GCC 15.2.0]"
+      }
+    },
+    {
+      "actual_independent_validator_loader_identity": null,
+      "actual_independent_validator_module_origin": null,
+      "actual_independent_validator_module_spec": null,
+      "authoritative_manifest_row": {
+        "binding_line": 8,
+        "call_or_reference_sites": [
+          718
+        ],
+        "callable": null,
+        "defining_module": "resource",
+        "defining_source_artifact": "/usr/lib/python3.14/lib-dynload/resource.cpython-314-x86_64-linux-gnu.so",
+        "defining_source_sha256": "85e0b96ad7463e680b19523715eca150c1ed79c917654d2651c95042fcd28446",
+        "dependency_closure_membership": "PINNED_PYTHON_RUNTIME_DEPENDENCY",
+        "expected_alias": "resource",
+        "expected_import_or_binding": "IMPORT_MODULE",
+        "expected_imported_name": "resource",
+        "locked_runtime_resolution": "NOT_YET_EXECUTED",
+        "static_lock_membership": "PINNED_RUNTIME_IDENTITY",
+        "symbol": "resource"
+      },
+      "exact_resolution_failure": {
+        "module": "resource",
+        "reason": "MODULE_UNRESOLVABLE",
+        "symbol": "resource"
+      },
+      "expected_import_name": "resource",
+      "expected_loader_identity": "_frozen_importlib_external.ExtensionFileLoader",
+      "expected_module_identity": "resource",
+      "expected_module_origin": "/usr/lib/python3.14/lib-dynload/resource.cpython-314-x86_64-linux-gnu.so",
+      "expected_module_spec_semantics": "RESOLVE_IN_PINNED_PYTHON_3_14_RUNTIME_BY_TYPED_MODULE_CLASS",
+      "expected_size": 19336,
+      "expected_source_sha256": "85e0b96ad7463e680b19523715eca150c1ed79c917654d2651c95042fcd28446",
+      "failure_mechanism": "STDLIB_MODULE_ABSENT_FROM_LOCAL_MODULE_BINDING_SO_RESOLUTION_NOT_ATTEMPTED",
+      "has_location": true,
+      "independent_graph_row": {
+        "call_or_reference_sites": [
+          718
+        ],
+        "defining_module": "resource",
+        "expected_alias": "resource",
+        "expected_import_or_binding": "IMPORT_MODULE",
+        "expected_imported_name": "resource",
+        "symbol": "resource"
+      },
+      "logical_module_identity": "PYTHON_3_14_STDLIB::resource",
+      "logical_symbol_identity": "V26_PREATTEMPT_SYMBOL::resource",
+      "module_category": "EXTENSION_MODULE",
+      "symbol_name": "resource",
+      "validation_environment": {
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONHASHSEED": "0",
+        "PYTHONPATH": "ABSENT",
+        "PYTHONPYCACHEPREFIX": "ABSENT",
+        "cwd": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v26-20261102",
+        "independent_resolution_algorithm": "LOCAL_MODULE_BINDING_GATE_THEN_PATHFINDER_WITH_ONLY_V26_SRC",
+        "python_executable": "/usr/bin/python3.14",
+        "python_version": "3.14.6 (main, Jun 10 2026, 18:54:31) [GCC 15.2.0]"
+      }
+    },
+    {
+      "actual_independent_validator_loader_identity": null,
+      "actual_independent_validator_module_origin": null,
+      "actual_independent_validator_module_spec": null,
+      "authoritative_manifest_row": {
+        "binding_line": 9,
+        "call_or_reference_sites": [
+          245,
+          249,
+          253,
+          258,
+          267,
+          365,
+          669,
+          672,
+          677,
+          709,
+          727,
+          732,
+          737
+        ],
+        "callable": null,
+        "defining_module": "subprocess",
+        "defining_source_artifact": "/usr/lib/python3.14/subprocess.py",
+        "defining_source_sha256": "6628ffdd65c093a6c08cae01ffe82877d3ced515aac9e7be0cff16512c30a7d9",
+        "dependency_closure_membership": "PINNED_PYTHON_RUNTIME_DEPENDENCY",
+        "expected_alias": "subprocess",
+        "expected_import_or_binding": "IMPORT_MODULE",
+        "expected_imported_name": "subprocess",
+        "locked_runtime_resolution": "NOT_YET_EXECUTED",
+        "static_lock_membership": "PINNED_RUNTIME_IDENTITY",
+        "symbol": "subprocess"
+      },
+      "exact_resolution_failure": {
+        "module": "subprocess",
+        "reason": "MODULE_UNRESOLVABLE",
+        "symbol": "subprocess"
+      },
+      "expected_import_name": "subprocess",
+      "expected_loader_identity": "_frozen_importlib_external.SourceFileLoader",
+      "expected_module_identity": "subprocess",
+      "expected_module_origin": "/usr/lib/python3.14/subprocess.py",
+      "expected_module_spec_semantics": "RESOLVE_IN_PINNED_PYTHON_3_14_RUNTIME_BY_TYPED_MODULE_CLASS",
+      "expected_size": 90732,
+      "expected_source_sha256": "6628ffdd65c093a6c08cae01ffe82877d3ced515aac9e7be0cff16512c30a7d9",
+      "failure_mechanism": "STDLIB_MODULE_ABSENT_FROM_LOCAL_MODULE_BINDING_SO_RESOLUTION_NOT_ATTEMPTED",
+      "has_location": true,
+      "independent_graph_row": {
+        "call_or_reference_sites": [
+          245,
+          249,
+          253,
+          258,
+          267,
+          365,
+          669,
+          672,
+          677,
+          709,
+          727,
+          732,
+          737
+        ],
+        "defining_module": "subprocess",
+        "expected_alias": "subprocess",
+        "expected_import_or_binding": "IMPORT_MODULE",
+        "expected_imported_name": "subprocess",
+        "symbol": "subprocess"
+      },
+      "logical_module_identity": "PYTHON_3_14_STDLIB::subprocess",
+      "logical_symbol_identity": "V26_PREATTEMPT_SYMBOL::subprocess",
+      "module_category": "PURE_PYTHON_STDLIB",
+      "symbol_name": "subprocess",
+      "validation_environment": {
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONHASHSEED": "0",
+        "PYTHONPATH": "ABSENT",
+        "PYTHONPYCACHEPREFIX": "ABSENT",
+        "cwd": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v26-20261102",
+        "independent_resolution_algorithm": "LOCAL_MODULE_BINDING_GATE_THEN_PATHFINDER_WITH_ONLY_V26_SRC",
+        "python_executable": "/usr/bin/python3.14",
+        "python_version": "3.14.6 (main, Jun 10 2026, 18:54:31) [GCC 15.2.0]"
+      }
+    },
+    {
+      "actual_independent_validator_loader_identity": null,
+      "actual_independent_validator_module_origin": null,
+      "actual_independent_validator_module_spec": null,
+      "authoritative_manifest_row": {
+        "binding_line": 11,
+        "call_or_reference_sites": [
+          170,
+          171,
+          193,
+          798
+        ],
+        "callable": null,
+        "defining_module": "time",
+        "defining_source_artifact": "PYTHON_BUILTIN_RUNTIME",
+        "defining_source_sha256": null,
+        "dependency_closure_membership": "PINNED_PYTHON_RUNTIME_DEPENDENCY",
+        "expected_alias": "time",
+        "expected_import_or_binding": "IMPORT_MODULE",
+        "expected_imported_name": "time",
+        "locked_runtime_resolution": "NOT_YET_EXECUTED",
+        "static_lock_membership": "PINNED_RUNTIME_IDENTITY",
+        "symbol": "time"
+      },
+      "exact_resolution_failure": {
+        "module": "time",
+        "reason": "MODULE_UNRESOLVABLE",
+        "symbol": "time"
+      },
+      "expected_import_name": "time",
+      "expected_loader_identity": "_frozen_importlib.BuiltinImporter",
+      "expected_module_identity": "time",
+      "expected_module_origin": "built-in",
+      "expected_module_spec_semantics": "RESOLVE_IN_PINNED_PYTHON_3_14_RUNTIME_BY_TYPED_MODULE_CLASS",
+      "expected_size": null,
+      "expected_source_sha256": null,
+      "failure_mechanism": "STDLIB_MODULE_ABSENT_FROM_LOCAL_MODULE_BINDING_SO_RESOLUTION_NOT_ATTEMPTED",
+      "has_location": false,
+      "independent_graph_row": {
+        "call_or_reference_sites": [
+          170,
+          171,
+          193,
+          798
+        ],
+        "defining_module": "time",
+        "expected_alias": "time",
+        "expected_import_or_binding": "IMPORT_MODULE",
+        "expected_imported_name": "time",
+        "symbol": "time"
+      },
+      "logical_module_identity": "PYTHON_3_14_STDLIB::time",
+      "logical_symbol_identity": "V26_PREATTEMPT_SYMBOL::time",
+      "module_category": "BUILTIN_MODULE",
+      "symbol_name": "time",
+      "validation_environment": {
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONHASHSEED": "0",
+        "PYTHONPATH": "ABSENT",
+        "PYTHONPYCACHEPREFIX": "ABSENT",
+        "cwd": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v26-20261102",
+        "independent_resolution_algorithm": "LOCAL_MODULE_BINDING_GATE_THEN_PATHFINDER_WITH_ONLY_V26_SRC",
+        "python_executable": "/usr/bin/python3.14",
+        "python_version": "3.14.6 (main, Jun 10 2026, 18:54:31) [GCC 15.2.0]"
+      }
+    },
+    {
+      "actual_independent_validator_loader_identity": null,
+      "actual_independent_validator_module_origin": null,
+      "actual_independent_validator_module_spec": null,
+      "authoritative_manifest_row": {
+        "binding_line": 12,
+        "call_or_reference_sites": [
+          113
+        ],
+        "callable": null,
+        "defining_module": "datetime",
+        "defining_source_artifact": "/usr/lib/python3.14/datetime.py",
+        "defining_source_sha256": "742884b0c8e7dc69911858245db4f34d42e8ec0f769d580c570bd56032b0866c",
+        "dependency_closure_membership": "PINNED_PYTHON_RUNTIME_DEPENDENCY",
+        "expected_alias": "timezone",
+        "expected_import_or_binding": "FROM_IMPORT",
+        "expected_imported_name": "timezone",
+        "locked_runtime_resolution": "NOT_YET_EXECUTED",
+        "static_lock_membership": "PINNED_RUNTIME_IDENTITY",
+        "symbol": "timezone"
+      },
+      "exact_resolution_failure": {
+        "module": "datetime",
+        "reason": "MODULE_UNRESOLVABLE",
+        "symbol": "timezone"
+      },
+      "expected_import_name": "datetime",
+      "expected_loader_identity": "_frozen_importlib_external.SourceFileLoader",
+      "expected_module_identity": "datetime",
+      "expected_module_origin": "/usr/lib/python3.14/datetime.py",
+      "expected_module_spec_semantics": "RESOLVE_IN_PINNED_PYTHON_3_14_RUNTIME_BY_TYPED_MODULE_CLASS",
+      "expected_size": 331,
+      "expected_source_sha256": "742884b0c8e7dc69911858245db4f34d42e8ec0f769d580c570bd56032b0866c",
+      "failure_mechanism": "STDLIB_MODULE_ABSENT_FROM_LOCAL_MODULE_BINDING_SO_RESOLUTION_NOT_ATTEMPTED",
+      "has_location": true,
+      "independent_graph_row": {
+        "call_or_reference_sites": [
+          113
+        ],
+        "defining_module": "datetime",
+        "expected_alias": "timezone",
+        "expected_import_or_binding": "FROM_IMPORT",
+        "expected_imported_name": "timezone",
+        "symbol": "timezone"
+      },
+      "logical_module_identity": "PYTHON_3_14_STDLIB::datetime",
+      "logical_symbol_identity": "V26_PREATTEMPT_SYMBOL::timezone",
+      "module_category": "PURE_PYTHON_STDLIB",
+      "symbol_name": "timezone",
+      "validation_environment": {
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONHASHSEED": "0",
+        "PYTHONPATH": "ABSENT",
+        "PYTHONPYCACHEPREFIX": "ABSENT",
+        "cwd": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v26-20261102",
+        "independent_resolution_algorithm": "LOCAL_MODULE_BINDING_GATE_THEN_PATHFINDER_WITH_ONLY_V26_SRC",
+        "python_executable": "/usr/bin/python3.14",
+        "python_version": "3.14.6 (main, Jun 10 2026, 18:54:31) [GCC 15.2.0]"
+      }
+    }
+  ],
+  "category_counts": {
+    "BUILTIN_MODULE": 1,
+    "EXTENSION_MODULE": 1,
+    "FROZEN_MODULE": 0,
+    "PURE_PYTHON_STDLIB": 7
+  },
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V26",
+  "record_type": "V26_NINE_UNRESOLVED_STANDARD_LIBRARY_BINDINGS_CLASSIFICATION",
+  "status": "EVIDENCE_BOUND_CLASSIFICATION_COMPLETE"
+}

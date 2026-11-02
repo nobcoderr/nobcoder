@@ -1,0 +1,15 @@
+{"event":"FIXTURE_STARTED","fixture_class":"immediate","host_pid":201124,"monotonic_ns":14595804330481,"parent_host_pid":201122}
+{"count":6,"event":"SPAWN_REQUESTED","fixture_class":"immediate","host_pid":201124,"monotonic_ns":14595809281047,"parent_host_pid":201122}
+{"child_host_pid":201125,"event":"SPAWN_SUCCEEDED","fixture_class":"immediate","host_pid":201124,"monotonic_ns":14595813874206,"parent_host_pid":201122}
+{"child_host_pid":201126,"event":"SPAWN_SUCCEEDED","fixture_class":"immediate","host_pid":201124,"monotonic_ns":14595817929320,"parent_host_pid":201122}
+{"event":"CHILD_ALIVE","fixture_class":"immediate","host_pid":201125,"monotonic_ns":14595818242763,"parent_host_pid":201124}
+{"child_host_pid":201127,"event":"SPAWN_SUCCEEDED","fixture_class":"immediate","host_pid":201124,"monotonic_ns":14595824532057,"parent_host_pid":201122}
+{"event":"CHILD_ALIVE","fixture_class":"immediate","host_pid":201126,"monotonic_ns":14595827857965,"parent_host_pid":201124}
+{"child_host_pid":201128,"event":"SPAWN_SUCCEEDED","fixture_class":"immediate","host_pid":201124,"monotonic_ns":14595828956633,"parent_host_pid":201122}
+{"event":"CHILD_ALIVE","fixture_class":"immediate","host_pid":201127,"monotonic_ns":14595830387727,"parent_host_pid":201124}
+{"child_host_pid":201129,"event":"SPAWN_SUCCEEDED","fixture_class":"immediate","host_pid":201124,"monotonic_ns":14595832896402,"parent_host_pid":201122}
+{"event":"CHILD_ALIVE","fixture_class":"immediate","host_pid":201128,"monotonic_ns":14595831903441,"parent_host_pid":201124}
+{"child_host_pid":201131,"event":"SPAWN_SUCCEEDED","fixture_class":"immediate","host_pid":201124,"monotonic_ns":14595839339871,"parent_host_pid":201122}
+{"event":"CHILD_ALIVE","fixture_class":"immediate","host_pid":201129,"monotonic_ns":14595844335432,"parent_host_pid":201124}
+{"event":"CHILD_ALIVE","fixture_class":"immediate","host_pid":201131,"monotonic_ns":14595851228531,"parent_host_pid":201124}
+{"event":"FIXTURE_COMPLETED","fixture_class":"immediate","host_pid":201124,"monotonic_ns":14595858259458,"parent_host_pid":201122,"status":"PASS"}

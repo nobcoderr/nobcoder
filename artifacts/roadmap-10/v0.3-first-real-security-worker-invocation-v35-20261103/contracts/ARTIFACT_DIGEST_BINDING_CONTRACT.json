@@ -1,0 +1,36 @@
+{
+  "artifact_scope": "ALL_AUTHORITATIVE_CONTRACTS_SCHEMAS_AND_FIXTURE_INPUTS_EXCEPT_THE_GENERATED_BINDING_RECORD_ITSELF",
+  "binding_record": "contracts/AUTHORITATIVE_ARTIFACT_DIGEST_BINDINGS.json",
+  "digest_algorithm": "SHA-256",
+  "digest_inheritance": {
+    "successor_bytes_differ_from_predecessor_bytes": "FRESH_SUCCESSOR_DIGEST_BINDING_REQUIRED",
+    "successor_bytes_equal_predecessor_bytes": "PREDECESSOR_DIGEST_MAY_REMAIN_VALID"
+  },
+  "digest_inheritance_by_filename_role_or_predecessor_relationship": "PROHIBITED",
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "failure_semantics": {
+    "attempt_count": 0,
+    "codex_as_worker_invocation_count": 0,
+    "status": "FAIL_CLOSED_BEFORE_FRESH_PREFLIGHT_STATIC_LOCK_AND_ATTEMPT",
+    "worker_invocation_count": 0
+  },
+  "normative_order": [
+    "CONSTRUCT_FINAL_SUCCESSOR_ARTIFACT",
+    "FINALIZE_EXACT_BYTES",
+    "PROHIBIT_POST_FINALIZATION_MUTATION",
+    "COMPUTE_SHA256_FROM_FINAL_EXACT_BYTES",
+    "BIND_SHA256_TO_SUCCESSOR_IDENTITY",
+    "REREAD_EXACT_ARTIFACT",
+    "REHASH_REREAD_BYTES",
+    "REQUIRE_FIRST_BOUND_AND_REREAD_DIGEST_EQUALITY",
+    "VALIDATE_ADMISSIBLE_DEPENDENCY"
+  ],
+  "post_bind_mutation": "PROHIBITED",
+  "pre_preflight_detection_layers": [
+    "UNIT",
+    "PRIMARY",
+    "INDEPENDENT"
+  ],
+  "record_type": "FIRST_REAL_SECURITY_WORKER_V35_ARTIFACT_DIGEST_BINDING_CONTRACT",
+  "schema_version": "1.0"
+}

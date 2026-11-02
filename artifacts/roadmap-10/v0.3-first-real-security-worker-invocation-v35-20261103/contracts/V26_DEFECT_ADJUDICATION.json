@@ -1,0 +1,24 @@
+{
+  "CANONICAL_STANDARD_LIBRARY_MODULE_IDENTITY_SEMANTICS_DEFECT": "YES_IN_INDEPENDENT_VALIDATOR",
+  "CAUSE": "ESTABLISHED",
+  "COMPLETE_SYMBOL_GRAPH_CONTENT_DEFECT": "NO",
+  "INDEPENDENT_VALIDATION_ENVIRONMENT_DEFECT": "NO",
+  "INDEPENDENT_VALIDATOR_STANDARD_LIBRARY_SYMBOL_RESOLUTION_BINDING_DEFECT": "YES",
+  "LOADER_ORIGIN_CLASSIFICATION_DEFECT": "YES_IN_INDEPENDENT_VALIDATOR",
+  "SYMBOL_BINDING_METADATA_DEFECT": "NO",
+  "canonical_predecessor_defect": "NO_EVIDENCE_OF_DEFECT",
+  "cause_detail": "Independent validation applies the canonical local-module binding gate and V26/src-only PathFinder semantics to standard-library modules. It therefore records MODULE_UNRESOLVABLE without using typed pure-Python, built-in, frozen, or extension-module identity semantics.",
+  "mount_output_binding_defect": "NO_EVIDENCE_OF_DEFECT",
+  "python_cache_policy_defect": "NO_EVIDENCE_OF_DEFECT",
+  "record_type": "V26_STDLIB_SYMBOL_RESOLUTION_DEFECT_ADJUDICATION",
+  "runtime_classifications": {
+    "Codex": "NOT_ESTABLISHED",
+    "SecurityWorker": "NOT_ESTABLISHED",
+    "confinement": "NOT_PROVEN",
+    "process_lineage": "NOT_PROVEN",
+    "producer_authorization": "NOT_PROVEN",
+    "temporal_observer": "NOT_ESTABLISHED"
+  },
+  "symbol_count_equality_sufficient": false,
+  "typed_historical_registry_defect": "NO_EVIDENCE_OF_DEFECT"
+}

@@ -1,0 +1,18 @@
+{
+  "record_type": "V35_HUMAN_EXECUTION_AUTHORIZATION_GATE",
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "authorization_governance_lock_sha256": "d2263268f61b9ddde99a0b60f4b43a26df1586e0c577ba2ca98c07b64c21f811",
+  "decision": "AUTHORIZE_EXACTLY_ONE_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35_IF_ALL_PRE_ATTEMPT_GATES_PASS",
+  "attempt_limit": 1,
+  "worker_invocation_limit": 1,
+  "codex_as_worker_invocation_limit": 1,
+  "runtime_identity": "CODEX_RUNTIME_0_166_0_COMPATIBILITY_PASS_LOCKED",
+  "target_access_authorized": false,
+  "credential_access_authorized": false,
+  "target_network_authorized": false,
+  "subagents_authorized": false,
+  "parallelism_authorized": false,
+  "candidate_promotion_authorized": false,
+  "submission_authorized": false,
+  "status": "CONDITIONAL_ON_ALL_PRE_ATTEMPT_GATES"
+}

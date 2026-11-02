@@ -1,0 +1,47 @@
+{
+  "accepted_representation_variants": [
+    "NEWLINE",
+    "CRLF_OR_LF",
+    "TAB",
+    "MULTIPLE_SPACES",
+    "LINE_WRAP",
+    "EQUIVALENT_TWO_SENTENCE_SEGMENTATION"
+  ],
+  "comparison": "CANONICAL_WHITESPACE_AND_DETERMINISTIC_WORD_SEQUENCE",
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "failure_semantics": "FAIL_CLOSED_BEFORE_PREFLIGHT_LOCK_ATTEMPT_OR_INVOCATION",
+  "free_text_or_model_semantic_adjudication": "PROHIBITED",
+  "mandatory_rejections": [
+    "MISSING_TOOL_DENIAL",
+    "MISSING_NETWORK_DENIAL",
+    "MISSING_TARGET_DENIAL",
+    "WEAKENED_CONDITIONAL_DENIAL",
+    "INVERTED_OR_ALLOWED_RESTRICTION",
+    "AMBIGUOUS_UNKNOWN_SEMANTICS"
+  ],
+  "normalization_steps": [
+    "NORMALIZE_CRLF_AND_CR_TO_LF",
+    "UNICODE_NFKC",
+    "CASEFOLD",
+    "COLLAPSE_WHITESPACE",
+    "TOKENIZE_WORDS_DETERMINISTICALLY"
+  ],
+  "record_type": "FIRST_REAL_SECURITY_WORKER_INVOCATION_PROMPT_POLICY_CONTRACT",
+  "required_propositions": {
+    "network_and_target_denial": [
+      "DO_NOT_ACCESS_ANY_NETWORK_OR_TARGET",
+      "DO_NOT_ACCESS_ANY_NETWORK_AND_DO_NOT_ACCESS_ANY_TARGET"
+    ],
+    "tool_denial": "DO_NOT_CALL_ANY_TOOL"
+  },
+  "schema_version": "1.0",
+  "weakening_or_inversion_markers": [
+    "unless",
+    "except",
+    "if needed",
+    "may access",
+    "allowed",
+    "permitted",
+    "optional"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "required_cases": [
+    {
+      "expected": "SAME_NORMATIVE_ROOT",
+      "id": "R001_SHUFFLED_ENUMERATION"
+    },
+    {
+      "expected": "PASS",
+      "id": "R002_EXACT_UTF8_COMPONENT_PATH_ORDER"
+    },
+    {
+      "expected": "FAIL_CLOSED",
+      "id": "R003_ONE_BYTE_MUTATION"
+    },
+    {
+      "expected": "FAIL_CLOSED",
+      "id": "R004_MISSING_MEMBER"
+    },
+    {
+      "expected": "FAIL_CLOSED",
+      "id": "R005_EXTRA_MEMBER"
+    },
+    {
+      "expected": "REJECT_ALTERNATE_ROOT",
+      "id": "R006_FLATTENED_UTF8_PATH_ORDER"
+    },
+    {
+      "expected": "FAIL_CLOSED",
+      "id": "R007_ALTERNATE_SERIALIZATION_OR_SEPARATOR"
+    }
+  ]
+}

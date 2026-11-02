@@ -1,0 +1,41 @@
+{
+  "attempt": "0_OF_1",
+  "codex_as_worker_invocation": "0_OF_1",
+  "failure_manifest_member_count": 78,
+  "failure_manifest_sha256": "b39a41077ea660427d8cf55faab94286b48cfe0adb9e73a9133a814f6e80268c",
+  "fresh_preflight": "NOT_STARTED",
+  "implicit_pyc_path": "src/__pycache__/workspace_boundary_v16.cpython-314.pyc",
+  "implicit_pyc_sha256": "d28afe1bf85796431bdd7e8c7a0d05da01f99b74af217084372befbe178208b0",
+  "independent_validation": "NOT_STARTED",
+  "primary": {
+    "counts": {
+      "failed": 1,
+      "passed": 53,
+      "total": 54
+    },
+    "failure_ids": [
+      "S064_CORE_PREFLIGHT"
+    ],
+    "sha256": "e693592d8306d4b639f08c49c9b18b175f9dc9630ed4205b4712904a67bbf218",
+    "status": "FAIL_CLOSED"
+  },
+  "record_type": "V16_FROZEN_PRELOCK_EVIDENCE_BINDING",
+  "runner_sha256": "10d8a0df12da225f4782cd6794ff1f594737f56cf899b8bfc5596bab3fc3293d",
+  "static_lock": "NOT_ISSUED",
+  "status": "PASS",
+  "terminal_result_sha256": "b2b323a18168d7d7d69d5a18a08daaec228a4bac799fc28d5034d8eb69958de8",
+  "unit": {
+    "counts": {
+      "failed": 0,
+      "passed": 135,
+      "total": 135
+    },
+    "sha256": "da3eec46df7120c3f3a105aa2ad69b9ec7979b7c0bb94f772494e9395ec4e31f",
+    "status": "PASS"
+  },
+  "v14_v15_predecessor_hash_mismatch_count": 0,
+  "worker_invocation": "0_OF_1",
+  "workspace_guard_sha256": "1f428aa96236b01aa6b8ed31b76b1c91e5cefe6100248fd714208ddafbeab427",
+  "workspace_member_count": 146,
+  "workspace_tree_root_sha256": "5c99e1c8c1e5048ee3a9c607e0bceffc273743b91a245bf7a913f832af0636b5"
+}

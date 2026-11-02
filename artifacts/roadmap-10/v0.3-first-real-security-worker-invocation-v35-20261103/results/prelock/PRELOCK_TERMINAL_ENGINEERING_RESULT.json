@@ -1,0 +1,53 @@
+{
+  "attempt_count": 0,
+  "attempt_limit": 1,
+  "attempt_marker": "ABSENT",
+  "candidate_promotion_count": 0,
+  "candidate_state": "NOT_CREATED",
+  "capability_edge_count": 0,
+  "codex_as_worker_invocation_count": 0,
+  "codex_worker_runtime": "NOT_ESTABLISHED",
+  "confinement": "NOT_PROVEN",
+  "credential_operation_count": 0,
+  "dependency_closure": "NOT_STARTED",
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "failed_gate_family": "AUTHORIZATION_MANIFEST_AND_TYPED_PREFLIGHT_CURRENT_DIGEST_BINDING_FAILURES",
+  "failure_ids": [
+    "U103_EXTERNAL_v35_authorization_manifest",
+    "U358_V35_TYPED_PREFLIGHT_EXACT_CURRENT_SEMANTIC",
+    "U360_V35_TYPED_PREFLIGHT_OBSOLETE_TOKEN_ABSENCE_ACCEPTED",
+    "U369_V35_TYPED_PREFLIGHT_PRECHECK"
+  ],
+  "fresh_preflight": "NOT_STARTED",
+  "frozen_at": "2026-11-02T18:05:22.707270Z",
+  "independent": "NOT_STARTED",
+  "mount_provenance": "NOT_PROVEN",
+  "parallel_operation_count": 0,
+  "primary": "NOT_STARTED",
+  "process_lineage": "NOT_PROVEN",
+  "producer_authorization": "NOT_PROVEN",
+  "promotion_operation_count": 0,
+  "record_type": "V35_PRELOCK_TERMINAL_ENGINEERING_RESULT",
+  "retry": "PROHIBITED_FOR_THIS_FROZEN_IDENTITY",
+  "runtime_evidence": "ABSENT",
+  "runtime_topology": "NOT_PROVEN",
+  "security_worker_runtime": "NOT_ESTABLISHED",
+  "static_lock": "NOT_ISSUED",
+  "status": "FAIL_CLOSED_DURING_UNIT_VALIDATION_PRELOCK_TERMINAL_NO_RETRY_FROZEN_FAILURE_EVIDENCE",
+  "subagent_invocation_count": 0,
+  "submission_operation_count": 0,
+  "target_network_operation_count": 0,
+  "target_operation_count": 0,
+  "temporal_runtime": "NOT_ESTABLISHED",
+  "unit": {
+    "result": "results/prelock/unit-fixtures-run-0001.json",
+    "status": "FAIL_CLOSED",
+    "validation_completed": true,
+    "validation_counts": {
+      "failed": 4,
+      "passed": 408,
+      "total": 412
+    }
+  },
+  "worker_invocation_count": 0
+}

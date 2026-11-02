@@ -1,0 +1,100 @@
+{
+  "checks": [
+    {
+      "id": "I001_TERMINAL_SHA",
+      "status": "PASS"
+    },
+    {
+      "id": "I002_MANIFEST_SHA",
+      "status": "PASS"
+    },
+    {
+      "id": "I003_FREEZE_SHA",
+      "status": "PASS"
+    },
+    {
+      "id": "I004_UNIT_SHA",
+      "status": "PASS"
+    },
+    {
+      "id": "I005_V34_TREE",
+      "status": "PASS"
+    },
+    {
+      "id": "I006_V33_TREE",
+      "status": "PASS"
+    },
+    {
+      "id": "I007_V33_DIGESTS",
+      "status": "PASS"
+    },
+    {
+      "id": "I008_TERMINAL_STATE",
+      "status": "PASS"
+    },
+    {
+      "id": "I009_UNIT_EXCEPTION",
+      "status": "PASS"
+    },
+    {
+      "id": "I010_PROBE_ASSIGNMENT",
+      "status": "PASS"
+    },
+    {
+      "id": "I011_AUTHORIZATION_NOT_CREATION",
+      "status": "PASS"
+    },
+    {
+      "id": "I012_SYMLINK_OPERATION",
+      "status": "PASS"
+    },
+    {
+      "id": "I013_NO_PARENT_PROVISIONING",
+      "status": "PASS"
+    },
+    {
+      "id": "I014_NO_LATER_GATES",
+      "status": "PASS"
+    },
+    {
+      "id": "I015_NO_EXECUTION",
+      "status": "PASS"
+    },
+    {
+      "id": "I016_BOTH_DEFECTS",
+      "status": "PASS"
+    },
+    {
+      "id": "I017_CONTRACT_SEPARATES_ROOTS",
+      "status": "PASS"
+    },
+    {
+      "id": "I018_CONTRACT_BOUNDARY",
+      "status": "PASS"
+    },
+    {
+      "id": "I019_PRIMARY_PASS",
+      "status": "PASS"
+    },
+    {
+      "id": "I020_NEGATIVES_PASS",
+      "status": "PASS"
+    },
+    {
+      "id": "I021_V34_TERMINAL",
+      "status": "PASS"
+    },
+    {
+      "id": "I022_V35_CONDITIONAL",
+      "status": "PASS"
+    },
+    {
+      "id": "I023_V35_ABSENT",
+      "status": "PASS"
+    }
+  ],
+  "passed": 23,
+  "record_type": "INDEPENDENT_GOVERNANCE_VALIDATION",
+  "status": "PASS",
+  "total": 23
+}

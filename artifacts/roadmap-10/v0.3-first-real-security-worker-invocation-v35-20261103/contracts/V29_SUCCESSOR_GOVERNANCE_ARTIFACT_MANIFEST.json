@@ -1,0 +1,152 @@
+{
+  "canonical_governance_root_sha256": "3b7ad454134031852512556ee69a3153f9e24bb2353ea1403198cb2dfda67a9b",
+  "governance_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V29_CODEX_0_166_0_RUNTIME_DEPENDENCY_BINDING_AND_DISTINCT_SUCCESSOR_AUTHORIZATION_GOVERNANCE_ONLY",
+  "member_count": 24,
+  "members": [
+    {
+      "bytes": 922,
+      "path": "AUTHORITY_CEILING.json",
+      "required_mode": "0444",
+      "sha256": "edba2ef885c5c7b2d805d8016d5a0bd186ac9d663112ae31dabb2cb7d20b8dd0"
+    },
+    {
+      "bytes": 1354,
+      "path": "CARRIED_FORWARD_CONTROL_REQUIREMENTS.json",
+      "required_mode": "0444",
+      "sha256": "4ae5dc712f027e03cf738362231c1395fea90fb60858e8f14097cc9714df9aa7"
+    },
+    {
+      "bytes": 1992,
+      "path": "CODEX_0_166_0_SUCCESSOR_RUNTIME_BINDING.json",
+      "required_mode": "0444",
+      "sha256": "8abc3b4698cb19e91d6f295efab8682eee7541b0417c487fa5f1a1c09fd0ac1c"
+    },
+    {
+      "bytes": 847,
+      "path": "DEDICATED_CONFIG_IDENTITY_REQUIREMENT.json",
+      "required_mode": "0444",
+      "sha256": "6b6e6e754301c5b3fa99b09d32b61ba1c655002cbbe21b2436e1a0173be39fc7"
+    },
+    {
+      "bytes": 820,
+      "path": "GOVERNANCE_CHARTER.json",
+      "required_mode": "0444",
+      "sha256": "135cb49097e43d2898578724dd006ad4d99aed405977c0fd471ee521b01f8d4d"
+    },
+    {
+      "bytes": 2349,
+      "path": "GOVERNANCE_VALIDATION_RESULT_RUN-0001.json",
+      "required_mode": "0444",
+      "sha256": "57695269a868c91f1d8bca166180392c0b4de35a9a700a8e6d38ac1b8d80a5f1"
+    },
+    {
+      "bytes": 540,
+      "path": "HISTORICAL_RUNTIME_SEPARATION.json",
+      "required_mode": "0444",
+      "sha256": "650af873ef152f6cc73e244cec4e1daa13a1dc732dfa3d8e6d34e2005103133a"
+    },
+    {
+      "bytes": 2231,
+      "path": "INDEPENDENT_GOVERNANCE_VALIDATION_RESULT_RUN-0001.json",
+      "required_mode": "0444",
+      "sha256": "e760ce90b7de511710606d9349cf5adcf3d4a7520cdc3ee8bbc0122aace4c0ef"
+    },
+    {
+      "bytes": 1128,
+      "path": "NEGATIVE_GOVERNANCE_TEST_MATRIX.json",
+      "required_mode": "0444",
+      "sha256": "351af422d3670d6db7a9030370db983723f36a9c7f822a29fdc8719d91c955a5"
+    },
+    {
+      "bytes": 2250,
+      "path": "NEGATIVE_GOVERNANCE_TEST_RESULT_RUN-0001.json",
+      "required_mode": "0444",
+      "sha256": "205033436cb475aef116ef18bab6c1e70152db3f1a7e2640a18fe703e4402144"
+    },
+    {
+      "bytes": 492,
+      "path": "NEXT_LEGAL_MILESTONE.json",
+      "required_mode": "0444",
+      "sha256": "3a3af49b2967b79d15b8bad001037c0b096aa6b3e8d4c0ac369a3d679d74f240"
+    },
+    {
+      "bytes": 1105,
+      "path": "READ_ONLY_INTEGRITY_RESULT_RUN-0001.json",
+      "required_mode": "0444",
+      "sha256": "dbab732f8f77d9d7ca25c3ead8f7d5cdea7d81de3aeb0e33f1e01e8d39988823"
+    },
+    {
+      "bytes": 604,
+      "path": "ROUTING_LEDGER.json",
+      "required_mode": "0444",
+      "sha256": "6b32614a7a8d411e722b2f5496fa5d6e031689648e5f960512424106c8257366"
+    },
+    {
+      "bytes": 728,
+      "path": "SUCCESSOR_AUTHORIZATION_DECISION.json",
+      "required_mode": "0444",
+      "sha256": "eae0963f8e79afb42000951e6c024b6148ac3236c8c5c7158a767c355f0ec939"
+    },
+    {
+      "bytes": 742,
+      "path": "SUCCESSOR_IDENTITY_ASSIGNMENT.json",
+      "required_mode": "0444",
+      "sha256": "29ab0a96f93035170fef956d96bde41addf374e0b3ac3481cb386f8d91bf6eac"
+    },
+    {
+      "bytes": 809,
+      "path": "V28_PREDECESSOR_BINDING.json",
+      "required_mode": "0444",
+      "sha256": "88439cc18b97aa51b9f6f6d5d550a874a6cc9423b4d83def68bfb0709010cd8c"
+    },
+    {
+      "bytes": 7932,
+      "path": "build_governance.py",
+      "required_mode": "0444",
+      "sha256": "084ea590cd82aa2ba14c0845b1a0ba45191ae5235253d259d32763c127943beb"
+    },
+    {
+      "bytes": 4313,
+      "path": "freeze_governance.py",
+      "required_mode": "0444",
+      "sha256": "fbff8db0d9d7946f693b6f6533aa7faec85177755a0846699caf9a9a5f56d1a3"
+    },
+    {
+      "bytes": 8073,
+      "path": "governance_common.py",
+      "required_mode": "0444",
+      "sha256": "a38400dc62856d73fa11e26c5066d8e7453e0b5a8f78ba2525bdba60f2c5b4b4"
+    },
+    {
+      "bytes": 7074,
+      "path": "independent_validate.py",
+      "required_mode": "0444",
+      "sha256": "957da136475ff4b4e8d711cf320af9d38a49800ed905b4a58893bff1653af3c0"
+    },
+    {
+      "bytes": 4218,
+      "path": "negative_fixtures.py",
+      "required_mode": "0444",
+      "sha256": "689b315c713516a40b808bce54d7ce40392990516a33330ec8bd50710edc9f51"
+    },
+    {
+      "bytes": 5589,
+      "path": "validate_governance.py",
+      "required_mode": "0444",
+      "sha256": "239d55b857f88ac2ee2b412556fa8297887bc856aef2658d724441b6fb7a3e33"
+    },
+    {
+      "bytes": 4600,
+      "path": "verify_governance_freeze.py",
+      "required_mode": "0444",
+      "sha256": "2f09f9162c8bb82391c37ca0ea6762e6aa8c0c6c3c73bcef41ee31c96c0e568b"
+    },
+    {
+      "bytes": 1643,
+      "path": "verify_read_only_integrity.py",
+      "required_mode": "0444",
+      "sha256": "3f79e08d3aa3c51a29bc1ad63b7158b8963fff512b195df039bfd78de0e0de7c"
+    }
+  ],
+  "record_type": "V29_SUCCESSOR_AUTHORIZATION_GOVERNANCE_ARTIFACT_MANIFEST"
+}

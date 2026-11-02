@@ -1,0 +1,37 @@
+{
+  "record_type": "V25_FAILURE_AND_V26_REGRESSION_MATRIX",
+  "required_cases": [
+    {
+      "expected": "FAIL_CLOSED",
+      "id": "V26_RUNNER_WITH_V23_MOUNT_BINDING"
+    },
+    {
+      "expected": "FAIL_CLOSED",
+      "id": "V26_RUNNER_WITH_V25_STALE_BINDING"
+    },
+    {
+      "expected": "FAIL_CLOSED",
+      "id": "VERSION_NUMBER_DERIVED_OUTPUT_PATH"
+    },
+    {
+      "expected": "FAIL_CLOSED",
+      "id": "RUNNER_PREFLIGHT_PATH_MISMATCH"
+    },
+    {
+      "expected": "FAIL_CLOSED",
+      "id": "PREFLIGHT_STATIC_LOCK_MISMATCH"
+    },
+    {
+      "expected": "FAIL_CLOSED",
+      "id": "CORRECT_HOST_WRONG_NAMESPACE_DESTINATION"
+    },
+    {
+      "expected": "FAIL_CLOSED",
+      "id": "STALE_HARDCODED_PATH_IN_CONTRACT_SCHEMA_OR_VALIDATOR"
+    },
+    {
+      "expected": "PASS",
+      "id": "EXACT_GOVERNANCE_BOUND_SUCCESSOR_MOUNT_OUTPUT_BINDING"
+    }
+  ]
+}

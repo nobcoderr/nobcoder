@@ -1,0 +1,8 @@
+{
+  "evidence_id": "FIXTURE-EVIDENCE-0001",
+  "fixture_class": "INERT_RESEARCHER_OWNED_LOCAL_DATA",
+  "observation": "A synthetic parser copies an untrusted label into an audit-record field. No protected consumer, boundary crossing, or security impact has been demonstrated.",
+  "required_worker_action": "Propose one falsifiable research hypothesis and an explicit falsifier without claiming validation, severity, promotion, or real-world impact.",
+  "target": null,
+  "version": "1.0"
+}

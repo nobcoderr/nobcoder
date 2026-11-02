@@ -1,0 +1,11 @@
+{
+  "canonical_governance_root_sha256": "61cededa7b0ffae10491cd1716a2ab1cf12e946f21d52ac1d11f0e60d2611184",
+  "governance_lock_sha256": "d2263268f61b9ddde99a0b60f4b43a26df1586e0c577ba2ca98c07b64c21f811",
+  "manifest_sha256": "9e847eb4a8f18484e46c67bf24efeca90369ec4f1c4657c8f7d6cc0af012fb3b",
+  "member_count": 26,
+  "record_type": "FINAL_FREEZE_VERIFICATION",
+  "status": "PASS",
+  "v33_reverified": true,
+  "v34_reverified": true,
+  "v35_absent": true
+}

@@ -1,0 +1,77 @@
+{
+  "capture_mechanism": "LINUX_PROC_CONNECTOR_PLUS_LIVE_PROC_AND_TRACE_CORRELATION",
+  "capture_proximity": "PROCESS_CREATION_OR_FIRST_TRACE_VISIBILITY",
+  "clock_semantics": "CLOCK_MONOTONIC_NS_AND_CLOCK_REALTIME_NS",
+  "coverage_accounting": {
+    "ambiguous_identity_count": 0,
+    "identity_capture_attempt_count": "MUST_EQUAL_LINEAGE_RELEVANT_TRACE_IDENTITY_COUNT",
+    "missing_identity_count": 0,
+    "valid_temporal_identity_mapping_count": "MUST_EQUAL_LINEAGE_RELEVANT_TRACE_IDENTITY_COUNT"
+  },
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "host_controlled_outside_worker_mutation_authority": true,
+  "immutable_post_exit_record": true,
+  "later_best_effort_proc_polling_as_only_mechanism": "PROHIBITED",
+  "max_trace_correlation_slack_ns": 2000000000,
+  "missing_lineage_relevant_observation": "FAIL_CLOSED",
+  "observer_identity": "V35_PROC_CONNECTOR_EVENT_BOUND_PROCESS_IDENTITY_OBSERVER_V1",
+  "observer_start_order": [
+    "OBSERVER_CREATED",
+    "PROC_CONNECTOR_SUBSCRIBED",
+    "OBSERVER_READY",
+    "TRACE_CHILD_READY",
+    "ATTEMPT_MARKER",
+    "WORKER_EXECUTION"
+  ],
+  "per_process_required_fields": [
+    "trace_identity",
+    "trace_first_timestamp",
+    "trace_last_timestamp",
+    "identity_capture_attempt_timestamp_monotonic_ns",
+    "proc_lookup_result",
+    "host_pid",
+    "parent_host_pid",
+    "process_start_identity",
+    "process_start_identity_kind",
+    "pid_namespace_identity",
+    "executable_identity",
+    "observation_timestamp_monotonic_ns",
+    "trace_event_timestamp_or_bounded_interval",
+    "identity_capture_attempted",
+    "identity_capture_result",
+    "observation_source",
+    "immutable_record_digest"
+  ],
+  "typed_failure_reasons": [
+    "PROCESS_EXITED_BEFORE_CAPTURE",
+    "PROC_ENTRY_NOT_VISIBLE",
+    "NAMESPACE_IDENTITY_UNAVAILABLE",
+    "START_IDENTITY_UNAVAILABLE",
+    "TRACE_CORRELATION_FAILED",
+    "OBSERVER_INTERNAL_ERROR",
+    "TEMPORAL_WINDOW_VIOLATION",
+    "UNKNOWN_EVIDENCE_BOUND_FAILURE"
+  ],
+  "observer_terminal_diagnostics": {
+    "numeric_exit_code": "REQUIRED",
+    "typed_exit_reason": "REQUIRED",
+    "stderr_artifact": "REQUIRED",
+    "snapshot_even_on_failure": "REQUIRED"
+  },
+  "pid_reuse_semantics": "SAME_NUMERIC_PID_WITH_DIFFERENT_START_IDENTITY_OR_NAMESPACE_IS_DISTINCT_IDENTITY",
+  "poll_interval_ns": 100000,
+  "post_run_proc_snapshot_only": "INSUFFICIENT",
+  "proc_connector_subscription": "REQUIRED_BEFORE_TRACED_PROCESS_CREATION",
+  "readiness_failure": "FAIL_CLOSED_BEFORE_ATTEMPT",
+  "record_type": "FIRST_WORKER_V35_TEMPORAL_PROCESS_IDENTITY_OBSERVER_CONTRACT",
+  "schema_version": "1.0",
+  "stable_identity_tuple": [
+    "host_pid",
+    "process_start_identity",
+    "pid_namespace_identity"
+  ],
+  "supported_start_identity_kinds": [
+    "LIVE_PROC_STAT_STARTTIME",
+    "PROC_CONNECTOR_FORK_EVENT_EXACT_EQUIVALENT"
+  ]
+}

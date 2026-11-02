@@ -1,0 +1,19 @@
+{
+  "correlation_order": [
+    "TRACE_FILE_PID",
+    "OBSERVED_HOST_TASK_IDENTITY",
+    "TEMPORAL_INTERVAL_BOUND",
+    "PID_NAMESPACE_IDENTITY",
+    "PARENT_IDENTITY",
+    "SEMANTIC_PROCESS_LINEAGE"
+  ],
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "missing_parent_identity": "FAIL_CLOSED",
+  "missing_temporal_observation": "FAIL_CLOSED",
+  "mount_provenance_is_separate_gate": true,
+  "producer_authorization_is_separate_gate": true,
+  "record_type": "FIRST_WORKER_V35_TEMPORAL_TRACE_CORRELATION_CONTRACT",
+  "schema_version": "1.0",
+  "temporal_binding": "PROCESS_OBSERVATION_INTERVAL_OVERLAPS_OR_IS_WITHIN_PINNED_SLACK_OF_TRACE_FILE_LIFETIME",
+  "trace_pid_is_not_process_identity_without_observer_evidence": true
+}

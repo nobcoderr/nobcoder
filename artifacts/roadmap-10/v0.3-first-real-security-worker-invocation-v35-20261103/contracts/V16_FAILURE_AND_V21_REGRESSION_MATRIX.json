@@ -1,0 +1,52 @@
+{
+  "cases": [
+    {
+      "case": "implicit Python bytecode creation without suppression/routing",
+      "expected": "DETECTED_AND_FAIL_CLOSED",
+      "id": "R01"
+    },
+    {
+      "case": "bytecode-disabled Python module execution",
+      "expected": "PASS_NO_PYC_CREATED",
+      "id": "R02"
+    },
+    {
+      "case": "exact authorized current-V22 cache routing",
+      "expected": "PASS_IF_EXPLICITLY_SELECTED_AND_BOUND",
+      "id": "R03"
+    },
+    {
+      "case": "cache path traversal into predecessor",
+      "expected": "FAIL_BEFORE_EXECUTION_ZERO_MUTATION",
+      "id": "R04"
+    },
+    {
+      "case": "cache symlink resolves into predecessor",
+      "expected": "FAIL_BEFORE_EXECUTION_ZERO_MUTATION",
+      "id": "R05"
+    },
+    {
+      "case": "direct predecessor pycache mutation",
+      "expected": "FAIL_BEFORE_EXECUTION_ZERO_MUTATION",
+      "id": "R06"
+    },
+    {
+      "case": "rejected cache write pre/post snapshot",
+      "expected": "BYTE_IDENTICAL",
+      "id": "R07"
+    },
+    {
+      "case": "unexpected pycache after validation phase",
+      "expected": "FAIL_CLOSED_UNACCOUNTED_MUTATION",
+      "id": "R08"
+    }
+  ],
+  "coverage_invariant": "UNACCOUNTED_FILESYSTEM_MUTATION_COUNT_EQUALS_ZERO",
+  "historical_v16_pyc": {
+    "disposition": "IMMUTABLE_FAILURE_EVIDENCE",
+    "path": "src/__pycache__/workspace_boundary_v16.cpython-314.pyc",
+    "sha256": "d28afe1bf85796431bdd7e8c7a0d05da01f99b74af217084372befbe178208b0"
+  },
+  "record_type": "V16_FAILURE_AND_V22_PYTHON_CACHE_REGRESSION_MATRIX",
+  "status": "PASS"
+}

@@ -1,0 +1,16 @@
+{
+  "attempt": "0/1",
+  "codex_as_worker_invocation": "0/1",
+  "codex_worker_runtime": "NOT_ESTABLISHED",
+  "confinement": "NOT_PROVEN",
+  "decision": "TERMINALIZE_V31_AND_AUTHORIZE_DISTINCT_V32_CONDITIONALLY",
+  "process_lineage": "NOT_PROVEN",
+  "producer_authorization": "NOT_PROVEN",
+  "record_type": "V31_TERMINAL_AND_V32_SUCCESSOR_DECISION",
+  "securityworker_runtime": "NOT_ESTABLISHED",
+  "status": "PASS",
+  "temporal_runtime": "NOT_ESTABLISHED",
+  "v31_disposition": "TERMINAL_IMMUTABLE_NO_RETRY",
+  "v32_disposition": "CONDITIONALLY_AUTHORIZED_NOT_CREATED_NOT_EXECUTED",
+  "worker_invocation": "0/1"
+}

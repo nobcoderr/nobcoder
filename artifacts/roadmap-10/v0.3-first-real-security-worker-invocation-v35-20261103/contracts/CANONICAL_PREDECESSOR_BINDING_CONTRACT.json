@@ -1,0 +1,33 @@
+{
+  "authority_source": {
+    "governance_lock_sha256": "d2263268f61b9ddde99a0b60f4b43a26df1586e0c577ba2ca98c07b64c21f811",
+    "successor_decision_sha256": "e9672bcddb685c92f3230531eb4c131f41264f54e2ee4c6afa9f9f633bcb21b6"
+  },
+  "contract_identity": "V35_CANONICAL_PREDECESSOR_BINDING_V1",
+  "generation_identity": "V35_CURRENT_GOVERNANCE_BOUND_TYPED_PREFLIGHT_BINDING_GENERATION_0001",
+  "fallback": "PROHIBITED",
+  "mismatch_action": "FAIL_CLOSED_BEFORE_STATIC_LOCK_AND_ATTEMPT",
+  "predecessor_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V18",
+  "predecessor_workspace_tree_sha256": "c92f0bd0d7ea111d9bfd6d3d4e612e5b1cd763d70c69f47fef6a2907c0be0f4d",
+  "required_components": [
+    "BUILDER",
+    "PRIMARY_VALIDATOR",
+    "INDEPENDENT_VALIDATOR",
+    "FRESH_PREFLIGHT",
+    "DEPENDENCY_CLOSURE",
+    "STATIC_LOCK_PREPARATION",
+    "STATIC_LOCK_VERIFICATION",
+    "LOCKED_RUNTIME"
+  ],
+  "resolution_order": [
+    "READ_EXACT_GOVERNANCE_LOCK",
+    "VERIFY_LOCK_DIGEST",
+    "READ_EXACT_SUCCESSOR_DECISION",
+    "VERIFY_DECISION_DIGEST",
+    "PARSE_EXPLICIT_PREDECESSOR_AND_SUCCESSOR_IDENTITIES",
+    "RESOLVE_EXACT_PREDECESSOR_ARTIFACT_SET",
+    "REREAD_AND_REHASH",
+    "BIND_COMPONENT_ATTESTATION"
+  ],
+  "version_or_directory_inference": "PROHIBITED"
+}

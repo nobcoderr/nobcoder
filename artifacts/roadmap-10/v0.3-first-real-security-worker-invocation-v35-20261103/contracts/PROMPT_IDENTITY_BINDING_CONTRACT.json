@@ -1,0 +1,45 @@
+{
+  "authoritative_identity_tuple": [
+    "CANONICAL_PROMPT_PATH",
+    "PROMPT_BYTE_LENGTH",
+    "PROMPT_SHA256",
+    "WORKER_REQUEST_SHA256"
+  ],
+  "binding_order": [
+    "FINALIZE_PROMPT_BYTES",
+    "REJECT_SYMLINK_OR_NON_REGULAR_PROMPT",
+    "COMPUTE_SHA256_FROM_FINAL_PROMPT_BYTES",
+    "BIND_COMPUTED_DIGEST_INTO_WORKER_REQUEST",
+    "REREAD_PROMPT_FROM_BOUND_CANONICAL_PATH",
+    "REHASH_REREAD_BYTES",
+    "COMPARE_ACTUAL_BOUND_AND_REREAD_DIGESTS",
+    "APPLY_EXACT_IMMUTABLE_MODE_0444",
+    "VERIFY_EXACT_IMMUTABLE_MODE_0444",
+    "FREEZE_REQUEST_AND_BINDING_RECORD_READ_ONLY",
+    "ONLY_THEN_ALLOW_VALIDATION_TO_PASS"
+  ],
+  "digest_hand_entry": "PROHIBITED",
+  "generation_identity": "V35_CURRENT_GOVERNANCE_BOUND_TYPED_PREFLIGHT_BINDING_GENERATION_0001",
+  "immutable_mode": "0444",
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V35",
+  "failure_semantics": {
+    "attempt_count": 0,
+    "codex_as_worker_invocation_count": 0,
+    "status": "STOP_FAIL_CLOSED_BEFORE_ATTEMPT",
+    "worker_invocation_count": 0
+  },
+  "final_prompt_first_digest_binding": "REQUIRED",
+  "post_bind_prompt_mutation": "PROHIBITED_AND_DETECTED_BY_REREAD_REHASH_AND_LATER_GATES",
+  "pre_attempt_gate": "PROMPT_IDENTITY_BINDING_PRECHECK_PASS_REQUIRED_BEFORE_ATTEMPT_MARKER",
+  "record_type": "FIRST_REAL_SECURITY_WORKER_PROMPT_IDENTITY_BINDING_CONTRACT",
+  "required_rechecks": [
+    "PRIMARY_STATIC_VALIDATION",
+    "INDEPENDENT_STATIC_VALIDATION",
+    "FRESH_PREFLIGHT",
+    "STATIC_LOCK_VERIFICATION",
+    "POST_LOCK_PRE_ATTEMPT_GATE"
+  ],
+  "schema_version": "1.0",
+  "stale_or_manual_digest_reuse": "PROHIBITED",
+  "worker_request_initial_marker": "UNBOUND_FINAL_PROMPT_SHA256"
+}

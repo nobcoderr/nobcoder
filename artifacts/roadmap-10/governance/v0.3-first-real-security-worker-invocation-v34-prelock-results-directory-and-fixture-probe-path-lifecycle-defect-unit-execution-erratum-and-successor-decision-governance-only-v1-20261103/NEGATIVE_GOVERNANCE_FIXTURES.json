@@ -1,0 +1,90 @@
+{
+  "filesystem_mutations": 0,
+  "fixtures": [
+    {
+      "actual_accept": true,
+      "expected_accept": true,
+      "filesystem_mutations": 0,
+      "id": "N001_EXACT_LIFECYCLE",
+      "predecessor_mutations": 0,
+      "status": "PASS"
+    },
+    {
+      "actual_accept": false,
+      "expected_accept": false,
+      "filesystem_mutations": 0,
+      "id": "N002_PRELOCK_ROOT_ABSENT",
+      "predecessor_mutations": 0,
+      "status": "PASS"
+    },
+    {
+      "actual_accept": false,
+      "expected_accept": false,
+      "filesystem_mutations": 0,
+      "id": "N003_FIXTURE_PROBE_ROOT_ABSENT",
+      "predecessor_mutations": 0,
+      "status": "PASS"
+    },
+    {
+      "actual_accept": false,
+      "expected_accept": false,
+      "filesystem_mutations": 0,
+      "id": "N004_PROBE_PARENT_SYMLINK",
+      "predecessor_mutations": 0,
+      "status": "PASS"
+    },
+    {
+      "actual_accept": false,
+      "expected_accept": false,
+      "filesystem_mutations": 0,
+      "id": "N005_PROBE_ESCAPES_WORKSPACE",
+      "predecessor_mutations": 0,
+      "status": "PASS"
+    },
+    {
+      "actual_accept": false,
+      "expected_accept": false,
+      "filesystem_mutations": 0,
+      "id": "N006_PROBE_TARGETS_PREDECESSOR",
+      "predecessor_mutations": 0,
+      "status": "PASS"
+    },
+    {
+      "actual_accept": false,
+      "expected_accept": false,
+      "filesystem_mutations": 0,
+      "id": "N007_NEGATIVE_FIXTURE_MUTATES_PREDECESSOR",
+      "predecessor_mutations": 0,
+      "status": "PASS"
+    },
+    {
+      "actual_accept": false,
+      "expected_accept": false,
+      "filesystem_mutations": 0,
+      "id": "N008_FIRST_FAILURE_EVIDENCE_NOT_WRITABLE",
+      "predecessor_mutations": 0,
+      "status": "PASS"
+    },
+    {
+      "actual_accept": false,
+      "expected_accept": false,
+      "filesystem_mutations": 0,
+      "id": "N009_PREEXISTING_ROOT_REUSE",
+      "predecessor_mutations": 0,
+      "status": "PASS"
+    },
+    {
+      "actual_accept": false,
+      "expected_accept": false,
+      "filesystem_mutations": 0,
+      "id": "N010_WRONG_LIFECYCLE_ORDER",
+      "predecessor_mutations": 0,
+      "status": "PASS"
+    }
+  ],
+  "passed": 10,
+  "predecessor_mutations": 0,
+  "record_type": "NEGATIVE_GOVERNANCE_FIXTURES",
+  "status": "PASS",
+  "total": 10
+}

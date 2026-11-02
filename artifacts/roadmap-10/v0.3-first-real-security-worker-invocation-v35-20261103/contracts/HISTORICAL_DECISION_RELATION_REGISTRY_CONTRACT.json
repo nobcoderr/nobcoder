@@ -1,0 +1,23 @@
+{
+  "mismatch": "FAIL_CLOSED_BEFORE_STATIC_LOCK_AND_ATTEMPT",
+  "prohibited": [
+    "VERSION_NUMBER_INFERENCE",
+    "DIRECTORY_INFERENCE",
+    "STALE_LITERAL",
+    "SYNTHETIC_IDENTITY",
+    "NEAREST_ARTIFACT",
+    "FALLBACK_SEARCH"
+  ],
+  "record_type": "V24_HISTORICAL_DECISION_RELATION_REGISTRY_CONTRACT",
+  "required_binding_fields": [
+    "logical_decision_identity",
+    "governance_owner",
+    "artifact_role",
+    "canonical_locator",
+    "artifact_sha256",
+    "relation_semantics",
+    "governance_lock_sha256",
+    "selection_method"
+  ],
+  "selection_method": "EXACT_GOVERNANCE_BOUND_LOGICAL_IDENTITY"
+}

@@ -1,0 +1,33 @@
+{
+  "canonical_member_set": {
+    "include": "ALL_AND_ONLY_RECURSIVE_REGULAR_FILES",
+    "missing_extra_symlink_or_special": "FAIL_CLOSED",
+    "regular_file_count": 146,
+    "root": "/home/nobcoder/v0.3-first-real-security-worker-invocation-v16-20261023"
+  },
+  "contract_identity": "V16_FROZEN_TREE_CANONICALIZATION_V1",
+  "expected_root_sha256": "5c99e1c8c1e5048ee3a9c607e0bceffc273743b91a245bf7a913f832af0636b5",
+  "final_digest": "SHA256_OF_EXACT_CONCATENATED_RECORD_BYTES",
+  "hardcoded_root_or_trust_core_result": "PROHIBITED",
+  "independent_recomputation_required": true,
+  "known_non_normative_flattened_order_root_sha256": "a5ec0db34da898d64859e0e3535d74929eed4f5b047f67f37d1fe3d90a88ea63",
+  "ordering": {
+    "algorithm": "LEXICOGRAPHIC_TUPLE_OF_UTF8_ENCODED_POSIX_PATH_COMPONENTS",
+    "comparison": "COMPARE_COMPONENT_BYTES_LEFT_TO_RIGHT; SHORTER_EQUAL_PREFIX_TUPLE_SORTS_FIRST",
+    "explicit_exclusion": "DO_NOT_SORT_THE_FLATTENED_RELATIVE_PATH_UTF8_BYTE_STRING"
+  },
+  "per_member_digest": "LOWERCASE_64_ASCII_HEX_SHA256_OF_EXACT_FILE_BYTES",
+  "record": "UTF8_RELATIVE_POSIX_PATH || NUL_0X00 || ASCII_DIGEST || LF_0X0A",
+  "record_concatenation": "NO_HEADER_NO_FOOTER_NO_EXTRA_SEPARATOR",
+  "relative_path": {
+    "encoding": "UTF_8_STRICT",
+    "forbidden": [
+      "ABSOLUTE",
+      "EMPTY_COMPONENT",
+      "DOT",
+      "DOT_DOT",
+      "BACKSLASH"
+    ],
+    "representation": "POSIX_RELATIVE_PATH"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "attempt_marker_order": "RESOLUTION_PASS_REQUIRED_BEFORE_ATTEMPT_MARKER",
+  "canonical_identity": "CODEX_RUNTIME_0_166_0_COMPATIBILITY_ACCEPTANCE",
+  "failure_semantics": {
+    "attempt_count": 0,
+    "codex_as_worker_invocation_count": 0,
+    "disposition": "FAIL_CLOSED_BEFORE_ATTEMPT",
+    "worker_invocation_count": 0
+  },
+  "fallback_resolution": "PROHIBITED",
+  "path_derivation_from_execution_number": "PROHIBITED",
+  "record_type": "AUTHORITATIVE_PREDECESSOR_RESOLUTION_CONTRACT",
+  "required_order": [
+    "READ_CANONICAL_ARTIFACT_IDENTITY",
+    "RESOLVE_EXACT_REGISTRY_ENTRY",
+    "REQUIRE_REGULAR_NON_SYMLINK_ARTIFACT",
+    "VERIFY_EXPECTED_SHA256",
+    "PARSE_AUTHORITATIVE_STATE",
+    "REQUIRE_PASS_LOCKED",
+    "VERIFY_EXACT_RUNTIME_IDENTITY",
+    "REREAD_EXACT_ARTIFACT_BYTES",
+    "RECOMPUTE_SHA256",
+    "REQUIRE_EXACT_BYTE_AND_DIGEST_EQUALITY"
+  ],
+  "reread_and_rehash": "REQUIRED",
+  "schema_version": "1.0",
+  "unknown_identity": "FAIL_CLOSED"
+}

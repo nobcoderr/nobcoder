@@ -1,0 +1,14 @@
+{
+  "attempt": "0/1",
+  "codex_as_worker_invocation": "0/1",
+  "decision": "AUTHORIZE_DISTINCT_FIRST_REAL_SECURITY_WORKER_INVOCATION_V29_CONDITIONALLY",
+  "governance_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V29_CODEX_0_166_0_RUNTIME_DEPENDENCY_BINDING_AND_DISTINCT_SUCCESSOR_AUTHORIZATION_GOVERNANCE_ONLY",
+  "record_type": "V29_DISTINCT_SUCCESSOR_AUTHORIZATION_DECISION",
+  "runtime_dependency": "CODEX_RUNTIME_0_166_0_COMPATIBILITY_PASS_LOCKED",
+  "successor_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V29",
+  "successor_state": "CONDITIONALLY_AUTHORIZED_NOT_CREATED_NOT_EXECUTED",
+  "worker_created": false,
+  "worker_executed": false,
+  "worker_implemented": false,
+  "worker_invocation": "0/1"
+}

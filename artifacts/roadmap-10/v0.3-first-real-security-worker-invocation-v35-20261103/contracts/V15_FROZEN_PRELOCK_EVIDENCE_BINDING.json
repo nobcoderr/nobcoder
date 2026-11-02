@@ -1,0 +1,37 @@
+{
+  "attempt": "0_OF_1",
+  "codex_as_worker_invocation": "0_OF_1",
+  "failure_manifest_sha256": "6011559bd1522fd9d71934383b8df587fc558fb379c8608627877c457c7db443",
+  "independent": {
+    "counts": {
+      "failed": 0,
+      "passed": 44,
+      "total": 44
+    },
+    "sha256": "69053c72214931839eab7743d90e11147cd03ab46cf6fd09fcda9633720d0381",
+    "status": "PASS"
+  },
+  "primary": {
+    "counts": {
+      "failed": 0,
+      "passed": 51,
+      "total": 51
+    },
+    "sha256": "a308968912f1e7722d2bf700c5aaf3256c176b1d4f584a4b269596a0fd8c17c9",
+    "status": "PASS"
+  },
+  "record_type": "V15_FROZEN_PRELOCK_EVIDENCE_BINDING",
+  "static_lock": "NOT_ISSUED",
+  "status": "PASS",
+  "terminal_result_sha256": "ece516b4641d1f1b2506e9025620e595f09dc1782373abcd23cecab177eaf601",
+  "unit": {
+    "counts": {
+      "failed": 0,
+      "passed": 118,
+      "total": 118
+    },
+    "sha256": "38e3b1c71dee5c0d0c91f4134e439f2f0442626faa23747ac306063b9cdaa6cc",
+    "status": "PASS"
+  },
+  "worker_invocation": "0_OF_1"
+}

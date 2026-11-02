@@ -1,0 +1,25 @@
+{
+  "attempt": "0_OF_1",
+  "codex_as_worker_invocation": "0_OF_1",
+  "disposition": "FAIL_CLOSED_PRELOCK_TERMINAL_NO_RETRY_REFERENCE_ONLY",
+  "execution_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V17",
+  "hashes": {
+    "independent_run_0001": "02e41521f90af9dc1aa55ed26d7769b07b44a6bcdf3b643d7b96b5c662be6e23",
+    "primary_run_0001": "31f3911b6a0ad0d5781debafbfb781eb865cd7c966aa7723b8bb05cde3006ff9",
+    "terminal_record": "f86711afddf68b287a5ed9cf5f327ef9de146dd1601d5497a173ba07c65d07b0",
+    "unit_run_0001": "71d7fb3d18653cea15dfe6312e30affa8b911b9d1520f09c3449766e084df445",
+    "workspace_tree": "576f3773617ad0adab5a3488ad395b20e753f8cb24c6b04ddd97ee8a65498373"
+  },
+  "historical_independent_run_0001": "IMMUTABLE_FAILURE_EVIDENCE",
+  "prelock_failure_evidence_member_count": 78,
+  "prelock_failure_evidence_read_only": true,
+  "static_lock": "NOT_ISSUED",
+  "validation": {
+    "failed_gate": "I008A_V16_FROZEN",
+    "independent": "47_OF_48_FAIL_CLOSED",
+    "primary": "56_OF_56_PASS",
+    "unit": "147_OF_147_PASS"
+  },
+  "worker_invocation": "0_OF_1",
+  "workspace_member_count": 150
+}

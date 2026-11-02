@@ -1,0 +1,12 @@
+{
+  "required_cases": {
+    "ambiguous_predecessor_candidates": "FAIL_CLOSED",
+    "builder_v17_verifier_v18": "FAIL_CLOSED",
+    "builder_v18_verifier_v17": "FAIL_CLOSED",
+    "exact_governance_authorized_predecessor": "PASS",
+    "exact_predecessor_artifact_digest_mismatch": "FAIL_CLOSED",
+    "missing_predecessor_authority": "FAIL_CLOSED",
+    "stale_predecessor_binding": "FAIL_CLOSED",
+    "version_number_only_inference": "FAIL_CLOSED"
+  }
+}

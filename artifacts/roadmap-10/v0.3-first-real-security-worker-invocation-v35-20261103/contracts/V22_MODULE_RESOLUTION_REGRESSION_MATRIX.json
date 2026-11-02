@@ -1,0 +1,15 @@
+{
+  "coverage_rule": "ALL_CASES_MUST_PASS_BEFORE_FRESH_PREFLIGHT",
+  "required_cases": {
+    "correct_local_module_canonical_root": "PASS",
+    "exact_identity_origin_digest": "PASS",
+    "importable_absent_dependency_or_symbol_manifest": "FAIL_CLOSED",
+    "manifest_member_not_importable": "FAIL_CLOSED",
+    "missing_package_root": "FAIL_CLOSED",
+    "primary_independent_different_origins": "FAIL_CLOSED",
+    "same_name_different_origin": "FAIL_CLOSED",
+    "shadow_module_same_name": "FAIL_CLOSED",
+    "wrong_PYTHONPATH": "FAIL_CLOSED",
+    "wrong_cwd": "FAIL_CLOSED"
+  }
+}
