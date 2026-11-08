@@ -1,5 +1,7 @@
 # Codex Security Harness
 
+**Project stage:** early-stage, fixture-validated development; no live security campaign is authorized by this repository.
+
 This Git repository is the harness product. Codex remains the user interface
 and a replaceable external runtime dependency behind one deny-by-default
 adapter. The repository provides the persistent control plane: scope gating,
@@ -77,6 +79,23 @@ campaign before that gate exists.
 
 ## Developer verification
 
+Run the local, fixture-based test suite without any live targets or Codex model calls:
+
 ```bash
-python -m unittest discover -s tests -v
+PYTHONPATH=src python3 -W error::ResourceWarning -m unittest discover -s tests -t . -v
 ```
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines and review expectations.
+
+## License and third-party material
+
+Original project-authored code and documentation are offered under the
+[Apache License 2.0](LICENSE), except where another license is explicitly
+identified. Codex CLI is an independently distributed external dependency,
+not part of this repository's licensed runtime.
+
+Historical ZIP archives and bundled research references may contain material
+from other authors, including security reference corpora. The root license
+**does not relicense third-party content** or override any upstream license.
+See [THIRD_PARTY.md](THIRD_PARTY.md) and the archive manifests before reuse or
+redistribution.

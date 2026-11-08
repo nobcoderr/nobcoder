@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -8,9 +8,14 @@ version = "0.1.0"
 description = "Persistent, evidence-gated multi-agent security research harness for Codex CLI"
 readme = "README.md"
 requires-python = ">=3.11"
-license = { text = "Private local tooling" }
+license = "Apache-2.0"
+license-files = ["LICENSE"]
 authors = [{ name = "nobcoder" }]
 dependencies = []
+
+[project.urls]
+Repository = "https://github.com/nobcoderr/nobcoder"
+Issues = "https://github.com/nobcoderr/nobcoder/issues"
 
 [project.scripts]
 bbp-harness = "bbp_harness.cli:main"
