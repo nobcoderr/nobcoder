@@ -1,0 +1,779 @@
+{
+  "coverage": "84/84",
+  "failed": 0,
+  "input_artifact_sha256": "6148915fcc321b06708e5a8cdbfded3b435987a739a6c1cc789ad244149fe8ef",
+  "proofs": [
+    {
+      "category": "MOUNT_WRITE_PROVENANCE_AND_FINAL_AUTHORIZATION",
+      "evidence_sha256": "77265c282769c7530cb61563d2f0f9c151fa8396c482102c0a6d9a8d03c98710",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 0,
+      "proof_id": "P000_GOVERNANCE_BOUND_MOUNT_OUTPUT_IDENTITY",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_RESULT_INTEGRITY_AND_AGGREGATION",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 1,
+      "proof_id": "P001_CORE_DIAGNOSTIC_FILES",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_RESULT_INTEGRITY_AND_AGGREGATION",
+      "evidence_sha256": "241e4c034f203f3dfd7b39cd3bc21dfb42d6ee5f190b211701be6b4707607235",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 2,
+      "proof_id": "P002_REQUIRED_JSON_PARSE",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_RESULT_INTEGRITY_AND_AGGREGATION",
+      "evidence_sha256": "f4f5acb3c580dfc0544fd64c5cb03cf58a02b0f90f41ab26ea33fc7901dc3425",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 3,
+      "proof_id": "P003_DIAGNOSTIC_RESULT_STATE_TYPED",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_RESULT_INTEGRITY_AND_AGGREGATION",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 4,
+      "proof_id": "P004_DIAGNOSTIC_COMPLETE",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_RESULT_INTEGRITY_AND_AGGREGATION",
+      "evidence_sha256": "6ba6c6b8b0f49c77541cd5cee1212d60b7867bcd2f22ce9dd61058be9a969049",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 5,
+      "proof_id": "P005_OUTPUT_ARTIFACT_STATE_CONSISTENT",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "ONE_SHOT_EXECUTION_AND_CODEX_IDENTITY",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 6,
+      "proof_id": "P006_ATTEMPT_EXACT",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "ONE_SHOT_EXECUTION_AND_CODEX_IDENTITY",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 7,
+      "proof_id": "P007_WORKER_COUNT",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "ONE_SHOT_EXECUTION_AND_CODEX_IDENTITY",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 8,
+      "proof_id": "P008_CODEX_COUNT",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "ONE_SHOT_EXECUTION_AND_CODEX_IDENTITY",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 9,
+      "proof_id": "P009_NO_RETRY",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "ONE_SHOT_EXECUTION_AND_CODEX_IDENTITY",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 10,
+      "proof_id": "P009A_OBSERVER_READY_BEFORE_ATTEMPT",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "ONE_SHOT_EXECUTION_AND_CODEX_IDENTITY",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 11,
+      "proof_id": "P009B_TRACE_AND_ROOT_READY_BEFORE_WORKER_GO",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "ONE_SHOT_EXECUTION_AND_CODEX_IDENTITY",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 12,
+      "proof_id": "P009C_LOCKED_SHORT_LIVED_OBSERVER_SELFTEST",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_RESULT_INTEGRITY_AND_AGGREGATION",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 13,
+      "proof_id": "P010_RUNTIME_PASS",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_RESULT_INTEGRITY_AND_AGGREGATION",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 14,
+      "proof_id": "P011_EXIT_ZERO",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "ONE_SHOT_EXECUTION_AND_CODEX_IDENTITY",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 15,
+      "proof_id": "P012_SEMANTIC_CODEX_EXEC",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "PROCESS_LINEAGE_PID_NAMESPACE_AND_TEMPORAL_BINDING",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 16,
+      "proof_id": "P013_SEMANTIC_PROCESS_LINEAGE",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "MOUNT_WRITE_PROVENANCE_AND_FINAL_AUTHORIZATION",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 17,
+      "proof_id": "P014_BIND_DESTINATION_PRECHECK",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_PRECONDITION_BINDINGS",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 18,
+      "proof_id": "P015_STRICT_SCHEMA_PRECHECK",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_PRECONDITION_BINDINGS",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 19,
+      "proof_id": "P015FD_TYPED_FD_PRECHECK",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "PROCESS_LINEAGE_PID_NAMESPACE_AND_TEMPORAL_BINDING",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 20,
+      "proof_id": "P015AA_CROSS_NAMESPACE_PROCESS_IDENTITY_PRECHECK",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "PROCESS_LINEAGE_PID_NAMESPACE_AND_TEMPORAL_BINDING",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 21,
+      "proof_id": "P015AB_TEMPORAL_PROCESS_IDENTITY_OBSERVER_PRECHECK",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "PROCESS_LINEAGE_PID_NAMESPACE_AND_TEMPORAL_BINDING",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 22,
+      "proof_id": "P015A_STARTUP_LINEAGE_PRECHECK",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "MOUNT_WRITE_PROVENANCE_AND_FINAL_AUTHORIZATION",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 23,
+      "proof_id": "P015B_MOUNT_PROVENANCE_PRECHECK",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_PRECONDITION_BINDINGS",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 24,
+      "proof_id": "P015C_TYPED_TOKEN_BUDGET_PRECHECK",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_PRECONDITION_BINDINGS",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 25,
+      "proof_id": "P015D_PROMPT_IDENTITY_BINDING_PRECHECK",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_PRECONDITION_BINDINGS",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 26,
+      "proof_id": "P015E_AUTHORITATIVE_PREDECESSOR_RESOLUTION",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_PRECONDITION_BINDINGS",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 27,
+      "proof_id": "P015F_AUTHORITATIVE_ARTIFACT_DIGEST_IDENTITY",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_AUTHORIZATION_AND_CONFIGURATION_IDENTITY",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 28,
+      "proof_id": "P016_EXACT_BINDINGS",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_RESULT_INTEGRITY_AND_AGGREGATION",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 29,
+      "proof_id": "P017_MODEL_NON_DAYBREAK",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_RESULT_INTEGRITY_AND_AGGREGATION",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 30,
+      "proof_id": "P018_TRANSCRIPT_PARSE",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "WORKER_AUTHORITY_BOUNDARY_AND_FORBIDDEN_OPERATIONS",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 31,
+      "proof_id": "P019_NO_TOOL_CALL",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "WORKER_AUTHORITY_BOUNDARY_AND_FORBIDDEN_OPERATIONS",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 32,
+      "proof_id": "P020_PROVIDER_TRANSPORT_CLASS",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "WORKER_AUTHORITY_BOUNDARY_AND_FORBIDDEN_OPERATIONS",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 33,
+      "proof_id": "P021_NO_TARGET_OR_WORKER_TOOL_NETWORK",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_RESULT_INTEGRITY_AND_AGGREGATION",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 34,
+      "proof_id": "P022_OUTPUT_DIGEST",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_RESULT_INTEGRITY_AND_AGGREGATION",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 35,
+      "proof_id": "P023_CONTROLLER_DIGEST",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_AUTHORIZATION_AND_CONFIGURATION_IDENTITY",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 36,
+      "proof_id": "P024_CONFIG_DIGEST",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "WORKER_AUTHORITY_BOUNDARY_AND_FORBIDDEN_OPERATIONS",
+      "evidence_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 37,
+      "proof_id": "P025_MODEL_NO_AUTHORITY_KEYS",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "WORKER_AUTHORITY_BOUNDARY_AND_FORBIDDEN_OPERATIONS",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 38,
+      "proof_id": "P026_MODEL_EMPTY_OPERATIONS",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "WORKER_AUTHORITY_BOUNDARY_AND_FORBIDDEN_OPERATIONS",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 39,
+      "proof_id": "P027_ONE_MODEL_PROPOSAL",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "WORKER_AUTHORITY_BOUNDARY_AND_FORBIDDEN_OPERATIONS",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 40,
+      "proof_id": "P028_CAPABILITY_UNPROVEN",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "WORKER_AUTHORITY_BOUNDARY_AND_FORBIDDEN_OPERATIONS",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 41,
+      "proof_id": "P029_IMPACT_NONE_PROVEN",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "WORKER_AUTHORITY_BOUNDARY_AND_FORBIDDEN_OPERATIONS",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 42,
+      "proof_id": "P030_FIXTURE_EVIDENCE_ONLY",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "WORKER_AUTHORITY_BOUNDARY_AND_FORBIDDEN_OPERATIONS",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 43,
+      "proof_id": "P031_CONTROLLER_QUARANTINE",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "WORKER_AUTHORITY_BOUNDARY_AND_FORBIDDEN_OPERATIONS",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 44,
+      "proof_id": "P032_CONTROLLER_PROPOSAL_ONLY",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "ONE_SHOT_EXECUTION_AND_CODEX_IDENTITY",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 45,
+      "proof_id": "P033_INVOCATION_COUNTERS",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "WORKER_AUTHORITY_BOUNDARY_AND_FORBIDDEN_OPERATIONS",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 46,
+      "proof_id": "P034_DENIED_COUNTERS_ZERO",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_RESULT_INTEGRITY_AND_AGGREGATION",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 47,
+      "proof_id": "P035_TYPED_TOKEN_BUDGET",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_RESULT_INTEGRITY_AND_AGGREGATION",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 48,
+      "proof_id": "P036_MEMORY_BUDGET",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_RESULT_INTEGRITY_AND_AGGREGATION",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 49,
+      "proof_id": "P037_SOURCE_BEFORE_AFTER",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "MOUNT_WRITE_PROVENANCE_AND_FINAL_AUTHORIZATION",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 50,
+      "proof_id": "P038_ONE_WRITABLE_BIND",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "STATIC_LOCK_AND_PREATTEMPT_ORDERING",
+      "evidence_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 51,
+      "proof_id": "P039_LOCK_MEMBERS_IMMUTABLE",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "STATIC_LOCK_AND_PREATTEMPT_ORDERING",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 52,
+      "proof_id": "P040_STATIC_LOCK_VERIFIED",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "STATIC_LOCK_AND_PREATTEMPT_ORDERING",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 53,
+      "proof_id": "P041_LOCK_ATTEMPT_ZERO_AT_ISSUE",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "STATIC_LOCK_AND_PREATTEMPT_ORDERING",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 54,
+      "proof_id": "P041A_PREDECESSOR_RESOLUTION_LOCKED",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "STATIC_LOCK_AND_PREATTEMPT_ORDERING",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 55,
+      "proof_id": "P041B_ARTIFACT_DIGEST_IDENTITY_LOCKED",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "PROCESS_LINEAGE_PID_NAMESPACE_AND_TEMPORAL_BINDING",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 56,
+      "proof_id": "P042_TRACES_PRESENT",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "ONE_SHOT_EXECUTION_AND_CODEX_IDENTITY",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 57,
+      "proof_id": "P043_SEMANTIC_CODEX_EXEC_INDEPENDENT",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "ONE_SHOT_EXECUTION_AND_CODEX_IDENTITY",
+      "evidence_sha256": "76c1a4245efb647a998091cf66411fd2def0927db9d885ea17817ddaf5b7a72e",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 58,
+      "proof_id": "P043A_TYPED_FD_ANNOTATIONS_INDEPENDENT",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "ONE_SHOT_EXECUTION_AND_CODEX_IDENTITY",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 59,
+      "proof_id": "P043B_FD_ANNOTATION_INFERENCE_SEPARATION",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_AUTHORIZATION_AND_CONFIGURATION_IDENTITY",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 60,
+      "proof_id": "P044_CONFIG_SELECTED_CONSUMED",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "MOUNT_WRITE_PROVENANCE_AND_FINAL_AUTHORIZATION",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 61,
+      "proof_id": "P045_NAMESPACE_WRITES_EXACT",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "MOUNT_WRITE_PROVENANCE_AND_FINAL_AUTHORIZATION",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 62,
+      "proof_id": "P046_MOUNT_PROVENANCE_WRITE_CLASSIFICATION",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "MOUNT_WRITE_PROVENANCE_AND_FINAL_AUTHORIZATION",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 63,
+      "proof_id": "P046A_MOUNT_PROVENANCE_SEPARATE_GATE",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "MOUNT_WRITE_PROVENANCE_AND_FINAL_AUTHORIZATION",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 64,
+      "proof_id": "P046B_PRODUCER_LINEAGE_SEPARATE_GATE",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "MOUNT_WRITE_PROVENANCE_AND_FINAL_AUTHORIZATION",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 65,
+      "proof_id": "P046C_FINAL_WRITE_AUTHORIZATION_REQUIRES_BOTH",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "MOUNT_WRITE_PROVENANCE_AND_FINAL_AUTHORIZATION",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 66,
+      "proof_id": "P047_NO_FREE_TEXT_PATH_INFERENCE",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_RESULT_INTEGRITY_AND_AGGREGATION",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 67,
+      "proof_id": "P048_RUNTIME_PARSER_COMPLETE",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "WORKER_AUTHORITY_BOUNDARY_AND_FORBIDDEN_OPERATIONS",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 68,
+      "proof_id": "P049_NO_SECRET_IN_MODEL_OUTPUT",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_RESULT_INTEGRITY_AND_AGGREGATION",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 69,
+      "proof_id": "P050_START_END_ORDER",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_RESULT_INTEGRITY_AND_AGGREGATION",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 70,
+      "proof_id": "P051_MARKER_START_MATCH",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "RUNTIME_AUTHORIZATION_AND_CONFIGURATION_IDENTITY",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 71,
+      "proof_id": "P052_PROMPT_DIGEST",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "WORKER_AUTHORITY_BOUNDARY_AND_FORBIDDEN_OPERATIONS",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 72,
+      "proof_id": "P053_NO_TARGET_STRING_IN_OUTPUT",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "PROCESS_LINEAGE_PID_NAMESPACE_AND_TEMPORAL_BINDING",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 73,
+      "proof_id": "P054_RUNTIME_TOPOLOGY_CAPTURE",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "PROCESS_LINEAGE_PID_NAMESPACE_AND_TEMPORAL_BINDING",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 74,
+      "proof_id": "P055_LINEAGE_NAMESPACE_BINDING",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "PROCESS_LINEAGE_PID_NAMESPACE_AND_TEMPORAL_BINDING",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 75,
+      "proof_id": "P056_CROSS_NAMESPACE_PROCESS_IDENTITY_COMPLETE",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "PROCESS_LINEAGE_PID_NAMESPACE_AND_TEMPORAL_BINDING",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 76,
+      "proof_id": "P057_HOST_LOCAL_PID_MAPPING_EVIDENCE_BOUND",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "PROCESS_LINEAGE_PID_NAMESPACE_AND_TEMPORAL_BINDING",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 77,
+      "proof_id": "P058_PROCESS_PARENT_EDGES_EVIDENCE_BOUND",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "PROCESS_LINEAGE_PID_NAMESPACE_AND_TEMPORAL_BINDING",
+      "evidence_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 78,
+      "proof_id": "P059_TEMPORAL_PROCESS_IDENTITIES_INDEPENDENTLY_REHASHED",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "PROCESS_LINEAGE_PID_NAMESPACE_AND_TEMPORAL_BINDING",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 79,
+      "proof_id": "P060_EVERY_TRACE_PID_TEMPORALLY_OBSERVED",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "PROCESS_LINEAGE_PID_NAMESPACE_AND_TEMPORAL_BINDING",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 80,
+      "proof_id": "P061_NO_AMBIGUOUS_PID_REUSE",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "PROCESS_LINEAGE_PID_NAMESPACE_AND_TEMPORAL_BINDING",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 81,
+      "proof_id": "P062_INDEPENDENT_TRACE_DENOMINATOR_AND_CAPTURE_LEDGER",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "CONFINEMENT_AND_MUTATION_ACCOUNTING",
+      "evidence_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 82,
+      "proof_id": "P063_CONFINEMENT_SEPARATE_COMPLETE_GATE",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    },
+    {
+      "category": "CONFINEMENT_AND_MUTATION_ACCOUNTING",
+      "evidence_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "input_artifact": "static-run-v108/independent-post-validation-0001.json",
+      "ordinal": 83,
+      "proof_id": "P064_UNACCOUNTED_FILESYSTEM_MUTATIONS_ZERO",
+      "status": "PASS",
+      "verification": "INDEPENDENTLY_ENUMERATED_FROM_FROZEN_POST_VALIDATOR"
+    }
+  ],
+  "record_type": "V108_RUNTIME_PROOF_RECONSTRUCTION_84_OF_84",
+  "required_domains": {
+    "codex_runtime_identity": "PASS",
+    "confinement": "PASS",
+    "exec_phase_attribution": "PASS",
+    "final_write_authorization": "PASS",
+    "mount_provenance": "PASS",
+    "pid_namespace_semantics": "PASS",
+    "process_lineage": "PASS",
+    "producer_authorization": "PASS",
+    "runtime_authorization_identity": "PASS",
+    "temporal_process_binding": "PASS",
+    "worker_result_provenance": "PASS",
+    "write_provenance": "PASS"
+  },
+  "status": "PASS"
+}

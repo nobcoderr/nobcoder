@@ -1,0 +1,77 @@
+{
+  "acceptance_state": "ROADMAP10_FIRST_REAL_SECURITY_WORKER_PASS_LOCKED",
+  "governance_evidence_root": "d114c993e655b3149280bc9d33ad1b13caceec562ee06043f100171ebe0786bb",
+  "governance_lock_sha256": "2b7117edbbb3737bc9aea15457793c9b4efad1455262ec7fe05b68c0c2595e92",
+  "member_count_before_freeze_record": 14,
+  "members": {
+    "GOVERNANCE_ARTIFACT_MANIFEST.json": {
+      "mode": "0444",
+      "sha256": "6940761126320fb2557a411c6ffc2cab54794b1957b24a809fb3513fb6903fd9"
+    },
+    "GOVERNANCE_CHARTER.json": {
+      "mode": "0444",
+      "sha256": "29a308e01f2ea9409a26ccb967ebf971bc4c2bda4dad5f4463b57cc733f4ee92"
+    },
+    "GOVERNANCE_LOCK.json": {
+      "mode": "0444",
+      "sha256": "2b7117edbbb3737bc9aea15457793c9b4efad1455262ec7fe05b68c0c2595e92"
+    },
+    "INDEPENDENT_GOVERNANCE_VALIDATION.json": {
+      "mode": "0444",
+      "sha256": "04e6aca233cb084e573d763e70c8527b33486c081be76a8a10f31cc1e1179cc6"
+    },
+    "PRIMARY_GOVERNANCE_VALIDATION.json": {
+      "mode": "0444",
+      "sha256": "90773fb12ee7885c55e28041ad5d6da4c35ea88e535056a6c4aae560f9b0ac7e"
+    },
+    "ROADMAP10_FINAL_ACCEPTANCE_ADJUDICATION.json": {
+      "mode": "0444",
+      "sha256": "53adf49324c8f24ec6a2da1e3ca16e0732f1b11e43bd26053b5cd597d2a64a60"
+    },
+    "ROADMAP10_FINAL_ACCEPTANCE_CONTRACT.json": {
+      "mode": "0444",
+      "sha256": "c60693a004b468338ced150a06800593d9028e4793568173ea69572a4349c83b"
+    },
+    "ROUTING_LEDGER.json": {
+      "mode": "0444",
+      "sha256": "ce0295d914b62753c3ddcd4e301118e5b4fd6976fef8a59da1ec87875976bc2c"
+    },
+    "V108_FINAL_ACCEPTANCE_DECISIONS.json": {
+      "mode": "0444",
+      "sha256": "b0a739488cc13600d6aeaef2e109279e659d270f190a332d27ff48f9860d7066"
+    },
+    "V108_ONE_SHOT_AND_WORKER_AUTHORITY_BOUNDARY_VERIFICATION.json": {
+      "mode": "0444",
+      "sha256": "b4d4fdbe63490f2aa2c937786c1fbc3215931f45b6bd06f523ead20d6cc1b30a"
+    },
+    "V108_READ_ONLY_ACCEPTANCE_EVIDENCE_VERIFICATION.json": {
+      "mode": "0444",
+      "sha256": "d114c993e655b3149280bc9d33ad1b13caceec562ee06043f100171ebe0786bb"
+    },
+    "V108_RUNTIME_PROOF_RECONSTRUCTION_84_OF_84.json": {
+      "mode": "0444",
+      "sha256": "0743fad0a78dfde30d1a84b2e8dd8fc705778e0787c584d2f6f581309f72e621"
+    },
+    "V108_STATIC_LOCK_CHAIN_AND_FREEZE_VERIFICATION.json": {
+      "mode": "0444",
+      "sha256": "0c19d94f4ff8b7df3397acbdfbf032d77a50f7b49ddd9ff16032ddf6c4f1e356"
+    },
+    "V108_TECHNICAL_COMPLETION_RECONSTRUCTION.json": {
+      "mode": "0444",
+      "sha256": "875980d23735093f6e867dd8f137a579bd3d763eacfda919ce78060806080a54"
+    }
+  },
+  "package_root_derivation": "SHA256(sorted lines: mode sha256 basename newline, excluding this freeze record)",
+  "package_root_sha256": "262826f4c29021dc3179e8d49f0a6be75d99533d476d102c3883671f3c1f0346",
+  "record_type": "GOVERNANCE_FREEZE_VERIFICATION",
+  "roadmap11_entry": "AUTHORIZED_NOT_STARTED",
+  "runtime_invocations_during_governance": {
+    "codex": 0,
+    "provider": 0,
+    "worker": 0
+  },
+  "status": "PASS",
+  "upstream_v108_evidence_root_unchanged": "1a90ce603ded8eb195c5f7a80ab09078f33fcda7a61baf934b1ab06006876cc8",
+  "v108_mutations": 0,
+  "v109_absent": true
+}

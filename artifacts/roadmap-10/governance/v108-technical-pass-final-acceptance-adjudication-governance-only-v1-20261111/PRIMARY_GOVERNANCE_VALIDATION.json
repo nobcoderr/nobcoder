@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "all_13_acceptance_questions_yes": true,
+    "closure_v29_pass": true,
+    "evidence_root_exact": true,
+    "one_shot_exact": true,
+    "runtime_proofs_84_of_84": true,
+    "static_lock_chain_valid": true,
+    "worker_result_quarantined_proposal_only": true
+  },
+  "record_type": "PRIMARY_GOVERNANCE_VALIDATION",
+  "status": "PASS"
+}

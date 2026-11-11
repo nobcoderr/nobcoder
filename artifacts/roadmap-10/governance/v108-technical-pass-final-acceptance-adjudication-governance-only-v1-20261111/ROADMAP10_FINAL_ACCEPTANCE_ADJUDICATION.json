@@ -1,0 +1,20 @@
+{
+  "acceptance_decision": "PASS",
+  "acceptance_identity": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V108_TECHNICAL_PASS_FINAL_ACCEPTANCE_ADJUDICATION_GOVERNANCE_ONLY",
+  "accepted_technical_execution": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V108",
+  "accepted_v108_evidence_root": "1a90ce603ded8eb195c5f7a80ab09078f33fcda7a61baf934b1ab06006876cc8",
+  "all_mandatory_acceptance_questions": "13/13 YES",
+  "engineering_successor": "NOT_CREATED_NOT_AUTHORIZED",
+  "record_type": "ROADMAP10_FINAL_ACCEPTANCE_ADJUDICATION",
+  "roadmap10_first_real_security_worker": "PASS_LOCKED",
+  "roadmap11_entry": "AUTHORIZED_NOT_STARTED",
+  "roadmap11_execution": "NOT_STARTED",
+  "status": "PASS_LOCKED_GOVERNANCE_ONLY",
+  "v108_artifact_mutations": 0,
+  "v108_reruns": 0,
+  "worker_codex_provider_invocations_during_adjudication": {
+    "codex": 0,
+    "provider": 0,
+    "worker": 0
+  }
+}

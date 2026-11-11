@@ -1,0 +1,34 @@
+{
+  "checks": {
+    "declared_and_replayed_v108_root_exact": true,
+    "evidence_manifest_members_exact": true,
+    "evidence_manifest_modes_exact": true,
+    "evidence_manifest_sizes_exact": true,
+    "frozen_runtime_tree_writable_files_zero": true,
+    "static_source_members_exact": true,
+    "static_source_modes_exact": true,
+    "unexpected_cache_artifacts_zero": true,
+    "unexpected_symlinks_zero": true,
+    "v108_root_read_only": true
+  },
+  "evidence_manifest_member_count": 153,
+  "expected_v108_evidence_root": "1a90ce603ded8eb195c5f7a80ab09078f33fcda7a61baf934b1ab06006876cc8",
+  "member_failures": [],
+  "pinned_artifact_digests": {
+    "ROADMAP10_V108_DETERMINISTIC_PREEXECUTION_STATIC_VALIDATION_PARENT_CONTEXT_AND_RUNTIME_PROOF_CLOSURE_V29.json": "a9426fd0e581886f66fc2f373bcfa1540249271608d2e1883cf71417a2421f9e",
+    "STATIC_EXECUTION_LOCK.json": "514115d7ece06988140d3904d9b452c4f0963e22da4a753b8cb4dc634aec8ff4",
+    "static-run-v108/EVIDENCE_FREEZE_VERIFICATION.json": "20cf5357c1178595760123767a699e7d2c841b838f4a36245f50e1915cc06b6e",
+    "static-run-v108/EVIDENCE_MANIFEST.json": "34a4e7e4f8bf3a4f0baf6f3a6d5255e45972a92178ea862bbb5c6c05e0f8f5d8",
+    "static-run-v108/TERMINAL_ENGINEERING_RESULT.json": "db476d3953a75ded733dcf52d338e34120f347d72b9117013c9d54538d73fcc0",
+    "static-run-v108/independent-post-validation-0001.json": "6148915fcc321b06708e5a8cdbfded3b435987a739a6c1cc789ad244149fe8ef",
+    "static-run-v108/runtime-result-0001.json": "5b4a6c4cf9182556c9e3ea75b15a4721be3ad7c545a4f0aa1dcbcfc88b3421ac"
+  },
+  "record_type": "V108_READ_ONLY_ACCEPTANCE_EVIDENCE_VERIFICATION",
+  "replayed_static_source_root_sha256": "ca0173643de852757deeddd9643e402bcd61c2fc2d8b12d7b0489e83dad20134",
+  "replayed_v108_evidence_root_sha256": "1a90ce603ded8eb195c5f7a80ab09078f33fcda7a61baf934b1ab06006876cc8",
+  "runtime_tree_file_count_including_freeze_metadata": 156,
+  "source_manifest_member_count": 891,
+  "status": "PASS",
+  "v108_mutations_performed": 0,
+  "writable_runtime_files": []
+}

@@ -1,0 +1,13 @@
+{
+  "acceptance_authority": "USER_AUTHORIZED_SEPARATE_FINAL_ACCEPTANCE_ADJUDICATION_2026-11-11",
+  "acceptance_rule": "ALL_13_MANDATORY_ACCEPTANCE_QUESTIONS_MUST_BE_YES_FROM_FROZEN_EVIDENCE",
+  "accepted_technical_execution": "V0_3_FIRST_REAL_SECURITY_WORKER_INVOCATION_V108",
+  "accepted_v108_evidence_root": "1a90ce603ded8eb195c5f7a80ab09078f33fcda7a61baf934b1ab06006876cc8",
+  "engineering_successor": "PROHIBITED_NO_V109",
+  "final_roadmap10_state": "PASS_LOCKED",
+  "record_type": "ROADMAP10_FINAL_ACCEPTANCE_CONTRACT",
+  "roadmap11_entry_state": "AUTHORIZED_NOT_STARTED",
+  "roadmap11_execution": "NOT_STARTED_REQUIRES_SEPARATE_EXPLICIT_MILESTONE",
+  "status": "PASS",
+  "v108_rerun_or_mutation": "PROHIBITED"
+}

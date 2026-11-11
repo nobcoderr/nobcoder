@@ -1,0 +1,18 @@
+{
+  "attempt_count_at_lock_issue": 0,
+  "codex_count_at_lock_issue": 0,
+  "dependency_closure_at_lock_issue": "PASS_FINAL",
+  "evidence_manifest_member_count": 153,
+  "evidence_root": "1a90ce603ded8eb195c5f7a80ab09078f33fcda7a61baf934b1ab06006876cc8",
+  "freeze_verification": "PASS",
+  "lock_sha256": "514115d7ece06988140d3904d9b452c4f0963e22da4a753b8cb4dc634aec8ff4",
+  "locked_readiness": "PASS",
+  "record_type": "V108_STATIC_LOCK_CHAIN_AND_FREEZE_VERIFICATION",
+  "runtime_began_after_locked_readiness": true,
+  "static_lock_verification": "942/942 PASS",
+  "status": "PASS",
+  "unexpected_cache_artifacts": 0,
+  "unexpected_symlinks": 0,
+  "worker_count_at_lock_issue": 0,
+  "writable_frozen_files": 0
+}

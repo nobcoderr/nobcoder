@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "all_runtime_proofs_individually_enumerated": true,
+    "forbidden_counters_zero": true,
+    "freeze_members_hashes_modes_exact": true,
+    "no_aggregate_only_acceptance": true,
+    "no_v108_mutation_or_rerun": true,
+    "no_v109": true,
+    "roadmap11_authorized_but_not_started": true,
+    "worker_codex_provider_not_invoked": true
+  },
+  "record_type": "INDEPENDENT_GOVERNANCE_VALIDATION",
+  "status": "PASS"
+}

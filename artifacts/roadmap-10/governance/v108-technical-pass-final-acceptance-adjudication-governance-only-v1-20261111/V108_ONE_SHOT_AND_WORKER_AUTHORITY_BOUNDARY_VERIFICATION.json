@@ -1,0 +1,32 @@
+{
+  "attempt": "1/1",
+  "authoritative_execution_count": 1,
+  "codex": "1/1",
+  "forbidden_operation_counters": {
+    "candidate_promotions": 0,
+    "capability_edges": 0,
+    "credential_operations": 0,
+    "daybreak_invocations": 0,
+    "exploit_replays": 0,
+    "external_network_operations": 0,
+    "parallel_operations": 0,
+    "subagent_invocations": 0,
+    "submission_operations": 0,
+    "target_operations": 0
+  },
+  "no_post_attempt_patch": true,
+  "no_retry": true,
+  "no_second_provider_call": true,
+  "no_unauthorized_continuation": true,
+  "record_type": "V108_ONE_SHOT_AND_WORKER_AUTHORITY_BOUNDARY_VERIFICATION",
+  "semantic_codex_exec_count": 1,
+  "status": "PASS",
+  "worker": "1/1",
+  "worker_authority": "PROPOSAL_ONLY_NON_AUTHORITATIVE",
+  "worker_credential_neutral": true,
+  "worker_disposition": "HYPOTHESIS_QUARANTINED",
+  "worker_non_authorizing": true,
+  "worker_non_promoting": true,
+  "worker_non_submitting": true,
+  "worker_target_neutral": true
+}

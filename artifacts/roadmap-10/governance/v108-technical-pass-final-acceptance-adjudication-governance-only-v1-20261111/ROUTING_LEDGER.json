@@ -1,0 +1,19 @@
+{
+  "activated": [
+    "mandatory-auto-router",
+    "authorized-security-autopilot",
+    "codex-security-harness"
+  ],
+  "deferred": [],
+  "not_applicable": [
+    "live target testing",
+    "reconnaissance and exploit skills",
+    "external AI or paid tools",
+    "multi-agent execution",
+    "provider invocation",
+    "Worker or Codex invocation",
+    "V109 engineering"
+  ],
+  "record_type": "ROUTING_LEDGER",
+  "status": "PASS_GOVERNANCE_ONLY_LOCAL_FROZEN_EVIDENCE"
+}

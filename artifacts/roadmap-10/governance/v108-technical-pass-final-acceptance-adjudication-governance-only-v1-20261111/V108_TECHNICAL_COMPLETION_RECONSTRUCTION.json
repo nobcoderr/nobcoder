@@ -1,0 +1,17 @@
+{
+  "closure_v29": "PASS",
+  "dependency_closure": "PASS_FINAL",
+  "evidence_freeze": "PASS",
+  "fresh_preflight": "PASS",
+  "independent": "247/247 PASS",
+  "locked_readiness": "PASS",
+  "materialization": "PASS",
+  "primary": "230/230 PASS",
+  "record_type": "V108_TECHNICAL_COMPLETION_RECONSTRUCTION",
+  "runtime_proofs": "84/84 PASS",
+  "static_lock_verification": "942/942 PASS",
+  "status": "PASS",
+  "technical_terminal": "PASS_TECHNICAL_FROZEN_AWAITING_SEPARATE_ACCEPTANCE_ADJUDICATION",
+  "unit": "778/778 PASS",
+  "worker_result": "VALID_HYPOTHESIS_QUARANTINED_PROPOSAL_ONLY"
+}
